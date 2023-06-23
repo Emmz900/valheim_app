@@ -1,0 +1,663 @@
+name,type,damage_type,values
+club,clubs,knockback,25
+club,clubs,max_total_damage,30
+club,clubs,backstab_x10,30
+club,clubs,damage_blunt_max,30
+club,clubs,damage_blunt_min,12
+club,clubs,damage_blunt_diff,18
+club,clubs,dps_blunt_max,49
+club,clubs,dps_blunt_min,19
+club,clubs,dps_blunt_diff,30
+stone axe,axes,knockback,50
+stone axe,axes,max_total_damage,30
+stone axe,axes,backstab_x10,30
+stone axe,axes,damage_slash_max,30
+stone axe,axes,damage_slash_min,15
+stone axe,axes,damage_slash_diff,15
+stone axe,axes,dps_slash_max,47
+stone axe,axes,dps_slash_min,23
+stone axe,axes,dps_slash_diff,24
+torch,clubs,knockback,30
+torch,clubs,max_total_damage,4
+torch,clubs,backstab_x10,30
+torch,clubs,damage_blunt_max,4
+torch,clubs,damage_blunt_min,4
+torch,clubs,damage_blunt_diff,0
+torch,clubs,dps_blunt_max,6.5
+torch,clubs,dps_blunt_min,6
+torch,clubs,dps_blunt_diff,0.5
+torch,clubs,damage_fire_max,15
+torch,clubs,damage_fire_min,15
+torch,clubs,damage_fire_diff,0
+torch,clubs,dps_fire_max,3
+torch,clubs,dps_fire_min,3
+torch,clubs,dps_fire_diff,0
+flint axe,axes,knockback,50
+flint axe,axes,max_total_damage,35
+flint axe,axes,backstab_x10,30
+flint axe,axes,damage_slash_max,35
+flint axe,axes,damage_slash_min,20
+flint axe,axes,damage_slash_diff,15
+flint axe,axes,dps_slash_max,54
+flint axe,axes,dps_slash_min,31
+flint axe,axes,dps_slash_diff,23
+flint knife,knives,knockback,10
+flint knife,knives,max_total_damage,16
+flint knife,knives,backstab_x10,60
+flint knife,knives,damage_slash_max,8
+flint knife,knives,damage_slash_min,5
+flint knife,knives,damage_slash_diff,3
+flint knife,knives,dps_slash_max,18
+flint knife,knives,dps_slash_min,12
+flint knife,knives,dps_slash_diff,6
+flint knife,knives,damage_pierce_max,8
+flint knife,knives,damage_pierce_min,5
+flint knife,knives,damage_pierce_diff,3
+flint knife,knives,dps_pierce_max,18
+flint knife,knives,dps_pierce_min,12
+flint knife,knives,dps_pierce_diff,6
+flint spear,spears,knockback,20
+flint spear,spears,max_total_damage,38
+flint spear,spears,backstab_x10,30
+flint spear,spears,damage_pierce_max,38
+flint spear,spears,damage_pierce_min,20
+flint spear,spears,damage_pierce_diff,18
+flint spear,spears,dps_pierce_max,56
+flint spear,spears,dps_pierce_min,29
+flint spear,spears,dps_pierce_diff,27
+antler pickaxe,pickaxes,knockback,50
+antler pickaxe,pickaxes,max_total_damage,18
+antler pickaxe,pickaxes,backstab_x10,30
+antler pickaxe,pickaxes,damage_pierce_max,18
+antler pickaxe,pickaxes,damage_pierce_min,18
+antler pickaxe,pickaxes,damage_pierce_diff,0
+antler pickaxe,pickaxes,dps_pierce_max,13
+antler pickaxe,pickaxes,dps_pierce_min,13
+antler pickaxe,pickaxes,dps_pierce_diff,0
+antler pickaxe,pickaxes,damage_pickaxe_max,18
+antler pickaxe,pickaxes,damage_pickaxe_min,18
+antler pickaxe,pickaxes,damage_pickaxe_diff,0
+antler pickaxe,pickaxes,dps_pickaxe_max,13
+antler pickaxe,pickaxes,dps_pickaxe_min,13
+antler pickaxe,pickaxes,dps_pickaxe_diff,0
+stagbreaker,two-handed clubs,knockback,150
+stagbreaker,two-handed clubs,max_total_damage,43
+stagbreaker,two-handed clubs,backstab_x10,20
+stagbreaker,two-handed clubs,damage_blunt_max,38
+stagbreaker,two-handed clubs,damage_blunt_min,20
+stagbreaker,two-handed clubs,damage_blunt_diff,18
+stagbreaker,two-handed clubs,dps_blunt_max,19
+stagbreaker,two-handed clubs,dps_blunt_min,9
+stagbreaker,two-handed clubs,dps_blunt_diff,10
+stagbreaker,two-handed clubs,damage_pierce_max,5
+stagbreaker,two-handed clubs,damage_pierce_min,5
+stagbreaker,two-handed clubs,damage_pierce_diff,0
+stagbreaker,two-handed clubs,dps_pierce_max,2.4
+stagbreaker,two-handed clubs,dps_pierce_min,2
+stagbreaker,two-handed clubs,dps_pierce_diff,0.3999999999999999
+copper knife,knives,knockback,10
+copper knife,knives,max_total_damage,30
+copper knife,knives,backstab_x10,60
+copper knife,knives,damage_slash_max,15
+copper knife,knives,damage_slash_min,12
+copper knife,knives,damage_slash_diff,3
+copper knife,knives,dps_slash_max,35
+copper knife,knives,dps_slash_min,28
+copper knife,knives,dps_slash_diff,7
+copper knife,knives,damage_pierce_max,15
+copper knife,knives,damage_pierce_min,12
+copper knife,knives,damage_pierce_diff,3
+copper knife,knives,dps_pierce_max,35
+copper knife,knives,dps_pierce_min,28
+copper knife,knives,dps_pierce_diff,7
+bronze atgeir,polearms,knockback,30
+bronze atgeir,polearms,max_total_damage,63
+bronze atgeir,polearms,backstab_x10,30
+bronze atgeir,polearms,damage_pierce_max,63
+bronze atgeir,polearms,damage_pierce_min,45
+bronze atgeir,polearms,damage_pierce_diff,18
+bronze atgeir,polearms,dps_pierce_max,84
+bronze atgeir,polearms,dps_pierce_min,60
+bronze atgeir,polearms,dps_pierce_diff,24
+bronze axe,axes,knockback,50
+bronze axe,axes,max_total_damage,55
+bronze axe,axes,backstab_x10,30
+bronze axe,axes,damage_slash_max,55
+bronze axe,axes,damage_slash_min,40
+bronze axe,axes,damage_slash_diff,15
+bronze axe,axes,dps_slash_max,85
+bronze axe,axes,dps_slash_min,62
+bronze axe,axes,dps_slash_diff,23
+bronze mace,clubs,knockback,80
+bronze mace,clubs,max_total_damage,53
+bronze mace,clubs,backstab_x10,30
+bronze mace,clubs,damage_blunt_max,53
+bronze mace,clubs,damage_blunt_min,35
+bronze mace,clubs,damage_blunt_diff,18
+bronze mace,clubs,dps_blunt_max,86
+bronze mace,clubs,dps_blunt_min,57
+bronze mace,clubs,dps_blunt_diff,29
+bronze spear,spears,knockback,20
+bronze spear,spears,max_total_damage,53
+bronze spear,spears,backstab_x10,30
+bronze spear,spears,damage_pierce_max,53
+bronze spear,spears,damage_pierce_min,35
+bronze spear,spears,damage_pierce_diff,18
+bronze spear,spears,dps_pierce_max,78
+bronze spear,spears,dps_pierce_min,51
+bronze spear,spears,dps_pierce_diff,27
+bronze sword,swords,knockback,40
+bronze sword,swords,max_total_damage,53
+bronze sword,swords,backstab_x10,30
+bronze sword,swords,damage_slash_max,53
+bronze sword,swords,damage_slash_min,35
+bronze sword,swords,damage_slash_diff,18
+bronze sword,swords,dps_slash_max,86
+bronze sword,swords,dps_slash_min,57
+bronze sword,swords,dps_slash_diff,29
+bronze pickaxe,pickaxes,knockback,50
+bronze pickaxe,pickaxes,max_total_damage,40
+bronze pickaxe,pickaxes,backstab_x10,30
+bronze pickaxe,pickaxes,damage_pierce_max,40
+bronze pickaxe,pickaxes,damage_pierce_min,24
+bronze pickaxe,pickaxes,damage_pierce_diff,16
+bronze pickaxe,pickaxes,dps_pierce_max,29
+bronze pickaxe,pickaxes,dps_pierce_min,17
+bronze pickaxe,pickaxes,dps_pierce_diff,12
+bronze pickaxe,pickaxes,damage_pickaxe_max,37
+bronze pickaxe,pickaxes,damage_pickaxe_min,24
+bronze pickaxe,pickaxes,damage_pickaxe_diff,13
+bronze pickaxe,pickaxes,dps_pickaxe_max,26
+bronze pickaxe,pickaxes,dps_pickaxe_min,17
+bronze pickaxe,pickaxes,dps_pickaxe_diff,9
+tankard,tool,knockback,30
+tankard,tool,max_total_damage,0
+tankard,tool,backstab_x10,40
+tankard,tool,dps_na_max,0
+tankard,tool,dps_na_min,0
+tankard,tool,dps_na_diff,0
+abyssal harpoon,spears,knockback,20
+abyssal harpoon,spears,max_total_damage,10
+abyssal harpoon,spears,backstab_x10,10
+abyssal harpoon,spears,damage_pierce_max,10
+abyssal harpoon,spears,damage_pierce_min,10
+abyssal harpoon,spears,damage_pierce_diff,0
+abyssal harpoon,spears,dps_pierce_max,10
+abyssal harpoon,spears,dps_pierce_min,10
+abyssal harpoon,spears,dps_pierce_diff,0
+abyssal razor,knives,knockback,10
+abyssal razor,knives,max_total_damage,46
+abyssal razor,knives,backstab_x10,60
+abyssal razor,knives,damage_slash_max,23
+abyssal razor,knives,damage_slash_min,20
+abyssal razor,knives,damage_slash_diff,3
+abyssal razor,knives,dps_slash_max,53
+abyssal razor,knives,dps_slash_min,46
+abyssal razor,knives,dps_slash_diff,7
+abyssal razor,knives,damage_pierce_max,23
+abyssal razor,knives,damage_pierce_min,20
+abyssal razor,knives,damage_pierce_diff,3
+abyssal razor,knives,dps_pierce_max,53
+abyssal razor,knives,dps_pierce_min,46
+abyssal razor,knives,dps_pierce_diff,7
+ancient bark spear,spears,knockback,20
+ancient bark spear,spears,max_total_damage,73
+ancient bark spear,spears,backstab_x10,30
+ancient bark spear,spears,damage_pierce_max,73
+ancient bark spear,spears,damage_pierce_min,55
+ancient bark spear,spears,damage_pierce_diff,18
+ancient bark spear,spears,dps_pierce_max,78
+ancient bark spear,spears,dps_pierce_min,51
+ancient bark spear,spears,dps_pierce_diff,27
+battleaxe,two-handed axes,knockback,70
+battleaxe,two-handed axes,max_total_damage,88
+battleaxe,two-handed axes,backstab_x10,30
+battleaxe,two-handed axes,damage_slash_max,88
+battleaxe,two-handed axes,damage_slash_min,70
+battleaxe,two-handed axes,damage_slash_diff,18
+battleaxe,two-handed axes,dps_slash_max,110
+battleaxe,two-handed axes,dps_slash_min,88
+battleaxe,two-handed axes,dps_slash_diff,22
+battleaxe,two-handed axes,damage_chop_max,47.5
+battleaxe,two-handed axes,damage_chop_min,40
+battleaxe,two-handed axes,damage_chop_diff,7.5
+battleaxe,two-handed axes,dps_chop_max,59
+battleaxe,two-handed axes,dps_chop_min,50
+battleaxe,two-handed axes,dps_chop_diff,9
+iron sword,swords,knockback,50
+iron sword,swords,max_total_damage,73
+iron sword,swords,backstab_x10,30
+iron sword,swords,damage_slash_max,73
+iron sword,swords,damage_slash_min,55
+iron sword,swords,damage_slash_diff,18
+iron sword,swords,dps_slash_max,119
+iron sword,swords,dps_slash_min,90
+iron sword,swords,dps_slash_diff,29
+iron axe,axes,knockback,50
+iron axe,axes,max_total_damage,75
+iron axe,axes,backstab_x10,30
+iron axe,axes,damage_slash_max,75
+iron axe,axes,damage_slash_min,60
+iron axe,axes,damage_slash_diff,15
+iron axe,axes,dps_slash_max,116
+iron axe,axes,dps_slash_min,93
+iron axe,axes,dps_slash_diff,23
+iron axe,axes,damage_chop_max,59
+iron axe,axes,damage_chop_min,50
+iron axe,axes,damage_chop_diff,9
+iron axe,axes,dps_chop_max,91
+iron axe,axes,dps_chop_min,78
+iron axe,axes,dps_chop_diff,13
+iron sledge,two-handed clubs,knockback,200
+iron sledge,two-handed clubs,max_total_damage,73
+iron sledge,two-handed clubs,backstab_x10,20
+iron sledge,two-handed clubs,damage_blunt_max,73
+iron sledge,two-handed clubs,damage_blunt_min,55
+iron sledge,two-handed clubs,damage_blunt_diff,18
+iron sledge,two-handed clubs,dps_blunt_max,34
+iron sledge,two-handed clubs,dps_blunt_min,26
+iron sledge,two-handed clubs,dps_blunt_diff,8
+iron mace,clubs,knockback,90
+iron mace,clubs,max_total_damage,73
+iron mace,clubs,backstab_x10,30
+iron mace,clubs,damage_blunt_max,73
+iron mace,clubs,damage_blunt_min,55
+iron mace,clubs,damage_blunt_diff,18
+iron mace,clubs,dps_blunt_max,119
+iron mace,clubs,dps_blunt_min,90
+iron mace,clubs,dps_blunt_diff,29
+iron pickaxe,pickaxes,knockback,50
+iron pickaxe,pickaxes,max_total_damage,48
+iron pickaxe,pickaxes,backstab_x10,30
+iron pickaxe,pickaxes,damage_pierce_max,48
+iron pickaxe,pickaxes,damage_pierce_min,33
+iron pickaxe,pickaxes,damage_pierce_diff,15
+iron pickaxe,pickaxes,dps_pierce_max,34
+iron pickaxe,pickaxes,dps_pierce_min,24
+iron pickaxe,pickaxes,dps_pierce_diff,10
+iron pickaxe,pickaxes,damage_pickaxe_max,48
+iron pickaxe,pickaxes,damage_pickaxe_min,33
+iron pickaxe,pickaxes,damage_pickaxe_diff,15
+iron pickaxe,pickaxes,dps_pickaxe_max,34
+iron pickaxe,pickaxes,dps_pickaxe_min,24
+iron pickaxe,pickaxes,dps_pickaxe_diff,10
+iron atgeir,polearms,knockback,30
+iron atgeir,polearms,max_total_damage,83
+iron atgeir,polearms,backstab_x10,30
+iron atgeir,polearms,damage_pierce_max,83
+iron atgeir,polearms,damage_pierce_min,65
+iron atgeir,polearms,damage_pierce_diff,18
+iron atgeir,polearms,dps_pierce_max,111
+iron atgeir,polearms,dps_pierce_min,87
+iron atgeir,polearms,dps_pierce_diff,24
+flesh rippers,fists,knockback,20
+flesh rippers,fists,max_total_damage,76
+flesh rippers,fists,backstab_x10,60
+flesh rippers,fists,damage_slash_max,76
+flesh rippers,fists,damage_slash_min,60
+flesh rippers,fists,damage_slash_diff,16
+flesh rippers,fists,dps_slash_max,154
+flesh rippers,fists,dps_slash_min,122
+flesh rippers,fists,dps_slash_diff,32
+silver sword,swords,knockback,40
+silver sword,swords,max_total_damage,93
+silver sword,swords,backstab_x10,30
+silver sword,swords,damage_slash_max,93
+silver sword,swords,damage_slash_min,75
+silver sword,swords,damage_slash_diff,18
+silver sword,swords,dps_slash_max,152
+silver sword,swords,dps_slash_min,122
+silver sword,swords,dps_slash_diff,30
+silver sword,swords,damage_spirit_max,45
+silver sword,swords,damage_spirit_min,30
+silver sword,swords,damage_spirit_diff,15
+silver sword,swords,dps_spirit_max,15
+silver sword,swords,dps_spirit_min,10
+silver sword,swords,dps_spirit_diff,5
+fang spear,spears,knockback,20
+fang spear,spears,max_total_damage,93
+fang spear,spears,backstab_x10,30
+fang spear,spears,damage_pierce_max,93
+fang spear,spears,damage_pierce_min,75
+fang spear,spears,damage_pierce_diff,18
+fang spear,spears,dps_pierce_max,137
+fang spear,spears,dps_pierce_min,110
+fang spear,spears,dps_pierce_diff,27
+frostner,clubs,knockback,120
+frostner,clubs,max_total_damage,58
+frostner,clubs,backstab_x10,30
+frostner,clubs,damage_frost_max,58
+frostner,clubs,damage_frost_min,40
+frostner,clubs,damage_frost_diff,18
+frostner,clubs,dps_frost_max,27
+frostner,clubs,dps_frost_min,19
+frostner,clubs,dps_frost_diff,8
+frostner,clubs,damage_blunt_max,35
+frostner,clubs,damage_blunt_min,35
+frostner,clubs,damage_blunt_diff,0
+frostner,clubs,dps_blunt_max,16
+frostner,clubs,dps_blunt_min,16
+frostner,clubs,dps_blunt_diff,0
+frostner,clubs,damage_spirit_max,20
+frostner,clubs,damage_spirit_min,20
+frostner,clubs,damage_spirit_diff,0
+frostner,clubs,dps_spirit_max,7
+frostner,clubs,dps_spirit_min,7
+frostner,clubs,dps_spirit_diff,0
+crystal battleaxe,two-handed axes,knockback,70
+crystal battleaxe,two-handed axes,max_total_damage,108
+crystal battleaxe,two-handed axes,backstab_x10,30
+crystal battleaxe,two-handed axes,damage_slash_max,108
+crystal battleaxe,two-handed axes,damage_slash_min,90
+crystal battleaxe,two-handed axes,damage_slash_diff,18
+crystal battleaxe,two-handed axes,dps_slash_max,135
+crystal battleaxe,two-handed axes,dps_slash_min,113
+crystal battleaxe,two-handed axes,dps_slash_diff,22
+crystal battleaxe,two-handed axes,damage_spirit_max,30
+crystal battleaxe,two-handed axes,damage_spirit_min,30
+crystal battleaxe,two-handed axes,damage_spirit_diff,0
+crystal battleaxe,two-handed axes,dps_spirit_max,10
+crystal battleaxe,two-handed axes,dps_spirit_min,10
+crystal battleaxe,two-handed axes,dps_spirit_diff,0
+crystal battleaxe,two-handed axes,damage_chop_max,57.5
+crystal battleaxe,two-handed axes,damage_chop_min,50
+crystal battleaxe,two-handed axes,damage_chop_diff,7.5
+crystal battleaxe,two-handed axes,dps_chop_max,72
+crystal battleaxe,two-handed axes,dps_chop_min,62
+crystal battleaxe,two-handed axes,dps_chop_diff,10
+silver knife,knives,knockback,10
+silver knife,knives,max_total_damage,56
+silver knife,knives,backstab_x10,60
+silver knife,knives,damage_slash_max,28
+silver knife,knives,damage_slash_min,25
+silver knife,knives,damage_slash_diff,3
+silver knife,knives,dps_slash_max,64
+silver knife,knives,dps_slash_min,58
+silver knife,knives,dps_slash_diff,6
+silver knife,knives,damage_pierce_max,28
+silver knife,knives,damage_pierce_min,25
+silver knife,knives,damage_pierce_diff,3
+silver knife,knives,dps_pierce_max,64
+silver knife,knives,dps_pierce_min,58
+silver knife,knives,dps_pierce_diff,6
+silver knife,knives,damage_spirit_max,12
+silver knife,knives,damage_spirit_min,12
+silver knife,knives,damage_spirit_diff,0
+silver knife,knives,dps_spirit_max,4
+silver knife,knives,dps_spirit_min,4
+silver knife,knives,dps_spirit_diff,0
+blackmetal atgeir,polearms,knockback,30
+blackmetal atgeir,polearms,max_total_damage,123
+blackmetal atgeir,polearms,backstab_x10,30
+blackmetal atgeir,polearms,damage_pierce_max,123
+blackmetal atgeir,polearms,damage_pierce_min,105
+blackmetal atgeir,polearms,damage_pierce_diff,18
+blackmetal atgeir,polearms,dps_pierce_max,165
+blackmetal atgeir,polearms,dps_pierce_min,141
+blackmetal atgeir,polearms,dps_pierce_diff,24
+blackmetal axe,axes,knockback,60
+blackmetal axe,axes,max_total_damage,115
+blackmetal axe,axes,backstab_x10,30
+blackmetal axe,axes,damage_slash_max,115
+blackmetal axe,axes,damage_slash_min,100
+blackmetal axe,axes,damage_slash_diff,15
+blackmetal axe,axes,dps_slash_max,1178
+blackmetal axe,axes,dps_slash_min,155
+blackmetal axe,axes,dps_slash_diff,1023
+blackmetal axe,axes,damage_chop_max,69
+blackmetal axe,axes,damage_chop_min,60
+blackmetal axe,axes,damage_chop_diff,9
+blackmetal axe,axes,dps_chop_max,107
+blackmetal axe,axes,dps_chop_min,93
+blackmetal axe,axes,dps_chop_diff,14
+blackmetal knife,knives,knockback,10
+blackmetal knife,knives,max_total_damage,74
+blackmetal knife,knives,backstab_x10,60
+blackmetal knife,knives,damage_slash_max,37
+blackmetal knife,knives,damage_slash_min,34
+blackmetal knife,knives,damage_slash_diff,3
+blackmetal knife,knives,dps_slash_max,85
+blackmetal knife,knives,dps_slash_min,78
+blackmetal knife,knives,dps_slash_diff,7
+blackmetal knife,knives,damage_pierce_max,37
+blackmetal knife,knives,damage_pierce_min,34
+blackmetal knife,knives,damage_pierce_diff,3
+blackmetal knife,knives,dps_pierce_max,85
+blackmetal knife,knives,dps_pierce_min,78
+blackmetal knife,knives,dps_pierce_diff,7
+blackmetal sword,swords,knockback,40
+blackmetal sword,swords,max_total_damage,113
+blackmetal sword,swords,backstab_x10,30
+blackmetal sword,swords,damage_slash_max,113
+blackmetal sword,swords,damage_slash_min,95
+blackmetal sword,swords,damage_slash_diff,18
+blackmetal sword,swords,dps_slash_max,184
+blackmetal sword,swords,dps_slash_min,155
+blackmetal sword,swords,dps_slash_diff,29
+porcupine,clubs,knockback,90
+porcupine,clubs,max_total_damage,113
+porcupine,clubs,backstab_x10,30
+porcupine,clubs,damage_blunt_max,50
+porcupine,clubs,damage_blunt_min,50
+porcupine,clubs,damage_blunt_diff,0
+porcupine,clubs,dps_blunt_max,82
+porcupine,clubs,dps_blunt_min,82
+porcupine,clubs,dps_blunt_diff,0
+porcupine,clubs,damage_pierce_max,63
+porcupine,clubs,damage_pierce_min,45
+porcupine,clubs,damage_pierce_diff,18
+porcupine,clubs,dps_pierce_max,103
+porcupine,clubs,dps_pierce_min,73
+porcupine,clubs,dps_pierce_diff,30
+himmin afl,polearms,knockback,40
+himmin afl,polearms,max_total_damage,85
+himmin afl,polearms,backstab_x10,30
+himmin afl,polearms,damage_pierce_max,85
+himmin afl,polearms,damage_pierce_min,85
+himmin afl,polearms,damage_pierce_diff,0
+himmin afl,polearms,dps_pierce_max,114
+himmin afl,polearms,dps_pierce_min,114
+himmin afl,polearms,dps_pierce_diff,0
+himmin afl,polearms,damage_lightning_max,58
+himmin afl,polearms,damage_lightning_min,40
+himmin afl,polearms,damage_lightning_diff,18
+himmin afl,polearms,dps_lightning_max,78
+himmin afl,polearms,dps_lightning_min,53
+himmin afl,polearms,dps_lightning_diff,25
+jotun bane,axes,knockback,60
+jotun bane,axes,max_total_damage,95
+jotun bane,axes,backstab_x10,30
+jotun bane,axes,damage_slash_max,95
+jotun bane,axes,damage_slash_min,80
+jotun bane,axes,damage_slash_diff,15
+jotun bane,axes,dps_slash_max,119
+jotun bane,axes,dps_slash_min,100
+jotun bane,axes,dps_slash_diff,19
+jotun bane,axes,damage_poison_max,40
+jotun bane,axes,damage_poison_min,40
+jotun bane,axes,damage_poison_diff,0
+jotun bane,axes,dps_poison_max,5.7
+jotun bane,axes,dps_poison_min,5
+jotun bane,axes,dps_poison_diff,0.7000000000000002
+jotun bane,axes,damage_chop_max,79
+jotun bane,axes,damage_chop_min,70
+jotun bane,axes,damage_chop_diff,9
+jotun bane,axes,dps_chop_max,99
+jotun bane,axes,dps_chop_min,88
+jotun bane,axes,dps_chop_diff,11
+carapace spear,spears,knockback,20
+carapace spear,spears,max_total_damage,133
+carapace spear,spears,backstab_x10,30
+carapace spear,spears,damage_pierce_max,133
+carapace spear,spears,damage_pierce_min,115
+carapace spear,spears,damage_pierce_diff,18
+carapace spear,spears,dps_pierce_max,196
+carapace spear,spears,dps_pierce_min,169
+carapace spear,spears,dps_pierce_diff,27
+demolisher,two-handed clubs,knockback,210
+demolisher,two-handed clubs,max_total_damage,163
+demolisher,two-handed clubs,backstab_x10,20
+demolisher,two-handed clubs,damage_blunt_max,163
+demolisher,two-handed clubs,damage_blunt_min,145
+demolisher,two-handed clubs,damage_blunt_diff,18
+demolisher,two-handed clubs,dps_blunt_max,77
+demolisher,two-handed clubs,dps_blunt_min,68
+demolisher,two-handed clubs,dps_blunt_diff,9
+black metal pickaxe,pickaxes,knockback,50
+black metal pickaxe,pickaxes,max_total_damage,64
+black metal pickaxe,pickaxes,backstab_x10,30
+black metal pickaxe,pickaxes,damage_pierce_max,64
+black metal pickaxe,pickaxes,damage_pierce_min,49
+black metal pickaxe,pickaxes,damage_pierce_diff,15
+black metal pickaxe,pickaxes,dps_pierce_max,46
+black metal pickaxe,pickaxes,dps_pierce_min,35
+black metal pickaxe,pickaxes,dps_pierce_diff,11
+black metal pickaxe,pickaxes,damage_pickaxe_max,64
+black metal pickaxe,pickaxes,damage_pickaxe_min,49
+black metal pickaxe,pickaxes,damage_pickaxe_diff,15
+black metal pickaxe,pickaxes,dps_pickaxe_max,46
+black metal pickaxe,pickaxes,dps_pickaxe_min,35
+black metal pickaxe,pickaxes,dps_pickaxe_diff,11
+krom,two-handed swords,knockback,55
+krom,two-handed swords,max_total_damage,168
+krom,two-handed swords,backstab_x10,30
+krom,two-handed swords,damage_slash_max,168
+krom,two-handed swords,damage_slash_min,150
+krom,two-handed swords,damage_slash_diff,18
+krom,two-handed swords,dps_slash_max,195
+krom,two-handed swords,dps_slash_min,174
+krom,two-handed swords,dps_slash_diff,21
+mistwalker,swords,knockback,40
+mistwalker,swords,max_total_damage,75
+mistwalker,swords,backstab_x10,30
+mistwalker,swords,damage_slash_max,75
+mistwalker,swords,damage_slash_min,75
+mistwalker,swords,damage_slash_diff,0
+mistwalker,swords,dps_slash_max,122
+mistwalker,swords,dps_slash_min,122
+mistwalker,swords,dps_slash_diff,0
+mistwalker,swords,damage_frost_max,58
+mistwalker,swords,damage_frost_min,40
+mistwalker,swords,damage_frost_diff,18
+mistwalker,swords,dps_frost_max,95
+mistwalker,swords,dps_frost_min,65
+mistwalker,swords,dps_frost_diff,30
+mistwalker,swords,damage_spirit_max,15
+mistwalker,swords,damage_spirit_min,0
+mistwalker,swords,damage_spirit_diff,15
+mistwalker,swords,dps_spirit_max,5
+mistwalker,swords,dps_spirit_min,0
+mistwalker,swords,dps_spirit_diff,5
+skoll and hati,dual-wielded knives,knockback,10
+skoll and hati,dual-wielded knives,max_total_damage,96
+skoll and hati,dual-wielded knives,backstab_x10,60
+skoll and hati,dual-wielded knives,damage_slash_max,48
+skoll and hati,dual-wielded knives,damage_slash_min,45
+skoll and hati,dual-wielded knives,damage_slash_diff,3
+skoll and hati,dual-wielded knives,dps_slash_max,112
+skoll and hati,dual-wielded knives,dps_slash_min,105
+skoll and hati,dual-wielded knives,dps_slash_diff,7
+skoll and hati,dual-wielded knives,damage_pierce_max,48
+skoll and hati,dual-wielded knives,damage_pierce_min,45
+skoll and hati,dual-wielded knives,damage_pierce_diff,3
+skoll and hati,dual-wielded knives,dps_pierce_max,112
+skoll and hati,dual-wielded knives,dps_pierce_min,105
+skoll and hati,dual-wielded knives,dps_pierce_diff,7
+crude bow,bow,knockback,0
+crude bow,bow,backstab_x10,30
+crude bow,bow,damage_pierce_max,31
+crude bow,bow,damage_pierce_min,22
+crude bow,bow,damage_pierce_diff,9
+finewood bow,bow,knockback,5
+finewood bow,bow,backstab_x10,30
+finewood bow,bow,damage_pierce_max,41
+finewood bow,bow,damage_pierce_min,32
+finewood bow,bow,damage_pierce_diff,9
+huntsman bow,bow,knockback,10
+huntsman bow,bow,backstab_x10,30
+huntsman bow,bow,damage_pierce_max,51
+huntsman bow,bow,damage_pierce_min,42
+huntsman bow,bow,damage_pierce_diff,9
+draugr fang,bow,knockback,20
+draugr fang,bow,backstab_x10,30
+draugr fang,bow,damage_pierce_max,56
+draugr fang,bow,damage_pierce_min,47
+draugr fang,bow,damage_pierce_diff,9
+draugr fang,bow,damage_poison_max,20
+draugr fang,bow,damage_poison_min,5
+draugr fang,bow,damage_poison_diff,15
+spine snap,bow,knockback,25
+spine snap,bow,backstab_x10,30
+spine snap,bow,damage_pierce_max,84
+spine snap,bow,damage_pierce_min,72
+spine snap,bow,damage_pierce_diff,12
+spine snap,bow,damage_spirit_max,20
+spine snap,bow,damage_spirit_min,5
+spine snap,bow,damage_spirit_diff,15
+wood arrow,arrow,knockback,10
+wood arrow,arrow,max_total_damage,22
+wood arrow,arrow,damage_pierce_max,22
+wood arrow,arrow,damage_pierce_min,22
+wood arrow,arrow,damage_pierce_diff,0
+fire arrow,arrow,knockback,10
+fire arrow,arrow,max_total_damage,33
+fire arrow,arrow,damage_pierce_max,11
+fire arrow,arrow,damage_pierce_min,11
+fire arrow,arrow,damage_pierce_diff,0
+fire arrow,arrow,damage_fire_max,22
+fire arrow,arrow,damage_fire_min,22
+fire arrow,arrow,damage_fire_diff,0
+flinthead arrow,arrow,knockback,10
+flinthead arrow,arrow,max_total_damage,27
+flinthead arrow,arrow,damage_pierce_max,27
+flinthead arrow,arrow,damage_pierce_min,27
+flinthead arrow,arrow,damage_pierce_diff,0
+bronzehead arrow,arrow,knockback,10
+bronzehead arrow,arrow,max_total_damage,32
+bronzehead arrow,arrow,damage_pierce_max,32
+bronzehead arrow,arrow,damage_pierce_min,32
+bronzehead arrow,arrow,damage_pierce_diff,0
+ironhead arrow,arrow,knockback,10
+ironhead arrow,arrow,max_total_damage,42
+ironhead arrow,arrow,damage_pierce_max,42
+ironhead arrow,arrow,damage_pierce_min,42
+ironhead arrow,arrow,damage_pierce_diff,0
+silver arrow,arrow,knockback,10
+silver arrow,arrow,max_total_damage,72
+silver arrow,arrow,damage_pierce_max,52
+silver arrow,arrow,damage_pierce_min,52
+silver arrow,arrow,damage_pierce_diff,0
+silver arrow,arrow,damage_spirit_max,20
+silver arrow,arrow,damage_spirit_min,20
+silver arrow,arrow,damage_spirit_diff,0
+obsidian arrow,arrow,knockback,10
+obsidian arrow,arrow,max_total_damage,52
+obsidian arrow,arrow,damage_pierce_max,52
+obsidian arrow,arrow,damage_pierce_min,52
+obsidian arrow,arrow,damage_pierce_diff,0
+poison arrow,arrow,knockback,10
+poison arrow,arrow,max_total_damage,78
+poison arrow,arrow,damage_pierce_max,26
+poison arrow,arrow,damage_pierce_min,26
+poison arrow,arrow,damage_pierce_diff,0
+poison arrow,arrow,damage_poison_max,52
+poison arrow,arrow,damage_poison_min,52
+poison arrow,arrow,damage_poison_diff,0
+frost arrow,arrow,knockback,10
+frost arrow,arrow,max_total_damage,78
+frost arrow,arrow,damage_pierce_max,26
+frost arrow,arrow,damage_pierce_min,26
+frost arrow,arrow,damage_pierce_diff,0
+frost arrow,arrow,damage_frost_max,52
+frost arrow,arrow,damage_frost_min,52
+frost arrow,arrow,damage_frost_diff,0
+needle arrow,arrow,knockback,15
+needle arrow,arrow,max_total_damage,62
+needle arrow,arrow,damage_pierce_max,62
+needle arrow,arrow,damage_pierce_min,62
+needle arrow,arrow,damage_pierce_diff,0
+carapace arrow,arrow,knockback,15
+carapace arrow,arrow,max_total_damage,72
+carapace arrow,arrow,damage_pierce_max,72
+carapace arrow,arrow,damage_pierce_min,72
+carapace arrow,arrow,damage_pierce_diff,0
