@@ -7,17 +7,20 @@ ui <- fluidPage(
       
       "Weapons",
       
-      # weapon selection ------
+      # Top Row, inputs ---------
       fluidRow(
+        ## Weapon selection ------
         column(
           width = 3,
           #uiOutput("weapon_list")
           selectInput("weapon_input",
                       "Select Weapon",
                       weapons_list,
-                      selected = "club")
+                      selected = "Porcupine")
           ),
         
+        ## Weapon Type selection ------------
+        # This filters the weapon selection
         column(
           width = 3,
           #uiOutput("weapon_type_list")
@@ -29,6 +32,8 @@ ui <- fluidPage(
           )
           ),
         
+        ## Weapon Material selection ----------
+        # This filters the weapon selection
         column(
           width = 3,
           #uiOutput("weapon_material_list")
@@ -41,16 +46,16 @@ ui <- fluidPage(
           )
       ),
       
-      
+      # Second row -----------
       fluidRow(
         
-        # weapon stats -----
+        ## weapon stats -----
         column(
           width = 8,
           plotOutput("weapon_stat_plot")
         ),
         
-        # weapon materials -------------
+        ## weapon materials -------------
         column(
           width = 4,
           
@@ -66,6 +71,7 @@ ui <- fluidPage(
             )
           ),
           
+          br(),
           
           # choose item level
           radioButtons(

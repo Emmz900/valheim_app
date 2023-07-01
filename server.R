@@ -1,16 +1,17 @@
 server <- function(input, output, session) {
   
+  # If weapon type input is changed, update weapon list ------
   observeEvent(input$weapon_type_input, {
     
     weapons_list <- 
       weapons_joined %>%
-      {if(input$weapon_type_input != "All") 
-        filter(., type == str_to_lower(input$weapon_type_input)) 
-        else 
+      {if(input$weapon_type_input != "All") # filter by weapon input
+        filter(., type == input$weapon_type_input) 
+        else # keep everything / do nothing
           filter(., !is.na(type))} %>%
       #browser()
       {if(input$weapon_material_input != "All") 
-        filter(., material == str_to_lower(input$weapon_material_input)) 
+        filter(., material == input$weapon_material_input) 
         else 
           filter(., !is.na(type))}  %>% 
       distinct(item) %>%
@@ -33,21 +34,23 @@ server <- function(input, output, session) {
     #updateSelectInput(session, inputID = "weapon_material_input", choices = filtered_materials)
   })
   
+  # If weapon material input is changed, update weapon list ------
   observeEvent(input$weapon_material_input, {
     
     weapons_list <- 
       weapons_joined %>%
       {if(input$weapon_type_input != "All") 
-        filter(., type == str_to_lower(input$weapon_type_input))
+        filter(., type == input$weapon_type_input)
         else 
           filter(., !is.na(type))} %>%
       {if(input$weapon_material_input != "All") 
-        filter(., material == str_to_lower(input$weapon_material_input))
+        filter(., material == input$weapon_material_input)
         else 
           filter(., !is.na(type))}  %>% 
       distinct(item) %>%
       pull() %>% 
       sort()
+    
     updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
   })
   
@@ -68,39 +71,44 @@ server <- function(input, output, session) {
   #   #updateSelectInput(inputID = "weapon_type_input", choices = filtered_types)
   # })
   
-  
+  # Filter the weapon data based on weapon input ---------------
   filtered_weapons <- reactive({
     weapons_crafting_clean %>% 
-      filter(item == str_to_lower(input$weapon_input))
+      filter(item == input$weapon_input)
   })
   
-  # Crafting Station Type - TEXT
+  # Crafting Station Type - TEXT -----------
   output$crafting_station_output <- renderText({
     filtered_weapons() %>% 
       filter(upgrade_level == input$item_level_input) %>% 
       distinct(crafting_station) %>% 
-      pull()
+      pull() %>% 
+      str_to_title()
   })
   
-  # Crafting Station Level - TEXT
+  # Crafting Station Level - TEXT --------------
   output$crafting_station_level_output <- renderText({
     filtered_weapons() %>% 
       filter(upgrade_level == input$item_level_input) %>% 
       distinct(crafting_station_level) %>% 
-      pull()
+      pull() %>% 
+      str_to_title()
   })
   
-  # ROUND MATERIAL AMOUNT TO 0 DECIMAL PLACES
+  # Table of materials and amounts -------------
   output$weapon_material_table <- renderTable({
     filtered_weapons() %>% 
       filter(upgrade_level == input$item_level_input) %>% 
-      select(material, amount_of_material)
+      mutate(amount_of_material = format(amount_of_material, nsmall = 0)) %>% 
+      select(material, amount_of_material) %>% 
+      rename("Material" = material, "Amount of Material" = amount_of_material)
+    
   })
   
+  # Plot of damage types ----------------
   # IMPROVE PLOT COLOURS AND SIZE
+  # Broke with str_to_lower
   output$weapon_stat_plot <- renderPlot({
-    #if(input$weapon_input %in% weapons_list) {
-    #plot <- 
     weapons_data_clean %>% 
       filter(name == input$weapon_input) %>% 
       mutate(min_max = 
@@ -119,12 +127,13 @@ server <- function(input, output, session) {
         "diff" = "green4",
         "min" = "green3"
       )) +
-      theme_classic()
-    #} else {
-    #  plot <- ggplot(aes(input$weapon_input)) +
-    #    geom_bar()
-    #}
-    # plot
+      theme_classic() +
+      labs(
+        x = "Damage Type",
+        y = "Damage Values"
+      ) #+ 
+      #theme(axis.title = element_text(size = 12))
+    
   })
   
 }

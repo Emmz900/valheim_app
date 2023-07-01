@@ -18,21 +18,18 @@ weapons_joined <-
   filter(!type %in% c("upgrade", "tool", "shield", "magic", "weapon"))
 
 weapons_list <- weapons_joined %>% 
-  mutate(item = str_to_title(item)) %>% 
   distinct(item) %>% 
   pull() %>% 
   sort()
 
 weapon_type_list <- weapons_joined %>% 
   #filter(!type %in% c("upgrade", "tool", "shield", "magic", "weapon")) %>% 
-  mutate(type = str_to_title(type)) %>% 
   distinct(type) %>% 
   pull() %>% 
   append("All") %>% 
   sort()  
 
 weapon_material_list <- weapons_joined %>% 
-  mutate(material = str_to_title(material)) %>% 
   distinct(material) %>% 
   pull() %>% 
   append("All") %>% 
