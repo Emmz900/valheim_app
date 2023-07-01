@@ -1,80 +1,81 @@
 item,type,material,amount_of_material,crafting_station_level,crafting_station,upgrade_level
-tankard,tool,fine wood,5,1,workbench,1
-tankard,tool,resin,2,1,workbench,1
-horn of celebration,tool,bronze,2,1,workbench,1
-horn of celebration,tool,troll hide,2,1,workbench,1
-horn of celebration,tool,iron,2,1,workbench,1
-torch,tool,wood,1,NA,player,1
-torch,tool,resin,1,NA,player,1
-hammer,tool,wood,3,NA,player,1
-hammer,tool,stone,2,NA,player,1
-hammer,upgrade,wood,1,2,workbench,2
-hammer,upgrade,stone,1,2,workbench,2
-hammer,upgrade,wood,2,3,workbench,3
-hammer,upgrade,stone,2,3,workbench,3
-hoe,tool,wood,5,1,workbench,1
-hoe,tool,stone,2,1,workbench,1
-hoe,upgrade,wood,1,2,workbench,2
-hoe,upgrade,stone,1,2,workbench,2
-hoe,upgrade,wood,2,3,workbench,3
-hoe,upgrade,stone,3,3,workbench,3
-cultivator,tool,core wood,5,1,forge,1
-cultivator,tool,bronze,5,1,forge,1
-cultivator,upgrade,core wood,1,2,forge,2
-cultivator,upgrade,bronze,1,2,forge,2
-cultivator,upgrade,core wood,2,3,forge,3
-cultivator,upgrade,bronze,2,3,forge,3
-butcher knife,tool,wood,2,1,forge,1
-butcher knife,tool,tin,4,1,forge,1
-stone axe,axe,wood,5,1,player,1
-stone axe,axe,stone,4,1,player,1
-stone axe,upgrade,stone,2,2,workbench,2
-stone axe,upgrade,stone,4,3,workbench,3
-stone axe,upgrade,stone,6,4,workbench,4
-flint axe,axe,wood,4,1,workbench,1
-flint axe,axe,flint,6,1,workbench,1
-flint axe,upgrade,flint,3,2,workbench,2
-flint axe,upgrade,leather scraps,2,2,workbench,2
-flint axe,upgrade,flint,6,3,workbench,3
-flint axe,upgrade,leather scraps,4,3,workbench,3
-flint axe,upgrade,flint,9,4,workbench,4
-flint axe,upgrade,leather scraps,6,4,workbench,4
-bronze axe,axe,wood,4,1,forge,1
-bronze axe,axe,bronze,8,1,forge,1
-bronze axe,axe,leather scraps,2,1,forge,1
-bronze axe,upgrade,bronze,4,2,forge,2
-bronze axe,upgrade,leather scraps,1,2,forge,2
-bronze axe,upgrade,bronze,8,3,forge,3
-bronze axe,upgrade,leather scraps,2,3,forge,3
-bronze axe,upgrade,bronze,12,4,forge,4
-bronze axe,upgrade,leather scraps,3,4,forge,4
-battle axe,axe,ancient bark,30,2,forge,1
-battle axe,axe,iron,35,2,forge,1
-battle axe,axe,leather scraps,4,2,forge,1
-battle axe,upgrade,ancient bark,5,3,forge,2
-battle axe,upgrade,iron,15,3,forge,2
-battle axe,upgrade,ancient bark,10,4,forge,3
-battle axe,upgrade,iron,30,4,forge,3
-battle axe,upgrade,ancient bark,15,5,forge,4
-battle axe,upgrade,iron,45,5,forge,4
-iron axe,axe,wood,4,2,forge,1
-iron axe,axe,iron,20,2,forge,1
-iron axe,axe,leather scraps,2,2,forge,1
-iron axe,upgrade,iron,10,3,forge,2
-iron axe,upgrade,leather scraps,1,3,forge,2
-iron axe,upgrade,iron,20,4,forge,3
-iron axe,upgrade,leather scraps,2,4,forge,3
-iron axe,upgrade,iron,30,5,forge,4
-iron axe,upgrade,leather scraps,3,5,forge,4
-crystal battle axe,axe,ancient bark,40,3,forge,1
-crystal battle axe,axe,silver,30,3,forge,1
-crystal battle axe,axe,crystal,10,3,forge,1
-crystal battle axe,upgrade,ancient bark,5,4,forge,2
-crystal battle axe,upgrade,silver,15,4,forge,2
-crystal battle axe,upgrade,ancient bark,10,5,forge,3
-crystal battle axe,upgrade,silver,30,5,forge,3
-crystal battle axe,upgrade,ancient bark,15,6,forge,4
-crystal battle axe,upgrade,silver,45,6,forge,4
+abyssal harpoon,spear,fine wood,8,2,workbench,1
+abyssal harpoon,spear,chitin,30,2,workbench,1
+abyssal harpoon,spear,leather scraps,3,2,workbench,1
+abyssal razor,knife,fine wood,4,2,workbench,1
+abyssal razor,knife,chitin,20,2,workbench,1
+abyssal razor,knife,leather scraps,2,2,workbench,1
+abyssal razor,knife,chitin,10,3,workbench,2
+abyssal razor,knife,chitin,20,4,workbench,3
+abyssal razor,knife,chitin,30,5,workbench,4
+ancient bark spear,spear,troll hide,4,3,forge,1
+ancient bark spear,spear,iron,10,3,forge,1
+ancient bark spear,spear,ancient bark,10,3,forge,1
+ancient bark spear,upgrade,troll hide,1,4,forge,2
+ancient bark spear,upgrade,iron,5,4,forge,2
+ancient bark spear,upgrade,ancient bark,5,4,forge,2
+ancient bark spear,upgrade,troll hide,2,5,forge,3
+ancient bark spear,upgrade,iron,10,5,forge,3
+ancient bark spear,upgrade,ancient bark,10,5,forge,3
+ancient bark spear,upgrade,troll hide,3,6,forge,4
+ancient bark spear,upgrade,iron,15,6,forge,4
+ancient bark spear,upgrade,ancient bark,15,6,forge,4
+antler pickaxe,pickaxe,wood,10,1,workbench,1
+antler pickaxe,tool,hard antler,1,1,workbench,1
+arbalest,crossbow,wood,10,1,blackforge,1
+arbalest,crossbow,iron,8,1,blackforge,1
+arbalest,crossbow,root,4,1,blackforge,1
+arbalest,upgrade,wood,5,2,blackforge,2
+arbalest,upgrade,iron,4,2,blackforge,2
+arbalest,upgrade,root,1,2,blackforge,2
+arbalest,upgrade,wood,10,3,blackforge,3
+arbalest,upgrade,iron,8,3,blackforge,3
+arbalest,upgrade,root,2,3,blackforge,3
+arbalest,upgrade,wood,15,4,blackforge,4
+arbalest,upgrade,iron,12,4,blackforge,4
+arbalest,upgrade,root,3,4,blackforge,4
+banded shield,shield,fine wood,10,2,forge,1
+banded shield,shield,iron,8,2,forge,1
+banded shield,upgrade,fine wood,10,3,forge,2
+banded shield,upgrade,iron,4,3,forge,2
+banded shield,upgrade,fine wood,20,4,forge,3
+banded shield,upgrade,iron,8,4,forge,3
+battleaxe,axe,ancient bark,30,2,forge,1
+battleaxe,axe,iron,35,2,forge,1
+battleaxe,axe,leather scraps,4,2,forge,1
+battleaxe,upgrade,ancient bark,5,3,forge,2
+battleaxe,upgrade,iron,15,3,forge,2
+battleaxe,upgrade,ancient bark,10,4,forge,3
+battleaxe,upgrade,iron,30,4,forge,3
+battleaxe,upgrade,ancient bark,15,5,forge,4
+battleaxe,upgrade,iron,45,5,forge,4
+blackmetal shield,shield,fine wood,10,3,forge,1
+blackmetal shield,shield,blackmetal,8,3,forge,1
+blackmetal shield,shield,chain,5,3,forge,1
+blackmetal shield,upgrade,fine wood,10,4,forge,2
+blackmetal shield,upgrade,blackmetal,4,4,forge,2
+blackmetal shield,upgrade,chain,2,4,forge,2
+blackmetal shield,upgrade,fine wood,20,5,forge,3
+blackmetal shield,upgrade,blackmetal,8,5,forge,3
+blackmetal shield,upgrade,chain,4,5,forge,3
+blackmetal tower shield,shield,fine wood,15,3,forge,1
+blackmetal tower shield,shield,blackmetal,10,3,forge,1
+blackmetal tower shield,shield,chain,7,3,forge,1
+blackmetal tower shield,upgrade,fine wood,15,4,forge,2
+blackmetal tower shield,upgrade,blackmetal,6,4,forge,2
+blackmetal tower shield,upgrade,chain,2,4,forge,2
+blackmetal tower shield,upgrade,fine wood,20,5,forge,3
+blackmetal tower shield,upgrade,blackmetal,8,5,forge,3
+blackmetal tower shield,upgrade,chain,4,5,forge,3
+blackmetal atgeir,polearm,fine wood,10,4,forge,1
+blackmetal atgeir,polearm,blackmetal,30,4,forge,1
+blackmetal atgeir,polearm,linen thread,5,4,forge,1
+blackmetal atgeir,upgrade,blackmetal,15,5,forge,2
+blackmetal atgeir,upgrade,linen thread,5,5,forge,2
+blackmetal atgeir,upgrade,blackmetal,30,5,forge,3
+blackmetal atgeir,upgrade,linen thread,10,5,forge,3
+blackmetal atgeir,upgrade,blackmetal,45,5,forge,4
+blackmetal atgeir,upgrade,linen thread,15,5,forge,4
 blackmetal axe,axe,fine wood,6,4,forge,1
 blackmetal axe,axe,blackmetal,20,4,forge,1
 blackmetal axe,axe,linen thread,5,4,forge,1
@@ -84,37 +85,15 @@ blackmetal axe,upgrade,blackmetal,20,6,forge,3
 blackmetal axe,upgrade,linen thread,10,6,forge,3
 blackmetal axe,upgrade,blackmetal,30,7,forge,4
 blackmetal axe,upgrade,linen thread,15,7,forge,4
-jotun bane,axe,yggdrasil wood,5,1,blackforge,1
-jotun bane,axe,iron,15,1,blackforge,1
-jotun bane,axe,bilebag,3,1,blackforge,1
-jotun bane,axe,refined eitr,10,1,blackforge,1
-jotun bane,upgrade,iron,10,2,blackforge,2
-jotun bane,upgrade,bilebag,1,2,blackforge,2
-jotun bane,upgrade,refined eitr,1,2,blackforge,2
-jotun bane,upgrade,iron,20,3,blackforge,3
-jotun bane,upgrade,bilebag,2,3,blackforge,3
-jotun bane,upgrade,refined eitr,2,3,blackforge,3
-jotun bane,upgrade,iron,30,4,blackforge,4
-jotun bane,upgrade,bilebag,3,4,blackforge,4
-jotun bane,upgrade,refined eitr,3,4,blackforge,4
-antler pickaxe,pickaxe,wood,10,1,workbench,1
-antler pickaxe,tool,hard antler,1,1,workbench,1
-bronze pick axe,pickaxe,core wood,3,1,forge,1
-bronze pick axe,pickaxe,bronze,10,1,forge,1
-bronze pick axe,upgrade,core wood,1,2,forge,2
-bronze pick axe,upgrade,bronze,5,2,forge,2
-bronze pick axe,upgrade,core wood,2,3,forge,3
-bronze pick axe,upgrade,bronze,10,3,forge,3
-bronze pick axe,upgrade,core wood,3,4,forge,4
-bronze pick axe,upgrade,bronze,15,4,forge,4
-iron pickaxe,pickaxe,core wood,3,2,forge,1
-iron pickaxe,pickaxe,iron,20,2,forge,1
-iron pickaxe,upgrade,core wood,1,3,forge,2
-iron pickaxe,upgrade,iron,10,3,forge,2
-iron pickaxe,upgrade,core wood,2,4,forge,3
-iron pickaxe,upgrade,iron,20,4,forge,3
-iron pickaxe,upgrade,core wood,3,5,forge,4
-iron pickaxe,upgrade,iron,30,5,forge,4
+blackmetal knife,knife,fine wood,4,4,forge,1
+blackmetal knife,knife,blackmetal,10,4,forge,1
+blackmetal knife,knife,linen thread,5,4,forge,1
+blackmetal knife,upgrade,blackmetal,4,5,forge,2
+blackmetal knife,upgrade,linen thread,5,5,forge,2
+blackmetal knife,upgrade,blackmetal,8,6,forge,3
+blackmetal knife,upgrade,linen thread,10,6,forge,3
+blackmetal knife,upgrade,blackmetal,12,7,forge,4
+blackmetal knife,upgrade,linen thread,15,7,forge,4
 blackmetal pickaxe,pickaxe,yggdrasil wood,3,2,forge,1
 blackmetal pickaxe,pickaxe,blackmetal,25,2,forge,1
 blackmetal pickaxe,upgrade,yggdrasil wood,1,3,forge,2
@@ -123,63 +102,60 @@ blackmetal pickaxe,upgrade,yggdrasil wood,2,4,forge,3
 blackmetal pickaxe,upgrade,blackmetal,30,4,forge,3
 blackmetal pickaxe,upgrade,yggdrasil wood,3,5,forge,4
 blackmetal pickaxe,upgrade,blackmetal,45,5,forge,4
-club,club,wood,6,NA,player,1
-club,upgrade,bone fragments,5,2,workbench,2
-club,upgrade,bone fragments,10,3,workbench,3
-club,upgrade,bone fragments,15,4,workbench,4
-flint knife,knife,wood,2,1,workbench,1
-flint knife,knife,flint,4,1,workbench,1
-flint knife,knife,leather scraps,2,1,workbench,1
-flint knife,upgrade,flint,2,2,workbench,2
-flint knife,upgrade,flint,4,3,workbench,3
-flint knife,upgrade,flint,6,4,workbench,4
-flint spear,spear,wood,5,1,workbench,1
-flint spear,spear,flint,10,1,workbench,1
-flint spear,spear,leather scraps,2,1,workbench,1
-flint spear,upgrade,wood,3,2,workbench,2
-flint spear,upgrade,flint,5,2,workbench,2
-flint spear,upgrade,leather scraps,1,2,workbench,2
-flint spear,upgrade,wood,6,3,workbench,3
-flint spear,upgrade,flint,10,3,workbench,3
-flint spear,upgrade,leather scraps,2,3,workbench,3
-flint spear,upgrade,wood,9,4,workbench,4
-flint spear,upgrade,flint,15,4,workbench,4
-flint spear,upgrade,leather scraps,3,4,workbench,4
-stagbreaker,2 handed club,core wood,20,2,workbench,1
-stagbreaker,2 handed club,deer trophy,5,2,workbench,1
-stagbreaker,2 handed club,leather scraps,2,2,workbench,1
-stagbreaker,upgrade,core wood,5,3,workbench,2
-stagbreaker,upgrade,deer trophy,2,3,workbench,2
-stagbreaker,upgrade,leather scraps,1,3,workbench,2
-stagbreaker,upgrade,bone fragments,10,3,workbench,2
-stagbreaker,upgrade,core wood,10,4,workbench,3
-stagbreaker,upgrade,deer trophy,4,4,workbench,3
-stagbreaker,upgrade,leather scraps,2,4,workbench,3
-stagbreaker,upgrade,bone fragments,20,4,workbench,3
-stagbreaker,upgrade,core wood,15,5,workbench,4
-stagbreaker,upgrade,deer trophy,6,5,workbench,4
-stagbreaker,upgrade,leather scraps,3,5,workbench,4
-stagbreaker,upgrade,bone fragments,30,5,workbench,4
-copper knife,knife,wood,2,1,forge,1
-copper knife,knife,copper,8,1,forge,1
-copper knife,upgrade,greydwarf eye,8,2,forge,2
-copper knife,upgrade,copper,4,2,forge,2
-copper knife,upgrade,greydwarf eye,16,3,forge,3
-copper knife,upgrade,copper,8,3,forge,3
-copper knife,upgrade,greydwarf eye,24,4,forge,4
-copper knife,upgrade,copper,12,4,forge,4
+blackmetal sword,sword,fine wood,2,4,forge,1
+blackmetal sword,sword,blackmetal,20,4,forge,1
+blackmetal sword,sword,linen thread,5,4,forge,1
+blackmetal sword,upgrade,blackmetal,10,5,forge,2
+blackmetal sword,upgrade,linen thread,5,5,forge,2
+blackmetal sword,upgrade,blackmetal,20,6,forge,3
+blackmetal sword,upgrade,linen thread,10,6,forge,3
+blackmetal sword,upgrade,blackmetal,30,7,forge,4
+blackmetal sword,upgrade,linen thread,15,7,forge,4
+bone tower,shield,wood,10,3,workbench,1
+bone tower,shield,bone fragments,10,3,workbench,1
+bone tower,shield,skeleton trophy,3,3,workbench,1
+bone tower,upgrade,wood,5,4,workbench,2
+bone tower,upgrade,bone fragments,5,4,workbench,2
+bone tower,upgrade,wood,10,5,workbench,3
+bone tower,upgrade,bone fragments,10,5,workbench,3
+bronze arrow,arrow,wood,8,1,forge,1
+bronze arrow,arrow,feathers,2,1,forge,1
+bronze arrow,arrow,bronze,1,1,forge,1
 bronze atgeir,polearm,wood,10,1,forge,1
 bronze atgeir,polearm,bronze,8,1,forge,1
 bronze atgeir,polearm,leather scraps,2,1,forge,1
 bronze atgeir,upgrade,bronze,4,2,forge,2
 bronze atgeir,upgrade,bronze,8,3,forge,3
 bronze atgeir,upgrade,bronze,12,4,forge,4
+bronze axe,axe,wood,4,1,forge,1
+bronze axe,axe,bronze,8,1,forge,1
+bronze axe,axe,leather scraps,2,1,forge,1
+bronze axe,upgrade,bronze,4,2,forge,2
+bronze axe,upgrade,leather scraps,1,2,forge,2
+bronze axe,upgrade,bronze,8,3,forge,3
+bronze axe,upgrade,leather scraps,2,3,forge,3
+bronze axe,upgrade,bronze,12,4,forge,4
+bronze axe,upgrade,leather scraps,3,4,forge,4
 bronze mace,club,wood,4,1,forge,1
 bronze mace,club,bronze,8,1,forge,1
 bronze mace,club,leather scraps,3,1,forge,1
 bronze mace,upgrade,bronze,4,2,forge,2
 bronze mace,club,leather scraps,8,3,forge,3
 bronze mace,club,leather scraps,12,4,forge,4
+bronze pickaxe,pickaxe,core wood,3,1,forge,1
+bronze pickaxe,pickaxe,bronze,10,1,forge,1
+bronze pickaxe,upgrade,core wood,1,2,forge,2
+bronze pickaxe,upgrade,bronze,5,2,forge,2
+bronze pickaxe,upgrade,core wood,2,3,forge,3
+bronze pickaxe,upgrade,bronze,10,3,forge,3
+bronze pickaxe,upgrade,core wood,3,4,forge,4
+bronze pickaxe,upgrade,bronze,15,4,forge,4
+bronze shield,weapon,wood,4,1,forge,1
+bronze shield,weapon,bronze,10,1,forge,1
+bronze shield,upgrade,wood,5,2,forge,2
+bronze shield,upgrade,bronze,1,2,forge,2
+bronze shield,upgrade,wood,10,3,forge,3
+bronze shield,upgrade,bronze,2,3,forge,3
 bronze spear,spear,wood,5,1,forge,1
 bronze spear,spear,bronze,6,1,forge,1
 bronze spear,spear,deer hide,2,1,forge,1
@@ -204,95 +180,113 @@ bronze sword,upgrade,leather scraps,2,3,forge,3
 bronze sword,upgrade,wood,3,4,forge,4
 bronze sword,upgrade,bronze,12,4,forge,4
 bronze sword,upgrade,leather scraps,3,4,forge,4
-abyssal harpoon,spear,fine wood,8,2,workbench,1
-abyssal harpoon,spear,chitin,30,2,workbench,1
-abyssal harpoon,spear,leather scraps,3,2,workbench,1
-abyssal razor,knife,fine wood,4,2,workbench,1
-abyssal razor,knife,chitin,20,2,workbench,1
-abyssal razor,knife,leather scraps,2,2,workbench,1
-abyssal razor,knife,chitin,10,3,workbench,2
-abyssal razor,knife,chitin,20,4,workbench,3
-abyssal razor,knife,chitin,30,5,workbench,4
-ancient bark spear,spear,troll hide,4,3,forge,1
-ancient bark spear,spear,iron,10,3,forge,1
-ancient bark spear,spear,ancient bark,10,3,forge,1
-ancient bark spear,upgrade,troll hide,1,4,forge,2
-ancient bark spear,upgrade,iron,5,4,forge,2
-ancient bark spear,upgrade,ancient bark,5,4,forge,2
-ancient bark spear,upgrade,troll hide,2,5,forge,3
-ancient bark spear,upgrade,iron,10,5,forge,3
-ancient bark spear,upgrade,ancient bark,10,5,forge,3
-ancient bark spear,upgrade,troll hide,3,6,forge,4
-ancient bark spear,upgrade,iron,15,6,forge,4
-ancient bark spear,upgrade,ancient bark,15,6,forge,4
-iron sword,sword,wood,2,2,forge,1
-iron sword,sword,iron,20,2,forge,1
-iron sword,sword,leather scraps,3,2,forge,1
-iron sword,upgrade,wood,1,3,forge,2
-iron sword,upgrade,iron,10,3,forge,2
-iron sword,upgrade,leather scraps,2,3,forge,2
-iron sword,upgrade,wood,2,4,forge,3
-iron sword,upgrade,iron,20,4,forge,3
-iron sword,upgrade,leather scraps,4,4,forge,3
-iron sword,upgrade,wood,3,5,forge,4
-iron sword,upgrade,iron,30,5,forge,4
-iron sword,upgrade,leather scraps,6,5,forge,4
-iron sledge,2 handed club,ancient bark,10,2,forge,1
-iron sledge,2 handed club,iron,30,2,forge,1
-iron sledge,2 handed club,ymir flesh,4,2,forge,1
-iron sledge,2 handed club,draugr elite trophy,1,2,forge,1
-iron sledge,upgrade,ancient bark,2,3,forge,2
-iron sledge,upgrade,iron,15,3,forge,2
-iron sledge,upgrade,ymir flesh,2,3,forge,2
-iron sledge,upgrade,ancient bark,4,4,forge,3
-iron sledge,upgrade,iron,30,4,forge,3
-iron sledge,upgrade,ymir flesh,4,4,forge,3
-iron sledge,upgrade,ancient bark,6,5,forge,4
-iron sledge,upgrade,iron,45,5,forge,4
-iron sledge,upgrade,ymir flesh,6,5,forge,4
-iron mace,club,wood,4,2,forge,1
-iron mace,club,iron,20,2,forge,1
-iron mace,club,leather scraps,3,2,forge,1
-iron mace,upgrade,iron,10,3,forge,2
-iron mace,upgrade,iron,20,4,forge,3
-iron mace,upgrade,iron,30,5,forge,4
-iron atgeir,polearm,wood,10,2,forge,1
-iron atgeir,polearm,iron,30,2,forge,1
-iron atgeir,polearm,leather scraps,2,2,forge,1
-iron atgeir,upgrade,iron,15,3,forge,2
-iron atgeir,upgrade,leather scraps,1,3,forge,2
-iron atgeir,upgrade,iron,30,4,forge,3
-iron atgeir,upgrade,leather scraps,2,4,forge,3
-iron atgeir,upgrade,iron,45,5,forge,4
-iron atgeir,upgrade,leather scraps,3,5,forge,4
-flesh rippers,fists,fenris hair,10,3,forge,1
-flesh rippers,fists,fenris claw,6,3,forge,1
-flesh rippers,fists,silver,10,3,forge,1
-flesh rippers,upgrade,fenris hair,1,4,forge,2
-flesh rippers,upgrade,fenris claw,1,4,forge,2
-flesh rippers,upgrade,silver,1,4,forge,2
-flesh rippers,upgrade,fenris hair,2,5,forge,3
-flesh rippers,upgrade,fenris claw,2,5,forge,3
-flesh rippers,upgrade,silver,2,5,forge,3
-flesh rippers,upgrade,fenris hair,3,6,forge,4
-flesh rippers,upgrade,fenris claw,3,6,forge,4
-flesh rippers,upgrade,silver,3,6,forge,4
-silver sword,sword,wood,2,3,forge,1
-silver sword,sword,silver,40,3,forge,1
-silver sword,sword,leather scraps,3,3,forge,1
-silver sword,sword,iron,5,3,forge,1
-silver sword,sword,wood,1,4,forge,2
-silver sword,sword,silver,20,4,forge,2
-silver sword,sword,leather scraps,1,4,forge,2
-silver sword,sword,iron,3,4,forge,2
-silver sword,sword,wood,2,5,forge,3
-silver sword,sword,silver,40,5,forge,3
-silver sword,sword,leather scraps,2,5,forge,3
-silver sword,sword,iron,6,5,forge,3
-silver sword,sword,wood,3,6,forge,4
-silver sword,sword,silver,60,6,forge,4
-silver sword,sword,leather scraps,3,6,forge,4
-silver sword,sword,iron,6,6,forge,4
+butcher knife,tool,wood,2,1,forge,1
+butcher knife,tool,tin,4,1,forge,1
+carapace arrow,arrow,carapace,4,1,blackforge,1
+carapace arrow,arrow,feathers,2,1,blackforge,1
+carapace arrow,arrow,wood,8,1,blackforge,1
+carapace buckler,shield,carapace,16,1,blackforge,1
+carapace buckler,shield,scale hide,3,1,blackforge,1
+carapace buckler,shield,refined eitr,10,1,blackforge,1
+carapace buckler,upgrade,carapace,8,2,blackforge,2
+carapace buckler,upgrade,scale hide,3,2,blackforge,2
+carapace buckler,upgrade,refined eitr,3,2,blackforge,2
+carapace buckler,upgrade,carapace,16,3,blackforge,3
+carapace buckler,upgrade,scale hide,6,3,blackforge,3
+carapace buckler,upgrade,refined eitr,6,3,blackforge,3
+carapace shield,shield,carapace,20,1,blackforge,1
+carapace shield,shield,scale hide,3,1,blackforge,1
+carapace shield,shield,refined eitr,10,1,blackforge,1
+carapace shield,upgrade,carapace,10,2,blackforge,2
+carapace shield,upgrade,scale hide,3,2,blackforge,2
+carapace shield,upgrade,refined eitr,3,2,blackforge,2
+carapace shield,upgrade,carapace,20,3,blackforge,3
+carapace shield,upgrade,scale hide,6,3,blackforge,3
+carapace shield,upgrade,refined eitr,6,3,blackforge,3
+carapace spear,spear,yggdrasil wood,10,1,blackforge,1
+carapace spear,spear,carapace,4,1,blackforge,1
+carapace spear,spear,mandible,2,1,blackforge,1
+carapace spear,upgrade,yggdrasil wood,5,2,blackforge,2
+carapace spear,upgrade,carapace,4,2,blackforge,2
+carapace spear,upgrade,mandible,1,2,blackforge,2
+carapace spear,upgrade,yggdrasil wood,10,3,blackforge,3
+carapace spear,upgrade,carapace,8,3,blackforge,3
+carapace spear,upgrade,mandible,2,3,blackforge,3
+carapace spear,upgrade,yggdrasil wood,15,4,blackforge,4
+carapace spear,upgrade,carapace,12,4,blackforge,4
+carapace spear,upgrade,mandible,3,4,blackforge,4
+club,club,wood,6,NA,player,1
+club,upgrade,bone fragments,5,2,workbench,2
+club,upgrade,bone fragments,10,3,workbench,3
+club,upgrade,bone fragments,15,4,workbench,4
+copper knife,knife,wood,2,1,forge,1
+copper knife,knife,copper,8,1,forge,1
+copper knife,upgrade,greydwarf eye,8,2,forge,2
+copper knife,upgrade,copper,4,2,forge,2
+copper knife,upgrade,greydwarf eye,16,3,forge,3
+copper knife,upgrade,copper,8,3,forge,3
+copper knife,upgrade,greydwarf eye,24,4,forge,4
+copper knife,upgrade,copper,12,4,forge,4
+crude bow,bow,wood,10,1,workbench,1
+crude bow,bow,leather scraps,8,1,workbench,1
+crude bow,upgrade,wood,5,2,workbench,2
+crude bow,upgrade,leather scraps,4,2,workbench,2
+crude bow,upgrade,deer hide,1,2,workbench,2
+crude bow,upgrade,wood,10,3,workbench,3
+crude bow,upgrade,leather scraps,8,3,workbench,3
+crude bow,upgrade,deer hide,2,3,workbench,3
+crude bow,upgrade,wood,15,4,workbench,4
+crude bow,upgrade,leather scraps,12,4,workbench,4
+crude bow,upgrade,deer hide,3,4,workbench,4
+crystal battleaxe,axe,ancient bark,40,3,forge,1
+crystal battleaxe,axe,silver,30,3,forge,1
+crystal battleaxe,axe,crystal,10,3,forge,1
+crystal battleaxe,upgrade,ancient bark,5,4,forge,2
+crystal battleaxe,upgrade,silver,15,4,forge,2
+crystal battleaxe,upgrade,ancient bark,10,5,forge,3
+crystal battleaxe,upgrade,silver,30,5,forge,3
+crystal battleaxe,upgrade,ancient bark,15,6,forge,4
+crystal battleaxe,upgrade,silver,45,6,forge,4
+cultivator,tool,core wood,5,1,forge,1
+cultivator,tool,bronze,5,1,forge,1
+cultivator,upgrade,core wood,1,2,forge,2
+cultivator,upgrade,bronze,1,2,forge,2
+cultivator,upgrade,core wood,2,3,forge,3
+cultivator,upgrade,bronze,2,3,forge,3
+dead raiser,magic,bone fragments,10,1,galdr table,1
+dead raiser,magic,refined eitr,16,1,galdr table,1
+dead raiser,magic,skeleton trophy,4,1,galdr table,1
+dead raiser,upgrade,bone fragments,5,2,galdr table,2
+dead raiser,upgrade,refined eitr,8,2,galdr table,2
+dead raiser,upgrade,skeleton trophy,2,2,galdr table,2
+demolisher,club,yggdrasil wood,10,1,blackforge,1
+demolisher,club,iron,20,1,blackforge,1
+demolisher,club,refined eitr,10,1,blackforge,1
+demolisher,upgrade,yggdrasil wood,2,2,blackforge,2
+demolisher,upgrade,iron,15,2,blackforge,2
+demolisher,upgrade,refined eitr,2,2,blackforge,2
+demolisher,upgrade,yggdrasil wood,4,3,blackforge,3
+demolisher,upgrade,iron,30,3,blackforge,3
+demolisher,upgrade,refined eitr,4,3,blackforge,3
+demolisher,upgrade,yggdrasil wood,6,4,blackforge,4
+demolisher,upgrade,iron,45,4,blackforge,4
+demolisher,upgrade,refined eitr,6,4,blackforge,4
+draugr fang,bow,ancient bark,10,2,forge,1
+draugr fang,bow,silver,20,2,forge,1
+draugr fang,bow,deer hide,2,2,forge,1
+draugr fang,bow,guck,10,2,forge,1
+draugr fang,upgrade,ancient bark,5,3,forge,2
+draugr fang,upgrade,silver,10,3,forge,2
+draugr fang,upgrade,deer hide,2,3,forge,2
+draugr fang,upgrade,guck,2,3,forge,2
+draugr fang,upgrade,ancient bark,10,4,forge,3
+draugr fang,upgrade,silver,20,4,forge,3
+draugr fang,upgrade,deer hide,4,4,forge,3
+draugr fang,upgrade,guck,4,4,forge,3
+draugr fang,upgrade,ancient bark,15,5,forge,4
+draugr fang,upgrade,silver,30,5,forge,4
+draugr fang,upgrade,deer hide,6,5,forge,4
+draugr fang,upgrade,guck,6,5,forge,4
 fang spear,spear,ancient bark,10,3,forge,1
 fang spear,spear,wolf fang,4,3,forge,1
 fang spear,spear,leather scraps,2,3,forge,1
@@ -309,6 +303,66 @@ fang spear,upgrade,ancient bark,15,6,forge,4
 fang spear,upgrade,wolf fang,6,6,forge,4
 fang spear,upgrade,leather scraps,3,6,forge,4
 fang spear,upgrade,silver,3,6,forge,4
+fine wood bow,bow,fine wood,10,1,workbench,1
+fine wood bow,bow,core wood,10,1,workbench,1
+fine wood bow,bow,deer hide,2,1,workbench,1
+fine wood bow,upgrade,fine wood,5,2,workbench,2
+fine wood bow,upgrade,core wood,5,2,workbench,2
+fine wood bow,upgrade,deer hide,2,2,workbench,2
+fine wood bow,upgrade,fine wood,10,3,workbench,3
+fine wood bow,upgrade,core wood,10,3,workbench,3
+fine wood bow,upgrade,deer hide,4,3,workbench,3
+fine wood bow,upgrade,fine wood,15,4,workbench,4
+fine wood bow,upgrade,core wood,15,4,workbench,4
+fine wood bow,upgrade,deer hide,6,4,workbench,4
+fire arrow,arrow,wood,8,2,workbench,1
+fire arrow,arrow,feathers,2,2,workbench,1
+fire arrow,arrow,resin,8,2,workbench,1
+flesh rippers,fists,fenris hair,10,3,forge,1
+flesh rippers,fists,fenris claw,6,3,forge,1
+flesh rippers,fists,silver,10,3,forge,1
+flesh rippers,upgrade,fenris hair,1,4,forge,2
+flesh rippers,upgrade,fenris claw,1,4,forge,2
+flesh rippers,upgrade,silver,1,4,forge,2
+flesh rippers,upgrade,fenris hair,2,5,forge,3
+flesh rippers,upgrade,fenris claw,2,5,forge,3
+flesh rippers,upgrade,silver,2,5,forge,3
+flesh rippers,upgrade,fenris hair,3,6,forge,4
+flesh rippers,upgrade,fenris claw,3,6,forge,4
+flesh rippers,upgrade,silver,3,6,forge,4
+flint axe,axe,wood,4,1,workbench,1
+flint axe,axe,flint,6,1,workbench,1
+flint axe,upgrade,flint,3,2,workbench,2
+flint axe,upgrade,leather scraps,2,2,workbench,2
+flint axe,upgrade,flint,6,3,workbench,3
+flint axe,upgrade,leather scraps,4,3,workbench,3
+flint axe,upgrade,flint,9,4,workbench,4
+flint axe,upgrade,leather scraps,6,4,workbench,4
+flint knife,knife,wood,2,1,workbench,1
+flint knife,knife,flint,4,1,workbench,1
+flint knife,knife,leather scraps,2,1,workbench,1
+flint knife,upgrade,flint,2,2,workbench,2
+flint knife,upgrade,flint,4,3,workbench,3
+flint knife,upgrade,flint,6,4,workbench,4
+flint spear,spear,wood,5,1,workbench,1
+flint spear,spear,flint,10,1,workbench,1
+flint spear,spear,leather scraps,2,1,workbench,1
+flint spear,upgrade,wood,3,2,workbench,2
+flint spear,upgrade,flint,5,2,workbench,2
+flint spear,upgrade,leather scraps,1,2,workbench,2
+flint spear,upgrade,wood,6,3,workbench,3
+flint spear,upgrade,flint,10,3,workbench,3
+flint spear,upgrade,leather scraps,2,3,workbench,3
+flint spear,upgrade,wood,9,4,workbench,4
+flint spear,upgrade,flint,15,4,workbench,4
+flint spear,upgrade,leather scraps,3,4,workbench,4
+flinthead arrow,arrow,wood,8,2,workbench,1
+flinthead arrow,arrow,feathers,2,2,workbench,1
+flinthead arrow,arrow,flint,2,2,workbench,1
+frost arrow,arrow,wood,8,4,workbench,1
+frost arrow,arrow,obsidian,4,4,workbench,1
+frost arrow,arrow,feathers,2,4,workbench,1
+frost arrow,arrow,freeze gland,1,4,workbench,1
 frostner,club,ancient bark,10,3,forge,1
 frostner,club,silver,30,3,forge,1
 frostner,club,ymir flesh,5,3,forge,1
@@ -316,59 +370,12 @@ frostner,club,freeze gland,5,3,forge,1
 frostner,upgrade,silver,15,4,forge,2
 frostner,upgrade,silver,30,5,forge,3
 frostner,upgrade,silver,45,6,forge,4
-silver knife,knife,wood,2,3,forge,1
-silver knife,knife,silver,10,3,forge,1
-silver knife,knife,leather scraps,3,3,forge,1
-silver knife,knife,iron,2,3,forge,1
-silver knife,upgrade,wood,1,4,forge,2
-silver knife,upgrade,silver,5,4,forge,2
-silver knife,upgrade,leather scraps,1,4,forge,2
-silver knife,upgrade,iron,1,4,forge,2
-silver knife,upgrade,wood,2,5,forge,3
-silver knife,upgrade,silver,10,5,forge,3
-silver knife,upgrade,leather scraps,2,5,forge,3
-silver knife,upgrade,iron,2,5,forge,3
-silver knife,upgrade,wood,3,6,forge,4
-silver knife,upgrade,silver,15,6,forge,4
-silver knife,upgrade,leather scraps,3,6,forge,4
-silver knife,upgrade,iron,3,6,forge,4
-blackmetal atgeir,polearm,fine wood,10,4,forge,1
-blackmetal atgeir,polearm,blackmetal,30,4,forge,1
-blackmetal atgeir,polearm,linen thread,5,4,forge,1
-blackmetal atgeir,upgrade,blackmetal,15,5,forge,2
-blackmetal atgeir,upgrade,linen thread,5,5,forge,2
-blackmetal atgeir,upgrade,blackmetal,30,5,forge,3
-blackmetal atgeir,upgrade,linen thread,10,5,forge,3
-blackmetal atgeir,upgrade,blackmetal,45,5,forge,4
-blackmetal atgeir,upgrade,linen thread,15,5,forge,4
-blackmetal knife,knife,fine wood,4,4,forge,1
-blackmetal knife,knife,blackmetal,10,4,forge,1
-blackmetal knife,knife,linen thread,5,4,forge,1
-blackmetal knife,upgrade,blackmetal,4,5,forge,2
-blackmetal knife,upgrade,linen thread,5,5,forge,2
-blackmetal knife,upgrade,blackmetal,8,6,forge,3
-blackmetal knife,upgrade,linen thread,10,6,forge,3
-blackmetal knife,upgrade,blackmetal,12,7,forge,4
-blackmetal knife,upgrade,linen thread,15,7,forge,4
-blackmetal sword,sword,fine wood,2,4,forge,1
-blackmetal sword,sword,blackmetal,20,4,forge,1
-blackmetal sword,sword,linen thread,5,4,forge,1
-blackmetal sword,upgrade,blackmetal,10,5,forge,2
-blackmetal sword,upgrade,linen thread,5,5,forge,2
-blackmetal sword,upgrade,blackmetal,20,6,forge,3
-blackmetal sword,upgrade,linen thread,10,6,forge,3
-blackmetal sword,upgrade,blackmetal,30,7,forge,4
-blackmetal sword,upgrade,linen thread,15,7,forge,4
-porcupine,club,fine wood,5,4,forge,1
-porcupine,club,iron,20,4,forge,1
-porcupine,club,needle,5,4,forge,1
-porcupine,club,linen thread,10,4,forge,1
-porcupine,upgrade,iron,2,5,forge,2
-porcupine,upgrade,needle,2,5,forge,2
-porcupine,upgrade,iron,4,6,forge,3
-porcupine,upgrade,needle,4,6,forge,3
-porcupine,upgrade,iron,6,7,forge,4
-porcupine,upgrade,needle,6,7,forge,4
+hammer,tool,wood,3,NA,player,1
+hammer,tool,stone,2,NA,player,1
+hammer,upgrade,wood,1,2,workbench,2
+hammer,upgrade,stone,1,2,workbench,2
+hammer,upgrade,wood,2,3,workbench,3
+hammer,upgrade,stone,2,3,workbench,3
 himmin afl,polearm,yggdrasil wood,10,1,blackforge,1
 himmin afl,polearm,refined eitr,15,1,blackforge,1
 himmin afl,polearm,silver,5,1,blackforge,1
@@ -382,30 +389,116 @@ himmin afl,upgrade,mandible,4,3,blackforge,3
 himmin afl,upgrade,refined eitr,45,4,blackforge,4
 himmin afl,upgrade,silver,15,4,blackforge,4
 himmin afl,upgrade,mandible,6,4,blackforge,4
-carapace spear,spear,yggdrasil wood,10,1,blackforge,1
-carapace spear,spear,carapace,4,1,blackforge,1
-carapace spear,spear,mandible,2,1,blackforge,1
-carapace spear,upgrade,yggdrasil wood,5,2,blackforge,2
-carapace spear,upgrade,carapace,4,2,blackforge,2
-carapace spear,upgrade,mandible,1,2,blackforge,2
-carapace spear,upgrade,yggdrasil wood,10,3,blackforge,3
-carapace spear,upgrade,carapace,8,3,blackforge,3
-carapace spear,upgrade,mandible,2,3,blackforge,3
-carapace spear,upgrade,yggdrasil wood,15,4,blackforge,4
-carapace spear,upgrade,carapace,12,4,blackforge,4
-carapace spear,upgrade,mandible,3,4,blackforge,4
-demolisher,club,yggdrasil wood,10,1,blackforge,1
-demolisher,club,iron,20,1,blackforge,1
-demolisher,club,refined eitr,10,1,blackforge,1
-demolisher,upgrade,yggdrasil wood,2,2,blackforge,2
-demolisher,upgrade,iron,15,2,blackforge,2
-demolisher,upgrade,refined eitr,2,2,blackforge,2
-demolisher,upgrade,yggdrasil wood,4,3,blackforge,3
-demolisher,upgrade,iron,30,3,blackforge,3
-demolisher,upgrade,refined eitr,4,3,blackforge,3
-demolisher,upgrade,yggdrasil wood,6,4,blackforge,4
-demolisher,upgrade,iron,45,4,blackforge,4
-demolisher,upgrade,refined eitr,6,4,blackforge,4
+hoe,tool,wood,5,1,workbench,1
+hoe,tool,stone,2,1,workbench,1
+hoe,upgrade,wood,1,2,workbench,2
+hoe,upgrade,stone,1,2,workbench,2
+hoe,upgrade,wood,2,3,workbench,3
+hoe,upgrade,stone,3,3,workbench,3
+horn of celebration,tool,bronze,2,1,workbench,1
+horn of celebration,tool,troll hide,2,1,workbench,1
+horn of celebration,tool,iron,2,1,workbench,1
+huntsman bow,bow,fine wood,10,1,forge,1
+huntsman bow,bow,iron,20,1,forge,1
+huntsman bow,bow,feathers,10,1,forge,1
+huntsman bow,bow,deer hide,2,1,forge,1
+huntsman bow,upgrade,fine wood,5,2,forge,2
+huntsman bow,upgrade,iron,10,2,forge,2
+huntsman bow,upgrade,feathers,5,2,forge,2
+huntsman bow,upgrade,deer hide,2,2,forge,2
+huntsman bow,upgrade,fine wood,10,3,forge,3
+huntsman bow,upgrade,iron,20,3,forge,3
+huntsman bow,upgrade,feathers,10,3,forge,3
+huntsman bow,upgrade,deer hide,4,3,forge,3
+huntsman bow,upgrade,fine wood,15,4,forge,4
+huntsman bow,upgrade,iron,30,4,forge,4
+huntsman bow,upgrade,feathers,15,4,forge,4
+huntsman bow,upgrade,deer hide,6,4,forge,4
+iron atgeir,polearm,wood,10,2,forge,1
+iron atgeir,polearm,iron,30,2,forge,1
+iron atgeir,polearm,leather scraps,2,2,forge,1
+iron atgeir,upgrade,iron,15,3,forge,2
+iron atgeir,upgrade,leather scraps,1,3,forge,2
+iron atgeir,upgrade,iron,30,4,forge,3
+iron atgeir,upgrade,leather scraps,2,4,forge,3
+iron atgeir,upgrade,iron,45,5,forge,4
+iron atgeir,upgrade,leather scraps,3,5,forge,4
+iron axe,axe,wood,4,2,forge,1
+iron axe,axe,iron,20,2,forge,1
+iron axe,axe,leather scraps,2,2,forge,1
+iron axe,upgrade,iron,10,3,forge,2
+iron axe,upgrade,leather scraps,1,3,forge,2
+iron axe,upgrade,iron,20,4,forge,3
+iron axe,upgrade,leather scraps,2,4,forge,3
+iron axe,upgrade,iron,30,5,forge,4
+iron axe,upgrade,leather scraps,3,5,forge,4
+iron buckler,shield,iron,10,2,forge,1
+iron buckler,shield,ancient bark,4,2,forge,1
+iron buckler,upgrade,iron,5,3,forge,2
+iron buckler,upgrade,ancient bark,1,3,forge,2
+iron buckler,upgrade,iron,10,4,forge,3
+iron buckler,upgrade,ancient bark,2,4,forge,3
+iron mace,club,wood,4,2,forge,1
+iron mace,club,iron,20,2,forge,1
+iron mace,club,leather scraps,3,2,forge,1
+iron mace,upgrade,iron,10,3,forge,2
+iron mace,upgrade,iron,20,4,forge,3
+iron mace,upgrade,iron,30,5,forge,4
+iron pickaxe,pickaxe,core wood,3,2,forge,1
+iron pickaxe,pickaxe,iron,20,2,forge,1
+iron pickaxe,upgrade,core wood,1,3,forge,2
+iron pickaxe,upgrade,iron,10,3,forge,2
+iron pickaxe,upgrade,core wood,2,4,forge,3
+iron pickaxe,upgrade,iron,20,4,forge,3
+iron pickaxe,upgrade,core wood,3,5,forge,4
+iron pickaxe,upgrade,iron,30,5,forge,4
+iron sledge,2 handed club,ancient bark,10,2,forge,1
+iron sledge,2 handed club,iron,30,2,forge,1
+iron sledge,2 handed club,ymir flesh,4,2,forge,1
+iron sledge,2 handed club,draugr elite trophy,1,2,forge,1
+iron sledge,upgrade,ancient bark,2,3,forge,2
+iron sledge,upgrade,iron,15,3,forge,2
+iron sledge,upgrade,ymir flesh,2,3,forge,2
+iron sledge,upgrade,ancient bark,4,4,forge,3
+iron sledge,upgrade,iron,30,4,forge,3
+iron sledge,upgrade,ymir flesh,4,4,forge,3
+iron sledge,upgrade,ancient bark,6,5,forge,4
+iron sledge,upgrade,iron,45,5,forge,4
+iron sledge,upgrade,ymir flesh,6,5,forge,4
+iron sword,sword,wood,2,2,forge,1
+iron sword,sword,iron,20,2,forge,1
+iron sword,sword,leather scraps,3,2,forge,1
+iron sword,upgrade,wood,1,3,forge,2
+iron sword,upgrade,iron,10,3,forge,2
+iron sword,upgrade,leather scraps,2,3,forge,2
+iron sword,upgrade,wood,2,4,forge,3
+iron sword,upgrade,iron,20,4,forge,3
+iron sword,upgrade,leather scraps,4,4,forge,3
+iron sword,upgrade,wood,3,5,forge,4
+iron sword,upgrade,iron,30,5,forge,4
+iron sword,upgrade,leather scraps,6,5,forge,4
+iron tower shield,shield,fine wood,15,2,forge,1
+iron tower shield,shield,iron,10,2,forge,1
+iron tower shield,upgrade,fine wood,10,3,forge,2
+iron tower shield,upgrade,iron,5,3,forge,2
+iron tower shield,upgrade,fine wood,20,4,forge,3
+iron tower shield,upgrade,iron,10,4,forge,3
+ironhead arrow,arrow,wood,8,2,forge,1
+ironhead arrow,arrow,iron,1,2,forge,1
+ironhead arrow,arrow,feathers,2,2,forge,1
+jotun bane,axe,yggdrasil wood,5,1,blackforge,1
+jotun bane,axe,iron,15,1,blackforge,1
+jotun bane,axe,bilebag,3,1,blackforge,1
+jotun bane,axe,refined eitr,10,1,blackforge,1
+jotun bane,upgrade,iron,10,2,blackforge,2
+jotun bane,upgrade,bilebag,1,2,blackforge,2
+jotun bane,upgrade,refined eitr,1,2,blackforge,2
+jotun bane,upgrade,iron,20,3,blackforge,3
+jotun bane,upgrade,bilebag,2,3,blackforge,3
+jotun bane,upgrade,refined eitr,2,3,blackforge,3
+jotun bane,upgrade,iron,30,4,blackforge,4
+jotun bane,upgrade,bilebag,3,4,blackforge,4
+jotun bane,upgrade,refined eitr,3,4,blackforge,4
 krom,sword,iron,30,1,blackforge,1
 krom,sword,bronze,20,1,blackforge,1
 krom,sword,scale hide,5,1,blackforge,1
@@ -431,143 +524,25 @@ mistwalker,upgrade,wisp,2,3,blackforge,3
 mistwalker,upgrade,iron,30,4,blackforge,4
 mistwalker,upgrade,refined eitr,15,4,blackforge,4
 mistwalker,upgrade,wisp,3,4,blackforge,4
-skoll and hati,knife,fine wood,4,1,blackforge,1
-skoll and hati,knife,iron,10,1,blackforge,1
-skoll and hati,knife,blackmetal,10,1,blackforge,1
-skoll and hati,upgrade,iron,4,2,blackforge,2
-skoll and hati,upgrade,blackmetal,4,2,blackforge,2
-skoll and hati,upgrade,iron,8,3,blackforge,3
-skoll and hati,upgrade,blackmetal,8,3,blackforge,3
-skoll and hati,upgrade,iron,12,4,blackforge,4
-skoll and hati,upgrade,blackmetal,12,4,blackforge,4
-crude bow,bow,wood,10,1,workbench,1
-crude bow,bow,leather scraps,8,1,workbench,1
-crude bow,upgrade,wood,5,2,workbench,2
-crude bow,upgrade,leather scraps,4,2,workbench,2
-crude bow,upgrade,deer hide,1,2,workbench,2
-crude bow,upgrade,wood,10,3,workbench,3
-crude bow,upgrade,leather scraps,8,3,workbench,3
-crude bow,upgrade,deer hide,2,3,workbench,3
-crude bow,upgrade,wood,15,4,workbench,4
-crude bow,upgrade,leather scraps,12,4,workbench,4
-crude bow,upgrade,deer hide,3,4,workbench,4
-fine wood bow,bow,fine wood,10,1,workbench,1
-fine wood bow,bow,core wood,10,1,workbench,1
-fine wood bow,bow,deer hide,2,1,workbench,1
-fine wood bow,upgrade,fine wood,5,2,workbench,2
-fine wood bow,upgrade,core wood,5,2,workbench,2
-fine wood bow,upgrade,deer hide,2,2,workbench,2
-fine wood bow,upgrade,fine wood,10,3,workbench,3
-fine wood bow,upgrade,core wood,10,3,workbench,3
-fine wood bow,upgrade,deer hide,4,3,workbench,3
-fine wood bow,upgrade,fine wood,15,4,workbench,4
-fine wood bow,upgrade,core wood,15,4,workbench,4
-fine wood bow,upgrade,deer hide,6,4,workbench,4
-huntsman bow,bow,fine wood,10,1,forge,1
-huntsman bow,bow,iron,20,1,forge,1
-huntsman bow,bow,feathers,10,1,forge,1
-huntsman bow,bow,deer hide,2,1,forge,1
-huntsman bow,upgrade,fine wood,5,2,forge,2
-huntsman bow,upgrade,iron,10,2,forge,2
-huntsman bow,upgrade,feathers,5,2,forge,2
-huntsman bow,upgrade,deer hide,2,2,forge,2
-huntsman bow,upgrade,fine wood,10,3,forge,3
-huntsman bow,upgrade,iron,20,3,forge,3
-huntsman bow,upgrade,feathers,10,3,forge,3
-huntsman bow,upgrade,deer hide,4,3,forge,3
-huntsman bow,upgrade,fine wood,15,4,forge,4
-huntsman bow,upgrade,iron,30,4,forge,4
-huntsman bow,upgrade,feathers,15,4,forge,4
-huntsman bow,upgrade,deer hide,6,4,forge,4
-draugr fang,bow,ancient bark,10,2,forge,1
-draugr fang,bow,silver,20,2,forge,1
-draugr fang,bow,deer hide,2,2,forge,1
-draugr fang,bow,guck,10,2,forge,1
-draugr fang,upgrade,ancient bark,5,3,forge,2
-draugr fang,upgrade,silver,10,3,forge,2
-draugr fang,upgrade,deer hide,2,3,forge,2
-draugr fang,upgrade,guck,2,3,forge,2
-draugr fang,upgrade,ancient bark,10,4,forge,3
-draugr fang,upgrade,silver,20,4,forge,3
-draugr fang,upgrade,deer hide,4,4,forge,3
-draugr fang,upgrade,guck,4,4,forge,3
-draugr fang,upgrade,ancient bark,15,5,forge,4
-draugr fang,upgrade,silver,30,5,forge,4
-draugr fang,upgrade,deer hide,6,5,forge,4
-draugr fang,upgrade,guck,6,5,forge,4
-spinesnap,bow,fine wood,10,1,blackforge,1
-spinesnap,bow,bone fragments,40,1,blackforge,1
-spinesnap,bow,refined eitr,10,1,blackforge,1
-spinesnap,upgrade,fine wood,5,2,blackforge,2
-spinesnap,upgrade,bone fragments,20,2,blackforge,2
-spinesnap,upgrade,fine wood,10,3,blackforge,3
-spinesnap,upgrade,bone fragments,40,3,blackforge,3
-spinesnap,upgrade,fine wood,15,4,blackforge,4
-spinesnap,upgrade,bone fragments,60,4,blackforge,4
-arbalest,crossbow,wood,10,1,blackforge,1
-arbalest,crossbow,iron,8,1,blackforge,1
-arbalest,crossbow,root,4,1,blackforge,1
-arbalest,upgrade,wood,5,2,blackforge,2
-arbalest,upgrade,iron,4,2,blackforge,2
-arbalest,upgrade,root,1,2,blackforge,2
-arbalest,upgrade,wood,10,3,blackforge,3
-arbalest,upgrade,iron,8,3,blackforge,3
-arbalest,upgrade,root,2,3,blackforge,3
-arbalest,upgrade,wood,15,4,blackforge,4
-arbalest,upgrade,iron,12,4,blackforge,4
-arbalest,upgrade,root,3,4,blackforge,4
-wooden shield,shield,wood,10,1,workbench,1
-wooden shield,shield,resin,4,1,workbench,1
-wooden shield,shield,leather scraps,4,1,workbench,1
-wooden shield,upgrade,wood,5,2,workbench,2
-wooden shield,upgrade,resin,2,2,workbench,2
-wooden shield,upgrade,leather scraps,2,2,workbench,2
-wooden shield,upgrade,wood,10,3,workbench,3
-wooden shield,upgrade,resin,4,3,workbench,3
-wooden shield,upgrade,leather scraps,4,3,workbench,3
-wooden tower,shield,wood,10,1,workbench,1
-wooden tower,shield,leather scraps,6,1,workbench,1
-wooden tower,upgrade,wood,5,2,workbench,2
-wooden tower,upgrade,leather scraps,3,2,workbench,2
-wooden tower,upgrade,wood,10,3,workbench,3
-wooden tower,upgrade,leather scraps,6,3,workbench,3
-bone tower,shield,wood,10,3,workbench,1
-bone tower,shield,bone fragments,10,3,workbench,1
-bone tower,shield,skeleton trophy,3,3,workbench,1
-bone tower,upgrade,wood,5,4,workbench,2
-bone tower,upgrade,bone fragments,5,4,workbench,2
-bone tower,upgrade,wood,10,5,workbench,3
-bone tower,upgrade,bone fragments,10,5,workbench,3
-bronze shield,weapon,wood,4,1,forge,1
-bronze shield,weapon,bronze,10,1,forge,1
-bronze shield,upgrade,wood,5,2,forge,2
-bronze shield,upgrade,bronze,1,2,forge,2
-bronze shield,upgrade,wood,10,3,forge,3
-bronze shield,upgrade,bronze,2,3,forge,3
-banded shield,shield,fine wood,10,2,forge,1
-banded shield,shield,iron,8,2,forge,1
-banded shield,upgrade,fine wood,10,3,forge,2
-banded shield,upgrade,iron,4,3,forge,2
-banded shield,upgrade,fine wood,20,4,forge,3
-banded shield,upgrade,iron,8,4,forge,3
-iron buckler,shield,iron,10,2,forge,1
-iron buckler,shield,ancient bark,4,2,forge,1
-iron buckler,upgrade,iron,5,3,forge,2
-iron buckler,upgrade,ancient bark,1,3,forge,2
-iron buckler,upgrade,iron,10,4,forge,3
-iron buckler,upgrade,ancient bark,2,4,forge,3
-iron tower shield,shield,fine wood,15,2,forge,1
-iron tower shield,shield,iron,10,2,forge,1
-iron tower shield,upgrade,fine wood,10,3,forge,2
-iron tower shield,upgrade,iron,5,3,forge,2
-iron tower shield,upgrade,fine wood,20,4,forge,3
-iron tower shield,upgrade,iron,10,4,forge,3
-silver shield,shield,fine wood,10,3,forge,1
-silver shield,shield,silver,8,3,forge,1
-silver shield,upgrade,fine wood,10,4,forge,2
-silver shield,upgrade,silver,4,4,forge,2
-silver shield,upgrade,fine wood,20,5,forge,3
-silver shield,upgrade,silver,8,5,forge,3
+needle arrow,arrow,needle,4,4,workbench,1
+needle arrow,arrow,feathers,2,4,workbench,1
+obsidian arrow,arrow,wood,8,3,workbench,1
+obsidian arrow,arrow,obsidian,4,3,workbench,1
+obsidian arrow,arrow,feathers,2,3,workbench,1
+poison arrow,arrow,wood,8,3,workbench,1
+poison arrow,arrow,obsidian,4,3,workbench,1
+poison arrow,arrow,feathers,2,3,workbench,1
+poison arrow,arrow,ooze,2,3,workbench,1
+porcupine,club,fine wood,5,4,forge,1
+porcupine,club,iron,20,4,forge,1
+porcupine,club,needle,5,4,forge,1
+porcupine,club,linen thread,10,4,forge,1
+porcupine,upgrade,iron,2,5,forge,2
+porcupine,upgrade,needle,2,5,forge,2
+porcupine,upgrade,iron,4,6,forge,3
+porcupine,upgrade,needle,4,6,forge,3
+porcupine,upgrade,iron,6,7,forge,4
+porcupine,upgrade,needle,6,7,forge,4
 serpent scale shield,shield,fine wood,10,3,forge,1
 serpent scale shield,shield,iron,4,3,forge,1
 serpent scale shield,shield,serpent scale,8,3,forge,1
@@ -577,42 +552,65 @@ serpent scale shield,upgrade,serpent scale,4,4,forge,2
 serpent scale shield,upgrade,fine wood,20,5,forge,3
 serpent scale shield,upgrade,iron,4,5,forge,3
 serpent scale shield,upgrade,serpent scale,8,5,forge,3
-black metal shield,shield,fine wood,10,3,forge,1
-black metal shield,shield,blackmetal,8,3,forge,1
-black metal shield,shield,chain,5,3,forge,1
-black metal shield,upgrade,fine wood,10,4,forge,2
-black metal shield,upgrade,blackmetal,4,4,forge,2
-black metal shield,upgrade,chain,2,4,forge,2
-black metal shield,upgrade,fine wood,20,5,forge,3
-black metal shield,upgrade,blackmetal,8,5,forge,3
-black metal shield,upgrade,chain,4,5,forge,3
-black metal tower shield,shield,fine wood,15,3,forge,1
-black metal tower shield,shield,blackmetal,10,3,forge,1
-black metal tower shield,shield,chain,7,3,forge,1
-black metal tower shield,upgrade,fine wood,15,4,forge,2
-black metal tower shield,upgrade,blackmetal,6,4,forge,2
-black metal tower shield,upgrade,chain,2,4,forge,2
-black metal tower shield,upgrade,fine wood,20,5,forge,3
-black metal tower shield,upgrade,blackmetal,8,5,forge,3
-black metal tower shield,upgrade,chain,4,5,forge,3
-carapace buckler,shield,carapace,16,1,blackforge,1
-carapace buckler,shield,scale hide,3,1,blackforge,1
-carapace buckler,shield,refined eitr,10,1,blackforge,1
-carapace buckler,upgrade,carapace,8,2,blackforge,2
-carapace buckler,upgrade,scale hide,3,2,blackforge,2
-carapace buckler,upgrade,refined eitr,3,2,blackforge,2
-carapace buckler,upgrade,carapace,16,3,blackforge,3
-carapace buckler,upgrade,scale hide,6,3,blackforge,3
-carapace buckler,upgrade,refined eitr,6,3,blackforge,3
-carapace shield,shield,carapace,20,1,blackforge,1
-carapace shield,shield,scale hide,3,1,blackforge,1
-carapace shield,shield,refined eitr,10,1,blackforge,1
-carapace shield,upgrade,carapace,10,2,blackforge,2
-carapace shield,upgrade,scale hide,3,2,blackforge,2
-carapace shield,upgrade,refined eitr,3,2,blackforge,2
-carapace shield,upgrade,carapace,20,3,blackforge,3
-carapace shield,upgrade,scale hide,6,3,blackforge,3
-carapace shield,upgrade,refined eitr,6,3,blackforge,3
+silver arrow,arrow,wood,8,3,forge,1
+silver arrow,arrow,silver,1,3,forge,1
+silver arrow,arrow,feathers,2,3,forge,1
+silver knife,knife,wood,2,3,forge,1
+silver knife,knife,silver,10,3,forge,1
+silver knife,knife,leather scraps,3,3,forge,1
+silver knife,knife,iron,2,3,forge,1
+silver knife,upgrade,wood,1,4,forge,2
+silver knife,upgrade,silver,5,4,forge,2
+silver knife,upgrade,leather scraps,1,4,forge,2
+silver knife,upgrade,iron,1,4,forge,2
+silver knife,upgrade,wood,2,5,forge,3
+silver knife,upgrade,silver,10,5,forge,3
+silver knife,upgrade,leather scraps,2,5,forge,3
+silver knife,upgrade,iron,2,5,forge,3
+silver knife,upgrade,wood,3,6,forge,4
+silver knife,upgrade,silver,15,6,forge,4
+silver knife,upgrade,leather scraps,3,6,forge,4
+silver knife,upgrade,iron,3,6,forge,4
+silver shield,shield,fine wood,10,3,forge,1
+silver shield,shield,silver,8,3,forge,1
+silver shield,upgrade,fine wood,10,4,forge,2
+silver shield,upgrade,silver,4,4,forge,2
+silver shield,upgrade,fine wood,20,5,forge,3
+silver shield,upgrade,silver,8,5,forge,3
+silver sword,sword,wood,2,3,forge,1
+silver sword,sword,silver,40,3,forge,1
+silver sword,sword,leather scraps,3,3,forge,1
+silver sword,sword,iron,5,3,forge,1
+silver sword,sword,wood,1,4,forge,2
+silver sword,sword,silver,20,4,forge,2
+silver sword,sword,leather scraps,1,4,forge,2
+silver sword,sword,iron,3,4,forge,2
+silver sword,sword,wood,2,5,forge,3
+silver sword,sword,silver,40,5,forge,3
+silver sword,sword,leather scraps,2,5,forge,3
+silver sword,sword,iron,6,5,forge,3
+silver sword,sword,wood,3,6,forge,4
+silver sword,sword,silver,60,6,forge,4
+silver sword,sword,leather scraps,3,6,forge,4
+silver sword,sword,iron,6,6,forge,4
+skoll and hati,knife,fine wood,4,1,blackforge,1
+skoll and hati,knife,iron,10,1,blackforge,1
+skoll and hati,knife,blackmetal,10,1,blackforge,1
+skoll and hati,upgrade,iron,4,2,blackforge,2
+skoll and hati,upgrade,blackmetal,4,2,blackforge,2
+skoll and hati,upgrade,iron,8,3,blackforge,3
+skoll and hati,upgrade,blackmetal,8,3,blackforge,3
+skoll and hati,upgrade,iron,12,4,blackforge,4
+skoll and hati,upgrade,blackmetal,12,4,blackforge,4
+spinesnap,bow,fine wood,10,1,blackforge,1
+spinesnap,bow,bone fragments,40,1,blackforge,1
+spinesnap,bow,refined eitr,10,1,blackforge,1
+spinesnap,upgrade,fine wood,5,2,blackforge,2
+spinesnap,upgrade,bone fragments,20,2,blackforge,2
+spinesnap,upgrade,fine wood,10,3,blackforge,3
+spinesnap,upgrade,bone fragments,40,3,blackforge,3
+spinesnap,upgrade,fine wood,15,4,blackforge,4
+spinesnap,upgrade,bone fragments,60,4,blackforge,4
 staff of embers,magic,yggdrasil wood,20,1,galdr table,1
 staff of embers,magic,surtling core,4,1,galdr table,1
 staff of embers,magic,refined eitr,16,1,galdr table,1
@@ -643,41 +641,43 @@ staff of protection,magic,refined eitr,16,1,galdr table,1
 staff of protection,upgrade,yggdrasil wood,10,2,galdr table,2
 staff of protection,upgrade,blood clot,2,2,galdr table,2
 staff of protection,upgrade,refined eitr,8,2,galdr table,2
-dead raiser,magic,bone fragments,10,1,galdr table,1
-dead raiser,magic,refined eitr,16,1,galdr table,1
-dead raiser,magic,skeleton trophy,4,1,galdr table,1
-dead raiser,upgrade,bone fragments,5,2,galdr table,2
-dead raiser,upgrade,refined eitr,8,2,galdr table,2
-dead raiser,upgrade,skeleton trophy,2,2,galdr table,2
+stagbreaker,2 handed club,core wood,20,2,workbench,1
+stagbreaker,2 handed club,deer trophy,5,2,workbench,1
+stagbreaker,2 handed club,leather scraps,2,2,workbench,1
+stagbreaker,upgrade,core wood,5,3,workbench,2
+stagbreaker,upgrade,deer trophy,2,3,workbench,2
+stagbreaker,upgrade,leather scraps,1,3,workbench,2
+stagbreaker,upgrade,bone fragments,10,3,workbench,2
+stagbreaker,upgrade,core wood,10,4,workbench,3
+stagbreaker,upgrade,deer trophy,4,4,workbench,3
+stagbreaker,upgrade,leather scraps,2,4,workbench,3
+stagbreaker,upgrade,bone fragments,20,4,workbench,3
+stagbreaker,upgrade,core wood,15,5,workbench,4
+stagbreaker,upgrade,deer trophy,6,5,workbench,4
+stagbreaker,upgrade,leather scraps,3,5,workbench,4
+stagbreaker,upgrade,bone fragments,30,5,workbench,4
+stone axe,axe,wood,5,1,player,1
+stone axe,axe,stone,4,1,player,1
+stone axe,upgrade,stone,2,2,workbench,2
+stone axe,upgrade,stone,4,3,workbench,3
+stone axe,upgrade,stone,6,4,workbench,4
+tankard,tool,fine wood,5,1,workbench,1
+tankard,tool,resin,2,1,workbench,1
+torch,tool,wood,1,NA,player,1
+torch,tool,resin,1,NA,player,1
 wooden arrow,arrow,wood,8,1,workbench,1
-flinthead arrow,arrow,wood,8,2,workbench,1
-flinthead arrow,arrow,feathers,2,2,workbench,1
-flinthead arrow,arrow,flint,2,2,workbench,1
-fire arrow,arrow,wood,8,2,workbench,1
-fire arrow,arrow,feathers,2,2,workbench,1
-fire arrow,arrow,resin,8,2,workbench,1
-bronze arrow,arrow,wood,8,1,forge,1
-bronze arrow,arrow,feathers,2,1,forge,1
-bronze arrow,arrow,bronze,1,1,forge,1
-ironhead arrow,arrow,wood,8,2,forge,1
-ironhead arrow,arrow,iron,1,2,forge,1
-ironhead arrow,arrow,feathers,2,2,forge,1
-obsidian arrow,arrow,wood,8,3,workbench,1
-obsidian arrow,arrow,obsidian,4,3,workbench,1
-obsidian arrow,arrow,feathers,2,3,workbench,1
-silver arrow,arrow,wood,8,3,forge,1
-silver arrow,arrow,silver,1,3,forge,1
-silver arrow,arrow,feathers,2,3,forge,1
-poison arrow,arrow,wood,8,3,workbench,1
-poison arrow,arrow,obsidian,4,3,workbench,1
-poison arrow,arrow,feathers,2,3,workbench,1
-poison arrow,arrow,ooze,2,3,workbench,1
-frost arrow,arrow,wood,8,4,workbench,1
-frost arrow,arrow,obsidian,4,4,workbench,1
-frost arrow,arrow,feathers,2,4,workbench,1
-frost arrow,arrow,freeze gland,1,4,workbench,1
-needle arrow,arrow,needle,4,4,workbench,1
-needle arrow,arrow,feathers,2,4,workbench,1
-carapace arrow,arrow,carapace,4,1,blackforge,1
-carapace arrow,arrow,feathers,2,1,blackforge,1
-carapace arrow,arrow,wood,8,1,blackforge,1
+wooden shield,shield,wood,10,1,workbench,1
+wooden shield,shield,resin,4,1,workbench,1
+wooden shield,shield,leather scraps,4,1,workbench,1
+wooden shield,upgrade,wood,5,2,workbench,2
+wooden shield,upgrade,resin,2,2,workbench,2
+wooden shield,upgrade,leather scraps,2,2,workbench,2
+wooden shield,upgrade,wood,10,3,workbench,3
+wooden shield,upgrade,resin,4,3,workbench,3
+wooden shield,upgrade,leather scraps,4,3,workbench,3
+wooden tower,shield,wood,10,1,workbench,1
+wooden tower,shield,leather scraps,6,1,workbench,1
+wooden tower,upgrade,wood,5,2,workbench,2
+wooden tower,upgrade,leather scraps,3,2,workbench,2
+wooden tower,upgrade,wood,10,3,workbench,3
+wooden tower,upgrade,leather scraps,6,3,workbench,3
