@@ -14,15 +14,17 @@ weapons_data_small <- weapons_data_clean %>%
 weapons_joined <- 
   full_join(weapons_crafting_small,
             weapons_data_small,
-            by = join_by(item == name))
+            by = join_by(item == name)) %>% 
+  filter(!type %in% c("upgrade", "tool", "shield", "magic", "weapon"))
 
 weapons_list <- weapons_joined %>% 
   mutate(item = str_to_title(item)) %>% 
   distinct(item) %>% 
-  pull()
+  pull() %>% 
+  sort()
 
 weapon_type_list <- weapons_joined %>% 
-  filter(!type %in% c("upgrade", "tool", "shield", "magic", "weapon")) %>% 
+  #filter(!type %in% c("upgrade", "tool", "shield", "magic", "weapon")) %>% 
   mutate(type = str_to_title(type)) %>% 
   distinct(type) %>% 
   pull() %>% 
