@@ -1,5 +1,7 @@
 ui <- fluidPage(
   
+  theme = bs_theme(bootswatch = "flatly"),
+  
   titlePanel("Valheim"),
   
   tabsetPanel(
@@ -7,43 +9,56 @@ ui <- fluidPage(
       
       "Weapons",
       
+      tags$h2(fluidRow("Weapon 1")),
       # Top Row, inputs ---------
       fluidRow(
         ## Weapon selection ------
         column(
-          width = 3,
-          #uiOutput("weapon_list")
+          width = 2,
           selectInput("weapon_input",
                       "Select Weapon",
                       weapons_list,
                       selected = "Porcupine")
-          ),
+        ),
         
         ## Weapon Type selection ------------
         # This filters the weapon selection
         column(
-          width = 3,
-          #uiOutput("weapon_type_list")
+          width = 2,
           selectInput(
             "weapon_type_input",
             "Select Type of Weapon",
             weapon_type_list, # INCLUDE TOOLS WITH PLOT OF MATERIALS OR TEXT?
             selected = "All"
           )
-          ),
+        ),
         
         ## Weapon Material selection ----------
         # This filters the weapon selection
         column(
-          width = 3,
-          #uiOutput("weapon_material_list")
+          width = 2,
           selectInput(
             "weapon_material_input",
             "Select Material",
             weapon_material_list, # INCLUDE TOOLS WITH PLOT OF MATERIALS OR TEXT?
             selected = "All"
           )
+        ),
+        
+        column(
+          width = 2,
+          selectInput(
+            "damage_type_input",
+            "Select Damage Type",
+            damage_type_list, 
+            selected = "All"
           )
+        ),
+        
+        column(
+          width = 2,
+          actionButton("update", "Filter Weapons List")
+        )
       ),
       
       # Second row -----------
@@ -63,11 +78,11 @@ ui <- fluidPage(
           fluidRow(
             column(
               width = 6,
-              textOutput("crafting_station_output")
+              tags$b(textOutput("crafting_station_output"))
             ),
             column(
               width = 6,
-              textOutput("crafting_station_level_output")
+              tags$b(textOutput("crafting_station_level_output"))
             )
           ),
           
@@ -84,9 +99,87 @@ ui <- fluidPage(
           # see materials needed 
           tableOutput("weapon_material_table")
         )
-      )
+      ),
       
+      # Comparison ---------
+      tags$h2(fluidRow("Weapon 2")),
+      fluidRow(
+        ## Weapon selection ------
+        column(
+          width = 3,
+          #uiOutput("weapon_list")
+          selectInput("weapon_input_2",
+                      "Select Weapon",
+                      weapons_list,
+                      selected = "Porcupine")
+        ),
+        
+        ## Weapon Type selection ------------
+        # This filters the weapon selection
+        column(
+          width = 3,
+          #uiOutput("weapon_type_list")
+          selectInput(
+            "weapon_type_input_2",
+            "Select Type of Weapon",
+            weapon_type_list, # INCLUDE TOOLS WITH PLOT OF MATERIALS OR TEXT?
+            selected = "All"
+          )
+        ),
+        
+        ## Weapon Material selection ----------
+        # This filters the weapon selection
+        column(
+          width = 3,
+          #uiOutput("weapon_material_list")
+          selectInput(
+            "weapon_material_input_2",
+            "Select Material",
+            weapon_material_list, # INCLUDE TOOLS WITH PLOT OF MATERIALS OR TEXT?
+            selected = "All"
+          )
+        )
+      ),
+      
+      # Second row -----------
+      fluidRow(
+        
+        ## weapon stats -----
+        column(
+          width = 8,
+          plotOutput("weapon_stat_plot_2")
+        ),
+        
+        ## weapon materials -------------
+        column(
+          width = 4,
+          
+          # see crafting station type and level
+          fluidRow(
+            column(
+              width = 6,
+              tags$b(textOutput("crafting_station_output_2"))
+            ),
+            column(
+              width = 6,
+              tags$b(textOutput("crafting_station_level_output_2"))
+            )
+          ),
+          
+          br(),
+          
+          # choose item level
+          radioButtons(
+            "item_level_input_2",
+            "Item Level",
+            choices = c(1:4), #CHANGE TO DEPEND ON INPUT
+            inline = TRUE
+          ),
+          
+          # see materials needed 
+          tableOutput("weapon_material_table_2")
+        )
+      )
     )
   )
-  
 )

@@ -1,4 +1,5 @@
 library(tidyverse)
+library(bslib)
 
 weapons_crafting_clean <- read_csv("sorted_data/weapons_crafting")
 weapons_data_clean <- read_csv("sorted_data/weapon_data")
@@ -8,14 +9,14 @@ weapons_crafting_small <- weapons_crafting_clean %>%
   distinct()
 
 weapons_data_small <- weapons_data_clean %>% 
-  select(name) %>% 
+  select(name, damage_type, values) %>% 
   distinct()
 
 weapons_joined <- 
   full_join(weapons_crafting_small,
             weapons_data_small,
             by = join_by(item == name)) %>% 
-  filter(!type %in% c("upgrade", "tool", "shield", "magic", "weapon"))
+  filter(!type %in% c("Upgrade", "Tool", "Shield", "Magic", "Weapon"))
 
 weapons_list <- weapons_joined %>% 
   distinct(item) %>% 
@@ -35,3 +36,9 @@ weapon_material_list <- weapons_joined %>%
   append("All") %>% 
   sort()
 
+damage_type_list <- weapons_joined %>% 
+  mutate(damage_type = str_extract(damage_type, "^[A-Z][a-z]+")) %>% 
+  distinct(damage_type) %>% 
+  pull() %>% 
+  append("All") %>% 
+  sort()
