@@ -45,6 +45,7 @@ ui <- fluidPage(
           )
         ),
         
+        ## Damage Type Selection --------------
         column(
           width = 2,
           selectInput(
@@ -55,9 +56,16 @@ ui <- fluidPage(
           )
         ),
         
+        ## Apply filters -----------
         column(
           width = 2,
           actionButton("update", "Filter Weapons List")
+        ),
+        
+        ## Reset filters -------------
+        column(
+          width = 2,
+          actionButton("reset", "Reset Filters")
         )
       ),
       
@@ -74,7 +82,7 @@ ui <- fluidPage(
         column(
           width = 4,
           
-          # see crafting station type and level
+          ### see crafting station type and level ----------
           fluidRow(
             column(
               width = 6,
@@ -88,7 +96,7 @@ ui <- fluidPage(
           
           br(),
           
-          # choose item level
+          ### choose item level----------
           radioButtons(
             "item_level_input",
             "Item Level",
@@ -96,7 +104,7 @@ ui <- fluidPage(
             inline = TRUE
           ),
           
-          # see materials needed 
+          ### see materials needed --------------
           tableOutput("weapon_material_table")
         )
       ),
@@ -106,19 +114,18 @@ ui <- fluidPage(
       fluidRow(
         ## Weapon selection ------
         column(
-          width = 3,
+          width = 2,
           #uiOutput("weapon_list")
           selectInput("weapon_input_2",
                       "Select Weapon",
                       weapons_list,
-                      selected = "Porcupine")
+                      selected = "Blackmetal Sword")
         ),
         
         ## Weapon Type selection ------------
         # This filters the weapon selection
         column(
-          width = 3,
-          #uiOutput("weapon_type_list")
+          width = 2,
           selectInput(
             "weapon_type_input_2",
             "Select Type of Weapon",
@@ -130,14 +137,41 @@ ui <- fluidPage(
         ## Weapon Material selection ----------
         # This filters the weapon selection
         column(
-          width = 3,
-          #uiOutput("weapon_material_list")
+          width = 2,
           selectInput(
             "weapon_material_input_2",
             "Select Material",
             weapon_material_list, # INCLUDE TOOLS WITH PLOT OF MATERIALS OR TEXT?
             selected = "All"
           )
+        ),
+        
+        ## Damage Type Selection --------------
+        column(
+          width = 2,
+          selectInput(
+            "damage_type_input_2",
+            "Select Damage Type",
+            damage_type_list, 
+            selected = "All"
+          )
+        ),
+        
+        ## Apply filters ------------
+        column(
+          width = 2,
+          actionButton("update_2", "Filter Weapons List")
+        ),
+        
+        column(
+          width = 1,
+          actionButton("copy", "Copy Filters")
+        ),
+        
+        ## Reset filters -------------
+        column(
+          width = 1,
+          actionButton("reset", "Reset Filters")
         )
       ),
       

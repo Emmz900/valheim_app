@@ -1,5 +1,6 @@
 server <- function(input, output, session) {
   
+  ## Filter weapons list on button press
   observeEvent(input$update, {
     weapons_list <- weapons_joined %>% 
       {if(input$weapon_type_input != "All") 
@@ -22,75 +23,19 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
   })
   
-  # If weapon type input is changed, update weapon list ------
-  # observeEvent(input$weapon_type_input, {
-  #   weapons_list <- 
-  #     weapons_joined %>%
-  #     {if(input$weapon_type_input != "All") # filter by weapon input
-  #       filter(., type == input$weapon_type_input) 
-  #       else # keep everything / do nothing
-  #         filter(., !is.na(type))} %>%
-  #     #browser()
-  #     {if(input$weapon_material_input != "All") 
-  #       filter(., material == input$weapon_material_input) 
-  #       else 
-  #         filter(., !is.na(type))}  %>% 
-  #     {if(input$damage_type_input != "All") 
-  #       filter(., str_detect(damage_type, as.character(input$damage_type_input)))
-  #       else 
-  #         filter(., !is.na(type))} %>% 
-  #     distinct(item) %>%
-  #     pull() %>% 
-  #     sort()
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
-  # })
-  # 
-  # # If weapon material input is changed, update weapon list ------
-  # observeEvent(input$weapon_material_input, {
-  #   
-  #   weapons_list <- 
-  #     weapons_joined %>%
-  #     {if(input$weapon_type_input != "All") 
-  #       filter(., type == input$weapon_type_input)
-  #       else 
-  #         filter(., !is.na(type))} %>%
-  #     {if(input$weapon_material_input != "All") 
-  #       filter(., material == input$weapon_material_input)
-  #       else 
-  #         filter(., !is.na(type))}  %>% 
-  #     {if(input$damage_type_input != "All") 
-  #       filter(., str_detect(damage_type, as.character(input$damage_type_input)))
-  #       else 
-  #         filter(., !is.na(type))} %>% 
-  #     distinct(item) %>%
-  #     pull() %>% 
-  #     sort()
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
-  # })
-  # 
-  # observeEvent(input$damage_type_input, {
-  #   weapons_list <- weapons_data_clean %>% 
-  #     {if(input$weapon_type_input != "All") 
-  #       filter(., type == input$weapon_type_input)
-  #       else 
-  #         filter(., !is.na(type))} %>%
-  #     {if(input$weapon_material_input != "All") 
-  #       filter(., material == input$weapon_material_input)
-  #       else 
-  #         filter(., !is.na(type))}  %>% 
-  #     {if(input$damage_type_input != "All") 
-  #       filter(., str_detect(damage_type, as.character(input$damage_type_input)))
-  #       else 
-  #         filter(., !is.na(type))} %>% 
-  #     filter(!is.na(values)) %>% 
-  #     distinct(name) %>% 
-  #     pull() %>% 
-  #     sort()
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
-  # })
+  ## Reset filters -----------
+  observeEvent(input$reset, {
+    updateSelectInput(session, inputId = "weapon_type_input", selected = "All")
+    updateSelectInput(session, inputId = "weapon_material_input", selected = "All")
+    updateSelectInput(session, inputId = "damage_type_input", selected = "All")
+    
+    weapons_list <- weapons_joined %>% 
+      distinct(item) %>% 
+      pull() %>% 
+      sort()
+    
+    updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
+  })
   
   # Filter the weapon data based on weapon input ---------------
   filtered_weapons <- reactive({
@@ -118,6 +63,14 @@ server <- function(input, output, session) {
     paste("Level: ", level)
   })
   
+  observeEvent(input$weapon_input, {
+    choices <- filtered_weapons() %>% 
+      distinct(upgrade_level) %>% 
+      pull()
+    updateRadioButtons(inputId = "item_level_input", choices = choices)
+  })
+  
+  
   # Table of materials and amounts -------------
   output$weapon_material_table <- renderTable({
     filtered_weapons() %>% 
@@ -130,7 +83,6 @@ server <- function(input, output, session) {
   
   # Plot of damage types ----------------
   # IMPROVE PLOT COLOURS AND SIZE
-  # Broke with str_to_lower
   output$weapon_stat_plot <- renderPlot({
     weapons_data_clean %>% 
       filter(name == input$weapon_input) %>% 
@@ -162,31 +114,8 @@ server <- function(input, output, session) {
   
   # Part 2 ----------
   # If weapon type input is changed, update weapon list ------
-  observeEvent(input$weapon_type_input_2, {
-    
-    weapons_list <- 
-      weapons_joined %>%
-      {if(input$weapon_type_input_2 != "All") # filter by weapon input
-        filter(., type == input$weapon_type_input_2) 
-        else # keep everything / do nothing
-          filter(., !is.na(type))} %>%
-      #browser()
-      {if(input$weapon_material_input_2 != "All") 
-        filter(., material == input$weapon_material_input_2) 
-        else 
-          filter(., !is.na(type))}  %>% 
-      distinct(item) %>%
-      pull() %>% 
-      sort()
-    
-    updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list)
-  })
-  
-  # If weapon material input is changed, update weapon list ------
-  observeEvent(input$weapon_material_input_2, {
-    
-    weapons_list <- 
-      weapons_joined %>%
+  observeEvent(input$update_2, {
+    weapons_list_2 <- weapons_joined %>% 
       {if(input$weapon_type_input_2 != "All") 
         filter(., type == input$weapon_type_input_2)
         else 
@@ -195,14 +124,60 @@ server <- function(input, output, session) {
         filter(., material == input$weapon_material_input_2)
         else 
           filter(., !is.na(type))}  %>% 
-      distinct(item) %>%
+      {if(input$damage_type_input_2 != "All") 
+        filter(., str_detect(damage_type, as.character(input$damage_type_input_2)))
+        else 
+          filter(., !is.na(type))} %>% 
+      filter(!is.na(values)) %>% 
+      distinct(item) %>% 
       pull() %>% 
       sort()
     
-    updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list)
+    updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
   })
   
-
+  ## Reset filters
+  observeEvent(input$reset_2, {
+    updateSelectInput(session, inputId = "weapon_type_input_2", selected = "All")
+    updateSelectInput(session, inputId = "weapon_material_input_2", selected = "All")
+    updateSelectInput(session, inputId = "damage_type_input_2", selected = "All")
+    
+    weapons_list_2 <- weapons_joined %>% 
+      distinct(item) %>% 
+      pull() %>% 
+      sort()
+    
+    updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
+  })
+  
+  ## Copy filters
+  observeEvent(input$copy, {
+    updateSelectInput(session, inputId = "weapon_type_input_2", selected = input$weapon_type_input)
+    updateSelectInput(session, inputId = "weapon_material_input_2", selected = input$weapon_material_input)
+    updateSelectInput(session, inputId = "damage_type_input_2", selected = input$damage_type_input)
+    
+    weapons_list_2 <- weapons_joined %>% 
+      {if(input$weapon_type_input_2 != "All") 
+        filter(., type == input$weapon_type_input_2)
+        else 
+          filter(., !is.na(type))} %>%
+      {if(input$weapon_material_input_2 != "All") 
+        filter(., material == input$weapon_material_input_2)
+        else 
+          filter(., !is.na(type))}  %>% 
+      {if(input$damage_type_input_2 != "All") 
+        filter(., str_detect(damage_type, as.character(input$damage_type_input_2)))
+        else 
+          filter(., !is.na(type))} %>% 
+      filter(!is.na(values)) %>% 
+      distinct(item) %>% 
+      pull() %>% 
+      sort()
+    
+    updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
+  })
+  
+  
   # Filter the weapon data based on weapon input ---------------
   filtered_weapons_2 <- reactive({
     weapons_crafting_clean %>% 
