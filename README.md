@@ -18,7 +18,7 @@ This app aims to:
 Valheim was developed by Iron Gate AB and published by Coffee Stain Publishing.  
 
 The data for this app has been collected in game and using the Fandom Wiki, thank you fellow vikings!  
-[wiki](https://valheim.fandom.com/wiki/Valheim_Wiki)   
+[Fandom Valheim Wiki](https://valheim.fandom.com/wiki/Valheim_Wiki)   
 
 
  
