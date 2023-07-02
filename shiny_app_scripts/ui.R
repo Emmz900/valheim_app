@@ -72,10 +72,10 @@ ui <- fluidPage(
       # Second row -----------
       fluidRow(
         
-        ## weapon stats -----
+        ## weapon stats plot -----
         column(
           width = 8,
-          plotOutput("weapon_stat_plot")
+          plotlyOutput("weapon_stat_plot")
         ),
         
         ## weapon materials -------------
@@ -178,10 +178,10 @@ ui <- fluidPage(
       # Second row -----------
       fluidRow(
         
-        ## weapon stats -----
+        ## weapon stats plot-----
         column(
           width = 8,
-          plotOutput("weapon_stat_plot_2")
+          plotlyOutput("weapon_stat_plot_2")
         ),
         
         ## weapon materials -------------

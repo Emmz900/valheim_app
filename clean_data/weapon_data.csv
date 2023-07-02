@@ -1,0 +1,2230 @@
+name,type,damage_type,values,min_max
+Abyssal Harpoon,Spear,Knockback,20,min
+Abyssal Harpoon,Spear,Total,10,min
+Abyssal Harpoon,Spear,Backstab_x10,10,min
+Abyssal Harpoon,Spear,Pierce,10,max
+Abyssal Harpoon,Spear,Slash,NA,max
+Abyssal Harpoon,Spear,Pickaxe,NA,max
+Abyssal Harpoon,Spear,Chop,NA,max
+Abyssal Harpoon,Spear,Blunt,NA,max
+Abyssal Harpoon,Spear,Spirit,NA,max
+Abyssal Harpoon,Spear,Poison,NA,max
+Abyssal Harpoon,Spear,Fire,NA,max
+Abyssal Harpoon,Spear,Frost,NA,max
+Abyssal Harpoon,Spear,Lightning,NA,max
+Abyssal Harpoon,Spear,Pierce,10,min
+Abyssal Harpoon,Spear,Slash,NA,min
+Abyssal Harpoon,Spear,Pickaxe,NA,min
+Abyssal Harpoon,Spear,Chop,NA,min
+Abyssal Harpoon,Spear,Blunt,NA,min
+Abyssal Harpoon,Spear,Spirit,NA,min
+Abyssal Harpoon,Spear,Poison,NA,min
+Abyssal Harpoon,Spear,Fire,NA,min
+Abyssal Harpoon,Spear,Frost,NA,min
+Abyssal Harpoon,Spear,Lightning,NA,min
+Abyssal Harpoon,Spear,Pierce,0,diff
+Abyssal Harpoon,Spear,Slash,NA,diff
+Abyssal Harpoon,Spear,Pickaxe,NA,diff
+Abyssal Harpoon,Spear,Chop,NA,diff
+Abyssal Harpoon,Spear,Blunt,NA,diff
+Abyssal Harpoon,Spear,Spirit,NA,diff
+Abyssal Harpoon,Spear,Poison,NA,diff
+Abyssal Harpoon,Spear,Fire,NA,diff
+Abyssal Harpoon,Spear,Frost,NA,diff
+Abyssal Harpoon,Spear,Lightning,NA,diff
+Abyssal Razor,Knife,Knockback,10,min
+Abyssal Razor,Knife,Total,46,min
+Abyssal Razor,Knife,Backstab_x10,60,min
+Abyssal Razor,Knife,Pierce,NA,max
+Abyssal Razor,Knife,Slash,23,max
+Abyssal Razor,Knife,Pickaxe,NA,max
+Abyssal Razor,Knife,Chop,NA,max
+Abyssal Razor,Knife,Blunt,NA,max
+Abyssal Razor,Knife,Spirit,NA,max
+Abyssal Razor,Knife,Poison,NA,max
+Abyssal Razor,Knife,Fire,NA,max
+Abyssal Razor,Knife,Frost,NA,max
+Abyssal Razor,Knife,Lightning,NA,max
+Abyssal Razor,Knife,Pierce,NA,min
+Abyssal Razor,Knife,Slash,20,min
+Abyssal Razor,Knife,Pickaxe,NA,min
+Abyssal Razor,Knife,Chop,NA,min
+Abyssal Razor,Knife,Blunt,NA,min
+Abyssal Razor,Knife,Spirit,NA,min
+Abyssal Razor,Knife,Poison,NA,min
+Abyssal Razor,Knife,Fire,NA,min
+Abyssal Razor,Knife,Frost,NA,min
+Abyssal Razor,Knife,Lightning,NA,min
+Abyssal Razor,Knife,Pierce,NA,diff
+Abyssal Razor,Knife,Slash,3,diff
+Abyssal Razor,Knife,Pickaxe,NA,diff
+Abyssal Razor,Knife,Chop,NA,diff
+Abyssal Razor,Knife,Blunt,NA,diff
+Abyssal Razor,Knife,Spirit,NA,diff
+Abyssal Razor,Knife,Poison,NA,diff
+Abyssal Razor,Knife,Fire,NA,diff
+Abyssal Razor,Knife,Frost,NA,diff
+Abyssal Razor,Knife,Lightning,NA,diff
+Abyssal Razor,Knife,Pierce,23,max
+Abyssal Razor,Knife,Slash,NA,max
+Abyssal Razor,Knife,Pierce,20,min
+Abyssal Razor,Knife,Slash,NA,min
+Abyssal Razor,Knife,Pierce,3,diff
+Abyssal Razor,Knife,Slash,NA,diff
+Ancient Bark Spear,Spear,Knockback,20,min
+Ancient Bark Spear,Spear,Total,73,min
+Ancient Bark Spear,Spear,Backstab_x10,30,min
+Ancient Bark Spear,Spear,Pierce,73,max
+Ancient Bark Spear,Spear,Slash,NA,max
+Ancient Bark Spear,Spear,Pickaxe,NA,max
+Ancient Bark Spear,Spear,Chop,NA,max
+Ancient Bark Spear,Spear,Blunt,NA,max
+Ancient Bark Spear,Spear,Spirit,NA,max
+Ancient Bark Spear,Spear,Poison,NA,max
+Ancient Bark Spear,Spear,Fire,NA,max
+Ancient Bark Spear,Spear,Frost,NA,max
+Ancient Bark Spear,Spear,Lightning,NA,max
+Ancient Bark Spear,Spear,Pierce,55,min
+Ancient Bark Spear,Spear,Slash,NA,min
+Ancient Bark Spear,Spear,Pickaxe,NA,min
+Ancient Bark Spear,Spear,Chop,NA,min
+Ancient Bark Spear,Spear,Blunt,NA,min
+Ancient Bark Spear,Spear,Spirit,NA,min
+Ancient Bark Spear,Spear,Poison,NA,min
+Ancient Bark Spear,Spear,Fire,NA,min
+Ancient Bark Spear,Spear,Frost,NA,min
+Ancient Bark Spear,Spear,Lightning,NA,min
+Ancient Bark Spear,Spear,Pierce,18,diff
+Ancient Bark Spear,Spear,Slash,NA,diff
+Ancient Bark Spear,Spear,Pickaxe,NA,diff
+Ancient Bark Spear,Spear,Chop,NA,diff
+Ancient Bark Spear,Spear,Blunt,NA,diff
+Ancient Bark Spear,Spear,Spirit,NA,diff
+Ancient Bark Spear,Spear,Poison,NA,diff
+Ancient Bark Spear,Spear,Fire,NA,diff
+Ancient Bark Spear,Spear,Frost,NA,diff
+Ancient Bark Spear,Spear,Lightning,NA,diff
+Antler Pickaxe,Pickaxe,Knockback,50,min
+Antler Pickaxe,Pickaxe,Total,18,min
+Antler Pickaxe,Pickaxe,Backstab_x10,30,min
+Antler Pickaxe,Pickaxe,Pierce,18,max
+Antler Pickaxe,Pickaxe,Slash,NA,max
+Antler Pickaxe,Pickaxe,Pickaxe,NA,max
+Antler Pickaxe,Pickaxe,Chop,NA,max
+Antler Pickaxe,Pickaxe,Blunt,NA,max
+Antler Pickaxe,Pickaxe,Spirit,NA,max
+Antler Pickaxe,Pickaxe,Poison,NA,max
+Antler Pickaxe,Pickaxe,Fire,NA,max
+Antler Pickaxe,Pickaxe,Frost,NA,max
+Antler Pickaxe,Pickaxe,Lightning,NA,max
+Antler Pickaxe,Pickaxe,Pierce,18,min
+Antler Pickaxe,Pickaxe,Slash,NA,min
+Antler Pickaxe,Pickaxe,Pickaxe,NA,min
+Antler Pickaxe,Pickaxe,Chop,NA,min
+Antler Pickaxe,Pickaxe,Blunt,NA,min
+Antler Pickaxe,Pickaxe,Spirit,NA,min
+Antler Pickaxe,Pickaxe,Poison,NA,min
+Antler Pickaxe,Pickaxe,Fire,NA,min
+Antler Pickaxe,Pickaxe,Frost,NA,min
+Antler Pickaxe,Pickaxe,Lightning,NA,min
+Antler Pickaxe,Pickaxe,Pierce,0,diff
+Antler Pickaxe,Pickaxe,Slash,NA,diff
+Antler Pickaxe,Pickaxe,Pickaxe,NA,diff
+Antler Pickaxe,Pickaxe,Chop,NA,diff
+Antler Pickaxe,Pickaxe,Blunt,NA,diff
+Antler Pickaxe,Pickaxe,Spirit,NA,diff
+Antler Pickaxe,Pickaxe,Poison,NA,diff
+Antler Pickaxe,Pickaxe,Fire,NA,diff
+Antler Pickaxe,Pickaxe,Frost,NA,diff
+Antler Pickaxe,Pickaxe,Lightning,NA,diff
+Antler Pickaxe,Pickaxe,Pierce,NA,max
+Antler Pickaxe,Pickaxe,Pickaxe,18,max
+Antler Pickaxe,Pickaxe,Pierce,NA,min
+Antler Pickaxe,Pickaxe,Pickaxe,18,min
+Antler Pickaxe,Pickaxe,Pierce,NA,diff
+Antler Pickaxe,Pickaxe,Pickaxe,0,diff
+Arbalest,Crossbow,Knockback,210,min
+Arbalest,Crossbow,Total,209,min
+Arbalest,Crossbow,Backstab_x10,30,min
+Arbalest,Crossbow,Pierce,209,max
+Arbalest,Crossbow,Slash,NA,max
+Arbalest,Crossbow,Pickaxe,NA,max
+Arbalest,Crossbow,Chop,NA,max
+Arbalest,Crossbow,Blunt,NA,max
+Arbalest,Crossbow,Spirit,NA,max
+Arbalest,Crossbow,Poison,NA,max
+Arbalest,Crossbow,Fire,NA,max
+Arbalest,Crossbow,Frost,NA,max
+Arbalest,Crossbow,Lightning,NA,max
+Arbalest,Crossbow,Pierce,200,min
+Arbalest,Crossbow,Slash,NA,min
+Arbalest,Crossbow,Pickaxe,NA,min
+Arbalest,Crossbow,Chop,NA,min
+Arbalest,Crossbow,Blunt,NA,min
+Arbalest,Crossbow,Spirit,NA,min
+Arbalest,Crossbow,Poison,NA,min
+Arbalest,Crossbow,Fire,NA,min
+Arbalest,Crossbow,Frost,NA,min
+Arbalest,Crossbow,Lightning,NA,min
+Arbalest,Crossbow,Pierce,9,diff
+Arbalest,Crossbow,Slash,NA,diff
+Arbalest,Crossbow,Pickaxe,NA,diff
+Arbalest,Crossbow,Chop,NA,diff
+Arbalest,Crossbow,Blunt,NA,diff
+Arbalest,Crossbow,Spirit,NA,diff
+Arbalest,Crossbow,Poison,NA,diff
+Arbalest,Crossbow,Fire,NA,diff
+Arbalest,Crossbow,Frost,NA,diff
+Arbalest,Crossbow,Lightning,NA,diff
+Battleaxe,Two-Handed Axe,Knockback,70,min
+Battleaxe,Two-Handed Axe,Total,88,min
+Battleaxe,Two-Handed Axe,Backstab_x10,30,min
+Battleaxe,Two-Handed Axe,Pierce,NA,max
+Battleaxe,Two-Handed Axe,Slash,88,max
+Battleaxe,Two-Handed Axe,Pickaxe,NA,max
+Battleaxe,Two-Handed Axe,Chop,NA,max
+Battleaxe,Two-Handed Axe,Blunt,NA,max
+Battleaxe,Two-Handed Axe,Spirit,NA,max
+Battleaxe,Two-Handed Axe,Poison,NA,max
+Battleaxe,Two-Handed Axe,Fire,NA,max
+Battleaxe,Two-Handed Axe,Frost,NA,max
+Battleaxe,Two-Handed Axe,Lightning,NA,max
+Battleaxe,Two-Handed Axe,Pierce,NA,min
+Battleaxe,Two-Handed Axe,Slash,70,min
+Battleaxe,Two-Handed Axe,Pickaxe,NA,min
+Battleaxe,Two-Handed Axe,Chop,NA,min
+Battleaxe,Two-Handed Axe,Blunt,NA,min
+Battleaxe,Two-Handed Axe,Spirit,NA,min
+Battleaxe,Two-Handed Axe,Poison,NA,min
+Battleaxe,Two-Handed Axe,Fire,NA,min
+Battleaxe,Two-Handed Axe,Frost,NA,min
+Battleaxe,Two-Handed Axe,Lightning,NA,min
+Battleaxe,Two-Handed Axe,Pierce,NA,diff
+Battleaxe,Two-Handed Axe,Slash,18,diff
+Battleaxe,Two-Handed Axe,Pickaxe,NA,diff
+Battleaxe,Two-Handed Axe,Chop,NA,diff
+Battleaxe,Two-Handed Axe,Blunt,NA,diff
+Battleaxe,Two-Handed Axe,Spirit,NA,diff
+Battleaxe,Two-Handed Axe,Poison,NA,diff
+Battleaxe,Two-Handed Axe,Fire,NA,diff
+Battleaxe,Two-Handed Axe,Frost,NA,diff
+Battleaxe,Two-Handed Axe,Lightning,NA,diff
+Battleaxe,Two-Handed Axe,Slash,NA,max
+Battleaxe,Two-Handed Axe,Chop,47.5,max
+Battleaxe,Two-Handed Axe,Slash,NA,min
+Battleaxe,Two-Handed Axe,Chop,40,min
+Battleaxe,Two-Handed Axe,Slash,NA,diff
+Battleaxe,Two-Handed Axe,Chop,7.5,diff
+Blackmetal Pickaxe,Pickaxe,Knockback,50,min
+Blackmetal Pickaxe,Pickaxe,Total,64,min
+Blackmetal Pickaxe,Pickaxe,Backstab_x10,30,min
+Blackmetal Pickaxe,Pickaxe,Pierce,64,max
+Blackmetal Pickaxe,Pickaxe,Slash,NA,max
+Blackmetal Pickaxe,Pickaxe,Pickaxe,NA,max
+Blackmetal Pickaxe,Pickaxe,Chop,NA,max
+Blackmetal Pickaxe,Pickaxe,Blunt,NA,max
+Blackmetal Pickaxe,Pickaxe,Spirit,NA,max
+Blackmetal Pickaxe,Pickaxe,Poison,NA,max
+Blackmetal Pickaxe,Pickaxe,Fire,NA,max
+Blackmetal Pickaxe,Pickaxe,Frost,NA,max
+Blackmetal Pickaxe,Pickaxe,Lightning,NA,max
+Blackmetal Pickaxe,Pickaxe,Pierce,49,min
+Blackmetal Pickaxe,Pickaxe,Slash,NA,min
+Blackmetal Pickaxe,Pickaxe,Pickaxe,NA,min
+Blackmetal Pickaxe,Pickaxe,Chop,NA,min
+Blackmetal Pickaxe,Pickaxe,Blunt,NA,min
+Blackmetal Pickaxe,Pickaxe,Spirit,NA,min
+Blackmetal Pickaxe,Pickaxe,Poison,NA,min
+Blackmetal Pickaxe,Pickaxe,Fire,NA,min
+Blackmetal Pickaxe,Pickaxe,Frost,NA,min
+Blackmetal Pickaxe,Pickaxe,Lightning,NA,min
+Blackmetal Pickaxe,Pickaxe,Pierce,15,diff
+Blackmetal Pickaxe,Pickaxe,Slash,NA,diff
+Blackmetal Pickaxe,Pickaxe,Pickaxe,NA,diff
+Blackmetal Pickaxe,Pickaxe,Chop,NA,diff
+Blackmetal Pickaxe,Pickaxe,Blunt,NA,diff
+Blackmetal Pickaxe,Pickaxe,Spirit,NA,diff
+Blackmetal Pickaxe,Pickaxe,Poison,NA,diff
+Blackmetal Pickaxe,Pickaxe,Fire,NA,diff
+Blackmetal Pickaxe,Pickaxe,Frost,NA,diff
+Blackmetal Pickaxe,Pickaxe,Lightning,NA,diff
+Blackmetal Pickaxe,Pickaxe,Pierce,NA,max
+Blackmetal Pickaxe,Pickaxe,Pickaxe,64,max
+Blackmetal Pickaxe,Pickaxe,Pierce,NA,min
+Blackmetal Pickaxe,Pickaxe,Pickaxe,49,min
+Blackmetal Pickaxe,Pickaxe,Pierce,NA,diff
+Blackmetal Pickaxe,Pickaxe,Pickaxe,15,diff
+Blackmetal Atgeir,Polearm,Knockback,30,min
+Blackmetal Atgeir,Polearm,Total,123,min
+Blackmetal Atgeir,Polearm,Backstab_x10,30,min
+Blackmetal Atgeir,Polearm,Pierce,123,max
+Blackmetal Atgeir,Polearm,Slash,NA,max
+Blackmetal Atgeir,Polearm,Pickaxe,NA,max
+Blackmetal Atgeir,Polearm,Chop,NA,max
+Blackmetal Atgeir,Polearm,Blunt,NA,max
+Blackmetal Atgeir,Polearm,Spirit,NA,max
+Blackmetal Atgeir,Polearm,Poison,NA,max
+Blackmetal Atgeir,Polearm,Fire,NA,max
+Blackmetal Atgeir,Polearm,Frost,NA,max
+Blackmetal Atgeir,Polearm,Lightning,NA,max
+Blackmetal Atgeir,Polearm,Pierce,105,min
+Blackmetal Atgeir,Polearm,Slash,NA,min
+Blackmetal Atgeir,Polearm,Pickaxe,NA,min
+Blackmetal Atgeir,Polearm,Chop,NA,min
+Blackmetal Atgeir,Polearm,Blunt,NA,min
+Blackmetal Atgeir,Polearm,Spirit,NA,min
+Blackmetal Atgeir,Polearm,Poison,NA,min
+Blackmetal Atgeir,Polearm,Fire,NA,min
+Blackmetal Atgeir,Polearm,Frost,NA,min
+Blackmetal Atgeir,Polearm,Lightning,NA,min
+Blackmetal Atgeir,Polearm,Pierce,18,diff
+Blackmetal Atgeir,Polearm,Slash,NA,diff
+Blackmetal Atgeir,Polearm,Pickaxe,NA,diff
+Blackmetal Atgeir,Polearm,Chop,NA,diff
+Blackmetal Atgeir,Polearm,Blunt,NA,diff
+Blackmetal Atgeir,Polearm,Spirit,NA,diff
+Blackmetal Atgeir,Polearm,Poison,NA,diff
+Blackmetal Atgeir,Polearm,Fire,NA,diff
+Blackmetal Atgeir,Polearm,Frost,NA,diff
+Blackmetal Atgeir,Polearm,Lightning,NA,diff
+Blackmetal Axe,Axe,Knockback,60,min
+Blackmetal Axe,Axe,Total,115,min
+Blackmetal Axe,Axe,Backstab_x10,30,min
+Blackmetal Axe,Axe,Pierce,NA,max
+Blackmetal Axe,Axe,Slash,115,max
+Blackmetal Axe,Axe,Pickaxe,NA,max
+Blackmetal Axe,Axe,Chop,NA,max
+Blackmetal Axe,Axe,Blunt,NA,max
+Blackmetal Axe,Axe,Spirit,NA,max
+Blackmetal Axe,Axe,Poison,NA,max
+Blackmetal Axe,Axe,Fire,NA,max
+Blackmetal Axe,Axe,Frost,NA,max
+Blackmetal Axe,Axe,Lightning,NA,max
+Blackmetal Axe,Axe,Pierce,NA,min
+Blackmetal Axe,Axe,Slash,100,min
+Blackmetal Axe,Axe,Pickaxe,NA,min
+Blackmetal Axe,Axe,Chop,NA,min
+Blackmetal Axe,Axe,Blunt,NA,min
+Blackmetal Axe,Axe,Spirit,NA,min
+Blackmetal Axe,Axe,Poison,NA,min
+Blackmetal Axe,Axe,Fire,NA,min
+Blackmetal Axe,Axe,Frost,NA,min
+Blackmetal Axe,Axe,Lightning,NA,min
+Blackmetal Axe,Axe,Pierce,NA,diff
+Blackmetal Axe,Axe,Slash,15,diff
+Blackmetal Axe,Axe,Pickaxe,NA,diff
+Blackmetal Axe,Axe,Chop,NA,diff
+Blackmetal Axe,Axe,Blunt,NA,diff
+Blackmetal Axe,Axe,Spirit,NA,diff
+Blackmetal Axe,Axe,Poison,NA,diff
+Blackmetal Axe,Axe,Fire,NA,diff
+Blackmetal Axe,Axe,Frost,NA,diff
+Blackmetal Axe,Axe,Lightning,NA,diff
+Blackmetal Axe,Axe,Slash,NA,max
+Blackmetal Axe,Axe,Chop,69,max
+Blackmetal Axe,Axe,Slash,NA,min
+Blackmetal Axe,Axe,Chop,60,min
+Blackmetal Axe,Axe,Slash,NA,diff
+Blackmetal Axe,Axe,Chop,9,diff
+Blackmetal Knife,Knife,Knockback,10,min
+Blackmetal Knife,Knife,Total,74,min
+Blackmetal Knife,Knife,Backstab_x10,60,min
+Blackmetal Knife,Knife,Pierce,NA,max
+Blackmetal Knife,Knife,Slash,37,max
+Blackmetal Knife,Knife,Pickaxe,NA,max
+Blackmetal Knife,Knife,Chop,NA,max
+Blackmetal Knife,Knife,Blunt,NA,max
+Blackmetal Knife,Knife,Spirit,NA,max
+Blackmetal Knife,Knife,Poison,NA,max
+Blackmetal Knife,Knife,Fire,NA,max
+Blackmetal Knife,Knife,Frost,NA,max
+Blackmetal Knife,Knife,Lightning,NA,max
+Blackmetal Knife,Knife,Pierce,NA,min
+Blackmetal Knife,Knife,Slash,34,min
+Blackmetal Knife,Knife,Pickaxe,NA,min
+Blackmetal Knife,Knife,Chop,NA,min
+Blackmetal Knife,Knife,Blunt,NA,min
+Blackmetal Knife,Knife,Spirit,NA,min
+Blackmetal Knife,Knife,Poison,NA,min
+Blackmetal Knife,Knife,Fire,NA,min
+Blackmetal Knife,Knife,Frost,NA,min
+Blackmetal Knife,Knife,Lightning,NA,min
+Blackmetal Knife,Knife,Pierce,NA,diff
+Blackmetal Knife,Knife,Slash,3,diff
+Blackmetal Knife,Knife,Pickaxe,NA,diff
+Blackmetal Knife,Knife,Chop,NA,diff
+Blackmetal Knife,Knife,Blunt,NA,diff
+Blackmetal Knife,Knife,Spirit,NA,diff
+Blackmetal Knife,Knife,Poison,NA,diff
+Blackmetal Knife,Knife,Fire,NA,diff
+Blackmetal Knife,Knife,Frost,NA,diff
+Blackmetal Knife,Knife,Lightning,NA,diff
+Blackmetal Knife,Knife,Pierce,37,max
+Blackmetal Knife,Knife,Slash,NA,max
+Blackmetal Knife,Knife,Pierce,34,min
+Blackmetal Knife,Knife,Slash,NA,min
+Blackmetal Knife,Knife,Pierce,3,diff
+Blackmetal Knife,Knife,Slash,NA,diff
+Blackmetal Sword,Sword,Knockback,40,min
+Blackmetal Sword,Sword,Total,113,min
+Blackmetal Sword,Sword,Backstab_x10,30,min
+Blackmetal Sword,Sword,Pierce,NA,max
+Blackmetal Sword,Sword,Slash,113,max
+Blackmetal Sword,Sword,Pickaxe,NA,max
+Blackmetal Sword,Sword,Chop,NA,max
+Blackmetal Sword,Sword,Blunt,NA,max
+Blackmetal Sword,Sword,Spirit,NA,max
+Blackmetal Sword,Sword,Poison,NA,max
+Blackmetal Sword,Sword,Fire,NA,max
+Blackmetal Sword,Sword,Frost,NA,max
+Blackmetal Sword,Sword,Lightning,NA,max
+Blackmetal Sword,Sword,Pierce,NA,min
+Blackmetal Sword,Sword,Slash,95,min
+Blackmetal Sword,Sword,Pickaxe,NA,min
+Blackmetal Sword,Sword,Chop,NA,min
+Blackmetal Sword,Sword,Blunt,NA,min
+Blackmetal Sword,Sword,Spirit,NA,min
+Blackmetal Sword,Sword,Poison,NA,min
+Blackmetal Sword,Sword,Fire,NA,min
+Blackmetal Sword,Sword,Frost,NA,min
+Blackmetal Sword,Sword,Lightning,NA,min
+Blackmetal Sword,Sword,Pierce,NA,diff
+Blackmetal Sword,Sword,Slash,18,diff
+Blackmetal Sword,Sword,Pickaxe,NA,diff
+Blackmetal Sword,Sword,Chop,NA,diff
+Blackmetal Sword,Sword,Blunt,NA,diff
+Blackmetal Sword,Sword,Spirit,NA,diff
+Blackmetal Sword,Sword,Poison,NA,diff
+Blackmetal Sword,Sword,Fire,NA,diff
+Blackmetal Sword,Sword,Frost,NA,diff
+Blackmetal Sword,Sword,Lightning,NA,diff
+Bronze Atgeir,Polearm,Knockback,30,min
+Bronze Atgeir,Polearm,Total,63,min
+Bronze Atgeir,Polearm,Backstab_x10,30,min
+Bronze Atgeir,Polearm,Pierce,63,max
+Bronze Atgeir,Polearm,Slash,NA,max
+Bronze Atgeir,Polearm,Pickaxe,NA,max
+Bronze Atgeir,Polearm,Chop,NA,max
+Bronze Atgeir,Polearm,Blunt,NA,max
+Bronze Atgeir,Polearm,Spirit,NA,max
+Bronze Atgeir,Polearm,Poison,NA,max
+Bronze Atgeir,Polearm,Fire,NA,max
+Bronze Atgeir,Polearm,Frost,NA,max
+Bronze Atgeir,Polearm,Lightning,NA,max
+Bronze Atgeir,Polearm,Pierce,45,min
+Bronze Atgeir,Polearm,Slash,NA,min
+Bronze Atgeir,Polearm,Pickaxe,NA,min
+Bronze Atgeir,Polearm,Chop,NA,min
+Bronze Atgeir,Polearm,Blunt,NA,min
+Bronze Atgeir,Polearm,Spirit,NA,min
+Bronze Atgeir,Polearm,Poison,NA,min
+Bronze Atgeir,Polearm,Fire,NA,min
+Bronze Atgeir,Polearm,Frost,NA,min
+Bronze Atgeir,Polearm,Lightning,NA,min
+Bronze Atgeir,Polearm,Pierce,18,diff
+Bronze Atgeir,Polearm,Slash,NA,diff
+Bronze Atgeir,Polearm,Pickaxe,NA,diff
+Bronze Atgeir,Polearm,Chop,NA,diff
+Bronze Atgeir,Polearm,Blunt,NA,diff
+Bronze Atgeir,Polearm,Spirit,NA,diff
+Bronze Atgeir,Polearm,Poison,NA,diff
+Bronze Atgeir,Polearm,Fire,NA,diff
+Bronze Atgeir,Polearm,Frost,NA,diff
+Bronze Atgeir,Polearm,Lightning,NA,diff
+Bronze Axe,Axe,Knockback,50,min
+Bronze Axe,Axe,Total,55,min
+Bronze Axe,Axe,Backstab_x10,30,min
+Bronze Axe,Axe,Pierce,NA,max
+Bronze Axe,Axe,Slash,55,max
+Bronze Axe,Axe,Pickaxe,NA,max
+Bronze Axe,Axe,Chop,NA,max
+Bronze Axe,Axe,Blunt,NA,max
+Bronze Axe,Axe,Spirit,NA,max
+Bronze Axe,Axe,Poison,NA,max
+Bronze Axe,Axe,Fire,NA,max
+Bronze Axe,Axe,Frost,NA,max
+Bronze Axe,Axe,Lightning,NA,max
+Bronze Axe,Axe,Pierce,NA,min
+Bronze Axe,Axe,Slash,40,min
+Bronze Axe,Axe,Pickaxe,NA,min
+Bronze Axe,Axe,Chop,NA,min
+Bronze Axe,Axe,Blunt,NA,min
+Bronze Axe,Axe,Spirit,NA,min
+Bronze Axe,Axe,Poison,NA,min
+Bronze Axe,Axe,Fire,NA,min
+Bronze Axe,Axe,Frost,NA,min
+Bronze Axe,Axe,Lightning,NA,min
+Bronze Axe,Axe,Pierce,NA,diff
+Bronze Axe,Axe,Slash,15,diff
+Bronze Axe,Axe,Pickaxe,NA,diff
+Bronze Axe,Axe,Chop,NA,diff
+Bronze Axe,Axe,Blunt,NA,diff
+Bronze Axe,Axe,Spirit,NA,diff
+Bronze Axe,Axe,Poison,NA,diff
+Bronze Axe,Axe,Fire,NA,diff
+Bronze Axe,Axe,Frost,NA,diff
+Bronze Axe,Axe,Lightning,NA,diff
+Bronze Mace,Club,Knockback,80,min
+Bronze Mace,Club,Total,53,min
+Bronze Mace,Club,Backstab_x10,30,min
+Bronze Mace,Club,Pierce,NA,max
+Bronze Mace,Club,Slash,NA,max
+Bronze Mace,Club,Pickaxe,NA,max
+Bronze Mace,Club,Chop,NA,max
+Bronze Mace,Club,Blunt,53,max
+Bronze Mace,Club,Spirit,NA,max
+Bronze Mace,Club,Poison,NA,max
+Bronze Mace,Club,Fire,NA,max
+Bronze Mace,Club,Frost,NA,max
+Bronze Mace,Club,Lightning,NA,max
+Bronze Mace,Club,Pierce,NA,min
+Bronze Mace,Club,Slash,NA,min
+Bronze Mace,Club,Pickaxe,NA,min
+Bronze Mace,Club,Chop,NA,min
+Bronze Mace,Club,Blunt,35,min
+Bronze Mace,Club,Spirit,NA,min
+Bronze Mace,Club,Poison,NA,min
+Bronze Mace,Club,Fire,NA,min
+Bronze Mace,Club,Frost,NA,min
+Bronze Mace,Club,Lightning,NA,min
+Bronze Mace,Club,Pierce,NA,diff
+Bronze Mace,Club,Slash,NA,diff
+Bronze Mace,Club,Pickaxe,NA,diff
+Bronze Mace,Club,Chop,NA,diff
+Bronze Mace,Club,Blunt,18,diff
+Bronze Mace,Club,Spirit,NA,diff
+Bronze Mace,Club,Poison,NA,diff
+Bronze Mace,Club,Fire,NA,diff
+Bronze Mace,Club,Frost,NA,diff
+Bronze Mace,Club,Lightning,NA,diff
+Bronze Pickaxe,Pickaxe,Knockback,50,min
+Bronze Pickaxe,Pickaxe,Total,40,min
+Bronze Pickaxe,Pickaxe,Backstab_x10,30,min
+Bronze Pickaxe,Pickaxe,Pierce,40,max
+Bronze Pickaxe,Pickaxe,Slash,NA,max
+Bronze Pickaxe,Pickaxe,Pickaxe,NA,max
+Bronze Pickaxe,Pickaxe,Chop,NA,max
+Bronze Pickaxe,Pickaxe,Blunt,NA,max
+Bronze Pickaxe,Pickaxe,Spirit,NA,max
+Bronze Pickaxe,Pickaxe,Poison,NA,max
+Bronze Pickaxe,Pickaxe,Fire,NA,max
+Bronze Pickaxe,Pickaxe,Frost,NA,max
+Bronze Pickaxe,Pickaxe,Lightning,NA,max
+Bronze Pickaxe,Pickaxe,Pierce,24,min
+Bronze Pickaxe,Pickaxe,Slash,NA,min
+Bronze Pickaxe,Pickaxe,Pickaxe,NA,min
+Bronze Pickaxe,Pickaxe,Chop,NA,min
+Bronze Pickaxe,Pickaxe,Blunt,NA,min
+Bronze Pickaxe,Pickaxe,Spirit,NA,min
+Bronze Pickaxe,Pickaxe,Poison,NA,min
+Bronze Pickaxe,Pickaxe,Fire,NA,min
+Bronze Pickaxe,Pickaxe,Frost,NA,min
+Bronze Pickaxe,Pickaxe,Lightning,NA,min
+Bronze Pickaxe,Pickaxe,Pierce,16,diff
+Bronze Pickaxe,Pickaxe,Slash,NA,diff
+Bronze Pickaxe,Pickaxe,Pickaxe,NA,diff
+Bronze Pickaxe,Pickaxe,Chop,NA,diff
+Bronze Pickaxe,Pickaxe,Blunt,NA,diff
+Bronze Pickaxe,Pickaxe,Spirit,NA,diff
+Bronze Pickaxe,Pickaxe,Poison,NA,diff
+Bronze Pickaxe,Pickaxe,Fire,NA,diff
+Bronze Pickaxe,Pickaxe,Frost,NA,diff
+Bronze Pickaxe,Pickaxe,Lightning,NA,diff
+Bronze Pickaxe,Pickaxe,Pierce,NA,max
+Bronze Pickaxe,Pickaxe,Pickaxe,37,max
+Bronze Pickaxe,Pickaxe,Pierce,NA,min
+Bronze Pickaxe,Pickaxe,Pickaxe,24,min
+Bronze Pickaxe,Pickaxe,Pierce,NA,diff
+Bronze Pickaxe,Pickaxe,Pickaxe,13,diff
+Bronze Spear,Spear,Knockback,20,min
+Bronze Spear,Spear,Total,53,min
+Bronze Spear,Spear,Backstab_x10,30,min
+Bronze Spear,Spear,Pierce,53,max
+Bronze Spear,Spear,Slash,NA,max
+Bronze Spear,Spear,Pickaxe,NA,max
+Bronze Spear,Spear,Chop,NA,max
+Bronze Spear,Spear,Blunt,NA,max
+Bronze Spear,Spear,Spirit,NA,max
+Bronze Spear,Spear,Poison,NA,max
+Bronze Spear,Spear,Fire,NA,max
+Bronze Spear,Spear,Frost,NA,max
+Bronze Spear,Spear,Lightning,NA,max
+Bronze Spear,Spear,Pierce,35,min
+Bronze Spear,Spear,Slash,NA,min
+Bronze Spear,Spear,Pickaxe,NA,min
+Bronze Spear,Spear,Chop,NA,min
+Bronze Spear,Spear,Blunt,NA,min
+Bronze Spear,Spear,Spirit,NA,min
+Bronze Spear,Spear,Poison,NA,min
+Bronze Spear,Spear,Fire,NA,min
+Bronze Spear,Spear,Frost,NA,min
+Bronze Spear,Spear,Lightning,NA,min
+Bronze Spear,Spear,Pierce,18,diff
+Bronze Spear,Spear,Slash,NA,diff
+Bronze Spear,Spear,Pickaxe,NA,diff
+Bronze Spear,Spear,Chop,NA,diff
+Bronze Spear,Spear,Blunt,NA,diff
+Bronze Spear,Spear,Spirit,NA,diff
+Bronze Spear,Spear,Poison,NA,diff
+Bronze Spear,Spear,Fire,NA,diff
+Bronze Spear,Spear,Frost,NA,diff
+Bronze Spear,Spear,Lightning,NA,diff
+Bronze Sword,Sword,Knockback,40,min
+Bronze Sword,Sword,Total,53,min
+Bronze Sword,Sword,Backstab_x10,30,min
+Bronze Sword,Sword,Pierce,NA,max
+Bronze Sword,Sword,Slash,53,max
+Bronze Sword,Sword,Pickaxe,NA,max
+Bronze Sword,Sword,Chop,NA,max
+Bronze Sword,Sword,Blunt,NA,max
+Bronze Sword,Sword,Spirit,NA,max
+Bronze Sword,Sword,Poison,NA,max
+Bronze Sword,Sword,Fire,NA,max
+Bronze Sword,Sword,Frost,NA,max
+Bronze Sword,Sword,Lightning,NA,max
+Bronze Sword,Sword,Pierce,NA,min
+Bronze Sword,Sword,Slash,35,min
+Bronze Sword,Sword,Pickaxe,NA,min
+Bronze Sword,Sword,Chop,NA,min
+Bronze Sword,Sword,Blunt,NA,min
+Bronze Sword,Sword,Spirit,NA,min
+Bronze Sword,Sword,Poison,NA,min
+Bronze Sword,Sword,Fire,NA,min
+Bronze Sword,Sword,Frost,NA,min
+Bronze Sword,Sword,Lightning,NA,min
+Bronze Sword,Sword,Pierce,NA,diff
+Bronze Sword,Sword,Slash,18,diff
+Bronze Sword,Sword,Pickaxe,NA,diff
+Bronze Sword,Sword,Chop,NA,diff
+Bronze Sword,Sword,Blunt,NA,diff
+Bronze Sword,Sword,Spirit,NA,diff
+Bronze Sword,Sword,Poison,NA,diff
+Bronze Sword,Sword,Fire,NA,diff
+Bronze Sword,Sword,Frost,NA,diff
+Bronze Sword,Sword,Lightning,NA,diff
+Bronze Arrow,Arrow,Knockback,10,min
+Bronze Arrow,Arrow,Total,32,min
+Bronze Arrow,Arrow,Backstab_x10,NA,min
+Bronze Arrow,Arrow,Pierce,32,max
+Bronze Arrow,Arrow,Slash,NA,max
+Bronze Arrow,Arrow,Pickaxe,NA,max
+Bronze Arrow,Arrow,Chop,NA,max
+Bronze Arrow,Arrow,Blunt,NA,max
+Bronze Arrow,Arrow,Spirit,NA,max
+Bronze Arrow,Arrow,Poison,NA,max
+Bronze Arrow,Arrow,Fire,NA,max
+Bronze Arrow,Arrow,Frost,NA,max
+Bronze Arrow,Arrow,Lightning,NA,max
+Bronze Arrow,Arrow,Pierce,32,min
+Bronze Arrow,Arrow,Slash,NA,min
+Bronze Arrow,Arrow,Pickaxe,NA,min
+Bronze Arrow,Arrow,Chop,NA,min
+Bronze Arrow,Arrow,Blunt,NA,min
+Bronze Arrow,Arrow,Spirit,NA,min
+Bronze Arrow,Arrow,Poison,NA,min
+Bronze Arrow,Arrow,Fire,NA,min
+Bronze Arrow,Arrow,Frost,NA,min
+Bronze Arrow,Arrow,Lightning,NA,min
+Bronze Arrow,Arrow,Pierce,0,diff
+Bronze Arrow,Arrow,Slash,NA,diff
+Bronze Arrow,Arrow,Pickaxe,NA,diff
+Bronze Arrow,Arrow,Chop,NA,diff
+Bronze Arrow,Arrow,Blunt,NA,diff
+Bronze Arrow,Arrow,Spirit,NA,diff
+Bronze Arrow,Arrow,Poison,NA,diff
+Bronze Arrow,Arrow,Fire,NA,diff
+Bronze Arrow,Arrow,Frost,NA,diff
+Bronze Arrow,Arrow,Lightning,NA,diff
+Carapace Arrow,Arrow,Knockback,15,min
+Carapace Arrow,Arrow,Total,72,min
+Carapace Arrow,Arrow,Backstab_x10,NA,min
+Carapace Arrow,Arrow,Pierce,72,max
+Carapace Arrow,Arrow,Slash,NA,max
+Carapace Arrow,Arrow,Pickaxe,NA,max
+Carapace Arrow,Arrow,Chop,NA,max
+Carapace Arrow,Arrow,Blunt,NA,max
+Carapace Arrow,Arrow,Spirit,NA,max
+Carapace Arrow,Arrow,Poison,NA,max
+Carapace Arrow,Arrow,Fire,NA,max
+Carapace Arrow,Arrow,Frost,NA,max
+Carapace Arrow,Arrow,Lightning,NA,max
+Carapace Arrow,Arrow,Pierce,72,min
+Carapace Arrow,Arrow,Slash,NA,min
+Carapace Arrow,Arrow,Pickaxe,NA,min
+Carapace Arrow,Arrow,Chop,NA,min
+Carapace Arrow,Arrow,Blunt,NA,min
+Carapace Arrow,Arrow,Spirit,NA,min
+Carapace Arrow,Arrow,Poison,NA,min
+Carapace Arrow,Arrow,Fire,NA,min
+Carapace Arrow,Arrow,Frost,NA,min
+Carapace Arrow,Arrow,Lightning,NA,min
+Carapace Arrow,Arrow,Pierce,0,diff
+Carapace Arrow,Arrow,Slash,NA,diff
+Carapace Arrow,Arrow,Pickaxe,NA,diff
+Carapace Arrow,Arrow,Chop,NA,diff
+Carapace Arrow,Arrow,Blunt,NA,diff
+Carapace Arrow,Arrow,Spirit,NA,diff
+Carapace Arrow,Arrow,Poison,NA,diff
+Carapace Arrow,Arrow,Fire,NA,diff
+Carapace Arrow,Arrow,Frost,NA,diff
+Carapace Arrow,Arrow,Lightning,NA,diff
+Carapace Spear,Spear,Knockback,20,min
+Carapace Spear,Spear,Total,133,min
+Carapace Spear,Spear,Backstab_x10,30,min
+Carapace Spear,Spear,Pierce,133,max
+Carapace Spear,Spear,Slash,NA,max
+Carapace Spear,Spear,Pickaxe,NA,max
+Carapace Spear,Spear,Chop,NA,max
+Carapace Spear,Spear,Blunt,NA,max
+Carapace Spear,Spear,Spirit,NA,max
+Carapace Spear,Spear,Poison,NA,max
+Carapace Spear,Spear,Fire,NA,max
+Carapace Spear,Spear,Frost,NA,max
+Carapace Spear,Spear,Lightning,NA,max
+Carapace Spear,Spear,Pierce,115,min
+Carapace Spear,Spear,Slash,NA,min
+Carapace Spear,Spear,Pickaxe,NA,min
+Carapace Spear,Spear,Chop,NA,min
+Carapace Spear,Spear,Blunt,NA,min
+Carapace Spear,Spear,Spirit,NA,min
+Carapace Spear,Spear,Poison,NA,min
+Carapace Spear,Spear,Fire,NA,min
+Carapace Spear,Spear,Frost,NA,min
+Carapace Spear,Spear,Lightning,NA,min
+Carapace Spear,Spear,Pierce,18,diff
+Carapace Spear,Spear,Slash,NA,diff
+Carapace Spear,Spear,Pickaxe,NA,diff
+Carapace Spear,Spear,Chop,NA,diff
+Carapace Spear,Spear,Blunt,NA,diff
+Carapace Spear,Spear,Spirit,NA,diff
+Carapace Spear,Spear,Poison,NA,diff
+Carapace Spear,Spear,Fire,NA,diff
+Carapace Spear,Spear,Frost,NA,diff
+Carapace Spear,Spear,Lightning,NA,diff
+Club,Club,Knockback,25,min
+Club,Club,Total,30,min
+Club,Club,Backstab_x10,30,min
+Club,Club,Pierce,NA,max
+Club,Club,Slash,NA,max
+Club,Club,Pickaxe,NA,max
+Club,Club,Chop,NA,max
+Club,Club,Blunt,30,max
+Club,Club,Spirit,NA,max
+Club,Club,Poison,NA,max
+Club,Club,Fire,NA,max
+Club,Club,Frost,NA,max
+Club,Club,Lightning,NA,max
+Club,Club,Pierce,NA,min
+Club,Club,Slash,NA,min
+Club,Club,Pickaxe,NA,min
+Club,Club,Chop,NA,min
+Club,Club,Blunt,12,min
+Club,Club,Spirit,NA,min
+Club,Club,Poison,NA,min
+Club,Club,Fire,NA,min
+Club,Club,Frost,NA,min
+Club,Club,Lightning,NA,min
+Club,Club,Pierce,NA,diff
+Club,Club,Slash,NA,diff
+Club,Club,Pickaxe,NA,diff
+Club,Club,Chop,NA,diff
+Club,Club,Blunt,18,diff
+Club,Club,Spirit,NA,diff
+Club,Club,Poison,NA,diff
+Club,Club,Fire,NA,diff
+Club,Club,Frost,NA,diff
+Club,Club,Lightning,NA,diff
+Copper Knife,Knife,Knockback,10,min
+Copper Knife,Knife,Total,30,min
+Copper Knife,Knife,Backstab_x10,60,min
+Copper Knife,Knife,Pierce,NA,max
+Copper Knife,Knife,Slash,15,max
+Copper Knife,Knife,Pickaxe,NA,max
+Copper Knife,Knife,Chop,NA,max
+Copper Knife,Knife,Blunt,NA,max
+Copper Knife,Knife,Spirit,NA,max
+Copper Knife,Knife,Poison,NA,max
+Copper Knife,Knife,Fire,NA,max
+Copper Knife,Knife,Frost,NA,max
+Copper Knife,Knife,Lightning,NA,max
+Copper Knife,Knife,Pierce,NA,min
+Copper Knife,Knife,Slash,12,min
+Copper Knife,Knife,Pickaxe,NA,min
+Copper Knife,Knife,Chop,NA,min
+Copper Knife,Knife,Blunt,NA,min
+Copper Knife,Knife,Spirit,NA,min
+Copper Knife,Knife,Poison,NA,min
+Copper Knife,Knife,Fire,NA,min
+Copper Knife,Knife,Frost,NA,min
+Copper Knife,Knife,Lightning,NA,min
+Copper Knife,Knife,Pierce,NA,diff
+Copper Knife,Knife,Slash,3,diff
+Copper Knife,Knife,Pickaxe,NA,diff
+Copper Knife,Knife,Chop,NA,diff
+Copper Knife,Knife,Blunt,NA,diff
+Copper Knife,Knife,Spirit,NA,diff
+Copper Knife,Knife,Poison,NA,diff
+Copper Knife,Knife,Fire,NA,diff
+Copper Knife,Knife,Frost,NA,diff
+Copper Knife,Knife,Lightning,NA,diff
+Copper Knife,Knife,Pierce,15,max
+Copper Knife,Knife,Slash,NA,max
+Copper Knife,Knife,Pierce,12,min
+Copper Knife,Knife,Slash,NA,min
+Copper Knife,Knife,Pierce,3,diff
+Copper Knife,Knife,Slash,NA,diff
+Crude Bow,Bow,Knockback,0,min
+Crude Bow,Bow,Total,NA,min
+Crude Bow,Bow,Backstab_x10,30,min
+Crude Bow,Bow,Pierce,31,max
+Crude Bow,Bow,Slash,NA,max
+Crude Bow,Bow,Pickaxe,NA,max
+Crude Bow,Bow,Chop,NA,max
+Crude Bow,Bow,Blunt,NA,max
+Crude Bow,Bow,Spirit,NA,max
+Crude Bow,Bow,Poison,NA,max
+Crude Bow,Bow,Fire,NA,max
+Crude Bow,Bow,Frost,NA,max
+Crude Bow,Bow,Lightning,NA,max
+Crude Bow,Bow,Pierce,22,min
+Crude Bow,Bow,Slash,NA,min
+Crude Bow,Bow,Pickaxe,NA,min
+Crude Bow,Bow,Chop,NA,min
+Crude Bow,Bow,Blunt,NA,min
+Crude Bow,Bow,Spirit,NA,min
+Crude Bow,Bow,Poison,NA,min
+Crude Bow,Bow,Fire,NA,min
+Crude Bow,Bow,Frost,NA,min
+Crude Bow,Bow,Lightning,NA,min
+Crude Bow,Bow,Pierce,9,diff
+Crude Bow,Bow,Slash,NA,diff
+Crude Bow,Bow,Pickaxe,NA,diff
+Crude Bow,Bow,Chop,NA,diff
+Crude Bow,Bow,Blunt,NA,diff
+Crude Bow,Bow,Spirit,NA,diff
+Crude Bow,Bow,Poison,NA,diff
+Crude Bow,Bow,Fire,NA,diff
+Crude Bow,Bow,Frost,NA,diff
+Crude Bow,Bow,Lightning,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Knockback,70,min
+Crystal Battleaxe,Two-Handed Axe,Total,108,min
+Crystal Battleaxe,Two-Handed Axe,Backstab_x10,30,min
+Crystal Battleaxe,Two-Handed Axe,Pierce,NA,max
+Crystal Battleaxe,Two-Handed Axe,Slash,108,max
+Crystal Battleaxe,Two-Handed Axe,Pickaxe,NA,max
+Crystal Battleaxe,Two-Handed Axe,Chop,NA,max
+Crystal Battleaxe,Two-Handed Axe,Blunt,NA,max
+Crystal Battleaxe,Two-Handed Axe,Spirit,NA,max
+Crystal Battleaxe,Two-Handed Axe,Poison,NA,max
+Crystal Battleaxe,Two-Handed Axe,Fire,NA,max
+Crystal Battleaxe,Two-Handed Axe,Frost,NA,max
+Crystal Battleaxe,Two-Handed Axe,Lightning,NA,max
+Crystal Battleaxe,Two-Handed Axe,Pierce,NA,min
+Crystal Battleaxe,Two-Handed Axe,Slash,90,min
+Crystal Battleaxe,Two-Handed Axe,Pickaxe,NA,min
+Crystal Battleaxe,Two-Handed Axe,Chop,NA,min
+Crystal Battleaxe,Two-Handed Axe,Blunt,NA,min
+Crystal Battleaxe,Two-Handed Axe,Spirit,NA,min
+Crystal Battleaxe,Two-Handed Axe,Poison,NA,min
+Crystal Battleaxe,Two-Handed Axe,Fire,NA,min
+Crystal Battleaxe,Two-Handed Axe,Frost,NA,min
+Crystal Battleaxe,Two-Handed Axe,Lightning,NA,min
+Crystal Battleaxe,Two-Handed Axe,Pierce,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Slash,18,diff
+Crystal Battleaxe,Two-Handed Axe,Pickaxe,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Chop,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Blunt,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Spirit,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Poison,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Fire,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Frost,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Lightning,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Slash,NA,max
+Crystal Battleaxe,Two-Handed Axe,Spirit,30,max
+Crystal Battleaxe,Two-Handed Axe,Slash,NA,min
+Crystal Battleaxe,Two-Handed Axe,Spirit,30,min
+Crystal Battleaxe,Two-Handed Axe,Slash,NA,diff
+Crystal Battleaxe,Two-Handed Axe,Spirit,0,diff
+Crystal Battleaxe,Two-Handed Axe,Chop,57.5,max
+Crystal Battleaxe,Two-Handed Axe,Chop,50,min
+Crystal Battleaxe,Two-Handed Axe,Chop,7.5,diff
+Demolisher,Two-Handed Club,Knockback,210,min
+Demolisher,Two-Handed Club,Total,163,min
+Demolisher,Two-Handed Club,Backstab_x10,20,min
+Demolisher,Two-Handed Club,Pierce,NA,max
+Demolisher,Two-Handed Club,Slash,NA,max
+Demolisher,Two-Handed Club,Pickaxe,NA,max
+Demolisher,Two-Handed Club,Chop,NA,max
+Demolisher,Two-Handed Club,Blunt,163,max
+Demolisher,Two-Handed Club,Spirit,NA,max
+Demolisher,Two-Handed Club,Poison,NA,max
+Demolisher,Two-Handed Club,Fire,NA,max
+Demolisher,Two-Handed Club,Frost,NA,max
+Demolisher,Two-Handed Club,Lightning,NA,max
+Demolisher,Two-Handed Club,Pierce,NA,min
+Demolisher,Two-Handed Club,Slash,NA,min
+Demolisher,Two-Handed Club,Pickaxe,NA,min
+Demolisher,Two-Handed Club,Chop,NA,min
+Demolisher,Two-Handed Club,Blunt,145,min
+Demolisher,Two-Handed Club,Spirit,NA,min
+Demolisher,Two-Handed Club,Poison,NA,min
+Demolisher,Two-Handed Club,Fire,NA,min
+Demolisher,Two-Handed Club,Frost,NA,min
+Demolisher,Two-Handed Club,Lightning,NA,min
+Demolisher,Two-Handed Club,Pierce,NA,diff
+Demolisher,Two-Handed Club,Slash,NA,diff
+Demolisher,Two-Handed Club,Pickaxe,NA,diff
+Demolisher,Two-Handed Club,Chop,NA,diff
+Demolisher,Two-Handed Club,Blunt,18,diff
+Demolisher,Two-Handed Club,Spirit,NA,diff
+Demolisher,Two-Handed Club,Poison,NA,diff
+Demolisher,Two-Handed Club,Fire,NA,diff
+Demolisher,Two-Handed Club,Frost,NA,diff
+Demolisher,Two-Handed Club,Lightning,NA,diff
+Draugr Fang,Bow,Knockback,20,min
+Draugr Fang,Bow,Total,NA,min
+Draugr Fang,Bow,Backstab_x10,30,min
+Draugr Fang,Bow,Pierce,56,max
+Draugr Fang,Bow,Slash,NA,max
+Draugr Fang,Bow,Pickaxe,NA,max
+Draugr Fang,Bow,Chop,NA,max
+Draugr Fang,Bow,Blunt,NA,max
+Draugr Fang,Bow,Spirit,NA,max
+Draugr Fang,Bow,Poison,NA,max
+Draugr Fang,Bow,Fire,NA,max
+Draugr Fang,Bow,Frost,NA,max
+Draugr Fang,Bow,Lightning,NA,max
+Draugr Fang,Bow,Pierce,47,min
+Draugr Fang,Bow,Slash,NA,min
+Draugr Fang,Bow,Pickaxe,NA,min
+Draugr Fang,Bow,Chop,NA,min
+Draugr Fang,Bow,Blunt,NA,min
+Draugr Fang,Bow,Spirit,NA,min
+Draugr Fang,Bow,Poison,NA,min
+Draugr Fang,Bow,Fire,NA,min
+Draugr Fang,Bow,Frost,NA,min
+Draugr Fang,Bow,Lightning,NA,min
+Draugr Fang,Bow,Pierce,9,diff
+Draugr Fang,Bow,Slash,NA,diff
+Draugr Fang,Bow,Pickaxe,NA,diff
+Draugr Fang,Bow,Chop,NA,diff
+Draugr Fang,Bow,Blunt,NA,diff
+Draugr Fang,Bow,Spirit,NA,diff
+Draugr Fang,Bow,Poison,NA,diff
+Draugr Fang,Bow,Fire,NA,diff
+Draugr Fang,Bow,Frost,NA,diff
+Draugr Fang,Bow,Lightning,NA,diff
+Draugr Fang,Bow,Pierce,NA,max
+Draugr Fang,Bow,Poison,20,max
+Draugr Fang,Bow,Pierce,NA,min
+Draugr Fang,Bow,Poison,5,min
+Draugr Fang,Bow,Pierce,NA,diff
+Draugr Fang,Bow,Poison,15,diff
+Fang Spear,Spear,Knockback,20,min
+Fang Spear,Spear,Total,93,min
+Fang Spear,Spear,Backstab_x10,30,min
+Fang Spear,Spear,Pierce,93,max
+Fang Spear,Spear,Slash,NA,max
+Fang Spear,Spear,Pickaxe,NA,max
+Fang Spear,Spear,Chop,NA,max
+Fang Spear,Spear,Blunt,NA,max
+Fang Spear,Spear,Spirit,NA,max
+Fang Spear,Spear,Poison,NA,max
+Fang Spear,Spear,Fire,NA,max
+Fang Spear,Spear,Frost,NA,max
+Fang Spear,Spear,Lightning,NA,max
+Fang Spear,Spear,Pierce,75,min
+Fang Spear,Spear,Slash,NA,min
+Fang Spear,Spear,Pickaxe,NA,min
+Fang Spear,Spear,Chop,NA,min
+Fang Spear,Spear,Blunt,NA,min
+Fang Spear,Spear,Spirit,NA,min
+Fang Spear,Spear,Poison,NA,min
+Fang Spear,Spear,Fire,NA,min
+Fang Spear,Spear,Frost,NA,min
+Fang Spear,Spear,Lightning,NA,min
+Fang Spear,Spear,Pierce,18,diff
+Fang Spear,Spear,Slash,NA,diff
+Fang Spear,Spear,Pickaxe,NA,diff
+Fang Spear,Spear,Chop,NA,diff
+Fang Spear,Spear,Blunt,NA,diff
+Fang Spear,Spear,Spirit,NA,diff
+Fang Spear,Spear,Poison,NA,diff
+Fang Spear,Spear,Fire,NA,diff
+Fang Spear,Spear,Frost,NA,diff
+Fang Spear,Spear,Lightning,NA,diff
+Fine Wood Bow,Bow,Knockback,5,min
+Fine Wood Bow,Bow,Total,NA,min
+Fine Wood Bow,Bow,Backstab_x10,30,min
+Fine Wood Bow,Bow,Pierce,41,max
+Fine Wood Bow,Bow,Slash,NA,max
+Fine Wood Bow,Bow,Pickaxe,NA,max
+Fine Wood Bow,Bow,Chop,NA,max
+Fine Wood Bow,Bow,Blunt,NA,max
+Fine Wood Bow,Bow,Spirit,NA,max
+Fine Wood Bow,Bow,Poison,NA,max
+Fine Wood Bow,Bow,Fire,NA,max
+Fine Wood Bow,Bow,Frost,NA,max
+Fine Wood Bow,Bow,Lightning,NA,max
+Fine Wood Bow,Bow,Pierce,32,min
+Fine Wood Bow,Bow,Slash,NA,min
+Fine Wood Bow,Bow,Pickaxe,NA,min
+Fine Wood Bow,Bow,Chop,NA,min
+Fine Wood Bow,Bow,Blunt,NA,min
+Fine Wood Bow,Bow,Spirit,NA,min
+Fine Wood Bow,Bow,Poison,NA,min
+Fine Wood Bow,Bow,Fire,NA,min
+Fine Wood Bow,Bow,Frost,NA,min
+Fine Wood Bow,Bow,Lightning,NA,min
+Fine Wood Bow,Bow,Pierce,9,diff
+Fine Wood Bow,Bow,Slash,NA,diff
+Fine Wood Bow,Bow,Pickaxe,NA,diff
+Fine Wood Bow,Bow,Chop,NA,diff
+Fine Wood Bow,Bow,Blunt,NA,diff
+Fine Wood Bow,Bow,Spirit,NA,diff
+Fine Wood Bow,Bow,Poison,NA,diff
+Fine Wood Bow,Bow,Fire,NA,diff
+Fine Wood Bow,Bow,Frost,NA,diff
+Fine Wood Bow,Bow,Lightning,NA,diff
+Fire Arrow,Arrow,Knockback,10,min
+Fire Arrow,Arrow,Total,33,min
+Fire Arrow,Arrow,Backstab_x10,NA,min
+Fire Arrow,Arrow,Pierce,11,max
+Fire Arrow,Arrow,Slash,NA,max
+Fire Arrow,Arrow,Pickaxe,NA,max
+Fire Arrow,Arrow,Chop,NA,max
+Fire Arrow,Arrow,Blunt,NA,max
+Fire Arrow,Arrow,Spirit,NA,max
+Fire Arrow,Arrow,Poison,NA,max
+Fire Arrow,Arrow,Fire,NA,max
+Fire Arrow,Arrow,Frost,NA,max
+Fire Arrow,Arrow,Lightning,NA,max
+Fire Arrow,Arrow,Pierce,11,min
+Fire Arrow,Arrow,Slash,NA,min
+Fire Arrow,Arrow,Pickaxe,NA,min
+Fire Arrow,Arrow,Chop,NA,min
+Fire Arrow,Arrow,Blunt,NA,min
+Fire Arrow,Arrow,Spirit,NA,min
+Fire Arrow,Arrow,Poison,NA,min
+Fire Arrow,Arrow,Fire,NA,min
+Fire Arrow,Arrow,Frost,NA,min
+Fire Arrow,Arrow,Lightning,NA,min
+Fire Arrow,Arrow,Pierce,0,diff
+Fire Arrow,Arrow,Slash,NA,diff
+Fire Arrow,Arrow,Pickaxe,NA,diff
+Fire Arrow,Arrow,Chop,NA,diff
+Fire Arrow,Arrow,Blunt,NA,diff
+Fire Arrow,Arrow,Spirit,NA,diff
+Fire Arrow,Arrow,Poison,NA,diff
+Fire Arrow,Arrow,Fire,NA,diff
+Fire Arrow,Arrow,Frost,NA,diff
+Fire Arrow,Arrow,Lightning,NA,diff
+Fire Arrow,Arrow,Pierce,NA,max
+Fire Arrow,Arrow,Fire,22,max
+Fire Arrow,Arrow,Pierce,NA,min
+Fire Arrow,Arrow,Fire,22,min
+Fire Arrow,Arrow,Pierce,NA,diff
+Fire Arrow,Arrow,Fire,0,diff
+Flesh Rippers,Fist,Knockback,20,min
+Flesh Rippers,Fist,Total,76,min
+Flesh Rippers,Fist,Backstab_x10,60,min
+Flesh Rippers,Fist,Pierce,NA,max
+Flesh Rippers,Fist,Slash,76,max
+Flesh Rippers,Fist,Pickaxe,NA,max
+Flesh Rippers,Fist,Chop,NA,max
+Flesh Rippers,Fist,Blunt,NA,max
+Flesh Rippers,Fist,Spirit,NA,max
+Flesh Rippers,Fist,Poison,NA,max
+Flesh Rippers,Fist,Fire,NA,max
+Flesh Rippers,Fist,Frost,NA,max
+Flesh Rippers,Fist,Lightning,NA,max
+Flesh Rippers,Fist,Pierce,NA,min
+Flesh Rippers,Fist,Slash,60,min
+Flesh Rippers,Fist,Pickaxe,NA,min
+Flesh Rippers,Fist,Chop,NA,min
+Flesh Rippers,Fist,Blunt,NA,min
+Flesh Rippers,Fist,Spirit,NA,min
+Flesh Rippers,Fist,Poison,NA,min
+Flesh Rippers,Fist,Fire,NA,min
+Flesh Rippers,Fist,Frost,NA,min
+Flesh Rippers,Fist,Lightning,NA,min
+Flesh Rippers,Fist,Pierce,NA,diff
+Flesh Rippers,Fist,Slash,16,diff
+Flesh Rippers,Fist,Pickaxe,NA,diff
+Flesh Rippers,Fist,Chop,NA,diff
+Flesh Rippers,Fist,Blunt,NA,diff
+Flesh Rippers,Fist,Spirit,NA,diff
+Flesh Rippers,Fist,Poison,NA,diff
+Flesh Rippers,Fist,Fire,NA,diff
+Flesh Rippers,Fist,Frost,NA,diff
+Flesh Rippers,Fist,Lightning,NA,diff
+Flint Axe,Axe,Knockback,50,min
+Flint Axe,Axe,Total,35,min
+Flint Axe,Axe,Backstab_x10,30,min
+Flint Axe,Axe,Pierce,NA,max
+Flint Axe,Axe,Slash,35,max
+Flint Axe,Axe,Pickaxe,NA,max
+Flint Axe,Axe,Chop,NA,max
+Flint Axe,Axe,Blunt,NA,max
+Flint Axe,Axe,Spirit,NA,max
+Flint Axe,Axe,Poison,NA,max
+Flint Axe,Axe,Fire,NA,max
+Flint Axe,Axe,Frost,NA,max
+Flint Axe,Axe,Lightning,NA,max
+Flint Axe,Axe,Pierce,NA,min
+Flint Axe,Axe,Slash,20,min
+Flint Axe,Axe,Pickaxe,NA,min
+Flint Axe,Axe,Chop,NA,min
+Flint Axe,Axe,Blunt,NA,min
+Flint Axe,Axe,Spirit,NA,min
+Flint Axe,Axe,Poison,NA,min
+Flint Axe,Axe,Fire,NA,min
+Flint Axe,Axe,Frost,NA,min
+Flint Axe,Axe,Lightning,NA,min
+Flint Axe,Axe,Pierce,NA,diff
+Flint Axe,Axe,Slash,15,diff
+Flint Axe,Axe,Pickaxe,NA,diff
+Flint Axe,Axe,Chop,NA,diff
+Flint Axe,Axe,Blunt,NA,diff
+Flint Axe,Axe,Spirit,NA,diff
+Flint Axe,Axe,Poison,NA,diff
+Flint Axe,Axe,Fire,NA,diff
+Flint Axe,Axe,Frost,NA,diff
+Flint Axe,Axe,Lightning,NA,diff
+Flint Knife,Knife,Knockback,10,min
+Flint Knife,Knife,Total,16,min
+Flint Knife,Knife,Backstab_x10,60,min
+Flint Knife,Knife,Pierce,NA,max
+Flint Knife,Knife,Slash,8,max
+Flint Knife,Knife,Pickaxe,NA,max
+Flint Knife,Knife,Chop,NA,max
+Flint Knife,Knife,Blunt,NA,max
+Flint Knife,Knife,Spirit,NA,max
+Flint Knife,Knife,Poison,NA,max
+Flint Knife,Knife,Fire,NA,max
+Flint Knife,Knife,Frost,NA,max
+Flint Knife,Knife,Lightning,NA,max
+Flint Knife,Knife,Pierce,NA,min
+Flint Knife,Knife,Slash,5,min
+Flint Knife,Knife,Pickaxe,NA,min
+Flint Knife,Knife,Chop,NA,min
+Flint Knife,Knife,Blunt,NA,min
+Flint Knife,Knife,Spirit,NA,min
+Flint Knife,Knife,Poison,NA,min
+Flint Knife,Knife,Fire,NA,min
+Flint Knife,Knife,Frost,NA,min
+Flint Knife,Knife,Lightning,NA,min
+Flint Knife,Knife,Pierce,NA,diff
+Flint Knife,Knife,Slash,3,diff
+Flint Knife,Knife,Pickaxe,NA,diff
+Flint Knife,Knife,Chop,NA,diff
+Flint Knife,Knife,Blunt,NA,diff
+Flint Knife,Knife,Spirit,NA,diff
+Flint Knife,Knife,Poison,NA,diff
+Flint Knife,Knife,Fire,NA,diff
+Flint Knife,Knife,Frost,NA,diff
+Flint Knife,Knife,Lightning,NA,diff
+Flint Knife,Knife,Pierce,8,max
+Flint Knife,Knife,Slash,NA,max
+Flint Knife,Knife,Pierce,5,min
+Flint Knife,Knife,Slash,NA,min
+Flint Knife,Knife,Pierce,3,diff
+Flint Knife,Knife,Slash,NA,diff
+Flint Spear,Spear,Knockback,20,min
+Flint Spear,Spear,Total,38,min
+Flint Spear,Spear,Backstab_x10,30,min
+Flint Spear,Spear,Pierce,38,max
+Flint Spear,Spear,Slash,NA,max
+Flint Spear,Spear,Pickaxe,NA,max
+Flint Spear,Spear,Chop,NA,max
+Flint Spear,Spear,Blunt,NA,max
+Flint Spear,Spear,Spirit,NA,max
+Flint Spear,Spear,Poison,NA,max
+Flint Spear,Spear,Fire,NA,max
+Flint Spear,Spear,Frost,NA,max
+Flint Spear,Spear,Lightning,NA,max
+Flint Spear,Spear,Pierce,20,min
+Flint Spear,Spear,Slash,NA,min
+Flint Spear,Spear,Pickaxe,NA,min
+Flint Spear,Spear,Chop,NA,min
+Flint Spear,Spear,Blunt,NA,min
+Flint Spear,Spear,Spirit,NA,min
+Flint Spear,Spear,Poison,NA,min
+Flint Spear,Spear,Fire,NA,min
+Flint Spear,Spear,Frost,NA,min
+Flint Spear,Spear,Lightning,NA,min
+Flint Spear,Spear,Pierce,18,diff
+Flint Spear,Spear,Slash,NA,diff
+Flint Spear,Spear,Pickaxe,NA,diff
+Flint Spear,Spear,Chop,NA,diff
+Flint Spear,Spear,Blunt,NA,diff
+Flint Spear,Spear,Spirit,NA,diff
+Flint Spear,Spear,Poison,NA,diff
+Flint Spear,Spear,Fire,NA,diff
+Flint Spear,Spear,Frost,NA,diff
+Flint Spear,Spear,Lightning,NA,diff
+Flinthead Arrow,Arrow,Knockback,10,min
+Flinthead Arrow,Arrow,Total,27,min
+Flinthead Arrow,Arrow,Backstab_x10,NA,min
+Flinthead Arrow,Arrow,Pierce,27,max
+Flinthead Arrow,Arrow,Slash,NA,max
+Flinthead Arrow,Arrow,Pickaxe,NA,max
+Flinthead Arrow,Arrow,Chop,NA,max
+Flinthead Arrow,Arrow,Blunt,NA,max
+Flinthead Arrow,Arrow,Spirit,NA,max
+Flinthead Arrow,Arrow,Poison,NA,max
+Flinthead Arrow,Arrow,Fire,NA,max
+Flinthead Arrow,Arrow,Frost,NA,max
+Flinthead Arrow,Arrow,Lightning,NA,max
+Flinthead Arrow,Arrow,Pierce,27,min
+Flinthead Arrow,Arrow,Slash,NA,min
+Flinthead Arrow,Arrow,Pickaxe,NA,min
+Flinthead Arrow,Arrow,Chop,NA,min
+Flinthead Arrow,Arrow,Blunt,NA,min
+Flinthead Arrow,Arrow,Spirit,NA,min
+Flinthead Arrow,Arrow,Poison,NA,min
+Flinthead Arrow,Arrow,Fire,NA,min
+Flinthead Arrow,Arrow,Frost,NA,min
+Flinthead Arrow,Arrow,Lightning,NA,min
+Flinthead Arrow,Arrow,Pierce,0,diff
+Flinthead Arrow,Arrow,Slash,NA,diff
+Flinthead Arrow,Arrow,Pickaxe,NA,diff
+Flinthead Arrow,Arrow,Chop,NA,diff
+Flinthead Arrow,Arrow,Blunt,NA,diff
+Flinthead Arrow,Arrow,Spirit,NA,diff
+Flinthead Arrow,Arrow,Poison,NA,diff
+Flinthead Arrow,Arrow,Fire,NA,diff
+Flinthead Arrow,Arrow,Frost,NA,diff
+Flinthead Arrow,Arrow,Lightning,NA,diff
+Frost Arrow,Arrow,Knockback,10,min
+Frost Arrow,Arrow,Total,78,min
+Frost Arrow,Arrow,Backstab_x10,NA,min
+Frost Arrow,Arrow,Pierce,26,max
+Frost Arrow,Arrow,Slash,NA,max
+Frost Arrow,Arrow,Pickaxe,NA,max
+Frost Arrow,Arrow,Chop,NA,max
+Frost Arrow,Arrow,Blunt,NA,max
+Frost Arrow,Arrow,Spirit,NA,max
+Frost Arrow,Arrow,Poison,NA,max
+Frost Arrow,Arrow,Fire,NA,max
+Frost Arrow,Arrow,Frost,NA,max
+Frost Arrow,Arrow,Lightning,NA,max
+Frost Arrow,Arrow,Pierce,26,min
+Frost Arrow,Arrow,Slash,NA,min
+Frost Arrow,Arrow,Pickaxe,NA,min
+Frost Arrow,Arrow,Chop,NA,min
+Frost Arrow,Arrow,Blunt,NA,min
+Frost Arrow,Arrow,Spirit,NA,min
+Frost Arrow,Arrow,Poison,NA,min
+Frost Arrow,Arrow,Fire,NA,min
+Frost Arrow,Arrow,Frost,NA,min
+Frost Arrow,Arrow,Lightning,NA,min
+Frost Arrow,Arrow,Pierce,0,diff
+Frost Arrow,Arrow,Slash,NA,diff
+Frost Arrow,Arrow,Pickaxe,NA,diff
+Frost Arrow,Arrow,Chop,NA,diff
+Frost Arrow,Arrow,Blunt,NA,diff
+Frost Arrow,Arrow,Spirit,NA,diff
+Frost Arrow,Arrow,Poison,NA,diff
+Frost Arrow,Arrow,Fire,NA,diff
+Frost Arrow,Arrow,Frost,NA,diff
+Frost Arrow,Arrow,Lightning,NA,diff
+Frost Arrow,Arrow,Pierce,NA,max
+Frost Arrow,Arrow,Frost,52,max
+Frost Arrow,Arrow,Pierce,NA,min
+Frost Arrow,Arrow,Frost,52,min
+Frost Arrow,Arrow,Pierce,NA,diff
+Frost Arrow,Arrow,Frost,0,diff
+Frostner,Club,Knockback,120,min
+Frostner,Club,Total,58,min
+Frostner,Club,Backstab_x10,30,min
+Frostner,Club,Pierce,NA,max
+Frostner,Club,Slash,NA,max
+Frostner,Club,Pickaxe,NA,max
+Frostner,Club,Chop,NA,max
+Frostner,Club,Blunt,NA,max
+Frostner,Club,Spirit,NA,max
+Frostner,Club,Poison,NA,max
+Frostner,Club,Fire,NA,max
+Frostner,Club,Frost,58,max
+Frostner,Club,Lightning,NA,max
+Frostner,Club,Pierce,NA,min
+Frostner,Club,Slash,NA,min
+Frostner,Club,Pickaxe,NA,min
+Frostner,Club,Chop,NA,min
+Frostner,Club,Blunt,NA,min
+Frostner,Club,Spirit,NA,min
+Frostner,Club,Poison,NA,min
+Frostner,Club,Fire,NA,min
+Frostner,Club,Frost,40,min
+Frostner,Club,Lightning,NA,min
+Frostner,Club,Pierce,NA,diff
+Frostner,Club,Slash,NA,diff
+Frostner,Club,Pickaxe,NA,diff
+Frostner,Club,Chop,NA,diff
+Frostner,Club,Blunt,NA,diff
+Frostner,Club,Spirit,NA,diff
+Frostner,Club,Poison,NA,diff
+Frostner,Club,Fire,NA,diff
+Frostner,Club,Frost,18,diff
+Frostner,Club,Lightning,NA,diff
+Frostner,Club,Blunt,35,max
+Frostner,Club,Frost,NA,max
+Frostner,Club,Blunt,35,min
+Frostner,Club,Frost,NA,min
+Frostner,Club,Blunt,0,diff
+Frostner,Club,Frost,NA,diff
+Frostner,Club,Spirit,20,max
+Frostner,Club,Spirit,20,min
+Frostner,Club,Spirit,0,diff
+Himmin Afl,Polearm,Knockback,40,min
+Himmin Afl,Polearm,Total,85,min
+Himmin Afl,Polearm,Backstab_x10,30,min
+Himmin Afl,Polearm,Pierce,85,max
+Himmin Afl,Polearm,Slash,NA,max
+Himmin Afl,Polearm,Pickaxe,NA,max
+Himmin Afl,Polearm,Chop,NA,max
+Himmin Afl,Polearm,Blunt,NA,max
+Himmin Afl,Polearm,Spirit,NA,max
+Himmin Afl,Polearm,Poison,NA,max
+Himmin Afl,Polearm,Fire,NA,max
+Himmin Afl,Polearm,Frost,NA,max
+Himmin Afl,Polearm,Lightning,NA,max
+Himmin Afl,Polearm,Pierce,85,min
+Himmin Afl,Polearm,Slash,NA,min
+Himmin Afl,Polearm,Pickaxe,NA,min
+Himmin Afl,Polearm,Chop,NA,min
+Himmin Afl,Polearm,Blunt,NA,min
+Himmin Afl,Polearm,Spirit,NA,min
+Himmin Afl,Polearm,Poison,NA,min
+Himmin Afl,Polearm,Fire,NA,min
+Himmin Afl,Polearm,Frost,NA,min
+Himmin Afl,Polearm,Lightning,NA,min
+Himmin Afl,Polearm,Pierce,0,diff
+Himmin Afl,Polearm,Slash,NA,diff
+Himmin Afl,Polearm,Pickaxe,NA,diff
+Himmin Afl,Polearm,Chop,NA,diff
+Himmin Afl,Polearm,Blunt,NA,diff
+Himmin Afl,Polearm,Spirit,NA,diff
+Himmin Afl,Polearm,Poison,NA,diff
+Himmin Afl,Polearm,Fire,NA,diff
+Himmin Afl,Polearm,Frost,NA,diff
+Himmin Afl,Polearm,Lightning,NA,diff
+Himmin Afl,Polearm,Pierce,NA,max
+Himmin Afl,Polearm,Lightning,58,max
+Himmin Afl,Polearm,Pierce,NA,min
+Himmin Afl,Polearm,Lightning,40,min
+Himmin Afl,Polearm,Pierce,NA,diff
+Himmin Afl,Polearm,Lightning,18,diff
+Huntsman Bow,Bow,Knockback,10,min
+Huntsman Bow,Bow,Total,NA,min
+Huntsman Bow,Bow,Backstab_x10,30,min
+Huntsman Bow,Bow,Pierce,51,max
+Huntsman Bow,Bow,Slash,NA,max
+Huntsman Bow,Bow,Pickaxe,NA,max
+Huntsman Bow,Bow,Chop,NA,max
+Huntsman Bow,Bow,Blunt,NA,max
+Huntsman Bow,Bow,Spirit,NA,max
+Huntsman Bow,Bow,Poison,NA,max
+Huntsman Bow,Bow,Fire,NA,max
+Huntsman Bow,Bow,Frost,NA,max
+Huntsman Bow,Bow,Lightning,NA,max
+Huntsman Bow,Bow,Pierce,42,min
+Huntsman Bow,Bow,Slash,NA,min
+Huntsman Bow,Bow,Pickaxe,NA,min
+Huntsman Bow,Bow,Chop,NA,min
+Huntsman Bow,Bow,Blunt,NA,min
+Huntsman Bow,Bow,Spirit,NA,min
+Huntsman Bow,Bow,Poison,NA,min
+Huntsman Bow,Bow,Fire,NA,min
+Huntsman Bow,Bow,Frost,NA,min
+Huntsman Bow,Bow,Lightning,NA,min
+Huntsman Bow,Bow,Pierce,9,diff
+Huntsman Bow,Bow,Slash,NA,diff
+Huntsman Bow,Bow,Pickaxe,NA,diff
+Huntsman Bow,Bow,Chop,NA,diff
+Huntsman Bow,Bow,Blunt,NA,diff
+Huntsman Bow,Bow,Spirit,NA,diff
+Huntsman Bow,Bow,Poison,NA,diff
+Huntsman Bow,Bow,Fire,NA,diff
+Huntsman Bow,Bow,Frost,NA,diff
+Huntsman Bow,Bow,Lightning,NA,diff
+Iron Atgeir,Polearm,Knockback,30,min
+Iron Atgeir,Polearm,Total,83,min
+Iron Atgeir,Polearm,Backstab_x10,30,min
+Iron Atgeir,Polearm,Pierce,83,max
+Iron Atgeir,Polearm,Slash,NA,max
+Iron Atgeir,Polearm,Pickaxe,NA,max
+Iron Atgeir,Polearm,Chop,NA,max
+Iron Atgeir,Polearm,Blunt,NA,max
+Iron Atgeir,Polearm,Spirit,NA,max
+Iron Atgeir,Polearm,Poison,NA,max
+Iron Atgeir,Polearm,Fire,NA,max
+Iron Atgeir,Polearm,Frost,NA,max
+Iron Atgeir,Polearm,Lightning,NA,max
+Iron Atgeir,Polearm,Pierce,65,min
+Iron Atgeir,Polearm,Slash,NA,min
+Iron Atgeir,Polearm,Pickaxe,NA,min
+Iron Atgeir,Polearm,Chop,NA,min
+Iron Atgeir,Polearm,Blunt,NA,min
+Iron Atgeir,Polearm,Spirit,NA,min
+Iron Atgeir,Polearm,Poison,NA,min
+Iron Atgeir,Polearm,Fire,NA,min
+Iron Atgeir,Polearm,Frost,NA,min
+Iron Atgeir,Polearm,Lightning,NA,min
+Iron Atgeir,Polearm,Pierce,18,diff
+Iron Atgeir,Polearm,Slash,NA,diff
+Iron Atgeir,Polearm,Pickaxe,NA,diff
+Iron Atgeir,Polearm,Chop,NA,diff
+Iron Atgeir,Polearm,Blunt,NA,diff
+Iron Atgeir,Polearm,Spirit,NA,diff
+Iron Atgeir,Polearm,Poison,NA,diff
+Iron Atgeir,Polearm,Fire,NA,diff
+Iron Atgeir,Polearm,Frost,NA,diff
+Iron Atgeir,Polearm,Lightning,NA,diff
+Iron Axe,Axe,Knockback,50,min
+Iron Axe,Axe,Total,75,min
+Iron Axe,Axe,Backstab_x10,30,min
+Iron Axe,Axe,Pierce,NA,max
+Iron Axe,Axe,Slash,75,max
+Iron Axe,Axe,Pickaxe,NA,max
+Iron Axe,Axe,Chop,NA,max
+Iron Axe,Axe,Blunt,NA,max
+Iron Axe,Axe,Spirit,NA,max
+Iron Axe,Axe,Poison,NA,max
+Iron Axe,Axe,Fire,NA,max
+Iron Axe,Axe,Frost,NA,max
+Iron Axe,Axe,Lightning,NA,max
+Iron Axe,Axe,Pierce,NA,min
+Iron Axe,Axe,Slash,60,min
+Iron Axe,Axe,Pickaxe,NA,min
+Iron Axe,Axe,Chop,NA,min
+Iron Axe,Axe,Blunt,NA,min
+Iron Axe,Axe,Spirit,NA,min
+Iron Axe,Axe,Poison,NA,min
+Iron Axe,Axe,Fire,NA,min
+Iron Axe,Axe,Frost,NA,min
+Iron Axe,Axe,Lightning,NA,min
+Iron Axe,Axe,Pierce,NA,diff
+Iron Axe,Axe,Slash,15,diff
+Iron Axe,Axe,Pickaxe,NA,diff
+Iron Axe,Axe,Chop,NA,diff
+Iron Axe,Axe,Blunt,NA,diff
+Iron Axe,Axe,Spirit,NA,diff
+Iron Axe,Axe,Poison,NA,diff
+Iron Axe,Axe,Fire,NA,diff
+Iron Axe,Axe,Frost,NA,diff
+Iron Axe,Axe,Lightning,NA,diff
+Iron Axe,Axe,Slash,NA,max
+Iron Axe,Axe,Chop,59,max
+Iron Axe,Axe,Slash,NA,min
+Iron Axe,Axe,Chop,50,min
+Iron Axe,Axe,Slash,NA,diff
+Iron Axe,Axe,Chop,9,diff
+Iron Mace,Club,Knockback,90,min
+Iron Mace,Club,Total,73,min
+Iron Mace,Club,Backstab_x10,30,min
+Iron Mace,Club,Pierce,NA,max
+Iron Mace,Club,Slash,NA,max
+Iron Mace,Club,Pickaxe,NA,max
+Iron Mace,Club,Chop,NA,max
+Iron Mace,Club,Blunt,73,max
+Iron Mace,Club,Spirit,NA,max
+Iron Mace,Club,Poison,NA,max
+Iron Mace,Club,Fire,NA,max
+Iron Mace,Club,Frost,NA,max
+Iron Mace,Club,Lightning,NA,max
+Iron Mace,Club,Pierce,NA,min
+Iron Mace,Club,Slash,NA,min
+Iron Mace,Club,Pickaxe,NA,min
+Iron Mace,Club,Chop,NA,min
+Iron Mace,Club,Blunt,55,min
+Iron Mace,Club,Spirit,NA,min
+Iron Mace,Club,Poison,NA,min
+Iron Mace,Club,Fire,NA,min
+Iron Mace,Club,Frost,NA,min
+Iron Mace,Club,Lightning,NA,min
+Iron Mace,Club,Pierce,NA,diff
+Iron Mace,Club,Slash,NA,diff
+Iron Mace,Club,Pickaxe,NA,diff
+Iron Mace,Club,Chop,NA,diff
+Iron Mace,Club,Blunt,18,diff
+Iron Mace,Club,Spirit,NA,diff
+Iron Mace,Club,Poison,NA,diff
+Iron Mace,Club,Fire,NA,diff
+Iron Mace,Club,Frost,NA,diff
+Iron Mace,Club,Lightning,NA,diff
+Iron Pickaxe,Pickaxe,Knockback,50,min
+Iron Pickaxe,Pickaxe,Total,48,min
+Iron Pickaxe,Pickaxe,Backstab_x10,30,min
+Iron Pickaxe,Pickaxe,Pierce,48,max
+Iron Pickaxe,Pickaxe,Slash,NA,max
+Iron Pickaxe,Pickaxe,Pickaxe,NA,max
+Iron Pickaxe,Pickaxe,Chop,NA,max
+Iron Pickaxe,Pickaxe,Blunt,NA,max
+Iron Pickaxe,Pickaxe,Spirit,NA,max
+Iron Pickaxe,Pickaxe,Poison,NA,max
+Iron Pickaxe,Pickaxe,Fire,NA,max
+Iron Pickaxe,Pickaxe,Frost,NA,max
+Iron Pickaxe,Pickaxe,Lightning,NA,max
+Iron Pickaxe,Pickaxe,Pierce,33,min
+Iron Pickaxe,Pickaxe,Slash,NA,min
+Iron Pickaxe,Pickaxe,Pickaxe,NA,min
+Iron Pickaxe,Pickaxe,Chop,NA,min
+Iron Pickaxe,Pickaxe,Blunt,NA,min
+Iron Pickaxe,Pickaxe,Spirit,NA,min
+Iron Pickaxe,Pickaxe,Poison,NA,min
+Iron Pickaxe,Pickaxe,Fire,NA,min
+Iron Pickaxe,Pickaxe,Frost,NA,min
+Iron Pickaxe,Pickaxe,Lightning,NA,min
+Iron Pickaxe,Pickaxe,Pierce,15,diff
+Iron Pickaxe,Pickaxe,Slash,NA,diff
+Iron Pickaxe,Pickaxe,Pickaxe,NA,diff
+Iron Pickaxe,Pickaxe,Chop,NA,diff
+Iron Pickaxe,Pickaxe,Blunt,NA,diff
+Iron Pickaxe,Pickaxe,Spirit,NA,diff
+Iron Pickaxe,Pickaxe,Poison,NA,diff
+Iron Pickaxe,Pickaxe,Fire,NA,diff
+Iron Pickaxe,Pickaxe,Frost,NA,diff
+Iron Pickaxe,Pickaxe,Lightning,NA,diff
+Iron Pickaxe,Pickaxe,Pierce,NA,max
+Iron Pickaxe,Pickaxe,Pickaxe,48,max
+Iron Pickaxe,Pickaxe,Pierce,NA,min
+Iron Pickaxe,Pickaxe,Pickaxe,33,min
+Iron Pickaxe,Pickaxe,Pierce,NA,diff
+Iron Pickaxe,Pickaxe,Pickaxe,15,diff
+Iron Sledge,Two-Handed Club,Knockback,200,min
+Iron Sledge,Two-Handed Club,Total,73,min
+Iron Sledge,Two-Handed Club,Backstab_x10,20,min
+Iron Sledge,Two-Handed Club,Pierce,NA,max
+Iron Sledge,Two-Handed Club,Slash,NA,max
+Iron Sledge,Two-Handed Club,Pickaxe,NA,max
+Iron Sledge,Two-Handed Club,Chop,NA,max
+Iron Sledge,Two-Handed Club,Blunt,73,max
+Iron Sledge,Two-Handed Club,Spirit,NA,max
+Iron Sledge,Two-Handed Club,Poison,NA,max
+Iron Sledge,Two-Handed Club,Fire,NA,max
+Iron Sledge,Two-Handed Club,Frost,NA,max
+Iron Sledge,Two-Handed Club,Lightning,NA,max
+Iron Sledge,Two-Handed Club,Pierce,NA,min
+Iron Sledge,Two-Handed Club,Slash,NA,min
+Iron Sledge,Two-Handed Club,Pickaxe,NA,min
+Iron Sledge,Two-Handed Club,Chop,NA,min
+Iron Sledge,Two-Handed Club,Blunt,55,min
+Iron Sledge,Two-Handed Club,Spirit,NA,min
+Iron Sledge,Two-Handed Club,Poison,NA,min
+Iron Sledge,Two-Handed Club,Fire,NA,min
+Iron Sledge,Two-Handed Club,Frost,NA,min
+Iron Sledge,Two-Handed Club,Lightning,NA,min
+Iron Sledge,Two-Handed Club,Pierce,NA,diff
+Iron Sledge,Two-Handed Club,Slash,NA,diff
+Iron Sledge,Two-Handed Club,Pickaxe,NA,diff
+Iron Sledge,Two-Handed Club,Chop,NA,diff
+Iron Sledge,Two-Handed Club,Blunt,18,diff
+Iron Sledge,Two-Handed Club,Spirit,NA,diff
+Iron Sledge,Two-Handed Club,Poison,NA,diff
+Iron Sledge,Two-Handed Club,Fire,NA,diff
+Iron Sledge,Two-Handed Club,Frost,NA,diff
+Iron Sledge,Two-Handed Club,Lightning,NA,diff
+Iron Sword,Sword,Knockback,50,min
+Iron Sword,Sword,Total,73,min
+Iron Sword,Sword,Backstab_x10,30,min
+Iron Sword,Sword,Pierce,NA,max
+Iron Sword,Sword,Slash,73,max
+Iron Sword,Sword,Pickaxe,NA,max
+Iron Sword,Sword,Chop,NA,max
+Iron Sword,Sword,Blunt,NA,max
+Iron Sword,Sword,Spirit,NA,max
+Iron Sword,Sword,Poison,NA,max
+Iron Sword,Sword,Fire,NA,max
+Iron Sword,Sword,Frost,NA,max
+Iron Sword,Sword,Lightning,NA,max
+Iron Sword,Sword,Pierce,NA,min
+Iron Sword,Sword,Slash,55,min
+Iron Sword,Sword,Pickaxe,NA,min
+Iron Sword,Sword,Chop,NA,min
+Iron Sword,Sword,Blunt,NA,min
+Iron Sword,Sword,Spirit,NA,min
+Iron Sword,Sword,Poison,NA,min
+Iron Sword,Sword,Fire,NA,min
+Iron Sword,Sword,Frost,NA,min
+Iron Sword,Sword,Lightning,NA,min
+Iron Sword,Sword,Pierce,NA,diff
+Iron Sword,Sword,Slash,18,diff
+Iron Sword,Sword,Pickaxe,NA,diff
+Iron Sword,Sword,Chop,NA,diff
+Iron Sword,Sword,Blunt,NA,diff
+Iron Sword,Sword,Spirit,NA,diff
+Iron Sword,Sword,Poison,NA,diff
+Iron Sword,Sword,Fire,NA,diff
+Iron Sword,Sword,Frost,NA,diff
+Iron Sword,Sword,Lightning,NA,diff
+Ironhead Arrow,Arrow,Knockback,10,min
+Ironhead Arrow,Arrow,Total,42,min
+Ironhead Arrow,Arrow,Backstab_x10,NA,min
+Ironhead Arrow,Arrow,Pierce,42,max
+Ironhead Arrow,Arrow,Slash,NA,max
+Ironhead Arrow,Arrow,Pickaxe,NA,max
+Ironhead Arrow,Arrow,Chop,NA,max
+Ironhead Arrow,Arrow,Blunt,NA,max
+Ironhead Arrow,Arrow,Spirit,NA,max
+Ironhead Arrow,Arrow,Poison,NA,max
+Ironhead Arrow,Arrow,Fire,NA,max
+Ironhead Arrow,Arrow,Frost,NA,max
+Ironhead Arrow,Arrow,Lightning,NA,max
+Ironhead Arrow,Arrow,Pierce,42,min
+Ironhead Arrow,Arrow,Slash,NA,min
+Ironhead Arrow,Arrow,Pickaxe,NA,min
+Ironhead Arrow,Arrow,Chop,NA,min
+Ironhead Arrow,Arrow,Blunt,NA,min
+Ironhead Arrow,Arrow,Spirit,NA,min
+Ironhead Arrow,Arrow,Poison,NA,min
+Ironhead Arrow,Arrow,Fire,NA,min
+Ironhead Arrow,Arrow,Frost,NA,min
+Ironhead Arrow,Arrow,Lightning,NA,min
+Ironhead Arrow,Arrow,Pierce,0,diff
+Ironhead Arrow,Arrow,Slash,NA,diff
+Ironhead Arrow,Arrow,Pickaxe,NA,diff
+Ironhead Arrow,Arrow,Chop,NA,diff
+Ironhead Arrow,Arrow,Blunt,NA,diff
+Ironhead Arrow,Arrow,Spirit,NA,diff
+Ironhead Arrow,Arrow,Poison,NA,diff
+Ironhead Arrow,Arrow,Fire,NA,diff
+Ironhead Arrow,Arrow,Frost,NA,diff
+Ironhead Arrow,Arrow,Lightning,NA,diff
+Jotun Bane,Axe,Knockback,60,min
+Jotun Bane,Axe,Total,95,min
+Jotun Bane,Axe,Backstab_x10,30,min
+Jotun Bane,Axe,Pierce,NA,max
+Jotun Bane,Axe,Slash,95,max
+Jotun Bane,Axe,Pickaxe,NA,max
+Jotun Bane,Axe,Chop,NA,max
+Jotun Bane,Axe,Blunt,NA,max
+Jotun Bane,Axe,Spirit,NA,max
+Jotun Bane,Axe,Poison,NA,max
+Jotun Bane,Axe,Fire,NA,max
+Jotun Bane,Axe,Frost,NA,max
+Jotun Bane,Axe,Lightning,NA,max
+Jotun Bane,Axe,Pierce,NA,min
+Jotun Bane,Axe,Slash,80,min
+Jotun Bane,Axe,Pickaxe,NA,min
+Jotun Bane,Axe,Chop,NA,min
+Jotun Bane,Axe,Blunt,NA,min
+Jotun Bane,Axe,Spirit,NA,min
+Jotun Bane,Axe,Poison,NA,min
+Jotun Bane,Axe,Fire,NA,min
+Jotun Bane,Axe,Frost,NA,min
+Jotun Bane,Axe,Lightning,NA,min
+Jotun Bane,Axe,Pierce,NA,diff
+Jotun Bane,Axe,Slash,15,diff
+Jotun Bane,Axe,Pickaxe,NA,diff
+Jotun Bane,Axe,Chop,NA,diff
+Jotun Bane,Axe,Blunt,NA,diff
+Jotun Bane,Axe,Spirit,NA,diff
+Jotun Bane,Axe,Poison,NA,diff
+Jotun Bane,Axe,Fire,NA,diff
+Jotun Bane,Axe,Frost,NA,diff
+Jotun Bane,Axe,Lightning,NA,diff
+Jotun Bane,Axe,Slash,NA,max
+Jotun Bane,Axe,Poison,40,max
+Jotun Bane,Axe,Slash,NA,min
+Jotun Bane,Axe,Poison,40,min
+Jotun Bane,Axe,Slash,NA,diff
+Jotun Bane,Axe,Poison,0,diff
+Jotun Bane,Axe,Chop,79,max
+Jotun Bane,Axe,Chop,70,min
+Jotun Bane,Axe,Chop,9,diff
+Krom,Two-Handed Sword,Knockback,55,min
+Krom,Two-Handed Sword,Total,168,min
+Krom,Two-Handed Sword,Backstab_x10,30,min
+Krom,Two-Handed Sword,Pierce,NA,max
+Krom,Two-Handed Sword,Slash,168,max
+Krom,Two-Handed Sword,Pickaxe,NA,max
+Krom,Two-Handed Sword,Chop,NA,max
+Krom,Two-Handed Sword,Blunt,NA,max
+Krom,Two-Handed Sword,Spirit,NA,max
+Krom,Two-Handed Sword,Poison,NA,max
+Krom,Two-Handed Sword,Fire,NA,max
+Krom,Two-Handed Sword,Frost,NA,max
+Krom,Two-Handed Sword,Lightning,NA,max
+Krom,Two-Handed Sword,Pierce,NA,min
+Krom,Two-Handed Sword,Slash,150,min
+Krom,Two-Handed Sword,Pickaxe,NA,min
+Krom,Two-Handed Sword,Chop,NA,min
+Krom,Two-Handed Sword,Blunt,NA,min
+Krom,Two-Handed Sword,Spirit,NA,min
+Krom,Two-Handed Sword,Poison,NA,min
+Krom,Two-Handed Sword,Fire,NA,min
+Krom,Two-Handed Sword,Frost,NA,min
+Krom,Two-Handed Sword,Lightning,NA,min
+Krom,Two-Handed Sword,Pierce,NA,diff
+Krom,Two-Handed Sword,Slash,18,diff
+Krom,Two-Handed Sword,Pickaxe,NA,diff
+Krom,Two-Handed Sword,Chop,NA,diff
+Krom,Two-Handed Sword,Blunt,NA,diff
+Krom,Two-Handed Sword,Spirit,NA,diff
+Krom,Two-Handed Sword,Poison,NA,diff
+Krom,Two-Handed Sword,Fire,NA,diff
+Krom,Two-Handed Sword,Frost,NA,diff
+Krom,Two-Handed Sword,Lightning,NA,diff
+Mistwalker,Sword,Knockback,40,min
+Mistwalker,Sword,Total,75,min
+Mistwalker,Sword,Backstab_x10,30,min
+Mistwalker,Sword,Pierce,NA,max
+Mistwalker,Sword,Slash,75,max
+Mistwalker,Sword,Pickaxe,NA,max
+Mistwalker,Sword,Chop,NA,max
+Mistwalker,Sword,Blunt,NA,max
+Mistwalker,Sword,Spirit,NA,max
+Mistwalker,Sword,Poison,NA,max
+Mistwalker,Sword,Fire,NA,max
+Mistwalker,Sword,Frost,NA,max
+Mistwalker,Sword,Lightning,NA,max
+Mistwalker,Sword,Pierce,NA,min
+Mistwalker,Sword,Slash,75,min
+Mistwalker,Sword,Pickaxe,NA,min
+Mistwalker,Sword,Chop,NA,min
+Mistwalker,Sword,Blunt,NA,min
+Mistwalker,Sword,Spirit,NA,min
+Mistwalker,Sword,Poison,NA,min
+Mistwalker,Sword,Fire,NA,min
+Mistwalker,Sword,Frost,NA,min
+Mistwalker,Sword,Lightning,NA,min
+Mistwalker,Sword,Pierce,NA,diff
+Mistwalker,Sword,Slash,0,diff
+Mistwalker,Sword,Pickaxe,NA,diff
+Mistwalker,Sword,Chop,NA,diff
+Mistwalker,Sword,Blunt,NA,diff
+Mistwalker,Sword,Spirit,NA,diff
+Mistwalker,Sword,Poison,NA,diff
+Mistwalker,Sword,Fire,NA,diff
+Mistwalker,Sword,Frost,NA,diff
+Mistwalker,Sword,Lightning,NA,diff
+Mistwalker,Sword,Slash,NA,max
+Mistwalker,Sword,Frost,58,max
+Mistwalker,Sword,Slash,NA,min
+Mistwalker,Sword,Frost,40,min
+Mistwalker,Sword,Slash,NA,diff
+Mistwalker,Sword,Frost,18,diff
+Mistwalker,Sword,Spirit,15,max
+Mistwalker,Sword,Spirit,0,min
+Mistwalker,Sword,Spirit,15,diff
+Needle Arrow,Arrow,Knockback,15,min
+Needle Arrow,Arrow,Total,62,min
+Needle Arrow,Arrow,Backstab_x10,NA,min
+Needle Arrow,Arrow,Pierce,62,max
+Needle Arrow,Arrow,Slash,NA,max
+Needle Arrow,Arrow,Pickaxe,NA,max
+Needle Arrow,Arrow,Chop,NA,max
+Needle Arrow,Arrow,Blunt,NA,max
+Needle Arrow,Arrow,Spirit,NA,max
+Needle Arrow,Arrow,Poison,NA,max
+Needle Arrow,Arrow,Fire,NA,max
+Needle Arrow,Arrow,Frost,NA,max
+Needle Arrow,Arrow,Lightning,NA,max
+Needle Arrow,Arrow,Pierce,62,min
+Needle Arrow,Arrow,Slash,NA,min
+Needle Arrow,Arrow,Pickaxe,NA,min
+Needle Arrow,Arrow,Chop,NA,min
+Needle Arrow,Arrow,Blunt,NA,min
+Needle Arrow,Arrow,Spirit,NA,min
+Needle Arrow,Arrow,Poison,NA,min
+Needle Arrow,Arrow,Fire,NA,min
+Needle Arrow,Arrow,Frost,NA,min
+Needle Arrow,Arrow,Lightning,NA,min
+Needle Arrow,Arrow,Pierce,0,diff
+Needle Arrow,Arrow,Slash,NA,diff
+Needle Arrow,Arrow,Pickaxe,NA,diff
+Needle Arrow,Arrow,Chop,NA,diff
+Needle Arrow,Arrow,Blunt,NA,diff
+Needle Arrow,Arrow,Spirit,NA,diff
+Needle Arrow,Arrow,Poison,NA,diff
+Needle Arrow,Arrow,Fire,NA,diff
+Needle Arrow,Arrow,Frost,NA,diff
+Needle Arrow,Arrow,Lightning,NA,diff
+Obsidian Arrow,Arrow,Knockback,10,min
+Obsidian Arrow,Arrow,Total,52,min
+Obsidian Arrow,Arrow,Backstab_x10,NA,min
+Obsidian Arrow,Arrow,Pierce,52,max
+Obsidian Arrow,Arrow,Slash,NA,max
+Obsidian Arrow,Arrow,Pickaxe,NA,max
+Obsidian Arrow,Arrow,Chop,NA,max
+Obsidian Arrow,Arrow,Blunt,NA,max
+Obsidian Arrow,Arrow,Spirit,NA,max
+Obsidian Arrow,Arrow,Poison,NA,max
+Obsidian Arrow,Arrow,Fire,NA,max
+Obsidian Arrow,Arrow,Frost,NA,max
+Obsidian Arrow,Arrow,Lightning,NA,max
+Obsidian Arrow,Arrow,Pierce,52,min
+Obsidian Arrow,Arrow,Slash,NA,min
+Obsidian Arrow,Arrow,Pickaxe,NA,min
+Obsidian Arrow,Arrow,Chop,NA,min
+Obsidian Arrow,Arrow,Blunt,NA,min
+Obsidian Arrow,Arrow,Spirit,NA,min
+Obsidian Arrow,Arrow,Poison,NA,min
+Obsidian Arrow,Arrow,Fire,NA,min
+Obsidian Arrow,Arrow,Frost,NA,min
+Obsidian Arrow,Arrow,Lightning,NA,min
+Obsidian Arrow,Arrow,Pierce,0,diff
+Obsidian Arrow,Arrow,Slash,NA,diff
+Obsidian Arrow,Arrow,Pickaxe,NA,diff
+Obsidian Arrow,Arrow,Chop,NA,diff
+Obsidian Arrow,Arrow,Blunt,NA,diff
+Obsidian Arrow,Arrow,Spirit,NA,diff
+Obsidian Arrow,Arrow,Poison,NA,diff
+Obsidian Arrow,Arrow,Fire,NA,diff
+Obsidian Arrow,Arrow,Frost,NA,diff
+Obsidian Arrow,Arrow,Lightning,NA,diff
+Poison Arrow,Arrow,Knockback,10,min
+Poison Arrow,Arrow,Total,78,min
+Poison Arrow,Arrow,Backstab_x10,NA,min
+Poison Arrow,Arrow,Pierce,26,max
+Poison Arrow,Arrow,Slash,NA,max
+Poison Arrow,Arrow,Pickaxe,NA,max
+Poison Arrow,Arrow,Chop,NA,max
+Poison Arrow,Arrow,Blunt,NA,max
+Poison Arrow,Arrow,Spirit,NA,max
+Poison Arrow,Arrow,Poison,NA,max
+Poison Arrow,Arrow,Fire,NA,max
+Poison Arrow,Arrow,Frost,NA,max
+Poison Arrow,Arrow,Lightning,NA,max
+Poison Arrow,Arrow,Pierce,26,min
+Poison Arrow,Arrow,Slash,NA,min
+Poison Arrow,Arrow,Pickaxe,NA,min
+Poison Arrow,Arrow,Chop,NA,min
+Poison Arrow,Arrow,Blunt,NA,min
+Poison Arrow,Arrow,Spirit,NA,min
+Poison Arrow,Arrow,Poison,NA,min
+Poison Arrow,Arrow,Fire,NA,min
+Poison Arrow,Arrow,Frost,NA,min
+Poison Arrow,Arrow,Lightning,NA,min
+Poison Arrow,Arrow,Pierce,0,diff
+Poison Arrow,Arrow,Slash,NA,diff
+Poison Arrow,Arrow,Pickaxe,NA,diff
+Poison Arrow,Arrow,Chop,NA,diff
+Poison Arrow,Arrow,Blunt,NA,diff
+Poison Arrow,Arrow,Spirit,NA,diff
+Poison Arrow,Arrow,Poison,NA,diff
+Poison Arrow,Arrow,Fire,NA,diff
+Poison Arrow,Arrow,Frost,NA,diff
+Poison Arrow,Arrow,Lightning,NA,diff
+Poison Arrow,Arrow,Pierce,NA,max
+Poison Arrow,Arrow,Poison,52,max
+Poison Arrow,Arrow,Pierce,NA,min
+Poison Arrow,Arrow,Poison,52,min
+Poison Arrow,Arrow,Pierce,NA,diff
+Poison Arrow,Arrow,Poison,0,diff
+Porcupine,Club,Knockback,90,min
+Porcupine,Club,Total,113,min
+Porcupine,Club,Backstab_x10,30,min
+Porcupine,Club,Pierce,NA,max
+Porcupine,Club,Slash,NA,max
+Porcupine,Club,Pickaxe,NA,max
+Porcupine,Club,Chop,NA,max
+Porcupine,Club,Blunt,50,max
+Porcupine,Club,Spirit,NA,max
+Porcupine,Club,Poison,NA,max
+Porcupine,Club,Fire,NA,max
+Porcupine,Club,Frost,NA,max
+Porcupine,Club,Lightning,NA,max
+Porcupine,Club,Pierce,NA,min
+Porcupine,Club,Slash,NA,min
+Porcupine,Club,Pickaxe,NA,min
+Porcupine,Club,Chop,NA,min
+Porcupine,Club,Blunt,50,min
+Porcupine,Club,Spirit,NA,min
+Porcupine,Club,Poison,NA,min
+Porcupine,Club,Fire,NA,min
+Porcupine,Club,Frost,NA,min
+Porcupine,Club,Lightning,NA,min
+Porcupine,Club,Pierce,NA,diff
+Porcupine,Club,Slash,NA,diff
+Porcupine,Club,Pickaxe,NA,diff
+Porcupine,Club,Chop,NA,diff
+Porcupine,Club,Blunt,0,diff
+Porcupine,Club,Spirit,NA,diff
+Porcupine,Club,Poison,NA,diff
+Porcupine,Club,Fire,NA,diff
+Porcupine,Club,Frost,NA,diff
+Porcupine,Club,Lightning,NA,diff
+Porcupine,Club,Pierce,63,max
+Porcupine,Club,Blunt,NA,max
+Porcupine,Club,Pierce,45,min
+Porcupine,Club,Blunt,NA,min
+Porcupine,Club,Pierce,18,diff
+Porcupine,Club,Blunt,NA,diff
+Silver Arrow,Arrow,Knockback,10,min
+Silver Arrow,Arrow,Total,72,min
+Silver Arrow,Arrow,Backstab_x10,NA,min
+Silver Arrow,Arrow,Pierce,52,max
+Silver Arrow,Arrow,Slash,NA,max
+Silver Arrow,Arrow,Pickaxe,NA,max
+Silver Arrow,Arrow,Chop,NA,max
+Silver Arrow,Arrow,Blunt,NA,max
+Silver Arrow,Arrow,Spirit,NA,max
+Silver Arrow,Arrow,Poison,NA,max
+Silver Arrow,Arrow,Fire,NA,max
+Silver Arrow,Arrow,Frost,NA,max
+Silver Arrow,Arrow,Lightning,NA,max
+Silver Arrow,Arrow,Pierce,52,min
+Silver Arrow,Arrow,Slash,NA,min
+Silver Arrow,Arrow,Pickaxe,NA,min
+Silver Arrow,Arrow,Chop,NA,min
+Silver Arrow,Arrow,Blunt,NA,min
+Silver Arrow,Arrow,Spirit,NA,min
+Silver Arrow,Arrow,Poison,NA,min
+Silver Arrow,Arrow,Fire,NA,min
+Silver Arrow,Arrow,Frost,NA,min
+Silver Arrow,Arrow,Lightning,NA,min
+Silver Arrow,Arrow,Pierce,0,diff
+Silver Arrow,Arrow,Slash,NA,diff
+Silver Arrow,Arrow,Pickaxe,NA,diff
+Silver Arrow,Arrow,Chop,NA,diff
+Silver Arrow,Arrow,Blunt,NA,diff
+Silver Arrow,Arrow,Spirit,NA,diff
+Silver Arrow,Arrow,Poison,NA,diff
+Silver Arrow,Arrow,Fire,NA,diff
+Silver Arrow,Arrow,Frost,NA,diff
+Silver Arrow,Arrow,Lightning,NA,diff
+Silver Arrow,Arrow,Pierce,NA,max
+Silver Arrow,Arrow,Spirit,20,max
+Silver Arrow,Arrow,Pierce,NA,min
+Silver Arrow,Arrow,Spirit,20,min
+Silver Arrow,Arrow,Pierce,NA,diff
+Silver Arrow,Arrow,Spirit,0,diff
+Silver Knife,Knife,Knockback,10,min
+Silver Knife,Knife,Total,56,min
+Silver Knife,Knife,Backstab_x10,60,min
+Silver Knife,Knife,Pierce,NA,max
+Silver Knife,Knife,Slash,28,max
+Silver Knife,Knife,Pickaxe,NA,max
+Silver Knife,Knife,Chop,NA,max
+Silver Knife,Knife,Blunt,NA,max
+Silver Knife,Knife,Spirit,NA,max
+Silver Knife,Knife,Poison,NA,max
+Silver Knife,Knife,Fire,NA,max
+Silver Knife,Knife,Frost,NA,max
+Silver Knife,Knife,Lightning,NA,max
+Silver Knife,Knife,Pierce,NA,min
+Silver Knife,Knife,Slash,25,min
+Silver Knife,Knife,Pickaxe,NA,min
+Silver Knife,Knife,Chop,NA,min
+Silver Knife,Knife,Blunt,NA,min
+Silver Knife,Knife,Spirit,NA,min
+Silver Knife,Knife,Poison,NA,min
+Silver Knife,Knife,Fire,NA,min
+Silver Knife,Knife,Frost,NA,min
+Silver Knife,Knife,Lightning,NA,min
+Silver Knife,Knife,Pierce,NA,diff
+Silver Knife,Knife,Slash,3,diff
+Silver Knife,Knife,Pickaxe,NA,diff
+Silver Knife,Knife,Chop,NA,diff
+Silver Knife,Knife,Blunt,NA,diff
+Silver Knife,Knife,Spirit,NA,diff
+Silver Knife,Knife,Poison,NA,diff
+Silver Knife,Knife,Fire,NA,diff
+Silver Knife,Knife,Frost,NA,diff
+Silver Knife,Knife,Lightning,NA,diff
+Silver Knife,Knife,Pierce,28,max
+Silver Knife,Knife,Slash,NA,max
+Silver Knife,Knife,Pierce,25,min
+Silver Knife,Knife,Slash,NA,min
+Silver Knife,Knife,Pierce,3,diff
+Silver Knife,Knife,Slash,NA,diff
+Silver Knife,Knife,Spirit,12,max
+Silver Knife,Knife,Spirit,12,min
+Silver Knife,Knife,Spirit,0,diff
+Silver Sword,Sword,Knockback,40,min
+Silver Sword,Sword,Total,93,min
+Silver Sword,Sword,Backstab_x10,30,min
+Silver Sword,Sword,Pierce,NA,max
+Silver Sword,Sword,Slash,93,max
+Silver Sword,Sword,Pickaxe,NA,max
+Silver Sword,Sword,Chop,NA,max
+Silver Sword,Sword,Blunt,NA,max
+Silver Sword,Sword,Spirit,NA,max
+Silver Sword,Sword,Poison,NA,max
+Silver Sword,Sword,Fire,NA,max
+Silver Sword,Sword,Frost,NA,max
+Silver Sword,Sword,Lightning,NA,max
+Silver Sword,Sword,Pierce,NA,min
+Silver Sword,Sword,Slash,75,min
+Silver Sword,Sword,Pickaxe,NA,min
+Silver Sword,Sword,Chop,NA,min
+Silver Sword,Sword,Blunt,NA,min
+Silver Sword,Sword,Spirit,NA,min
+Silver Sword,Sword,Poison,NA,min
+Silver Sword,Sword,Fire,NA,min
+Silver Sword,Sword,Frost,NA,min
+Silver Sword,Sword,Lightning,NA,min
+Silver Sword,Sword,Pierce,NA,diff
+Silver Sword,Sword,Slash,18,diff
+Silver Sword,Sword,Pickaxe,NA,diff
+Silver Sword,Sword,Chop,NA,diff
+Silver Sword,Sword,Blunt,NA,diff
+Silver Sword,Sword,Spirit,NA,diff
+Silver Sword,Sword,Poison,NA,diff
+Silver Sword,Sword,Fire,NA,diff
+Silver Sword,Sword,Frost,NA,diff
+Silver Sword,Sword,Lightning,NA,diff
+Silver Sword,Sword,Slash,NA,max
+Silver Sword,Sword,Spirit,45,max
+Silver Sword,Sword,Slash,NA,min
+Silver Sword,Sword,Spirit,30,min
+Silver Sword,Sword,Slash,NA,diff
+Silver Sword,Sword,Spirit,15,diff
+Skoll And Hati,Dual-Wielded Knive,Knockback,10,min
+Skoll And Hati,Dual-Wielded Knive,Total,96,min
+Skoll And Hati,Dual-Wielded Knive,Backstab_x10,60,min
+Skoll And Hati,Dual-Wielded Knive,Pierce,NA,max
+Skoll And Hati,Dual-Wielded Knive,Slash,48,max
+Skoll And Hati,Dual-Wielded Knive,Pickaxe,NA,max
+Skoll And Hati,Dual-Wielded Knive,Chop,NA,max
+Skoll And Hati,Dual-Wielded Knive,Blunt,NA,max
+Skoll And Hati,Dual-Wielded Knive,Spirit,NA,max
+Skoll And Hati,Dual-Wielded Knive,Poison,NA,max
+Skoll And Hati,Dual-Wielded Knive,Fire,NA,max
+Skoll And Hati,Dual-Wielded Knive,Frost,NA,max
+Skoll And Hati,Dual-Wielded Knive,Lightning,NA,max
+Skoll And Hati,Dual-Wielded Knive,Pierce,NA,min
+Skoll And Hati,Dual-Wielded Knive,Slash,45,min
+Skoll And Hati,Dual-Wielded Knive,Pickaxe,NA,min
+Skoll And Hati,Dual-Wielded Knive,Chop,NA,min
+Skoll And Hati,Dual-Wielded Knive,Blunt,NA,min
+Skoll And Hati,Dual-Wielded Knive,Spirit,NA,min
+Skoll And Hati,Dual-Wielded Knive,Poison,NA,min
+Skoll And Hati,Dual-Wielded Knive,Fire,NA,min
+Skoll And Hati,Dual-Wielded Knive,Frost,NA,min
+Skoll And Hati,Dual-Wielded Knive,Lightning,NA,min
+Skoll And Hati,Dual-Wielded Knive,Pierce,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Slash,3,diff
+Skoll And Hati,Dual-Wielded Knive,Pickaxe,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Chop,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Blunt,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Spirit,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Poison,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Fire,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Frost,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Lightning,NA,diff
+Skoll And Hati,Dual-Wielded Knive,Pierce,48,max
+Skoll And Hati,Dual-Wielded Knive,Slash,NA,max
+Skoll And Hati,Dual-Wielded Knive,Pierce,45,min
+Skoll And Hati,Dual-Wielded Knive,Slash,NA,min
+Skoll And Hati,Dual-Wielded Knive,Pierce,3,diff
+Skoll And Hati,Dual-Wielded Knive,Slash,NA,diff
+Spinesnap,Bow,Knockback,25,min
+Spinesnap,Bow,Total,NA,min
+Spinesnap,Bow,Backstab_x10,30,min
+Spinesnap,Bow,Pierce,84,max
+Spinesnap,Bow,Slash,NA,max
+Spinesnap,Bow,Pickaxe,NA,max
+Spinesnap,Bow,Chop,NA,max
+Spinesnap,Bow,Blunt,NA,max
+Spinesnap,Bow,Spirit,NA,max
+Spinesnap,Bow,Poison,NA,max
+Spinesnap,Bow,Fire,NA,max
+Spinesnap,Bow,Frost,NA,max
+Spinesnap,Bow,Lightning,NA,max
+Spinesnap,Bow,Pierce,72,min
+Spinesnap,Bow,Slash,NA,min
+Spinesnap,Bow,Pickaxe,NA,min
+Spinesnap,Bow,Chop,NA,min
+Spinesnap,Bow,Blunt,NA,min
+Spinesnap,Bow,Spirit,NA,min
+Spinesnap,Bow,Poison,NA,min
+Spinesnap,Bow,Fire,NA,min
+Spinesnap,Bow,Frost,NA,min
+Spinesnap,Bow,Lightning,NA,min
+Spinesnap,Bow,Pierce,12,diff
+Spinesnap,Bow,Slash,NA,diff
+Spinesnap,Bow,Pickaxe,NA,diff
+Spinesnap,Bow,Chop,NA,diff
+Spinesnap,Bow,Blunt,NA,diff
+Spinesnap,Bow,Spirit,NA,diff
+Spinesnap,Bow,Poison,NA,diff
+Spinesnap,Bow,Fire,NA,diff
+Spinesnap,Bow,Frost,NA,diff
+Spinesnap,Bow,Lightning,NA,diff
+Spinesnap,Bow,Pierce,NA,max
+Spinesnap,Bow,Spirit,20,max
+Spinesnap,Bow,Pierce,NA,min
+Spinesnap,Bow,Spirit,5,min
+Spinesnap,Bow,Pierce,NA,diff
+Spinesnap,Bow,Spirit,15,diff
+Stagbreaker,Two-Handed Club,Knockback,150,min
+Stagbreaker,Two-Handed Club,Total,43,min
+Stagbreaker,Two-Handed Club,Backstab_x10,20,min
+Stagbreaker,Two-Handed Club,Pierce,NA,max
+Stagbreaker,Two-Handed Club,Slash,NA,max
+Stagbreaker,Two-Handed Club,Pickaxe,NA,max
+Stagbreaker,Two-Handed Club,Chop,NA,max
+Stagbreaker,Two-Handed Club,Blunt,38,max
+Stagbreaker,Two-Handed Club,Spirit,NA,max
+Stagbreaker,Two-Handed Club,Poison,NA,max
+Stagbreaker,Two-Handed Club,Fire,NA,max
+Stagbreaker,Two-Handed Club,Frost,NA,max
+Stagbreaker,Two-Handed Club,Lightning,NA,max
+Stagbreaker,Two-Handed Club,Pierce,NA,min
+Stagbreaker,Two-Handed Club,Slash,NA,min
+Stagbreaker,Two-Handed Club,Pickaxe,NA,min
+Stagbreaker,Two-Handed Club,Chop,NA,min
+Stagbreaker,Two-Handed Club,Blunt,20,min
+Stagbreaker,Two-Handed Club,Spirit,NA,min
+Stagbreaker,Two-Handed Club,Poison,NA,min
+Stagbreaker,Two-Handed Club,Fire,NA,min
+Stagbreaker,Two-Handed Club,Frost,NA,min
+Stagbreaker,Two-Handed Club,Lightning,NA,min
+Stagbreaker,Two-Handed Club,Pierce,NA,diff
+Stagbreaker,Two-Handed Club,Slash,NA,diff
+Stagbreaker,Two-Handed Club,Pickaxe,NA,diff
+Stagbreaker,Two-Handed Club,Chop,NA,diff
+Stagbreaker,Two-Handed Club,Blunt,18,diff
+Stagbreaker,Two-Handed Club,Spirit,NA,diff
+Stagbreaker,Two-Handed Club,Poison,NA,diff
+Stagbreaker,Two-Handed Club,Fire,NA,diff
+Stagbreaker,Two-Handed Club,Frost,NA,diff
+Stagbreaker,Two-Handed Club,Lightning,NA,diff
+Stagbreaker,Two-Handed Club,Pierce,5,max
+Stagbreaker,Two-Handed Club,Blunt,NA,max
+Stagbreaker,Two-Handed Club,Pierce,5,min
+Stagbreaker,Two-Handed Club,Blunt,NA,min
+Stagbreaker,Two-Handed Club,Pierce,0,diff
+Stagbreaker,Two-Handed Club,Blunt,NA,diff
+Stone Axe,Axe,Knockback,50,min
+Stone Axe,Axe,Total,30,min
+Stone Axe,Axe,Backstab_x10,30,min
+Stone Axe,Axe,Pierce,NA,max
+Stone Axe,Axe,Slash,30,max
+Stone Axe,Axe,Pickaxe,NA,max
+Stone Axe,Axe,Chop,NA,max
+Stone Axe,Axe,Blunt,NA,max
+Stone Axe,Axe,Spirit,NA,max
+Stone Axe,Axe,Poison,NA,max
+Stone Axe,Axe,Fire,NA,max
+Stone Axe,Axe,Frost,NA,max
+Stone Axe,Axe,Lightning,NA,max
+Stone Axe,Axe,Pierce,NA,min
+Stone Axe,Axe,Slash,15,min
+Stone Axe,Axe,Pickaxe,NA,min
+Stone Axe,Axe,Chop,NA,min
+Stone Axe,Axe,Blunt,NA,min
+Stone Axe,Axe,Spirit,NA,min
+Stone Axe,Axe,Poison,NA,min
+Stone Axe,Axe,Fire,NA,min
+Stone Axe,Axe,Frost,NA,min
+Stone Axe,Axe,Lightning,NA,min
+Stone Axe,Axe,Pierce,NA,diff
+Stone Axe,Axe,Slash,15,diff
+Stone Axe,Axe,Pickaxe,NA,diff
+Stone Axe,Axe,Chop,NA,diff
+Stone Axe,Axe,Blunt,NA,diff
+Stone Axe,Axe,Spirit,NA,diff
+Stone Axe,Axe,Poison,NA,diff
+Stone Axe,Axe,Fire,NA,diff
+Stone Axe,Axe,Frost,NA,diff
+Stone Axe,Axe,Lightning,NA,diff
+Tankard,Tool,Knockback,30,min
+Tankard,Tool,Total,0,min
+Tankard,Tool,Backstab_x10,40,min
+Tankard,Tool,Pierce,NA,max
+Tankard,Tool,Slash,NA,max
+Tankard,Tool,Pickaxe,NA,max
+Tankard,Tool,Chop,NA,max
+Tankard,Tool,Blunt,NA,max
+Tankard,Tool,Spirit,NA,max
+Tankard,Tool,Poison,NA,max
+Tankard,Tool,Fire,NA,max
+Tankard,Tool,Frost,NA,max
+Tankard,Tool,Lightning,NA,max
+Tankard,Tool,Pierce,NA,min
+Tankard,Tool,Slash,NA,min
+Tankard,Tool,Pickaxe,NA,min
+Tankard,Tool,Chop,NA,min
+Tankard,Tool,Blunt,NA,min
+Tankard,Tool,Spirit,NA,min
+Tankard,Tool,Poison,NA,min
+Tankard,Tool,Fire,NA,min
+Tankard,Tool,Frost,NA,min
+Tankard,Tool,Lightning,NA,min
+Tankard,Tool,Pierce,NA,diff
+Tankard,Tool,Slash,NA,diff
+Tankard,Tool,Pickaxe,NA,diff
+Tankard,Tool,Chop,NA,diff
+Tankard,Tool,Blunt,NA,diff
+Tankard,Tool,Spirit,NA,diff
+Tankard,Tool,Poison,NA,diff
+Tankard,Tool,Fire,NA,diff
+Tankard,Tool,Frost,NA,diff
+Tankard,Tool,Lightning,NA,diff
+Torch,Club,Knockback,30,min
+Torch,Club,Total,4,min
+Torch,Club,Backstab_x10,30,min
+Torch,Club,Pierce,NA,max
+Torch,Club,Slash,NA,max
+Torch,Club,Pickaxe,NA,max
+Torch,Club,Chop,NA,max
+Torch,Club,Blunt,4,max
+Torch,Club,Spirit,NA,max
+Torch,Club,Poison,NA,max
+Torch,Club,Fire,NA,max
+Torch,Club,Frost,NA,max
+Torch,Club,Lightning,NA,max
+Torch,Club,Pierce,NA,min
+Torch,Club,Slash,NA,min
+Torch,Club,Pickaxe,NA,min
+Torch,Club,Chop,NA,min
+Torch,Club,Blunt,4,min
+Torch,Club,Spirit,NA,min
+Torch,Club,Poison,NA,min
+Torch,Club,Fire,NA,min
+Torch,Club,Frost,NA,min
+Torch,Club,Lightning,NA,min
+Torch,Club,Pierce,NA,diff
+Torch,Club,Slash,NA,diff
+Torch,Club,Pickaxe,NA,diff
+Torch,Club,Chop,NA,diff
+Torch,Club,Blunt,0,diff
+Torch,Club,Spirit,NA,diff
+Torch,Club,Poison,NA,diff
+Torch,Club,Fire,NA,diff
+Torch,Club,Frost,NA,diff
+Torch,Club,Lightning,NA,diff
+Torch,Club,Blunt,NA,max
+Torch,Club,Fire,15,max
+Torch,Club,Blunt,NA,min
+Torch,Club,Fire,15,min
+Torch,Club,Blunt,NA,diff
+Torch,Club,Fire,0,diff
+Wooden Arrow,Arrow,Knockback,10,min
+Wooden Arrow,Arrow,Total,22,min
+Wooden Arrow,Arrow,Backstab_x10,NA,min
+Wooden Arrow,Arrow,Pierce,22,max
+Wooden Arrow,Arrow,Slash,NA,max
+Wooden Arrow,Arrow,Pickaxe,NA,max
+Wooden Arrow,Arrow,Chop,NA,max
+Wooden Arrow,Arrow,Blunt,NA,max
+Wooden Arrow,Arrow,Spirit,NA,max
+Wooden Arrow,Arrow,Poison,NA,max
+Wooden Arrow,Arrow,Fire,NA,max
+Wooden Arrow,Arrow,Frost,NA,max
+Wooden Arrow,Arrow,Lightning,NA,max
+Wooden Arrow,Arrow,Pierce,22,min
+Wooden Arrow,Arrow,Slash,NA,min
+Wooden Arrow,Arrow,Pickaxe,NA,min
+Wooden Arrow,Arrow,Chop,NA,min
+Wooden Arrow,Arrow,Blunt,NA,min
+Wooden Arrow,Arrow,Spirit,NA,min
+Wooden Arrow,Arrow,Poison,NA,min
+Wooden Arrow,Arrow,Fire,NA,min
+Wooden Arrow,Arrow,Frost,NA,min
+Wooden Arrow,Arrow,Lightning,NA,min
+Wooden Arrow,Arrow,Pierce,0,diff
+Wooden Arrow,Arrow,Slash,NA,diff
+Wooden Arrow,Arrow,Pickaxe,NA,diff
+Wooden Arrow,Arrow,Chop,NA,diff
+Wooden Arrow,Arrow,Blunt,NA,diff
+Wooden Arrow,Arrow,Spirit,NA,diff
+Wooden Arrow,Arrow,Poison,NA,diff
+Wooden Arrow,Arrow,Fire,NA,diff
+Wooden Arrow,Arrow,Frost,NA,diff
+Wooden Arrow,Arrow,Lightning,NA,diff

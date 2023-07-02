@@ -1,17 +1,18 @@
 server <- function(input, output, session) {
   
-  ## Filter weapons list on button press
+  # Weapon 1 ----------------------
+  ## Filter weapons list on button press ----------
   observeEvent(input$update, {
     weapons_list <- weapons_joined %>% 
-      {if(input$weapon_type_input != "All") # if weapon type input
+      {if(input$weapon_type_input != "All") # if weapon type input -> filter
         filter(., type == input$weapon_type_input)
         else 
           filter(., !is.na(type))} %>%
-      {if(input$weapon_material_input != "All") # if material input
+      {if(input$weapon_material_input != "All") # if material input -> filter
         filter(., material == input$weapon_material_input)
         else 
           filter(., !is.na(type))}  %>% 
-      {if(input$damage_type_input != "All") # if damage type input
+      {if(input$damage_type_input != "All") # if damage type input -> filter
         filter(., str_detect(damage_type, as.character(input$damage_type_input)))
         else 
           filter(., !is.na(type))} %>% 
@@ -23,7 +24,7 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
   })
   
-  ## Reset filters -----------
+  ### Reset filters -----------
   observeEvent(input$reset, {
     updateSelectInput(session, inputId = "weapon_type_input", selected = "All")
     updateSelectInput(session, inputId = "weapon_material_input", selected = "All")
@@ -37,13 +38,13 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
   })
   
-  # Filter the weapon data based on weapon input ---------------
+  ## Filter the weapon data based on weapon input ---------------
   filtered_weapons <- reactive({
     weapons_crafting_clean %>% 
       filter(item == input$weapon_input)
   })
   
-  # Crafting Station Type - TEXT -----------
+  ## Crafting Station Type - TEXT -----------
   output$crafting_station_output <- renderText({
     filtered_weapons() %>% 
       filter(upgrade_level == input$item_level_input) %>% 
@@ -52,7 +53,7 @@ server <- function(input, output, session) {
       str_to_title()
   })
   
-  # Crafting Station Level - TEXT --------------
+  ## Crafting Station Level - TEXT --------------
   output$crafting_station_level_output <- renderText({
     level <- filtered_weapons() %>% 
       filter(upgrade_level == input$item_level_input) %>% 
@@ -63,18 +64,16 @@ server <- function(input, output, session) {
     paste("Level: ", level)
   })
   
-  # Change item level options -------------
+  ## Update item level buttons depending on weapon selected --------------
   observeEvent(input$weapon_input, {
     choices <- filtered_weapons() %>% 
       distinct(upgrade_level) %>% 
       pull()
-    updateRadioButtons(inputId = "item_level_input",
-                       choices = choices,
-                       inline = TRUE)
+    updateRadioButtons(inputId = "item_level_input", choices = choices, inline = TRUE)
   })
   
   
-  # Table of materials and amounts -------------
+  ## Table of materials and amounts -------------
   output$weapon_material_table <- renderTable({
     filtered_weapons() %>% 
       filter(upgrade_level == input$item_level_input) %>% 
@@ -84,12 +83,13 @@ server <- function(input, output, session) {
     
   })
   
-  # Plot of damage types ----------------
+  ## PLOT of damage types ----------------
+  # IMPROVE PLOT COLOURS AND SIZE
   output$weapon_stat_plot <- renderPlotly({
-    ggplotly(
-    weapons_data_clean %>% 
+    
+    p <- weapons_data_clean %>% 
       filter(name == input$weapon_input,
-             min_max != "max") %>% # don't plot max, only min and difference between min and max
+             min_max != "max") %>% 
       ggplot(aes(damage_type, values, fill = min_max)) +
       geom_col(show.legend = FALSE) +
       scale_fill_manual(values = c(
@@ -100,14 +100,21 @@ server <- function(input, output, session) {
       theme_classic() +
       labs(
         x = "Damage Type",
-        y = "Damage Values"
-      ) #+ 
-    #theme(axis.title = element_text(size = 12))
+        y = "Damage Values (Min-Max)"
+      ) 
+    
+    p <- p %>% style(
+      #text = ~paste(damage_type, ": ", round(values, 0)),
+      #hoverinfo = text,
+      hovertemplate = "%{x}: %{y:.0f}<extra></extra>"
     )
+    p <- p %>% layout(showlegend = FALSE)
+    
+    ggplotly(p)
   })
   
-  # Part 2 ----------
-  # If weapon type input is changed, update weapon list ------
+  # Weapon 2 ----------
+  ## If weapon type input is changed, update weapon list ------
   observeEvent(input$update_2, {
     weapons_list_2 <- weapons_joined %>% 
       {if(input$weapon_type_input_2 != "All") 
@@ -130,7 +137,7 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
   })
   
-  ## Reset filters
+  ### Reset filters -----------------
   observeEvent(input$reset_2, {
     updateSelectInput(session, inputId = "weapon_type_input_2", selected = "All")
     updateSelectInput(session, inputId = "weapon_material_input_2", selected = "All")
@@ -144,7 +151,7 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
   })
   
-  ## Copy filters
+  ### Copy filters ---------
   observeEvent(input$copy, {
     updateSelectInput(session, inputId = "weapon_type_input_2", selected = input$weapon_type_input)
     updateSelectInput(session, inputId = "weapon_material_input_2", selected = input$weapon_material_input)
@@ -172,13 +179,13 @@ server <- function(input, output, session) {
   })
   
   
-  # Filter the weapon data based on weapon input ---------------
+  ## Filter the weapon data based on weapon input ---------------
   filtered_weapons_2 <- reactive({
     weapons_crafting_clean %>% 
       filter(item == input$weapon_input_2)
   })
   
-  # Crafting Station Type - TEXT -----------
+  ## Crafting Station Type - TEXT -----------
   output$crafting_station_output_2 <- renderText({
     filtered_weapons_2() %>% 
       filter(upgrade_level == input$item_level_input_2) %>% 
@@ -187,7 +194,7 @@ server <- function(input, output, session) {
       str_to_title()
   })
   
-  # Crafting Station Level - TEXT --------------
+  ## Crafting Station Level - TEXT --------------
   output$crafting_station_level_output_2 <- renderText({
     level <- filtered_weapons_2() %>% 
       filter(upgrade_level == input$item_level_input_2) %>% 
@@ -198,7 +205,15 @@ server <- function(input, output, session) {
     paste("Level: ", level)
   })
   
-  # Table of materials and amounts -------------
+  ## Update item level buttons depending on weapon selected --------------
+  observeEvent(input$weapon_input_2, {
+    choices <- filtered_weapons() %>% 
+      distinct(upgrade_level) %>% 
+      pull()
+    updateRadioButtons(inputId = "item_level_input_2", choices = choices, inline = TRUE)
+  })
+  
+  ## Table of materials and amounts -------------
   output$weapon_material_table_2 <- renderTable({
     filtered_weapons_2() %>% 
       filter(upgrade_level == input$item_level_input_2) %>% 
@@ -208,21 +223,12 @@ server <- function(input, output, session) {
     
   })
   
-  # Plot of damage types ----------------
+  ## PLOT of damage types ----------------
   output$weapon_stat_plot_2 <- renderPlotly({
-    ggplotly(
-    weapons_data_clean %>% 
-      filter(name == input$weapon_input_2) %>% 
-      mutate(min_max = 
-               case_when(
-                 str_detect(damage_type, "_min") ~ "min",
-                 str_detect(damage_type, "_max") ~ "max",
-                 str_detect(damage_type, "_diff") ~ "diff"
-               ),
-             damage_type = str_remove(damage_type, "_min|_max|_diff")
-      ) %>% 
-      mutate(min_max = coalesce(min_max, "min")) %>% 
-      filter(min_max != "max") %>% 
+    
+    p <- weapons_data_clean %>% 
+      filter(name == input$weapon_input_2,
+             min_max != "max") %>% 
       ggplot(aes(damage_type, values, fill = min_max)) +
       geom_col(show.legend = FALSE) +
       scale_fill_manual(values = c(
@@ -233,10 +239,17 @@ server <- function(input, output, session) {
       theme_classic() +
       labs(
         x = "Damage Type",
-        y = "Damage Values"
-      ) #+ 
-    #theme(axis.title = element_text(size = 12))
+        y = "Damage Values (Min-Max)"
+      ) 
+    
+    p <- p %>% style(
+      #text = ~paste(damage_type, ": ", round(values, 0)),
+      #hoverinfo = text,
+      hovertemplate = "%{x}: %{y:.0f}<extra></extra>"
     )
+    p <- p %>% layout(showlegend = FALSE)
+    
+    ggplotly(p)
   })
   
 }

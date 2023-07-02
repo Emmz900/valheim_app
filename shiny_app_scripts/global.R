@@ -1,22 +1,24 @@
 library(tidyverse)
 library(bslib)
 library(plotly)
+library(here)
 
-weapons_crafting_clean <- read_csv("clean_data/weapons_crafting")
-weapons_data_clean <- read_csv("clean_data/weapon_data")
+weapons_crafting_clean <- read_csv(here("clean_data/weapons_crafting.csv"))
+weapons_data_clean <- read_csv(here("clean_data/weapon_data.csv"))
 
 weapons_crafting_small <- weapons_crafting_clean %>% 
   select(item, type, material) %>% 
   distinct()
 
 weapons_data_small <- weapons_data_clean %>% 
-  select(name, damage_type, values) %>% 
+  select(name, damage_type, values, min_max) %>% 
   distinct()
 
-weapons_joined <- # joined dataframe with `item`, `type`, `material`, `damage type`, `values`
+weapons_joined <- 
   full_join(weapons_crafting_small,
             weapons_data_small,
-            by = join_by(item == name)) %>% 
+            by = join_by(item == name),
+            relationship = "many-to-many") %>% 
   filter(!type %in% c("Upgrade", "Tool", "Shield", "Magic", "Weapon"))
 
 weapons_list <- weapons_joined %>% 
