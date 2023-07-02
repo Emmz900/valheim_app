@@ -6,7 +6,7 @@ Valheim is an procedurally-generated open world exploration and survival game in
 
 ## The App
 
-This app aims to:
+This R Shiny app aims to:
 
 * Provide damage stats for each weapon
 * Allow comparison of different weapons
