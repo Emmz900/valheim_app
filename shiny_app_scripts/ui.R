@@ -234,26 +234,12 @@ ui <- fluidPage(
         column(
           width = 3,
           selectInput("filter_input", "Filter",
-                      food_type_list, selected = "Health")
+                      str_to_upper(food_type_list), selected = "Health")
         ),
-        
-        # food ingredient input
-        # column(
-        #   width = 3,
-        #   selectInput("ingredients_input", "Ingredients", ingredients_list)
-        # ),
-        # 
-        # # biome input
-        # column(
-        #   width = 3,
-        #   selectInput("biome_input", "Biome", biome_list)
-        # )
-        
       ),
       
       fluidRow(
         # graph of stats
-        
         plotlyOutput("food_stats_plot")
       ),
       

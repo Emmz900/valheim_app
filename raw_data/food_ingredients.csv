@@ -1,44 +1,70 @@
 recipe,quantity of product,ingredients,amount of ingredient,oven,cauldron level
-blood pudding,1,thistle,2,y,4
-blood pudding,1,barley flour,2,y,4
-blood pudding,1,bloodbag,4,y,4
-bread,2,barley flour,10,y,4
-eyescream,1,greydwarf eye,3,n,3
-eyescream,1,freeze gland,1,n,3
-onion soup,1,onion,3,n,3
-turnip stew,1,turnip,3,n,2
-turnip stew,1,boar meat,1,n,2
-muckshake,1,raspberry,2,n,2
-muckshake,1,blueberry,2,n,2
-muckshake,1,ooze,1,n,2
-carrot soup,1,carrot,3,n,1
-carrot soup,1,mushroom,1,n,1
-queens jam,4,raspberry,8,n,1
-queens jam,4,blueberry,6,n,1
-wolf jerky,2,wolf meat,1,n,3
-wolf jerky,2,honey,1,n,3
-boar jerky,2,boar meat,1,n,1
-boar jerky,2,honey,1,n,1
-serpent stew,1,mushroom,1,n,2
-serpent stew,1,cooked serpent meat,1,n,2
-serpent stew,1,honey,2,n,2
-lox pie,1,cloudberry,2,y,4
-lox pie,1,lox meat,2,y,4
-lox pie,1,barley flour,4,y,4
-fish wraps,1,cooked fish,2,n,4
-fish wraps,1,barley flour,4,n,4
-wolf skewer,1,onion,1,n,3
-wolf skewer,1,mushroom,2,n,3
-wolf skewer,1,wolf meat,1,n,3
-sausages,4,thistle,1,n,2
-sausages,4,boar meat,1,n,2
-sausages,4,entrails,4,n,2
 black soup,1,turnip,1,n,2
 black soup,1,bloodbag,1,n,2
 black soup,1,honey,1,n,2
+blood pudding,1,thistle,2,y,4
+blood pudding,1,barley flour,2,y,4
+blood pudding,1,bloodbag,4,y,4
+boar jerky,2,boar meat,1,n,1
+boar jerky,2,honey,1,n,1
+bread,2,barley flour,10,y,4
+carrot soup,1,carrot,3,n,1
+carrot soup,1,mushroom,1,n,1
 deer stew,1,carrot,1,n,1
 deer stew,1,blueberry,1,n,1
 deer stew,1,cooked deer meat,1,n,1
+eyescream,1,greydwarf eye,3,n,3
+eyescream,1,freeze gland,1,n,3
+fish n'bread,1,anglerfish,1,y,5
+fish n'bread,1,bread dough,2,y,5
+fish wraps,1,cooked fish,2,n,4
+fish wraps,1,barley flour,4,n,4
+honey glazed chicken,1,chicken meat,1,y,5
+honey glazed chicken,1,honey,3,y,5
+honey glazed chicken,1,jotun puffs,2,y,5
+lox pie,1,cloudberry,2,y,4
+lox pie,1,lox meat,2,y,4
+lox pie,1,barley flour,4,y,4
 minced meat sauce,1,boar meat,1,n,1
 minced meat sauce,1,neck tail,1,n,1
 minced meat sauce,1,carrot,1,n,1
+muckshake,1,raspberry,2,n,2
+muckshake,1,blueberry,2,n,2
+muckshake,1,ooze,1,n,2
+onion soup,1,onion,3,n,3
+queens jam,4,raspberry,8,n,1
+queens jam,4,blueberry,6,n,1
+sausages,4,thistle,1,n,2
+sausages,4,boar meat,1,n,2
+sausages,4,entrails,4,n,2
+serpent stew,1,mushroom,1,n,2
+serpent stew,1,cooked serpent meat,1,n,2
+serpent stew,1,honey,2,n,2
+turnip stew,1,turnip,3,n,2
+turnip stew,1,boar meat,1,n,2
+wolf jerky,2,wolf meat,1,n,3
+wolf jerky,2,honey,1,n,3
+wolf skewer,1,onion,1,n,3
+wolf skewer,1,mushroom,2,n,3
+wolf skewer,1,wolf meat,1,n,3
+cooked egg,1,egg,1,n,1
+meat platter,1,seeker meat,1,y,5
+meat platter,1,lox meat,1,y,5
+meat platter,1,hare meat,1,y,5
+misthare supreme,1,hare meat,1,y,5
+misthare supreme,1,jotun puffs,3,y,5
+misthare supreme,1,carrot,2,y,5
+salad,1,jotun puffs,3,n,5
+salad,1,onion,3,n,5
+salad,1,cloudberry,3,n,5
+mushroom omlette,1,egg,3,y,5
+mushroom omlette,1,jotun puffs,3,y,5
+stuffed mushroom,1,magecap,3,y,5
+stuffed mushroom,1,blood clot,1,y,5
+stuffed mushroom,1,turnip,2,y,5
+yggdrasil porridge,1,sap,4,n,5
+yggdrasil porridge,1,barley,3,n,5
+yggdrasil porridge,1,royal jelly,2,n,5
+seeker aspic,1,seeker meat,2,n,5
+seeker aspic,1,magecap,2,n,5
+seeker aspic,1,royal jelly,2,n,5

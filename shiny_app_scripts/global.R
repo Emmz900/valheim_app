@@ -55,12 +55,16 @@ food_stats <- read_csv(here("raw_data/food_stats.csv")) %>%
          type = str_to_title(type)) %>% 
   pivot_longer(health:duration, names_to = "stat", values_to = "values")
 
+all_food <- food_stats %>% 
+  full_join(food_ingredients, by = "recipe")
+
 food_filter_options <- list(
-  "Ingredients" = sort(unique(food_ingredients$ingredients)),
-  "Biome" = unique(food_stats$zone),
-  "Main Stat" = unique(food_stats$type)
+  "Ingredients" = sort(unique(all_food$ingredients)),
+  "Biome" = unique(all_food$zone),
+  "Main Stat" = unique(all_food$type)
 )
 
-ingredients_list <- sort(unique(food_ingredients$ingredients))
-biome_list <- unique(food_stats$zone)
-food_type_list <- unique(food_stats$type)
+ingredients_list <- sort(unique(all_food$ingredients))
+biome_list <- unique(all_food$zone)
+#food_list <- all_food %>% 
+  #filter(type == "Health")

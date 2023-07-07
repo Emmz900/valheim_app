@@ -23,3 +23,8 @@ food_stats %>%
   geom_col(position = "dodge")
 ```
 
+```{r}
+food_stats %>% 
+  full_join(food_ingredients, by = "recipe")
+```
+

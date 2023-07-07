@@ -243,10 +243,9 @@ server <- function(input, output, session) {
       ) 
     
     p <- p %>% style(
-      #text = ~paste(damage_type, ": ", round(values, 0)),
-      #hoverinfo = text,
       hovertemplate = "%{x}: %{y:.0f}<extra></extra>"
     )
+    
     p <- p %>% layout(showlegend = FALSE)
     
     ggplotly(p)
@@ -259,8 +258,9 @@ server <- function(input, output, session) {
     updateSelectInput(session, "filter_input", choices = food_filter_options[input$food_filter_input])
   })
   
-  observeEvent(input$filter_input, {
-    food_list <- food_stats %>% 
+  
+  food_list <- reactive({
+    all_food %>% 
       {if (input$food_filter_input == "Ingredients")
         filter(., ingredients == input$filter_input)
         else
@@ -275,16 +275,22 @@ server <- function(input, output, session) {
           filter(., !is.na(values))}
   })
   
-
   
-  ## plot of food stats ----------------
+  
+  ## Plot of food stats ----------------
   output$food_stats_plot <- renderPlotly({
-    p <- food_list %>% 
-      ggplot(aes(reorder(recipe, score), values, fill = stat)) +
-      geom_col(position = "dodge")
+    p <- food_list() %>% 
+      ggplot(aes(reorder(recipe, score), values, fill = stat, text = paste0(stat, ": ", values))) +
+               geom_col(position = "dodge") +
+               theme(axis.text.x = element_text(angle = 45, hjust = 1),
+                     text = element_text(size = 12)) +
+               theme_classic() +
+               labs(
+                 x = "Food Item",
+                 y = "Value"
+               )
     
-    ggplotly(p)
+    ggplotly(p, tooltip = "text")
   })
-  
 }
 
