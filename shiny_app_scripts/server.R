@@ -252,5 +252,39 @@ server <- function(input, output, session) {
     ggplotly(p)
   })
   
+  # Food -----------------
+  
+  ## Change filter options ------------
+  observeEvent(input$food_filter_input, {
+    updateSelectInput(session, "filter_input", choices = food_filter_options[input$food_filter_input])
+  })
+  
+  observeEvent(input$filter_input, {
+    food_list <- food_stats %>% 
+      {if (input$food_filter_input == "Ingredients")
+        filter(., ingredients == input$filter_input)
+        else
+          filter(., !is.na(values))} %>% 
+      {if (input$food_filter_input == "Biome")
+        filter(., zone == input$filter_input)
+        else
+          filter(., !is.na(values))} %>% 
+      {if (input$food_filter_input == "Main Stat")
+        filter(., type == input$filter_input)
+        else
+          filter(., !is.na(values))}
+  })
+  
+
+  
+  ## plot of food stats ----------------
+  output$food_stats_plot <- renderPlotly({
+    p <- food_list %>% 
+      ggplot(aes(reorder(recipe, score), values, fill = stat)) +
+      geom_col(position = "dodge")
+    
+    ggplotly(p)
+  })
+  
 }
 

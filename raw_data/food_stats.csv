@@ -1,10 +1,10 @@
 recipe,health,stamina,eitr,duration,score,type,zone
-seeker aspic,28,14,85,30,157,health,mistlands
+seeker aspic,28,14,85,30,157,eitr,mistlands
 fish n'bread,30,90,NA,30,150,stamina,mistlands
-yggdrasil porridge,27,13,80,25,145,health,mistlands
+yggdrasil porridge,27,13,80,25,145,eitr,mistlands
 misthare supreme,85,28,NA,25,138,health,mistlands
 mushroom omlette,28,85,NA,25,138,stamina,mistlands
-stuffed mushroom,25,12,75,25,137,health,mistlands
+stuffed mushroom,25,12,75,25,137,eitr,mistlands
 serpent stew,80,26,NA,30,136,Health,ocean
 meat platter,80,26,NA,30,136,health,mistlands
 honey glazed chicken,80,26,NA,30,136,health,mistlands
@@ -23,7 +23,7 @@ cooked chicken meat,60,20,NA,20,100,health,mistlands
 turnip stew,18,55,NA,25,98,Stamina,swamp
 sausages,55,18,NA,25,98,Health,swamp
 wolf jerky,33,33,NA,30,96,Both,mountains
-magecap,25,25,25,15,90,stamina,mistlands
+magecap,25,25,25,15,90,Both,mistlands
 black soup,50,17,NA,20,87,Health,swamp
 muckshake,16,50,NA,20,86,Stamina,swamp
 cooked lox meat,50,16,NA,20,86,health,plains
@@ -38,7 +38,7 @@ onion,13,40,NA,15,68,stamina,swamp
 cloudberries,13,40,NA,15,68,stamina,plains
 cooked deer meat,35,12,NA,20,67,health,meadows
 cooked egg,35,12,NA,20,67,health,mistlands
-jotun puffs,25,25,NA,15,65,stamina,mistlands
+jotun puffs,25,25,NA,15,65,both,mistlands
 cooked boar meat,30,10,NA,20,60,health,meadows
 honey,8,35,NA,15,58,stamina,meadows
 carrot,10,32,NA,15,57,stamina,black forest

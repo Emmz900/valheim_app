@@ -216,34 +216,45 @@ ui <- fluidPage(
       )
     ),
     
+    # Food tab ------------
     tabPanel(
       
       "Food",
       
       fluidRow(
+        column(
+          width = 2,
+          radioButtons("food_filter_input",
+                             "Choose Filter Options",
+                             c("Main Stat", "Ingredients", "Biome"),
+                             selected = "Main Stat")
+        ),
+        
         # food type input
         column(
           width = 3,
-          selectInput("food_type_input", "Food Type", c("Health", "Stamina", "Mixed"))
+          selectInput("filter_input", "Filter",
+                      food_type_list, selected = "Health")
         ),
         
         # food ingredient input
-        column(
-          width = 3,
-          selectInput("ingredients_input", "Ingredients", ingredients_list)
-        ),
-        
-        # biome input
-        column(
-          width = 3,
-          selectInput("biome_input", "Biome", biome_list)
-        )
+        # column(
+        #   width = 3,
+        #   selectInput("ingredients_input", "Ingredients", ingredients_list)
+        # ),
+        # 
+        # # biome input
+        # column(
+        #   width = 3,
+        #   selectInput("biome_input", "Biome", biome_list)
+        # )
         
       ),
       
       fluidRow(
         # graph of stats
         
+        plotlyOutput("food_stats_plot")
       ),
       
       fluidRow(
@@ -252,6 +263,7 @@ ui <- fluidPage(
         # level
         
         column(
+          width = 3,
           fluidRow(
             # select food
             

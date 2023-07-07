@@ -3,6 +3,7 @@ library(bslib)
 library(plotly)
 library(here)
 
+# WEAPONS -------------
 weapons_crafting_clean <- read_csv(here("clean_data/weapons_crafting.csv"))
 weapons_data_clean <- read_csv(here("clean_data/weapon_data.csv"))
 
@@ -44,3 +45,22 @@ damage_type_list <- weapons_joined %>%
   pull() %>% 
   append("All") %>% 
   sort()
+
+# FOOD -------------
+food_ingredients <- read_csv(here("raw_data/food_ingredients.csv"))
+food_stats <- read_csv(here("raw_data/food_stats.csv")) %>% 
+  mutate(zone = factor(zone,
+                  levels = c("meadows", "black forest", "swamp", "ocean",
+                             "mountains", "plains", "mistlands")),
+         type = str_to_title(type)) %>% 
+  pivot_longer(health:duration, names_to = "stat", values_to = "values")
+
+food_filter_options <- list(
+  "Ingredients" = sort(unique(food_ingredients$ingredients)),
+  "Biome" = unique(food_stats$zone),
+  "Main Stat" = unique(food_stats$type)
+)
+
+ingredients_list <- sort(unique(food_ingredients$ingredients))
+biome_list <- unique(food_stats$zone)
+food_type_list <- unique(food_stats$type)
