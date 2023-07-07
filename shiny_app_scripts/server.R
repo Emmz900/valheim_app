@@ -290,7 +290,12 @@ server <- function(input, output, session) {
                  y = "Value"
                )
     
-    ggplotly(p, tooltip = "text")
+    ggplotly(p, tooltip = "text", layout(xaxis = list(tickangle = 90)))
+  })
+  
+  output$food_crafting_table <- renderDataTable({
+    # ???
+      
   })
 }
 
