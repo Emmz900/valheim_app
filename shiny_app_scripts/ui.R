@@ -214,6 +214,51 @@ ui <- fluidPage(
           tableOutput("weapon_material_table_2")
         )
       )
+    ),
+    
+    tabPanel(
+      
+      "Food",
+      
+      fluidRow(
+        # food type input
+        column(
+          width = 3,
+          selectInput("food_type_input", "Food Type", c("Health", "Stamina", "Mixed"))
+        ),
+        
+        # food ingredient input
+        column(
+          width = 3,
+          selectInput("ingredients_input", "Ingredients", ingredients_list)
+        ),
+        
+        # biome input
+        column(
+          width = 3,
+          selectInput("biome_input", "Biome", biome_list)
+        )
+        
+      ),
+      
+      fluidRow(
+        # graph of stats
+        
+      ),
+      
+      fluidRow(
+        # cooking station
+        
+        # level
+        
+        column(
+          fluidRow(
+            # select food
+            
+            # ingredients table
+          )
+        )
+      )
     )
   )
 )
