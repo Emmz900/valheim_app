@@ -1,0 +1,27 @@
+{
+    "id": "AB1C553B",
+    "path": "~/Games/Valheim/valheim_app/shiny_app_scripts/ui.R",
+    "project_path": "shiny_app_scripts/ui.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1688294404775.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "247,57",
+        "scrollLine": "209",
+        "docOutlineVisible": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1688832931,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1688832931,
+    "read_only": false,
+    "read_only_alternatives": []
+}

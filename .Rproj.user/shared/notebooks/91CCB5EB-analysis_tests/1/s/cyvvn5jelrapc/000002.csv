@@ -1,0 +1,25 @@
+"0","```r
+library(tidyverse)
+
+weapons_crafting_clean <- read_csv(\"valheim_app/sorted_data/weapons_crafting\")
+```"
+"1","Rows: 682 Columns: 7── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Delimiter: \",\"
+chr (4): item, type, material, crafting_station
+dbl (3): amount_of_material, crafting_station_level, upgrade_level
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+Error in assign(cacheKey, frame, .rs.CachedDataEnv) : 
+  attempt to use zero-length variable name
+"
+"0","```r
+weapons_data_clean <- read_csv(\"valheim_app/sorted_data/weapon_data\")
+```"
+"1","Rows: 668 Columns: 4── Column specification ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Delimiter: \",\"
+chr (3): name, type, damage_type
+dbl (1): values
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"

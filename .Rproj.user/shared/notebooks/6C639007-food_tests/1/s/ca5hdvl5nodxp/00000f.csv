@@ -1,0 +1,31 @@
+"0","library(tidyverse)"
+"0","library(here)"
+"0",""
+"0","food_ingredients <- read_csv(here(""raw_data/food_ingredients.csv""))"
+"2","[1mRows: [22m[34m69[39m [1mColumns: [22m[34m6[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (3): recipe, ingredients, oven
+[32mdbl[39m (3): quantity of product, amount of ingredient, cauldron level"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"2","Error in assign(cacheKey, frame, .rs.CachedDataEnv) : 
+  attempt to use zero-length variable name
+"
+"0","food_stats <- read_csv(here(""raw_data/food_stats.csv"")) %>% "
+"0","  mutate(zone = factor(zone, levels = c(""meadows"", ""black forest"", ""swamp"", ""ocean"", ""mountains"", ""plains"", ""mistlands""))) %>% "
+"0","  pivot_longer(health:duration, names_to = ""stat"", values_to = ""values"")"
+"2","[1mRows: [22m[34m48[39m [1mColumns: [22m[34m8[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (3): recipe, type, zone
+[32mdbl[39m (5): health, stamina, eitr, duration, score"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","ingredients_list <- sort(unique(food_ingredients$ingredients))"
+"0","biome_list <- unique(food_stats$zone)"

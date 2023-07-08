@@ -1,0 +1,21 @@
+"0","library(tidyverse)"
+"0","library(here)"
+"0",""
+"0","weapons_crafting_clean <- read_csv(here(""clean_data/weapons_crafting.csv""))"
+"2","[1mRows: [22m[34m682[39m [1mColumns: [22m[34m7[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (4): item, type, material, crafting_station
+[32mdbl[39m (3): amount_of_material, crafting_station_level, upgrade_level"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","weapons_data_clean <- read_csv(here(""clean_data/weapon_data.csv""))"
+"2","[1mRows: [22m[34m2415[39m [1mColumns: [22m[34m5[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (4): name, type, damage_type, min_max
+[32mdbl[39m (1): values"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
