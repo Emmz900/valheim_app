@@ -222,6 +222,7 @@ ui <- fluidPage(
       "Food",
       
       fluidRow(
+        ## Food filter options ------------
         column(
           width = 2,
           radioButtons("food_filter_input",
@@ -230,17 +231,21 @@ ui <- fluidPage(
                              selected = "Main Stat")
         ),
         
-        # food type input
+        ## Food filter input -------------
         column(
           width = 3,
           selectInput("filter_input", "Filter",
-                      str_to_upper(food_type_list), selected = "Health")
+                      food_type_list, selected = "Health")
         ),
       ),
       
       fluidRow(
-        # graph of stats
+        # Graph of food stats ----------------
         plotlyOutput("food_stats_plot")
+      ),
+      
+      fluidRow(
+        #radioButtons("food_item_input", "Recipe", recipe_list, inline = TRUE)
       ),
       
       fluidRow(
@@ -254,6 +259,7 @@ ui <- fluidPage(
             # select food
             
             # ingredients table
+            dataTableOutput("food_crafting_table")
           )
         )
       )

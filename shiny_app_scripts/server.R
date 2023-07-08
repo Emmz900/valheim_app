@@ -258,7 +258,7 @@ server <- function(input, output, session) {
     updateSelectInput(session, "filter_input", choices = food_filter_options[input$food_filter_input])
   })
   
-  
+  ## Filter data based on food filters --------------
   food_list <- reactive({
     all_food %>% 
       {if (input$food_filter_input == "Ingredients")
@@ -275,7 +275,11 @@ server <- function(input, output, session) {
           filter(., !is.na(values))}
   })
   
-  
+  ## Change recipe options ----------------------
+  # observeEvent(input$filter_input, {
+  #   updateRadioButtons(session, "food_item_input",
+  #                      choices = unique(food_list$recipe), inline = TRUE)
+  # })
   
   ## Plot of food stats ----------------
   output$food_stats_plot <- renderPlotly({
@@ -290,12 +294,15 @@ server <- function(input, output, session) {
                  y = "Value"
                )
     
-    ggplotly(p, tooltip = "text", layout(xaxis = list(tickangle = 90)))
+    ggplotly(p, tooltip = "text")
   })
   
-  output$food_crafting_table <- renderDataTable({
-    # ???
-      
-  })
+
+  ## Food crafting and ingredients table ------------------
+  # output$food_crafting_table <- renderDataTable({
+  #   food_list() %>%
+  #     filter(recipe == input$food_item_input) %>%
+  #     select(ingredient, amount)
+  # })
 }
 

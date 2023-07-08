@@ -1,0 +1,41 @@
+---
+title: "Glossary"
+output: html_notebook
+---
+
+# Data
+
+## Data Frames
+
+* weapons_crafting_clean (df, global) <- materials and crafting station info for each weapon
+* weapons_data_clean (df, global) <- damage type and values for each weapon
+* weapons_crafting_small (df, global) <- weapons item, type of weapon, material to make
+* weapons_data_small (df, global) <- weapons data without type of weapon
+* **weapons_joined** (df, global) <- small datasets joined on weapon name (`item`) and filtered
+* food_ingredients (df, global) <- all cauldron and oven recipes and ingredients, cauldron level, etc.
+* food_stats (df, global) <- all food items in game and their stats, duration, score, and zone
+* **all_food** (df, global) <- all food info joined on food item
+* food_type_list (df, global) <- all food filtered for where health is the main stat
+
+## Lists
+
+* weapons_list (list, global) <- all weapon names
+* weapon_type_list (list, global) <- all weapon types
+* weapon_material_list (list, global) <- all materials used to make weapons
+* damage_type_list (list, global) <- all types of damage
+* food_filter_options (list of lists, global) <- unique zones, food stats and ingredients
+* recipe_list (list, global) <- all recipes where health is the main stat
+
+
+# Inputs
+
+* weapon_input <- *drop down* of *weapons_list*, to filter first weapon plot
+* weapon_type_input <- *drop down* of *weapon_type_list*, to filter *weapon_input*
+* weapon_material_input <- *drop down* of *weapon_material_list*, to filter *weapon_input*
+* damage_type_input <- *drop down* of *damage_type_list*, to filter *weapon_input*
+* update <- *action button* to implement filters to *weapon_input*
+* reset <- reset all filters to `All`
+
+# Outputs
+
+* weapon_stat_plot <- *plot* of selected weapon stats

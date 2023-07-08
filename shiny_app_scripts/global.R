@@ -15,6 +15,7 @@ weapons_data_small <- weapons_data_clean %>%
   select(name, damage_type, values, min_max) %>% 
   distinct()
 
+## Join ---------
 weapons_joined <- 
   full_join(weapons_crafting_small,
             weapons_data_small,
@@ -55,16 +56,24 @@ food_stats <- read_csv(here("raw_data/food_stats.csv")) %>%
          type = str_to_title(type)) %>% 
   pivot_longer(health:duration, names_to = "stat", values_to = "values")
 
+## Join -----------
 all_food <- food_stats %>% 
-  full_join(food_ingredients, by = "recipe")
+  full_join(food_ingredients, by = "recipe", relationship = "many-to-many")
 
+## Food Filter Options ------------
 food_filter_options <- list(
   "Ingredients" = sort(unique(all_food$ingredients)),
   "Biome" = unique(all_food$zone),
   "Main Stat" = unique(all_food$type)
 )
 
-ingredients_list <- sort(unique(all_food$ingredients))
-biome_list <- unique(all_food$zone)
-#food_list <- all_food %>% 
-  #filter(type == "Health")
+# The initial recipe list when the app is opened
+food_list <- all_food %>% 
+  filter(type == "Health") %>% 
+  distinct(recipe) %>% 
+  pull()
+
+food_type_list <- all_food %>% 
+  filter(type == "Health")
+
+
