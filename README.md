@@ -6,19 +6,28 @@ Valheim is an procedurally-generated open world exploration and survival game in
 
 ## The App
 
-This R Shiny app aims to:
+This R Shiny app has a weapons and a food tab.
 
-* Provide damage stats for each weapon
-* Allow comparison of different weapons
-* Filter weapons by type, material needed, or damage type
-* Provide information on the crafting station, level, and materials needed for each weapon and upgrade.
+The weapons tab:
+
+* Provides damage stats for each weapon
+* Allows comparison of different weapons
+* Filters weapons by type, material needed, or damage type
+* Provides information on the crafting station, level, and materials needed for each weapon and upgrade.
+
+The food tab:
+
+* Provides comparisons of stats of food items by the main stat, biome, or ingredients required
+* Provides crafting requirements and ingredients for each food item
 
 ## Footnote
 
 Valheim was developed by Iron Gate AB and published by Coffee Stain Publishing.  
 
 The data for this app has been collected in game and using the Fandom Wiki, thank you fellow vikings!  
-[Fandom Valheim Wiki](https://valheim.fandom.com/wiki/Valheim_Wiki)   
+[Fandom Valheim Wiki](https://valheim.fandom.com/wiki/Valheim_Wiki)  
+
+This app is up to date with Mistlands (2023_07_08)
 
 
  
