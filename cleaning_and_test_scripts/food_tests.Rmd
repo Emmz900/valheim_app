@@ -28,3 +28,33 @@ food_stats %>%
   full_join(food_ingredients, by = "recipe")
 ```
 
+```{r}
+food_item <- all_food %>% 
+  mutate(oven = coalesce(oven, "n")) %>% 
+  filter(recipe == "bread")
+
+cooking_stations <- tibble(
+  "Cooking Stations" = c(
+    if(unique(food_item$oven) == "n"){
+      #FALSE
+    } else {
+      "Oven"
+    },
+    
+    if(is.na(unique(food_item$cauldron_level))){
+      #FALSE
+    } else {
+      (paste("Cauldron Level", unique(food_item$cauldron_level)))
+    }
+  )   
+)
+
+cooking_stations
+```
+```{r}
+food_item <- all_food %>% 
+  filter(recipe == "Blueberry")
+
+is.na(food_item$ingredients[1])
+```
+

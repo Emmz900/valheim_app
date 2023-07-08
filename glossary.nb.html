@@ -1787,36 +1787,85 @@ weapons</li>
 <li>damage_type_list (list, global) &lt;- all types of damage</li>
 <li>food_filter_options (list of lists, global) &lt;- unique zones, food
 stats and ingredients</li>
-<li>recipe_list (list, global) &lt;- all recipes where health is the
-main stat</li>
+<li>food_type_list (list, global) &lt;- list of all food main stats</li>
+<li>food_recipe_list (list, global) &lt;- all recipes where health is
+the main stat</li>
 </ul>
 </div>
 </div>
 <div id="inputs" class="section level1">
 <h1>Inputs</h1>
 <ul>
-<li>weapon_input &lt;- <em>drop down</em> of <em>weapons_list</em>, to
-filter first weapon plot</li>
-<li>weapon_type_input &lt;- <em>drop down</em> of
-<em>weapon_type_list</em>, to filter <em>weapon_input</em></li>
-<li>weapon_material_input &lt;- <em>drop down</em> of
-<em>weapon_material_list</em>, to filter <em>weapon_input</em></li>
-<li>damage_type_input &lt;- <em>drop down</em> of
-<em>damage_type_list</em>, to filter <em>weapon_input</em></li>
-<li>update &lt;- <em>action button</em> to implement filters to
-<em>weapon_input</em></li>
-<li>reset &lt;- reset all filters to <code>All</code></li>
+<li><p>weapon_input &lt;- <em>drop down</em> of <em>weapons_list</em>,
+to filter first weapon plot</p></li>
+<li><p>weapon_type_input &lt;- <em>drop down</em> of
+<em>weapon_type_list</em>, to filter <em>weapon_input</em></p></li>
+<li><p>weapon_material_input &lt;- <em>drop down</em> of
+<em>weapon_material_list</em>, to filter <em>weapon_input</em></p></li>
+<li><p>damage_type_input &lt;- <em>drop down</em> of
+<em>damage_type_list</em>, to filter <em>weapon_input</em></p></li>
+<li><p>update &lt;- <em>action button</em> to implement filters to
+<em>weapon_input</em></p></li>
+<li><p>reset &lt;- <em>action button</em> reset all filters to
+<code>All</code></p></li>
+<li><p>item_level_input &lt;- <em>radio buttons</em> to use weapon item
+level</p></li>
+<li><p>weapon_input_2 &lt;- <em>drop down</em> of <em>weapons_list</em>,
+to filter second weapon plot</p></li>
+<li><p>weapon_type_input_2 &lt;- <em>drop down</em> of
+<em>weapon_type_list</em>, to filter <em>weapon_input_2</em></p></li>
+<li><p>weapon_material_input_2 &lt;- <em>drop down</em> of
+<em>weapon_material_list</em>, to filter
+<em>weapon_input_2</em></p></li>
+<li><p>damage_type_input_2 &lt;- <em>drop down</em> of
+<em>damage_type_list</em>, to filter <em>weapon_input_2</em></p></li>
+<li><p>update_2 &lt;- <em>action button</em> to implement filters to
+<em>weapon_input_2</em></p></li>
+<li><p>copy &lt;- <em>action button</em> to copy weapon 1
+filters</p></li>
+<li><p>reset_2 &lt;- <em>action button</em> reset all filters to
+<code>All</code></p></li>
+<li><p>item_level_input_2 &lt;- <em>radio buttons</em> to use weapon
+item level</p></li>
+<li><p>food_filter_options_input &lt;- <em>radio buttons</em> to choose
+filter options for food from <em>food_filter_options</em></p></li>
+<li><p>food_filter_input &lt;- <em>drop down</em> to select filter. This
+updates based on <em>food_filter_input</em></p></li>
+<li><p>food_item_input &lt;- <em>radio buttons</em> to choose a specific
+food item</p></li>
 </ul>
 </div>
 <div id="outputs" class="section level1">
 <h1>Outputs</h1>
 <ul>
-<li>weapon_stat_plot &lt;- <em>plot</em> of selected weapon stats</li>
+<li><p>weapon_stat_plot &lt;- <em>plot</em> of selected weapon
+stats</p></li>
+<li><p>crafting_station_output &lt;- <em>text</em> of the crafting
+station required</p></li>
+<li><p>crafting_station_level_output &lt;- <em>text</em> of the crafting
+station level</p></li>
+<li><p>weapon_material_table &lt;- <em>data table</em> to show materials
+required</p></li>
+<li><p>weapon_stat_plot_2 &lt;- <em>plot</em> of selected weapon
+stats</p></li>
+<li><p>crafting_station_output_2 &lt;- <em>text</em> of the crafting
+station required</p></li>
+<li><p>crafting_station_level_output_2 &lt;- <em>text</em> of the
+crafting station level</p></li>
+<li><p>weapon_material_table_2 &lt;- <em>data table</em> to show
+materials required</p></li>
+<li><p>food_stats_plot &lt;- <em>plot</em> of food stats based on
+<em>food_filter_input</em></p></li>
+<li><p>food_crafting_table &lt;- <em>data table</em> of ingredients and
+amounts</p></li>
+<li><p>food_crafting_station_outputs &lt;- <em>data table</em> of
+crafting stations</p></li>
+<li><p>food_stats_table &lt;- <em>data table</em></p></li>
 </ul>
 <!-- rnb-text-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIkdsb3NzYXJ5Ig0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KIyBEYXRhDQoNCiMjIERhdGEgRnJhbWVzDQoNCiogd2VhcG9uc19jcmFmdGluZ19jbGVhbiAoZGYsIGdsb2JhbCkgPC0gbWF0ZXJpYWxzIGFuZCBjcmFmdGluZyBzdGF0aW9uIGluZm8gZm9yIGVhY2ggd2VhcG9uDQoqIHdlYXBvbnNfZGF0YV9jbGVhbiAoZGYsIGdsb2JhbCkgPC0gZGFtYWdlIHR5cGUgYW5kIHZhbHVlcyBmb3IgZWFjaCB3ZWFwb24NCiogd2VhcG9uc19jcmFmdGluZ19zbWFsbCAoZGYsIGdsb2JhbCkgPC0gd2VhcG9ucyBpdGVtLCB0eXBlIG9mIHdlYXBvbiwgbWF0ZXJpYWwgdG8gbWFrZQ0KKiB3ZWFwb25zX2RhdGFfc21hbGwgKGRmLCBnbG9iYWwpIDwtIHdlYXBvbnMgZGF0YSB3aXRob3V0IHR5cGUgb2Ygd2VhcG9uDQoqICoqd2VhcG9uc19qb2luZWQqKiAoZGYsIGdsb2JhbCkgPC0gc21hbGwgZGF0YXNldHMgam9pbmVkIG9uIHdlYXBvbiBuYW1lIChgaXRlbWApIGFuZCBmaWx0ZXJlZA0KKiBmb29kX2luZ3JlZGllbnRzIChkZiwgZ2xvYmFsKSA8LSBhbGwgY2F1bGRyb24gYW5kIG92ZW4gcmVjaXBlcyBhbmQgaW5ncmVkaWVudHMsIGNhdWxkcm9uIGxldmVsLCBldGMuDQoqIGZvb2Rfc3RhdHMgKGRmLCBnbG9iYWwpIDwtIGFsbCBmb29kIGl0ZW1zIGluIGdhbWUgYW5kIHRoZWlyIHN0YXRzLCBkdXJhdGlvbiwgc2NvcmUsIGFuZCB6b25lDQoqICoqYWxsX2Zvb2QqKiAoZGYsIGdsb2JhbCkgPC0gYWxsIGZvb2QgaW5mbyBqb2luZWQgb24gZm9vZCBpdGVtDQoqIGZvb2RfdHlwZV9saXN0IChkZiwgZ2xvYmFsKSA8LSBhbGwgZm9vZCBmaWx0ZXJlZCBmb3Igd2hlcmUgaGVhbHRoIGlzIHRoZSBtYWluIHN0YXQNCg0KIyMgTGlzdHMNCg0KKiB3ZWFwb25zX2xpc3QgKGxpc3QsIGdsb2JhbCkgPC0gYWxsIHdlYXBvbiBuYW1lcw0KKiB3ZWFwb25fdHlwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGFsbCB3ZWFwb24gdHlwZXMNCiogd2VhcG9uX21hdGVyaWFsX2xpc3QgKGxpc3QsIGdsb2JhbCkgPC0gYWxsIG1hdGVyaWFscyB1c2VkIHRvIG1ha2Ugd2VhcG9ucw0KKiBkYW1hZ2VfdHlwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGFsbCB0eXBlcyBvZiBkYW1hZ2UNCiogZm9vZF9maWx0ZXJfb3B0aW9ucyAobGlzdCBvZiBsaXN0cywgZ2xvYmFsKSA8LSB1bmlxdWUgem9uZXMsIGZvb2Qgc3RhdHMgYW5kIGluZ3JlZGllbnRzDQoqIHJlY2lwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGFsbCByZWNpcGVzIHdoZXJlIGhlYWx0aCBpcyB0aGUgbWFpbiBzdGF0DQoNCg0KIyBJbnB1dHMNCg0KKiB3ZWFwb25faW5wdXQgPC0gKmRyb3AgZG93biogb2YgKndlYXBvbnNfbGlzdCosIHRvIGZpbHRlciBmaXJzdCB3ZWFwb24gcGxvdA0KKiB3ZWFwb25fdHlwZV9pbnB1dCA8LSAqZHJvcCBkb3duKiBvZiAqd2VhcG9uX3R5cGVfbGlzdCosIHRvIGZpbHRlciAqd2VhcG9uX2lucHV0Kg0KKiB3ZWFwb25fbWF0ZXJpYWxfaW5wdXQgPC0gKmRyb3AgZG93biogb2YgKndlYXBvbl9tYXRlcmlhbF9saXN0KiwgdG8gZmlsdGVyICp3ZWFwb25faW5wdXQqDQoqIGRhbWFnZV90eXBlX2lucHV0IDwtICpkcm9wIGRvd24qIG9mICpkYW1hZ2VfdHlwZV9saXN0KiwgdG8gZmlsdGVyICp3ZWFwb25faW5wdXQqDQoqIHVwZGF0ZSA8LSAqYWN0aW9uIGJ1dHRvbiogdG8gaW1wbGVtZW50IGZpbHRlcnMgdG8gKndlYXBvbl9pbnB1dCoNCiogcmVzZXQgPC0gcmVzZXQgYWxsIGZpbHRlcnMgdG8gYEFsbGANCg0KIyBPdXRwdXRzDQoNCiogd2VhcG9uX3N0YXRfcGxvdCA8LSAqcGxvdCogb2Ygc2VsZWN0ZWQgd2VhcG9uIHN0YXRzDQo=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIkdsb3NzYXJ5Ig0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KIyBEYXRhDQoNCiMjIERhdGEgRnJhbWVzDQoNCiogd2VhcG9uc19jcmFmdGluZ19jbGVhbiAoZGYsIGdsb2JhbCkgPC0gbWF0ZXJpYWxzIGFuZCBjcmFmdGluZyBzdGF0aW9uIGluZm8gZm9yIGVhY2ggd2VhcG9uDQoqIHdlYXBvbnNfZGF0YV9jbGVhbiAoZGYsIGdsb2JhbCkgPC0gZGFtYWdlIHR5cGUgYW5kIHZhbHVlcyBmb3IgZWFjaCB3ZWFwb24NCiogd2VhcG9uc19jcmFmdGluZ19zbWFsbCAoZGYsIGdsb2JhbCkgPC0gd2VhcG9ucyBpdGVtLCB0eXBlIG9mIHdlYXBvbiwgbWF0ZXJpYWwgdG8gbWFrZQ0KKiB3ZWFwb25zX2RhdGFfc21hbGwgKGRmLCBnbG9iYWwpIDwtIHdlYXBvbnMgZGF0YSB3aXRob3V0IHR5cGUgb2Ygd2VhcG9uDQoqICoqd2VhcG9uc19qb2luZWQqKiAoZGYsIGdsb2JhbCkgPC0gc21hbGwgZGF0YXNldHMgam9pbmVkIG9uIHdlYXBvbiBuYW1lIChgaXRlbWApIGFuZCBmaWx0ZXJlZA0KKiBmb29kX2luZ3JlZGllbnRzIChkZiwgZ2xvYmFsKSA8LSBhbGwgY2F1bGRyb24gYW5kIG92ZW4gcmVjaXBlcyBhbmQgaW5ncmVkaWVudHMsIGNhdWxkcm9uIGxldmVsLCBldGMuDQoqIGZvb2Rfc3RhdHMgKGRmLCBnbG9iYWwpIDwtIGFsbCBmb29kIGl0ZW1zIGluIGdhbWUgYW5kIHRoZWlyIHN0YXRzLCBkdXJhdGlvbiwgc2NvcmUsIGFuZCB6b25lDQoqICoqYWxsX2Zvb2QqKiAoZGYsIGdsb2JhbCkgPC0gYWxsIGZvb2QgaW5mbyBqb2luZWQgb24gZm9vZCBpdGVtDQoqIGZvb2RfdHlwZV9saXN0IChkZiwgZ2xvYmFsKSA8LSBhbGwgZm9vZCBmaWx0ZXJlZCBmb3Igd2hlcmUgaGVhbHRoIGlzIHRoZSBtYWluIHN0YXQNCg0KIyMgTGlzdHMNCg0KKiB3ZWFwb25zX2xpc3QgKGxpc3QsIGdsb2JhbCkgPC0gYWxsIHdlYXBvbiBuYW1lcw0KKiB3ZWFwb25fdHlwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGFsbCB3ZWFwb24gdHlwZXMNCiogd2VhcG9uX21hdGVyaWFsX2xpc3QgKGxpc3QsIGdsb2JhbCkgPC0gYWxsIG1hdGVyaWFscyB1c2VkIHRvIG1ha2Ugd2VhcG9ucw0KKiBkYW1hZ2VfdHlwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGFsbCB0eXBlcyBvZiBkYW1hZ2UNCiogZm9vZF9maWx0ZXJfb3B0aW9ucyAobGlzdCBvZiBsaXN0cywgZ2xvYmFsKSA8LSB1bmlxdWUgem9uZXMsIGZvb2Qgc3RhdHMgYW5kIGluZ3JlZGllbnRzDQoqIGZvb2RfdHlwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGxpc3Qgb2YgYWxsIGZvb2QgbWFpbiBzdGF0cw0KKiBmb29kX3JlY2lwZV9saXN0IChsaXN0LCBnbG9iYWwpIDwtIGFsbCByZWNpcGVzIHdoZXJlIGhlYWx0aCBpcyB0aGUgbWFpbiBzdGF0DQoNCg0KDQojIElucHV0cw0KDQoqIHdlYXBvbl9pbnB1dCA8LSAqZHJvcCBkb3duKiBvZiAqd2VhcG9uc19saXN0KiwgdG8gZmlsdGVyIGZpcnN0IHdlYXBvbiBwbG90DQoqIHdlYXBvbl90eXBlX2lucHV0IDwtICpkcm9wIGRvd24qIG9mICp3ZWFwb25fdHlwZV9saXN0KiwgdG8gZmlsdGVyICp3ZWFwb25faW5wdXQqDQoqIHdlYXBvbl9tYXRlcmlhbF9pbnB1dCA8LSAqZHJvcCBkb3duKiBvZiAqd2VhcG9uX21hdGVyaWFsX2xpc3QqLCB0byBmaWx0ZXIgKndlYXBvbl9pbnB1dCoNCiogZGFtYWdlX3R5cGVfaW5wdXQgPC0gKmRyb3AgZG93biogb2YgKmRhbWFnZV90eXBlX2xpc3QqLCB0byBmaWx0ZXIgKndlYXBvbl9pbnB1dCoNCiogdXBkYXRlIDwtICphY3Rpb24gYnV0dG9uKiB0byBpbXBsZW1lbnQgZmlsdGVycyB0byAqd2VhcG9uX2lucHV0Kg0KKiByZXNldCA8LSAqYWN0aW9uIGJ1dHRvbiogcmVzZXQgYWxsIGZpbHRlcnMgdG8gYEFsbGANCiogaXRlbV9sZXZlbF9pbnB1dCA8LSAqcmFkaW8gYnV0dG9ucyogdG8gdXNlIHdlYXBvbiBpdGVtIGxldmVsDQoNCiogd2VhcG9uX2lucHV0XzIgPC0gKmRyb3AgZG93biogb2YgKndlYXBvbnNfbGlzdCosIHRvIGZpbHRlciBzZWNvbmQgd2VhcG9uIHBsb3QNCiogd2VhcG9uX3R5cGVfaW5wdXRfMiA8LSAqZHJvcCBkb3duKiBvZiAqd2VhcG9uX3R5cGVfbGlzdCosIHRvIGZpbHRlciAqd2VhcG9uX2lucHV0XzIqDQoqIHdlYXBvbl9tYXRlcmlhbF9pbnB1dF8yIDwtICpkcm9wIGRvd24qIG9mICp3ZWFwb25fbWF0ZXJpYWxfbGlzdCosIHRvIGZpbHRlciAqd2VhcG9uX2lucHV0XzIqDQoqIGRhbWFnZV90eXBlX2lucHV0XzIgPC0gKmRyb3AgZG93biogb2YgKmRhbWFnZV90eXBlX2xpc3QqLCB0byBmaWx0ZXIgKndlYXBvbl9pbnB1dF8yKg0KKiB1cGRhdGVfMiA8LSAqYWN0aW9uIGJ1dHRvbiogdG8gaW1wbGVtZW50IGZpbHRlcnMgdG8gKndlYXBvbl9pbnB1dF8yKg0KKiBjb3B5IDwtICphY3Rpb24gYnV0dG9uKiB0byBjb3B5IHdlYXBvbiAxIGZpbHRlcnMNCiogcmVzZXRfMiA8LSAqYWN0aW9uIGJ1dHRvbiogcmVzZXQgYWxsIGZpbHRlcnMgdG8gYEFsbGANCiogaXRlbV9sZXZlbF9pbnB1dF8yIDwtICpyYWRpbyBidXR0b25zKiB0byB1c2Ugd2VhcG9uIGl0ZW0gbGV2ZWwNCg0KKiBmb29kX2ZpbHRlcl9vcHRpb25zX2lucHV0IDwtICpyYWRpbyBidXR0b25zKiB0byBjaG9vc2UgZmlsdGVyIG9wdGlvbnMgZm9yIGZvb2QgZnJvbSAqZm9vZF9maWx0ZXJfb3B0aW9ucyoNCiogZm9vZF9maWx0ZXJfaW5wdXQgPC0gKmRyb3AgZG93biogdG8gc2VsZWN0IGZpbHRlci4gVGhpcyB1cGRhdGVzIGJhc2VkIG9uICpmb29kX2ZpbHRlcl9pbnB1dCoNCiogZm9vZF9pdGVtX2lucHV0IDwtICpyYWRpbyBidXR0b25zKiB0byBjaG9vc2UgYSBzcGVjaWZpYyBmb29kIGl0ZW0NCg0KIyBPdXRwdXRzDQoNCiogd2VhcG9uX3N0YXRfcGxvdCA8LSAqcGxvdCogb2Ygc2VsZWN0ZWQgd2VhcG9uIHN0YXRzDQoqIGNyYWZ0aW5nX3N0YXRpb25fb3V0cHV0IDwtICp0ZXh0KiBvZiB0aGUgY3JhZnRpbmcgc3RhdGlvbiByZXF1aXJlZA0KKiBjcmFmdGluZ19zdGF0aW9uX2xldmVsX291dHB1dCA8LSAqdGV4dCogb2YgdGhlIGNyYWZ0aW5nIHN0YXRpb24gbGV2ZWwNCiogd2VhcG9uX21hdGVyaWFsX3RhYmxlIDwtICpkYXRhIHRhYmxlKiB0byBzaG93IG1hdGVyaWFscyByZXF1aXJlZA0KDQoqIHdlYXBvbl9zdGF0X3Bsb3RfMiA8LSAqcGxvdCogb2Ygc2VsZWN0ZWQgd2VhcG9uIHN0YXRzDQoqIGNyYWZ0aW5nX3N0YXRpb25fb3V0cHV0XzIgPC0gKnRleHQqIG9mIHRoZSBjcmFmdGluZyBzdGF0aW9uIHJlcXVpcmVkDQoqIGNyYWZ0aW5nX3N0YXRpb25fbGV2ZWxfb3V0cHV0XzIgPC0gKnRleHQqIG9mIHRoZSBjcmFmdGluZyBzdGF0aW9uIGxldmVsDQoqIHdlYXBvbl9tYXRlcmlhbF90YWJsZV8yIDwtICpkYXRhIHRhYmxlKiB0byBzaG93IG1hdGVyaWFscyByZXF1aXJlZA0KDQoqIGZvb2Rfc3RhdHNfcGxvdCA8LSAqcGxvdCogb2YgZm9vZCBzdGF0cyBiYXNlZCBvbiAqZm9vZF9maWx0ZXJfaW5wdXQqDQoqIGZvb2RfY3JhZnRpbmdfdGFibGUgPC0gKmRhdGEgdGFibGUqIG9mIGluZ3JlZGllbnRzIGFuZCBhbW91bnRzDQoqIGZvb2RfY3JhZnRpbmdfc3RhdGlvbl9vdXRwdXRzIDwtICpkYXRhIHRhYmxlKiBvZiBjcmFmdGluZyBzdGF0aW9ucw0KKiBmb29kX3N0YXRzX3RhYmxlIDwtICpkYXRhIHRhYmxlKg0KDQoNCg==</div>
 
 
 

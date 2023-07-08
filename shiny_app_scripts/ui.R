@@ -171,7 +171,7 @@ ui <- fluidPage(
         ## Reset filters -------------
         column(
           width = 1,
-          actionButton("reset", "Reset Filters")
+          actionButton("reset_2", "Reset Filters")
         )
       ),
       
@@ -225,7 +225,7 @@ ui <- fluidPage(
         ## Food filter options ------------
         column(
           width = 2,
-          radioButtons("food_filter_input",
+          radioButtons("food_filter_options_input",
                              "Choose Filter Options",
                              c("Main Stat", "Ingredients", "Biome"),
                              selected = "Main Stat")
@@ -234,32 +234,41 @@ ui <- fluidPage(
         ## Food filter input -------------
         column(
           width = 3,
-          selectInput("filter_input", "Filter",
+          selectInput("food_filter_input", "Filter",
                       food_type_list, selected = "Health")
         ),
       ),
       
       fluidRow(
-        # Graph of food stats ----------------
+        ## Graph of food stats ----------------
         plotlyOutput("food_stats_plot")
       ),
       
       fluidRow(
-        #radioButtons("food_item_input", "Recipe", recipe_list, inline = TRUE)
+        radioButtons("food_item_input", tags$h2("Recipe"), food_recipe_list, inline = TRUE)
       ),
       
       fluidRow(
-        # cooking station
-        
-        # level
-        
+        ## Food Stats -----------------------
         column(
-          width = 3,
+          width = 2,
+          tableOutput("food_stats_table")
+        ),
+        
+        ## Cooking Station(s) ------------
+        column(
+          width = 2,
           fluidRow(
-            # select food
-            
-            # ingredients table
-            dataTableOutput("food_crafting_table")
+            tags$b(tableOutput("food_crafting_station_outputs"))
+          )
+        ),
+        
+        ## Ingredients -------------------
+        column(
+          width = 2,
+          fluidRow(
+            # Ingredients table ----------
+            tableOutput("food_crafting_table")
           )
         )
       )

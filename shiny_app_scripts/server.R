@@ -254,55 +254,101 @@ server <- function(input, output, session) {
   # Food -----------------
   
   ## Change filter options ------------
-  observeEvent(input$food_filter_input, {
-    updateSelectInput(session, "filter_input", choices = food_filter_options[input$food_filter_input])
+  observeEvent(input$food_filter_options_input, {
+    updateSelectInput(session, "food_filter_input",
+                      choices = food_filter_options[input$food_filter_options_input])
   })
   
   ## Filter data based on food filters --------------
   food_list <- reactive({
     all_food %>% 
-      {if (input$food_filter_input == "Ingredients")
-        filter(., ingredients == input$filter_input)
+      {if (input$food_filter_options_input == "Ingredients")
+        filter(., ingredients == input$food_filter_input)
         else
           filter(., !is.na(values))} %>% 
-      {if (input$food_filter_input == "Biome")
-        filter(., zone == input$filter_input)
+      {if (input$food_filter_options_input == "Biome")
+        filter(., zone == input$food_filter_input)
         else
           filter(., !is.na(values))} %>% 
-      {if (input$food_filter_input == "Main Stat")
-        filter(., type == input$filter_input)
+      {if (input$food_filter_options_input == "Main Stat")
+        filter(., type == input$food_filter_input)
         else
           filter(., !is.na(values))}
   })
   
   ## Change recipe options ----------------------
-  # observeEvent(input$filter_input, {
-  #   updateRadioButtons(session, "food_item_input",
-  #                      choices = unique(food_list$recipe), inline = TRUE)
-  # })
+  observeEvent(input$food_filter_input, {
+    choices <- food_list() %>% 
+      arrange(score) %>% 
+      distinct(recipe) %>% 
+      pull()
+
+    updateRadioButtons(session, "food_item_input",
+                       choices = choices, inline = TRUE)
+  })
   
   ## Plot of food stats ----------------
   output$food_stats_plot <- renderPlotly({
     p <- food_list() %>% 
       ggplot(aes(reorder(recipe, score), values, fill = stat, text = paste0(stat, ": ", values))) +
-               geom_col(position = "dodge") +
-               theme(axis.text.x = element_text(angle = 45, hjust = 1),
-                     text = element_text(size = 12)) +
-               theme_classic() +
-               labs(
-                 x = "Food Item",
-                 y = "Value"
-               )
+      geom_col(position = "dodge") +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1),
+            text = element_text(size = 12)) +
+      theme_classic() +
+      labs(
+        x = "Food Item",
+        y = "Value"
+      )
     
     ggplotly(p, tooltip = "text")
   })
   
-
+  ## Filter table for food item --------------
+  food_item <- reactive({
+    all_food %>%
+      filter(recipe == input$food_item_input)
+  })
+  
+  ## Crafting Station and Cauldron level ---------------
+  output$food_crafting_station_outputs <- renderTable({
+    cooking_stations <- tibble(
+      "Cooking Stations" = c(
+        if(unique(food_item()$oven) == "n"){
+          #FALSE
+        } else {
+          "Oven"
+        },
+        
+        if(is.na(unique(food_item()$cauldron_level))){
+          #FALSE
+        } else {
+          (paste("Cauldron Level", unique(food_item()$cauldron_level)))
+        }
+      )   
+    )
+     
+  })
+  
+  ## Food stats table -----------------
+  output$food_stats_table <- renderTable({
+    food_item() %>% 
+      mutate(Values = format(values, nsmall = 0)) %>% 
+      select(stat, Values) %>% 
+      rename("Stat" = stat) %>% 
+      distinct()
+  })
+  
   ## Food crafting and ingredients table ------------------
-  # output$food_crafting_table <- renderDataTable({
-  #   food_list() %>%
-  #     filter(recipe == input$food_item_input) %>%
-  #     select(ingredient, amount)
-  # })
+  output$food_crafting_table <- renderTable({
+    if(is.na(food_item()$ingredients[1])){
+    } else {
+      food_item() %>%
+      mutate(amount_of_ingredient = format(amount_of_ingredient, nsmall = 0)) %>% 
+      select(ingredients, amount_of_ingredient) %>% 
+      rename("Ingredients" = ingredients) %>% 
+      rename("Quantity" = amount_of_ingredient) %>% 
+      distinct()
+    }
+  })
 }
 

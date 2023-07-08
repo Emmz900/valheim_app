@@ -1,4 +1,5 @@
 library(tidyverse)
+library(janitor)
 library(bslib)
 library(plotly)
 library(here)
@@ -48,17 +49,20 @@ damage_type_list <- weapons_joined %>%
   sort()
 
 # FOOD -------------
-food_ingredients <- read_csv(here("raw_data/food_ingredients.csv"))
-food_stats <- read_csv(here("raw_data/food_stats.csv")) %>% 
+food_ingredients <- clean_names(read_csv(here("raw_data/food_ingredients.csv")))
+food_stats <- clean_names(read_csv(here("raw_data/food_stats.csv"))) %>% 
   mutate(zone = factor(zone,
-                  levels = c("meadows", "black forest", "swamp", "ocean",
-                             "mountains", "plains", "mistlands")),
+                       levels = c("meadows", "black forest", "swamp", "ocean",
+                                  "mountains", "plains", "mistlands")),
          type = str_to_title(type)) %>% 
   pivot_longer(health:duration, names_to = "stat", values_to = "values")
 
 ## Join -----------
 all_food <- food_stats %>% 
-  full_join(food_ingredients, by = "recipe", relationship = "many-to-many")
+  full_join(food_ingredients, by = "recipe", relationship = "many-to-many") %>% 
+  mutate(oven = coalesce(oven, "n")) %>% 
+  mutate(across(where(is.character), str_to_title))
+         
 
 ## Food Filter Options ------------
 food_filter_options <- list(
@@ -67,13 +71,11 @@ food_filter_options <- list(
   "Main Stat" = unique(all_food$type)
 )
 
-# The initial recipe list when the app is opened
-food_list <- all_food %>% 
+food_type_list <- unique(all_food$type) 
+
+food_recipe_list <- all_food %>% 
   filter(type == "Health") %>% 
   distinct(recipe) %>% 
   pull()
-
-food_type_list <- all_food %>% 
-  filter(type == "Health")
 
 
