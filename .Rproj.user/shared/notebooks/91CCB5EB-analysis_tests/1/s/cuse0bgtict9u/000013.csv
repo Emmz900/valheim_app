@@ -1,5 +1,0 @@
-"0","weapons_crafting_clean %>% "
-"0","  filter(item == ""Silver Sword"") %>% "
-"0","  filter(upgrade_level == 1) %>% "
-"0","  select(material, amount_of_material) %>% "
-"0","  rename(""Material"" = material, ""Amount of Material"" = amount_of_material)"
