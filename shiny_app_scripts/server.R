@@ -297,7 +297,8 @@ server <- function(input, output, session) {
       theme_classic() +
       labs(
         x = "Food Item",
-        y = "Value"
+        y = "Value",
+        fill = "Stat"
       )
     
     ggplotly(p, tooltip = "text")
@@ -313,14 +314,12 @@ server <- function(input, output, session) {
   output$food_crafting_station_outputs <- renderTable({
     cooking_stations <- tibble(
       "Cooking Stations" = c(
-        if(unique(food_item()$oven) == "n"){
-          #FALSE
+        if(unique(food_item()$oven) == "N"){
         } else {
           "Oven"
         },
         
         if(is.na(unique(food_item()$cauldron_level))){
-          #FALSE
         } else {
           (paste("Cauldron Level", unique(food_item()$cauldron_level)))
         }
