@@ -5,9 +5,12 @@ ui <- fluidPage(
   titlePanel("Valheim"),
   
   tabsetPanel(
+    
+    # Tab for weapons overall. Choose a damage type and compare all weapons.
+    
     tabPanel(
       
-      "Weapons",
+      "Weapons Comparison",
       
       tags$h2(fluidRow("Weapon 1")),
       # Top Row, inputs ---------
