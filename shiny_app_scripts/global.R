@@ -4,6 +4,12 @@ library(bslib)
 library(plotly)
 library(here)
 
+# FUNCTIONS --------------------
+source(here("function_scripts/filter_weapons.R"))
+source(here("function_scripts/plot_weapon_stats.R"))
+source(here("function_scripts/filter_food.R"))
+source(here("function_scripts/plot_food.R"))
+
 # WEAPONS -------------
 weapons_crafting_clean <- read_csv(here("clean_data/weapons_crafting.csv"))
 weapons_data_clean <- read_csv(here("clean_data/weapon_data.csv"))
@@ -47,6 +53,12 @@ damage_type_list <- weapons_joined %>%
   pull() %>% 
   append("All") %>% 
   sort()
+
+weapon_filter_options <- list(
+  "Damage Type" = damage_type_list,
+  "Material" = weapon_material_list,
+  "Weapon Type" = weapon_type_list
+)
 
 # FOOD -------------
 food_ingredients <- clean_names(read_csv(here("raw_data/food_ingredients.csv")))

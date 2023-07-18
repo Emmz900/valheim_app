@@ -31,6 +31,9 @@ output: html_notebook
 
 # Inputs
 
+* weapon_filter_options_input
+* weapon_filter_input
+
 * weapon_input <- *drop down* of *weapons_list*, to filter first weapon plot
 * weapon_type_input <- *drop down* of *weapon_type_list*, to filter *weapon_input*
 * weapon_material_input <- *drop down* of *weapon_material_list*, to filter *weapon_input*
@@ -69,4 +72,15 @@ output: html_notebook
 * food_crafting_station_outputs <- *data table* of crafting stations
 * food_stats_table <- *data table*
 
+
+
+
+
+```{r}
+choices <- weapon_filter_options["Material"]
+
+choices[[1]][-1]
+
+weapon_filter_options[["Material"]][-1]
+```
 

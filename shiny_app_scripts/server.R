@@ -1,25 +1,79 @@
 server <- function(input, output, session) {
   
+  # All Weapons ----------------------
+  ## Filter list  ------------------
+  observeEvent(input$weapon_filter_options_input, {
+    choices <- weapon_filter_options[[input$weapon_filter_options_input]][-1]
+    updateSelectInput(session, "weapon_filter_input",
+                      choices =  choices) #REMOVE "ALL"
+  })
+  
+  ## Filter Weapons -----------------
+  weapon_filtered_list <- reactive({
+    weapons_joined %>% 
+      {if (input$weapon_filter_options_input == "Damage Type")
+        filter(.,
+               str_detect(damage_type,
+                          as.character(input$weapon_filter_input))) 
+        else
+          filter(., !is.na(values))} %>% 
+      {if (input$weapon_filter_options_input == "Material")
+        filter(., material == input$weapon_filter_input)
+        else
+          filter(., !is.na(values))} %>% 
+      {if (input$weapon_filter_options_input == "Weapon Type")
+        filter(., type == input$weapon_filter_input)
+        else
+          filter(., !is.na(values))} %>%  
+      arrange(desc(values))%>%
+      distinct(item) %>% 
+      head(10) %>% 
+      pull()
+  })
+  
+  ## Update weapon selection ------------
+  observeEvent(input$weapon_filter_input, {
+    updateRadioButtons(session, "weapon_choice_all_input",
+                       choices = weapon_filtered_list())
+  })
+  
+  ## Plot All Weapons --------------
+  output$all_weapons_plot <- renderPlotly({
+    p <- weapons_data_clean %>% 
+      filter(name %in% weapon_filtered_list(),
+             min_max != "max",
+             !is.na(values)) %>% 
+      ggplot(aes(name, values, fill = damage_type)) +
+      geom_col(position = "dodge") +
+      # scale_fill_manual(values = c(
+      #   "diff" = "green4",
+      #   "min" = "green3"
+      # )) +
+      scale_y_continuous(breaks = seq(0, 220, 20),
+                         limits = c(0, 220)) +
+      theme_classic() +
+      labs(
+        x = "Weapon",
+        y = "Damage Values",
+        fill = "Damage Type"
+      ) 
+    
+    # p <- p %>% style(
+    #   #text = ~paste(damage_type, ": ", round(values, 0)),
+    #   #hoverinfo = text,
+    #   hovertemplate = "%{fill}: %{y:.0f}<extra></extra>"
+    # )
+    
+    ggplotly(p)
+  })
+  
+  
   # Weapon 1 ----------------------
   ## Filter weapons list on button press ----------
   observeEvent(input$update, {
-    weapons_list <- weapons_joined %>% 
-      {if(input$weapon_type_input != "All") # if weapon type input -> filter
-        filter(., type == input$weapon_type_input)
-        else 
-          filter(., !is.na(type))} %>%
-      {if(input$weapon_material_input != "All") # if material input -> filter
-        filter(., material == input$weapon_material_input)
-        else 
-          filter(., !is.na(type))}  %>% 
-      {if(input$damage_type_input != "All") # if damage type input -> filter
-        filter(., str_detect(damage_type, as.character(input$damage_type_input)))
-        else 
-          filter(., !is.na(type))} %>% 
-      filter(!is.na(values)) %>% 
-      distinct(item) %>% 
-      pull() %>% 
-      sort()
+    weapons_list <- filter_weapons(input$weapon_type_input,
+                                   input$weapon_material_input,
+                                   input$damage_type_input)
     
     updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
   })
@@ -84,64 +138,29 @@ server <- function(input, output, session) {
   })
   
   ## PLOT of damage types ----------------
-  # IMPROVE PLOT COLOURS AND SIZE
   output$weapon_stat_plot <- renderPlotly({
-    
-    p <- weapons_data_clean %>% 
-      filter(name == input$weapon_input,
-             min_max != "max") %>% 
-      ggplot(aes(damage_type, values, fill = min_max)) +
-      geom_col(show.legend = FALSE) +
-      scale_fill_manual(values = c(
-        "diff" = "green4",
-        "min" = "green3"
-      )) +
-      scale_y_continuous(breaks = seq(0, 220, 20), limits = c(0, 220)) +
-      theme_classic() +
-      labs(
-        x = "Damage Type",
-        y = "Damage Values (Min-Max)"
-      ) 
-    
-    p <- p %>% style(
-      #text = ~paste(damage_type, ": ", round(values, 0)),
-      #hoverinfo = text,
-      hovertemplate = "%{x}: %{y:.0f}<extra></extra>"
-    )
-    p <- p %>% layout(showlegend = FALSE)
-    
-    ggplotly(p)
+    plot_weapon_stats(input$weapon_input)
   })
   
   # Weapon 2 ----------
   ## If weapon type input is changed, update weapon list ------
   observeEvent(input$update_2, {
-    weapons_list_2 <- weapons_joined %>% 
-      {if(input$weapon_type_input_2 != "All") 
-        filter(., type == input$weapon_type_input_2)
-        else 
-          filter(., !is.na(type))} %>%
-      {if(input$weapon_material_input_2 != "All") 
-        filter(., material == input$weapon_material_input_2)
-        else 
-          filter(., !is.na(type))}  %>% 
-      {if(input$damage_type_input_2 != "All") 
-        filter(., str_detect(damage_type, as.character(input$damage_type_input_2)))
-        else 
-          filter(., !is.na(type))} %>% 
-      filter(!is.na(values)) %>% 
-      distinct(item) %>% 
-      pull() %>% 
-      sort()
+    weapons_list_2 <- filter_weapons(input$weapon_type_input_2,
+                                     input$weapon_material_input_2,
+                                     input$damage_type_input_2)
     
-    updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
+    updateSelectInput(session, inputId = "weapon_input_2",
+                      choices = weapons_list_2)
   })
   
   ### Reset filters -----------------
   observeEvent(input$reset_2, {
-    updateSelectInput(session, inputId = "weapon_type_input_2", selected = "All")
-    updateSelectInput(session, inputId = "weapon_material_input_2", selected = "All")
-    updateSelectInput(session, inputId = "damage_type_input_2", selected = "All")
+    updateSelectInput(session, inputId = "weapon_type_input_2",
+                      selected = "All")
+    updateSelectInput(session, inputId = "weapon_material_input_2",
+                      selected = "All")
+    updateSelectInput(session, inputId = "damage_type_input_2",
+                      selected = "All")
     
     weapons_list_2 <- weapons_joined %>% 
       distinct(item) %>% 
@@ -157,23 +176,9 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = "weapon_material_input_2", selected = input$weapon_material_input)
     updateSelectInput(session, inputId = "damage_type_input_2", selected = input$damage_type_input)
     
-    weapons_list_2 <- weapons_joined %>% 
-      {if(input$weapon_type_input_2 != "All") 
-        filter(., type == input$weapon_type_input_2)
-        else 
-          filter(., !is.na(type))} %>%
-      {if(input$weapon_material_input_2 != "All") 
-        filter(., material == input$weapon_material_input_2)
-        else 
-          filter(., !is.na(type))}  %>% 
-      {if(input$damage_type_input_2 != "All") 
-        filter(., str_detect(damage_type, as.character(input$damage_type_input_2)))
-        else 
-          filter(., !is.na(type))} %>% 
-      filter(!is.na(values)) %>% 
-      distinct(item) %>% 
-      pull() %>% 
-      sort()
+    weapons_list_2 <- filter_weapons(input$weapon_type_input_2,
+                                     input$weapon_material_input_2,
+                                     input$damage_type_input_2)
     
     updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
   })
@@ -225,30 +230,7 @@ server <- function(input, output, session) {
   
   ## PLOT of damage types ----------------
   output$weapon_stat_plot_2 <- renderPlotly({
-    
-    p <- weapons_data_clean %>% 
-      filter(name == input$weapon_input_2,
-             min_max != "max") %>% 
-      ggplot(aes(damage_type, values, fill = min_max)) +
-      geom_col(show.legend = FALSE) +
-      scale_fill_manual(values = c(
-        "diff" = "green4",
-        "min" = "green3"
-      )) +
-      scale_y_continuous(breaks = seq(0, 220, 20), limits = c(0, 220)) +
-      theme_classic() +
-      labs(
-        x = "Damage Type",
-        y = "Damage Values (Min-Max)"
-      ) 
-    
-    p <- p %>% style(
-      hovertemplate = "%{x}: %{y:.0f}<extra></extra>"
-    )
-    
-    p <- p %>% layout(showlegend = FALSE)
-    
-    ggplotly(p)
+    plot_weapon_stats(input$weapon_input_2)
   })
   
   # Food -----------------
@@ -261,19 +243,7 @@ server <- function(input, output, session) {
   
   ## Filter data based on food filters --------------
   food_list <- reactive({
-    all_food %>% 
-      {if (input$food_filter_options_input == "Ingredients")
-        filter(., ingredients == input$food_filter_input)
-        else
-          filter(., !is.na(values))} %>% 
-      {if (input$food_filter_options_input == "Biome")
-        filter(., zone == input$food_filter_input)
-        else
-          filter(., !is.na(values))} %>% 
-      {if (input$food_filter_options_input == "Main Stat")
-        filter(., type == input$food_filter_input)
-        else
-          filter(., !is.na(values))}
+    filter_food(input$food_filter_options_input, input$food_filter_input)
   })
   
   ## Change recipe options ----------------------
@@ -282,26 +252,14 @@ server <- function(input, output, session) {
       arrange(score) %>% 
       distinct(recipe) %>% 
       pull()
-
+    
     updateRadioButtons(session, "food_item_input",
                        choices = choices, inline = TRUE)
   })
   
   ## Plot of food stats ----------------
   output$food_stats_plot <- renderPlotly({
-    p <- food_list() %>% 
-      ggplot(aes(reorder(recipe, score), values, fill = stat, text = paste0(stat, ": ", values))) +
-      geom_col(position = "dodge") +
-      theme(axis.text.x = element_text(angle = 45, hjust = 1),
-            text = element_text(size = 12)) +
-      theme_classic() +
-      labs(
-        x = "Food Item",
-        y = "Value",
-        fill = "Stat"
-      )
-    
-    ggplotly(p, tooltip = "text")
+    plot_food(food_list())
   })
   
   ## Filter table for food item --------------
@@ -325,7 +283,7 @@ server <- function(input, output, session) {
         }
       )   
     )
-     
+    
   })
   
   ## Food stats table -----------------
@@ -342,11 +300,11 @@ server <- function(input, output, session) {
     if(is.na(food_item()$ingredients[1])){
     } else {
       food_item() %>%
-      mutate(amount_of_ingredient = format(amount_of_ingredient, nsmall = 0)) %>% 
-      select(ingredients, amount_of_ingredient) %>% 
-      rename("Ingredients" = ingredients) %>% 
-      rename("Quantity" = amount_of_ingredient) %>% 
-      distinct()
+        mutate(amount_of_ingredient = format(amount_of_ingredient, nsmall = 0)) %>% 
+        select(ingredients, amount_of_ingredient) %>% 
+        rename("Ingredients" = ingredients) %>% 
+        rename("Quantity" = amount_of_ingredient) %>% 
+        distinct()
     }
   })
 }
