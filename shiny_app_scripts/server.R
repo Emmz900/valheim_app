@@ -68,6 +68,49 @@ server <- function(input, output, session) {
     ggplotly(p)
   })
   
+  ## Crafting Station Type - TEXT -----------
+  output$crafting_station_output_1 <- renderText({
+    weapons_crafting_clean %>%
+      filter(item == input$weapon_choice_all_input) %>% 
+      filter(upgrade_level == input$item_level_input_1) %>% 
+      distinct(crafting_station) %>% 
+      pull() %>% 
+      str_to_title()
+  })
+  
+  ## Crafting Station Level - TEXT --------------
+  output$crafting_station_level_output_1 <- renderText({
+    level <- weapons_crafting_clean %>%
+      filter(item == input$weapon_choice_all_input) %>% 
+      filter(upgrade_level == input$item_level_input_1) %>% 
+      distinct(crafting_station_level) %>% 
+      pull() %>% 
+      str_to_title()
+    
+    paste("Level: ", level)
+  })
+  
+  ## Update item level buttons depending on weapon selected --------------
+  observeEvent(input$weapon_choice_all_input, {
+    choices <- weapons_crafting_clean %>%
+      filter(item == input$weapon_choice_all_input) %>% 
+      distinct(upgrade_level) %>% 
+      pull()
+    updateRadioButtons(inputId = "item_level_input_1", choices = choices,
+                       inline = TRUE)
+  })
+  
+  
+  ## Table of materials and amounts -------------
+  output$weapon_material_table_1 <- renderTable({
+    weapons_crafting_clean %>%
+      filter(item == input$weapon_choice_all_input) %>% 
+      filter(upgrade_level == input$item_level_input_1) %>% 
+      mutate(amount_of_material = format(amount_of_material, nsmall = 0)) %>% 
+      select(material, amount_of_material) %>% 
+      rename("Material" = material, "Amount of Material" = amount_of_material)
+    
+  })
   
   # Weapon 1 ----------------------
   ## Filter weapons list on button press ----------

@@ -43,25 +43,19 @@ ui <- fluidPage(
         ## Third Row - crafting station type and level ----------
         column(
           width = 2,
-          tags$b(textOutput("crafting_station_output_1"))
-        ),
-        column(
-          width = 2,
+          tags$b(textOutput("crafting_station_output_1")),
           tags$b(textOutput("crafting_station_level_output_1"))
         ),
-        ### choose item level----------
-        column(
-          width = 2,
-          radioButtons(
-            "item_level_input_1",
-            "Item Level",
-            choices = c(1:4), #CHANGE TO DEPEND ON INPUT
-            inline = TRUE
-          )
-        ),
+
         ### see materials needed --------------
         column(
           width = 4,
+          radioButtons(
+            "item_level_input_1",
+            "Item Level",
+            choices = c(1:4),
+            inline = TRUE
+          ),
           tableOutput("weapon_material_table_1")
         )
       )
