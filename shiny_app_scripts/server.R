@@ -3,14 +3,15 @@ server <- function(input, output, session) {
   # All Weapons ----------------------
   ## Filter list  ------------------
   observeEvent(input$weapon_filter_options_input, {
-    choices <- weapon_filter_options[[input$weapon_filter_options_input]][-1]
+    choices <- weapon_filter_options_1[[input$weapon_filter_options_input]][-1]
     updateSelectInput(session, "weapon_filter_input",
-                      choices =  choices) #REMOVE "ALL"
+                      choices = choices) #REMOVE "ALL"
   })
   
   ## Filter Weapons -----------------
   weapon_filtered_list <- reactive({
     weapons_joined %>% 
+      #browser()
       {if (input$weapon_filter_options_input == "Damage Type")
         filter(.,
                str_detect(damage_type,
@@ -34,7 +35,7 @@ server <- function(input, output, session) {
   ## Update weapon selection ------------
   observeEvent(input$weapon_filter_input, {
     updateRadioButtons(session, "weapon_choice_all_input",
-                       choices = weapon_filtered_list())
+                       choices = weapon_filtered_list(), inline = TRUE)
   })
   
   ## Plot All Weapons --------------

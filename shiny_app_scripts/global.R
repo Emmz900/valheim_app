@@ -30,6 +30,19 @@ weapons_joined <-
             relationship = "many-to-many") %>% 
   filter(!type %in% c("Upgrade", "Tool", "Shield", "Magic", "Weapon"))
 
+weapon_type_1 <- sort(unique(weapons_joined$type))
+weapon_material_1 <- sort(unique(weapons_joined$material))
+weapon_damage_1 <- weapons_joined %>% 
+  mutate(damage_type = str_extract(damage_type, "^[A-Z][a-z]+")) %>% 
+  distinct(damage_type) %>% 
+  pull() %>% 
+  sort()
+weapon_filter_options_1 <- list(
+  "Damage Type" = weapon_damage_1,
+  "Material" = weapon_material_1,
+  "Weapon Type" = weapon_type_1
+)
+
 weapons_list <- weapons_joined %>% 
   distinct(item) %>% 
   pull() %>% 
@@ -39,7 +52,7 @@ weapon_type_list <- weapons_joined %>%
   distinct(type) %>% 
   pull() %>% 
   append("All") %>% 
-  sort()  
+  sort() 
 
 weapon_material_list <- weapons_joined %>% 
   distinct(material) %>% 
