@@ -2,7 +2,7 @@
 
 ## The Game
 
-Valheim is an procedurally-generated open world exploration and survival game inspired by Vikings. There are many different biomes, each with their own unique crafting materials, enemies, and weapons.   
+Valheim is a procedurally-generated open world exploration and survival game inspired by Vikings. There are many different biomes, each with their own unique crafting materials, enemies, and weapons.   
 
 ## The App
 
