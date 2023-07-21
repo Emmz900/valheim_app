@@ -1,6 +1,6 @@
 ui <- fluidPage(
   
-  theme = bs_theme(bootswatch = "flatly"),
+  theme = bs_theme(bootswatch = "cyborg"),
   
   titlePanel("Valheim"),
   

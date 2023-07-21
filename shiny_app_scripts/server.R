@@ -53,6 +53,14 @@ server <- function(input, output, session) {
       scale_y_continuous(breaks = seq(0, 220, 20),
                          limits = c(0, 220)) +
       theme_classic() +
+      theme(text = element_text(colour = "white"),
+            axis.text = element_text(colour = "white"),
+            legend.background = element_rect(fill = "transparent"),
+            panel.background = element_rect(fill = "transparent"),
+            panel.border = element_rect(fill = "transparent",
+                                        colour = "transparent"),
+            plot.background = element_rect(fill = "transparent",
+                                           colour = NA)) +
       labs(
         x = "Weapon",
         y = "Damage Values",

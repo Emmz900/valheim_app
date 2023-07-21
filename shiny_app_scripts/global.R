@@ -78,7 +78,7 @@ food_ingredients <- clean_names(read_csv(here("raw_data/food_ingredients.csv")))
 food_stats <- clean_names(read_csv(here("raw_data/food_stats.csv"))) %>% 
   mutate(zone = factor(zone,
                        levels = c("meadows", "black forest", "swamp", "ocean",
-                                  "mountains", "plains", "mistlands")),
+                                  "mountains", "plains", "mistlands")), # Capital
          type = str_to_title(type)) %>% 
   pivot_longer(health:duration, names_to = "stat", values_to = "values")
 
