@@ -42,9 +42,9 @@ server <- function(input, output, session) {
   output$all_weapons_plot <- renderPlotly({
     p <- weapons_data_clean %>% 
       filter(name %in% weapon_filtered_list(),
-             min_max != "max",
+             min_max == "max", # currently shows multiple, limit to only one
              !is.na(values)) %>% 
-      ggplot(aes(name, values, fill = damage_type)) +
+      ggplot(aes(name, values, fill = damage_type, text = paste0(damage_type, ": ", values))) +
       geom_col(position = "dodge") +
       # scale_fill_manual(values = c(
       #   "diff" = "green4",
@@ -73,7 +73,7 @@ server <- function(input, output, session) {
     #   hovertemplate = "%{fill}: %{y:.0f}<extra></extra>"
     # )
     
-    ggplotly(p)
+    ggplotly(p, tooltip = "text")
   })
   
   ## Crafting Station Type - TEXT -----------

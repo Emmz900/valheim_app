@@ -34,11 +34,11 @@ weapon_data_split <- weapon_data %>%
     damage_type_min = paste0(damage_type, "_min"),
     damage_type_diff = paste0(damage_type, "_diff"),
     
-    backstab_x10 = backstab * 10, #increase backstab for readability on plot
+    "backstab x10" = backstab * 10, #increase backstab for readability on plot
     
     type = case_when(
       type == "Knive" ~ "Knife",
-      type == "2 Handed Club" ~ "Club",
+      type == "2-Handed Clubs" ~ "Club",
       type == "Two-Handed Axe" ~ "Axe",
       .default = type
     )
@@ -71,7 +71,7 @@ weapon_data_long <- weapon_data_split %>%
            ),
          damage_type = str_remove(damage_type, "_min|_max|_diff")
   ) %>% 
-  mutate(min_max = coalesce(min_max, "min")) %>% 
+  mutate(min_max = coalesce(min_max, "max")) %>% 
   filter(damage_type != "Na")
 
 write_csv(weapon_data_long, "clean_data/weapon_data.csv")

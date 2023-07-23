@@ -76,9 +76,9 @@ weapon_filter_options <- list(
 # FOOD -------------
 food_ingredients <- clean_names(read_csv(here("raw_data/food_ingredients.csv")))
 food_stats <- clean_names(read_csv(here("raw_data/food_stats.csv"))) %>% 
-  mutate(zone = factor(zone,
-                       levels = c("meadows", "black forest", "swamp", "ocean",
-                                  "mountains", "plains", "mistlands")), # Capital
+  mutate(zone = factor(str_to_title(zone),
+                       levels = c("Meadows", "Black Forest", "Swamp", "Ocean",
+                                  "Mountains", "Plains", "Mistlands")),
          type = str_to_title(type)) %>% 
   pivot_longer(health:duration, names_to = "stat", values_to = "values")
 

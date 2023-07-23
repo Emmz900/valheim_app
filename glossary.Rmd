@@ -77,10 +77,10 @@ output: html_notebook
 
 
 ```{r}
-choices <- weapon_filter_options["Material"]
+weapons_data_clean %>% 
+  filter(name == "Battleaxe")
 
-choices[[1]][-1]
-
-weapon_filter_options[["Material"]][-1]
+weapon_data
+weapon_data_split
 ```
 

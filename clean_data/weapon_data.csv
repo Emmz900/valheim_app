@@ -1,7 +1,7 @@
 name,type,damage_type,values,min_max
-Abyssal Harpoon,Spear,Knockback,20,min
-Abyssal Harpoon,Spear,Total,10,min
-Abyssal Harpoon,Spear,Backstab_x10,10,min
+Abyssal Harpoon,Spear,Knockback,20,max
+Abyssal Harpoon,Spear,Total,10,max
+Abyssal Harpoon,Spear,Backstab X10,10,max
 Abyssal Harpoon,Spear,Pierce,10,max
 Abyssal Harpoon,Spear,Slash,NA,max
 Abyssal Harpoon,Spear,Pickaxe,NA,max
@@ -32,9 +32,9 @@ Abyssal Harpoon,Spear,Poison,NA,diff
 Abyssal Harpoon,Spear,Fire,NA,diff
 Abyssal Harpoon,Spear,Frost,NA,diff
 Abyssal Harpoon,Spear,Lightning,NA,diff
-Abyssal Razor,Knife,Knockback,10,min
-Abyssal Razor,Knife,Total,46,min
-Abyssal Razor,Knife,Backstab_x10,60,min
+Abyssal Razor,Knife,Knockback,10,max
+Abyssal Razor,Knife,Total,46,max
+Abyssal Razor,Knife,Backstab X10,60,max
 Abyssal Razor,Knife,Pierce,NA,max
 Abyssal Razor,Knife,Slash,23,max
 Abyssal Razor,Knife,Pickaxe,NA,max
@@ -71,9 +71,9 @@ Abyssal Razor,Knife,Pierce,20,min
 Abyssal Razor,Knife,Slash,NA,min
 Abyssal Razor,Knife,Pierce,3,diff
 Abyssal Razor,Knife,Slash,NA,diff
-Ancient Bark Spear,Spear,Knockback,20,min
-Ancient Bark Spear,Spear,Total,73,min
-Ancient Bark Spear,Spear,Backstab_x10,30,min
+Ancient Bark Spear,Spear,Knockback,20,max
+Ancient Bark Spear,Spear,Total,73,max
+Ancient Bark Spear,Spear,Backstab X10,30,max
 Ancient Bark Spear,Spear,Pierce,73,max
 Ancient Bark Spear,Spear,Slash,NA,max
 Ancient Bark Spear,Spear,Pickaxe,NA,max
@@ -104,9 +104,9 @@ Ancient Bark Spear,Spear,Poison,NA,diff
 Ancient Bark Spear,Spear,Fire,NA,diff
 Ancient Bark Spear,Spear,Frost,NA,diff
 Ancient Bark Spear,Spear,Lightning,NA,diff
-Antler Pickaxe,Pickaxe,Knockback,50,min
-Antler Pickaxe,Pickaxe,Total,18,min
-Antler Pickaxe,Pickaxe,Backstab_x10,30,min
+Antler Pickaxe,Pickaxe,Knockback,50,max
+Antler Pickaxe,Pickaxe,Total,18,max
+Antler Pickaxe,Pickaxe,Backstab X10,30,max
 Antler Pickaxe,Pickaxe,Pierce,18,max
 Antler Pickaxe,Pickaxe,Slash,NA,max
 Antler Pickaxe,Pickaxe,Pickaxe,NA,max
@@ -143,9 +143,9 @@ Antler Pickaxe,Pickaxe,Pierce,NA,min
 Antler Pickaxe,Pickaxe,Pickaxe,18,min
 Antler Pickaxe,Pickaxe,Pierce,NA,diff
 Antler Pickaxe,Pickaxe,Pickaxe,0,diff
-Arbalest,Crossbow,Knockback,210,min
-Arbalest,Crossbow,Total,209,min
-Arbalest,Crossbow,Backstab_x10,30,min
+Arbalest,Crossbow,Knockback,210,max
+Arbalest,Crossbow,Total,209,max
+Arbalest,Crossbow,Backstab X10,30,max
 Arbalest,Crossbow,Pierce,209,max
 Arbalest,Crossbow,Slash,NA,max
 Arbalest,Crossbow,Pickaxe,NA,max
@@ -176,9 +176,9 @@ Arbalest,Crossbow,Poison,NA,diff
 Arbalest,Crossbow,Fire,NA,diff
 Arbalest,Crossbow,Frost,NA,diff
 Arbalest,Crossbow,Lightning,NA,diff
-Battleaxe,Two-Handed Axe,Knockback,70,min
-Battleaxe,Two-Handed Axe,Total,88,min
-Battleaxe,Two-Handed Axe,Backstab_x10,30,min
+Battleaxe,Two-Handed Axe,Knockback,70,max
+Battleaxe,Two-Handed Axe,Total,88,max
+Battleaxe,Two-Handed Axe,Backstab X10,30,max
 Battleaxe,Two-Handed Axe,Pierce,NA,max
 Battleaxe,Two-Handed Axe,Slash,88,max
 Battleaxe,Two-Handed Axe,Pickaxe,NA,max
@@ -215,9 +215,9 @@ Battleaxe,Two-Handed Axe,Slash,NA,min
 Battleaxe,Two-Handed Axe,Chop,40,min
 Battleaxe,Two-Handed Axe,Slash,NA,diff
 Battleaxe,Two-Handed Axe,Chop,7.5,diff
-Blackmetal Pickaxe,Pickaxe,Knockback,50,min
-Blackmetal Pickaxe,Pickaxe,Total,64,min
-Blackmetal Pickaxe,Pickaxe,Backstab_x10,30,min
+Blackmetal Pickaxe,Pickaxe,Knockback,50,max
+Blackmetal Pickaxe,Pickaxe,Total,64,max
+Blackmetal Pickaxe,Pickaxe,Backstab X10,30,max
 Blackmetal Pickaxe,Pickaxe,Pierce,64,max
 Blackmetal Pickaxe,Pickaxe,Slash,NA,max
 Blackmetal Pickaxe,Pickaxe,Pickaxe,NA,max
@@ -254,9 +254,9 @@ Blackmetal Pickaxe,Pickaxe,Pierce,NA,min
 Blackmetal Pickaxe,Pickaxe,Pickaxe,49,min
 Blackmetal Pickaxe,Pickaxe,Pierce,NA,diff
 Blackmetal Pickaxe,Pickaxe,Pickaxe,15,diff
-Blackmetal Atgeir,Polearm,Knockback,30,min
-Blackmetal Atgeir,Polearm,Total,123,min
-Blackmetal Atgeir,Polearm,Backstab_x10,30,min
+Blackmetal Atgeir,Polearm,Knockback,30,max
+Blackmetal Atgeir,Polearm,Total,123,max
+Blackmetal Atgeir,Polearm,Backstab X10,30,max
 Blackmetal Atgeir,Polearm,Pierce,123,max
 Blackmetal Atgeir,Polearm,Slash,NA,max
 Blackmetal Atgeir,Polearm,Pickaxe,NA,max
@@ -287,9 +287,9 @@ Blackmetal Atgeir,Polearm,Poison,NA,diff
 Blackmetal Atgeir,Polearm,Fire,NA,diff
 Blackmetal Atgeir,Polearm,Frost,NA,diff
 Blackmetal Atgeir,Polearm,Lightning,NA,diff
-Blackmetal Axe,Axe,Knockback,60,min
-Blackmetal Axe,Axe,Total,115,min
-Blackmetal Axe,Axe,Backstab_x10,30,min
+Blackmetal Axe,Axe,Knockback,60,max
+Blackmetal Axe,Axe,Total,115,max
+Blackmetal Axe,Axe,Backstab X10,30,max
 Blackmetal Axe,Axe,Pierce,NA,max
 Blackmetal Axe,Axe,Slash,115,max
 Blackmetal Axe,Axe,Pickaxe,NA,max
@@ -326,9 +326,9 @@ Blackmetal Axe,Axe,Slash,NA,min
 Blackmetal Axe,Axe,Chop,60,min
 Blackmetal Axe,Axe,Slash,NA,diff
 Blackmetal Axe,Axe,Chop,9,diff
-Blackmetal Knife,Knife,Knockback,10,min
-Blackmetal Knife,Knife,Total,74,min
-Blackmetal Knife,Knife,Backstab_x10,60,min
+Blackmetal Knife,Knife,Knockback,10,max
+Blackmetal Knife,Knife,Total,74,max
+Blackmetal Knife,Knife,Backstab X10,60,max
 Blackmetal Knife,Knife,Pierce,NA,max
 Blackmetal Knife,Knife,Slash,37,max
 Blackmetal Knife,Knife,Pickaxe,NA,max
@@ -365,9 +365,9 @@ Blackmetal Knife,Knife,Pierce,34,min
 Blackmetal Knife,Knife,Slash,NA,min
 Blackmetal Knife,Knife,Pierce,3,diff
 Blackmetal Knife,Knife,Slash,NA,diff
-Blackmetal Sword,Sword,Knockback,40,min
-Blackmetal Sword,Sword,Total,113,min
-Blackmetal Sword,Sword,Backstab_x10,30,min
+Blackmetal Sword,Sword,Knockback,40,max
+Blackmetal Sword,Sword,Total,113,max
+Blackmetal Sword,Sword,Backstab X10,30,max
 Blackmetal Sword,Sword,Pierce,NA,max
 Blackmetal Sword,Sword,Slash,113,max
 Blackmetal Sword,Sword,Pickaxe,NA,max
@@ -398,9 +398,9 @@ Blackmetal Sword,Sword,Poison,NA,diff
 Blackmetal Sword,Sword,Fire,NA,diff
 Blackmetal Sword,Sword,Frost,NA,diff
 Blackmetal Sword,Sword,Lightning,NA,diff
-Bronze Atgeir,Polearm,Knockback,30,min
-Bronze Atgeir,Polearm,Total,63,min
-Bronze Atgeir,Polearm,Backstab_x10,30,min
+Bronze Atgeir,Polearm,Knockback,30,max
+Bronze Atgeir,Polearm,Total,63,max
+Bronze Atgeir,Polearm,Backstab X10,30,max
 Bronze Atgeir,Polearm,Pierce,63,max
 Bronze Atgeir,Polearm,Slash,NA,max
 Bronze Atgeir,Polearm,Pickaxe,NA,max
@@ -431,9 +431,9 @@ Bronze Atgeir,Polearm,Poison,NA,diff
 Bronze Atgeir,Polearm,Fire,NA,diff
 Bronze Atgeir,Polearm,Frost,NA,diff
 Bronze Atgeir,Polearm,Lightning,NA,diff
-Bronze Axe,Axe,Knockback,50,min
-Bronze Axe,Axe,Total,55,min
-Bronze Axe,Axe,Backstab_x10,30,min
+Bronze Axe,Axe,Knockback,50,max
+Bronze Axe,Axe,Total,55,max
+Bronze Axe,Axe,Backstab X10,30,max
 Bronze Axe,Axe,Pierce,NA,max
 Bronze Axe,Axe,Slash,55,max
 Bronze Axe,Axe,Pickaxe,NA,max
@@ -464,9 +464,9 @@ Bronze Axe,Axe,Poison,NA,diff
 Bronze Axe,Axe,Fire,NA,diff
 Bronze Axe,Axe,Frost,NA,diff
 Bronze Axe,Axe,Lightning,NA,diff
-Bronze Mace,Club,Knockback,80,min
-Bronze Mace,Club,Total,53,min
-Bronze Mace,Club,Backstab_x10,30,min
+Bronze Mace,Club,Knockback,80,max
+Bronze Mace,Club,Total,53,max
+Bronze Mace,Club,Backstab X10,30,max
 Bronze Mace,Club,Pierce,NA,max
 Bronze Mace,Club,Slash,NA,max
 Bronze Mace,Club,Pickaxe,NA,max
@@ -497,9 +497,9 @@ Bronze Mace,Club,Poison,NA,diff
 Bronze Mace,Club,Fire,NA,diff
 Bronze Mace,Club,Frost,NA,diff
 Bronze Mace,Club,Lightning,NA,diff
-Bronze Pickaxe,Pickaxe,Knockback,50,min
-Bronze Pickaxe,Pickaxe,Total,40,min
-Bronze Pickaxe,Pickaxe,Backstab_x10,30,min
+Bronze Pickaxe,Pickaxe,Knockback,50,max
+Bronze Pickaxe,Pickaxe,Total,40,max
+Bronze Pickaxe,Pickaxe,Backstab X10,30,max
 Bronze Pickaxe,Pickaxe,Pierce,40,max
 Bronze Pickaxe,Pickaxe,Slash,NA,max
 Bronze Pickaxe,Pickaxe,Pickaxe,NA,max
@@ -536,9 +536,9 @@ Bronze Pickaxe,Pickaxe,Pierce,NA,min
 Bronze Pickaxe,Pickaxe,Pickaxe,24,min
 Bronze Pickaxe,Pickaxe,Pierce,NA,diff
 Bronze Pickaxe,Pickaxe,Pickaxe,13,diff
-Bronze Spear,Spear,Knockback,20,min
-Bronze Spear,Spear,Total,53,min
-Bronze Spear,Spear,Backstab_x10,30,min
+Bronze Spear,Spear,Knockback,20,max
+Bronze Spear,Spear,Total,53,max
+Bronze Spear,Spear,Backstab X10,30,max
 Bronze Spear,Spear,Pierce,53,max
 Bronze Spear,Spear,Slash,NA,max
 Bronze Spear,Spear,Pickaxe,NA,max
@@ -569,9 +569,9 @@ Bronze Spear,Spear,Poison,NA,diff
 Bronze Spear,Spear,Fire,NA,diff
 Bronze Spear,Spear,Frost,NA,diff
 Bronze Spear,Spear,Lightning,NA,diff
-Bronze Sword,Sword,Knockback,40,min
-Bronze Sword,Sword,Total,53,min
-Bronze Sword,Sword,Backstab_x10,30,min
+Bronze Sword,Sword,Knockback,40,max
+Bronze Sword,Sword,Total,53,max
+Bronze Sword,Sword,Backstab X10,30,max
 Bronze Sword,Sword,Pierce,NA,max
 Bronze Sword,Sword,Slash,53,max
 Bronze Sword,Sword,Pickaxe,NA,max
@@ -602,9 +602,9 @@ Bronze Sword,Sword,Poison,NA,diff
 Bronze Sword,Sword,Fire,NA,diff
 Bronze Sword,Sword,Frost,NA,diff
 Bronze Sword,Sword,Lightning,NA,diff
-Bronze Arrow,Arrow,Knockback,10,min
-Bronze Arrow,Arrow,Total,32,min
-Bronze Arrow,Arrow,Backstab_x10,NA,min
+Bronze Arrow,Arrow,Knockback,10,max
+Bronze Arrow,Arrow,Total,32,max
+Bronze Arrow,Arrow,Backstab X10,NA,max
 Bronze Arrow,Arrow,Pierce,32,max
 Bronze Arrow,Arrow,Slash,NA,max
 Bronze Arrow,Arrow,Pickaxe,NA,max
@@ -635,9 +635,9 @@ Bronze Arrow,Arrow,Poison,NA,diff
 Bronze Arrow,Arrow,Fire,NA,diff
 Bronze Arrow,Arrow,Frost,NA,diff
 Bronze Arrow,Arrow,Lightning,NA,diff
-Carapace Arrow,Arrow,Knockback,15,min
-Carapace Arrow,Arrow,Total,72,min
-Carapace Arrow,Arrow,Backstab_x10,NA,min
+Carapace Arrow,Arrow,Knockback,15,max
+Carapace Arrow,Arrow,Total,72,max
+Carapace Arrow,Arrow,Backstab X10,NA,max
 Carapace Arrow,Arrow,Pierce,72,max
 Carapace Arrow,Arrow,Slash,NA,max
 Carapace Arrow,Arrow,Pickaxe,NA,max
@@ -668,9 +668,9 @@ Carapace Arrow,Arrow,Poison,NA,diff
 Carapace Arrow,Arrow,Fire,NA,diff
 Carapace Arrow,Arrow,Frost,NA,diff
 Carapace Arrow,Arrow,Lightning,NA,diff
-Carapace Spear,Spear,Knockback,20,min
-Carapace Spear,Spear,Total,133,min
-Carapace Spear,Spear,Backstab_x10,30,min
+Carapace Spear,Spear,Knockback,20,max
+Carapace Spear,Spear,Total,133,max
+Carapace Spear,Spear,Backstab X10,30,max
 Carapace Spear,Spear,Pierce,133,max
 Carapace Spear,Spear,Slash,NA,max
 Carapace Spear,Spear,Pickaxe,NA,max
@@ -701,9 +701,9 @@ Carapace Spear,Spear,Poison,NA,diff
 Carapace Spear,Spear,Fire,NA,diff
 Carapace Spear,Spear,Frost,NA,diff
 Carapace Spear,Spear,Lightning,NA,diff
-Club,Club,Knockback,25,min
-Club,Club,Total,30,min
-Club,Club,Backstab_x10,30,min
+Club,Club,Knockback,25,max
+Club,Club,Total,30,max
+Club,Club,Backstab X10,30,max
 Club,Club,Pierce,NA,max
 Club,Club,Slash,NA,max
 Club,Club,Pickaxe,NA,max
@@ -734,9 +734,9 @@ Club,Club,Poison,NA,diff
 Club,Club,Fire,NA,diff
 Club,Club,Frost,NA,diff
 Club,Club,Lightning,NA,diff
-Copper Knife,Knife,Knockback,10,min
-Copper Knife,Knife,Total,30,min
-Copper Knife,Knife,Backstab_x10,60,min
+Copper Knife,Knife,Knockback,10,max
+Copper Knife,Knife,Total,30,max
+Copper Knife,Knife,Backstab X10,60,max
 Copper Knife,Knife,Pierce,NA,max
 Copper Knife,Knife,Slash,15,max
 Copper Knife,Knife,Pickaxe,NA,max
@@ -773,9 +773,9 @@ Copper Knife,Knife,Pierce,12,min
 Copper Knife,Knife,Slash,NA,min
 Copper Knife,Knife,Pierce,3,diff
 Copper Knife,Knife,Slash,NA,diff
-Crude Bow,Bow,Knockback,0,min
-Crude Bow,Bow,Total,NA,min
-Crude Bow,Bow,Backstab_x10,30,min
+Crude Bow,Bow,Knockback,0,max
+Crude Bow,Bow,Total,NA,max
+Crude Bow,Bow,Backstab X10,30,max
 Crude Bow,Bow,Pierce,31,max
 Crude Bow,Bow,Slash,NA,max
 Crude Bow,Bow,Pickaxe,NA,max
@@ -806,9 +806,9 @@ Crude Bow,Bow,Poison,NA,diff
 Crude Bow,Bow,Fire,NA,diff
 Crude Bow,Bow,Frost,NA,diff
 Crude Bow,Bow,Lightning,NA,diff
-Crystal Battleaxe,Two-Handed Axe,Knockback,70,min
-Crystal Battleaxe,Two-Handed Axe,Total,108,min
-Crystal Battleaxe,Two-Handed Axe,Backstab_x10,30,min
+Crystal Battleaxe,Two-Handed Axe,Knockback,70,max
+Crystal Battleaxe,Two-Handed Axe,Total,108,max
+Crystal Battleaxe,Two-Handed Axe,Backstab X10,30,max
 Crystal Battleaxe,Two-Handed Axe,Pierce,NA,max
 Crystal Battleaxe,Two-Handed Axe,Slash,108,max
 Crystal Battleaxe,Two-Handed Axe,Pickaxe,NA,max
@@ -848,9 +848,9 @@ Crystal Battleaxe,Two-Handed Axe,Spirit,0,diff
 Crystal Battleaxe,Two-Handed Axe,Chop,57.5,max
 Crystal Battleaxe,Two-Handed Axe,Chop,50,min
 Crystal Battleaxe,Two-Handed Axe,Chop,7.5,diff
-Demolisher,Two-Handed Club,Knockback,210,min
-Demolisher,Two-Handed Club,Total,163,min
-Demolisher,Two-Handed Club,Backstab_x10,20,min
+Demolisher,Two-Handed Club,Knockback,210,max
+Demolisher,Two-Handed Club,Total,163,max
+Demolisher,Two-Handed Club,Backstab X10,20,max
 Demolisher,Two-Handed Club,Pierce,NA,max
 Demolisher,Two-Handed Club,Slash,NA,max
 Demolisher,Two-Handed Club,Pickaxe,NA,max
@@ -881,9 +881,9 @@ Demolisher,Two-Handed Club,Poison,NA,diff
 Demolisher,Two-Handed Club,Fire,NA,diff
 Demolisher,Two-Handed Club,Frost,NA,diff
 Demolisher,Two-Handed Club,Lightning,NA,diff
-Draugr Fang,Bow,Knockback,20,min
-Draugr Fang,Bow,Total,NA,min
-Draugr Fang,Bow,Backstab_x10,30,min
+Draugr Fang,Bow,Knockback,20,max
+Draugr Fang,Bow,Total,NA,max
+Draugr Fang,Bow,Backstab X10,30,max
 Draugr Fang,Bow,Pierce,56,max
 Draugr Fang,Bow,Slash,NA,max
 Draugr Fang,Bow,Pickaxe,NA,max
@@ -920,9 +920,9 @@ Draugr Fang,Bow,Pierce,NA,min
 Draugr Fang,Bow,Poison,5,min
 Draugr Fang,Bow,Pierce,NA,diff
 Draugr Fang,Bow,Poison,15,diff
-Fang Spear,Spear,Knockback,20,min
-Fang Spear,Spear,Total,93,min
-Fang Spear,Spear,Backstab_x10,30,min
+Fang Spear,Spear,Knockback,20,max
+Fang Spear,Spear,Total,93,max
+Fang Spear,Spear,Backstab X10,30,max
 Fang Spear,Spear,Pierce,93,max
 Fang Spear,Spear,Slash,NA,max
 Fang Spear,Spear,Pickaxe,NA,max
@@ -953,9 +953,9 @@ Fang Spear,Spear,Poison,NA,diff
 Fang Spear,Spear,Fire,NA,diff
 Fang Spear,Spear,Frost,NA,diff
 Fang Spear,Spear,Lightning,NA,diff
-Fine Wood Bow,Bow,Knockback,5,min
-Fine Wood Bow,Bow,Total,NA,min
-Fine Wood Bow,Bow,Backstab_x10,30,min
+Fine Wood Bow,Bow,Knockback,5,max
+Fine Wood Bow,Bow,Total,NA,max
+Fine Wood Bow,Bow,Backstab X10,30,max
 Fine Wood Bow,Bow,Pierce,41,max
 Fine Wood Bow,Bow,Slash,NA,max
 Fine Wood Bow,Bow,Pickaxe,NA,max
@@ -986,9 +986,9 @@ Fine Wood Bow,Bow,Poison,NA,diff
 Fine Wood Bow,Bow,Fire,NA,diff
 Fine Wood Bow,Bow,Frost,NA,diff
 Fine Wood Bow,Bow,Lightning,NA,diff
-Fire Arrow,Arrow,Knockback,10,min
-Fire Arrow,Arrow,Total,33,min
-Fire Arrow,Arrow,Backstab_x10,NA,min
+Fire Arrow,Arrow,Knockback,10,max
+Fire Arrow,Arrow,Total,33,max
+Fire Arrow,Arrow,Backstab X10,NA,max
 Fire Arrow,Arrow,Pierce,11,max
 Fire Arrow,Arrow,Slash,NA,max
 Fire Arrow,Arrow,Pickaxe,NA,max
@@ -1025,9 +1025,9 @@ Fire Arrow,Arrow,Pierce,NA,min
 Fire Arrow,Arrow,Fire,22,min
 Fire Arrow,Arrow,Pierce,NA,diff
 Fire Arrow,Arrow,Fire,0,diff
-Flesh Rippers,Fist,Knockback,20,min
-Flesh Rippers,Fist,Total,76,min
-Flesh Rippers,Fist,Backstab_x10,60,min
+Flesh Rippers,Fist,Knockback,20,max
+Flesh Rippers,Fist,Total,76,max
+Flesh Rippers,Fist,Backstab X10,60,max
 Flesh Rippers,Fist,Pierce,NA,max
 Flesh Rippers,Fist,Slash,76,max
 Flesh Rippers,Fist,Pickaxe,NA,max
@@ -1058,9 +1058,9 @@ Flesh Rippers,Fist,Poison,NA,diff
 Flesh Rippers,Fist,Fire,NA,diff
 Flesh Rippers,Fist,Frost,NA,diff
 Flesh Rippers,Fist,Lightning,NA,diff
-Flint Axe,Axe,Knockback,50,min
-Flint Axe,Axe,Total,35,min
-Flint Axe,Axe,Backstab_x10,30,min
+Flint Axe,Axe,Knockback,50,max
+Flint Axe,Axe,Total,35,max
+Flint Axe,Axe,Backstab X10,30,max
 Flint Axe,Axe,Pierce,NA,max
 Flint Axe,Axe,Slash,35,max
 Flint Axe,Axe,Pickaxe,NA,max
@@ -1091,9 +1091,9 @@ Flint Axe,Axe,Poison,NA,diff
 Flint Axe,Axe,Fire,NA,diff
 Flint Axe,Axe,Frost,NA,diff
 Flint Axe,Axe,Lightning,NA,diff
-Flint Knife,Knife,Knockback,10,min
-Flint Knife,Knife,Total,16,min
-Flint Knife,Knife,Backstab_x10,60,min
+Flint Knife,Knife,Knockback,10,max
+Flint Knife,Knife,Total,16,max
+Flint Knife,Knife,Backstab X10,60,max
 Flint Knife,Knife,Pierce,NA,max
 Flint Knife,Knife,Slash,8,max
 Flint Knife,Knife,Pickaxe,NA,max
@@ -1130,9 +1130,9 @@ Flint Knife,Knife,Pierce,5,min
 Flint Knife,Knife,Slash,NA,min
 Flint Knife,Knife,Pierce,3,diff
 Flint Knife,Knife,Slash,NA,diff
-Flint Spear,Spear,Knockback,20,min
-Flint Spear,Spear,Total,38,min
-Flint Spear,Spear,Backstab_x10,30,min
+Flint Spear,Spear,Knockback,20,max
+Flint Spear,Spear,Total,38,max
+Flint Spear,Spear,Backstab X10,30,max
 Flint Spear,Spear,Pierce,38,max
 Flint Spear,Spear,Slash,NA,max
 Flint Spear,Spear,Pickaxe,NA,max
@@ -1163,9 +1163,9 @@ Flint Spear,Spear,Poison,NA,diff
 Flint Spear,Spear,Fire,NA,diff
 Flint Spear,Spear,Frost,NA,diff
 Flint Spear,Spear,Lightning,NA,diff
-Flinthead Arrow,Arrow,Knockback,10,min
-Flinthead Arrow,Arrow,Total,27,min
-Flinthead Arrow,Arrow,Backstab_x10,NA,min
+Flinthead Arrow,Arrow,Knockback,10,max
+Flinthead Arrow,Arrow,Total,27,max
+Flinthead Arrow,Arrow,Backstab X10,NA,max
 Flinthead Arrow,Arrow,Pierce,27,max
 Flinthead Arrow,Arrow,Slash,NA,max
 Flinthead Arrow,Arrow,Pickaxe,NA,max
@@ -1196,9 +1196,9 @@ Flinthead Arrow,Arrow,Poison,NA,diff
 Flinthead Arrow,Arrow,Fire,NA,diff
 Flinthead Arrow,Arrow,Frost,NA,diff
 Flinthead Arrow,Arrow,Lightning,NA,diff
-Frost Arrow,Arrow,Knockback,10,min
-Frost Arrow,Arrow,Total,78,min
-Frost Arrow,Arrow,Backstab_x10,NA,min
+Frost Arrow,Arrow,Knockback,10,max
+Frost Arrow,Arrow,Total,78,max
+Frost Arrow,Arrow,Backstab X10,NA,max
 Frost Arrow,Arrow,Pierce,26,max
 Frost Arrow,Arrow,Slash,NA,max
 Frost Arrow,Arrow,Pickaxe,NA,max
@@ -1235,9 +1235,9 @@ Frost Arrow,Arrow,Pierce,NA,min
 Frost Arrow,Arrow,Frost,52,min
 Frost Arrow,Arrow,Pierce,NA,diff
 Frost Arrow,Arrow,Frost,0,diff
-Frostner,Club,Knockback,120,min
-Frostner,Club,Total,58,min
-Frostner,Club,Backstab_x10,30,min
+Frostner,Club,Knockback,120,max
+Frostner,Club,Total,58,max
+Frostner,Club,Backstab X10,30,max
 Frostner,Club,Pierce,NA,max
 Frostner,Club,Slash,NA,max
 Frostner,Club,Pickaxe,NA,max
@@ -1277,9 +1277,9 @@ Frostner,Club,Frost,NA,diff
 Frostner,Club,Spirit,20,max
 Frostner,Club,Spirit,20,min
 Frostner,Club,Spirit,0,diff
-Himmin Afl,Polearm,Knockback,40,min
-Himmin Afl,Polearm,Total,85,min
-Himmin Afl,Polearm,Backstab_x10,30,min
+Himmin Afl,Polearm,Knockback,40,max
+Himmin Afl,Polearm,Total,85,max
+Himmin Afl,Polearm,Backstab X10,30,max
 Himmin Afl,Polearm,Pierce,85,max
 Himmin Afl,Polearm,Slash,NA,max
 Himmin Afl,Polearm,Pickaxe,NA,max
@@ -1316,9 +1316,9 @@ Himmin Afl,Polearm,Pierce,NA,min
 Himmin Afl,Polearm,Lightning,40,min
 Himmin Afl,Polearm,Pierce,NA,diff
 Himmin Afl,Polearm,Lightning,18,diff
-Huntsman Bow,Bow,Knockback,10,min
-Huntsman Bow,Bow,Total,NA,min
-Huntsman Bow,Bow,Backstab_x10,30,min
+Huntsman Bow,Bow,Knockback,10,max
+Huntsman Bow,Bow,Total,NA,max
+Huntsman Bow,Bow,Backstab X10,30,max
 Huntsman Bow,Bow,Pierce,51,max
 Huntsman Bow,Bow,Slash,NA,max
 Huntsman Bow,Bow,Pickaxe,NA,max
@@ -1349,9 +1349,9 @@ Huntsman Bow,Bow,Poison,NA,diff
 Huntsman Bow,Bow,Fire,NA,diff
 Huntsman Bow,Bow,Frost,NA,diff
 Huntsman Bow,Bow,Lightning,NA,diff
-Iron Atgeir,Polearm,Knockback,30,min
-Iron Atgeir,Polearm,Total,83,min
-Iron Atgeir,Polearm,Backstab_x10,30,min
+Iron Atgeir,Polearm,Knockback,30,max
+Iron Atgeir,Polearm,Total,83,max
+Iron Atgeir,Polearm,Backstab X10,30,max
 Iron Atgeir,Polearm,Pierce,83,max
 Iron Atgeir,Polearm,Slash,NA,max
 Iron Atgeir,Polearm,Pickaxe,NA,max
@@ -1382,9 +1382,9 @@ Iron Atgeir,Polearm,Poison,NA,diff
 Iron Atgeir,Polearm,Fire,NA,diff
 Iron Atgeir,Polearm,Frost,NA,diff
 Iron Atgeir,Polearm,Lightning,NA,diff
-Iron Axe,Axe,Knockback,50,min
-Iron Axe,Axe,Total,75,min
-Iron Axe,Axe,Backstab_x10,30,min
+Iron Axe,Axe,Knockback,50,max
+Iron Axe,Axe,Total,75,max
+Iron Axe,Axe,Backstab X10,30,max
 Iron Axe,Axe,Pierce,NA,max
 Iron Axe,Axe,Slash,75,max
 Iron Axe,Axe,Pickaxe,NA,max
@@ -1421,9 +1421,9 @@ Iron Axe,Axe,Slash,NA,min
 Iron Axe,Axe,Chop,50,min
 Iron Axe,Axe,Slash,NA,diff
 Iron Axe,Axe,Chop,9,diff
-Iron Mace,Club,Knockback,90,min
-Iron Mace,Club,Total,73,min
-Iron Mace,Club,Backstab_x10,30,min
+Iron Mace,Club,Knockback,90,max
+Iron Mace,Club,Total,73,max
+Iron Mace,Club,Backstab X10,30,max
 Iron Mace,Club,Pierce,NA,max
 Iron Mace,Club,Slash,NA,max
 Iron Mace,Club,Pickaxe,NA,max
@@ -1454,9 +1454,9 @@ Iron Mace,Club,Poison,NA,diff
 Iron Mace,Club,Fire,NA,diff
 Iron Mace,Club,Frost,NA,diff
 Iron Mace,Club,Lightning,NA,diff
-Iron Pickaxe,Pickaxe,Knockback,50,min
-Iron Pickaxe,Pickaxe,Total,48,min
-Iron Pickaxe,Pickaxe,Backstab_x10,30,min
+Iron Pickaxe,Pickaxe,Knockback,50,max
+Iron Pickaxe,Pickaxe,Total,48,max
+Iron Pickaxe,Pickaxe,Backstab X10,30,max
 Iron Pickaxe,Pickaxe,Pierce,48,max
 Iron Pickaxe,Pickaxe,Slash,NA,max
 Iron Pickaxe,Pickaxe,Pickaxe,NA,max
@@ -1493,9 +1493,9 @@ Iron Pickaxe,Pickaxe,Pierce,NA,min
 Iron Pickaxe,Pickaxe,Pickaxe,33,min
 Iron Pickaxe,Pickaxe,Pierce,NA,diff
 Iron Pickaxe,Pickaxe,Pickaxe,15,diff
-Iron Sledge,Two-Handed Club,Knockback,200,min
-Iron Sledge,Two-Handed Club,Total,73,min
-Iron Sledge,Two-Handed Club,Backstab_x10,20,min
+Iron Sledge,Two-Handed Club,Knockback,200,max
+Iron Sledge,Two-Handed Club,Total,73,max
+Iron Sledge,Two-Handed Club,Backstab X10,20,max
 Iron Sledge,Two-Handed Club,Pierce,NA,max
 Iron Sledge,Two-Handed Club,Slash,NA,max
 Iron Sledge,Two-Handed Club,Pickaxe,NA,max
@@ -1526,9 +1526,9 @@ Iron Sledge,Two-Handed Club,Poison,NA,diff
 Iron Sledge,Two-Handed Club,Fire,NA,diff
 Iron Sledge,Two-Handed Club,Frost,NA,diff
 Iron Sledge,Two-Handed Club,Lightning,NA,diff
-Iron Sword,Sword,Knockback,50,min
-Iron Sword,Sword,Total,73,min
-Iron Sword,Sword,Backstab_x10,30,min
+Iron Sword,Sword,Knockback,50,max
+Iron Sword,Sword,Total,73,max
+Iron Sword,Sword,Backstab X10,30,max
 Iron Sword,Sword,Pierce,NA,max
 Iron Sword,Sword,Slash,73,max
 Iron Sword,Sword,Pickaxe,NA,max
@@ -1559,9 +1559,9 @@ Iron Sword,Sword,Poison,NA,diff
 Iron Sword,Sword,Fire,NA,diff
 Iron Sword,Sword,Frost,NA,diff
 Iron Sword,Sword,Lightning,NA,diff
-Ironhead Arrow,Arrow,Knockback,10,min
-Ironhead Arrow,Arrow,Total,42,min
-Ironhead Arrow,Arrow,Backstab_x10,NA,min
+Ironhead Arrow,Arrow,Knockback,10,max
+Ironhead Arrow,Arrow,Total,42,max
+Ironhead Arrow,Arrow,Backstab X10,NA,max
 Ironhead Arrow,Arrow,Pierce,42,max
 Ironhead Arrow,Arrow,Slash,NA,max
 Ironhead Arrow,Arrow,Pickaxe,NA,max
@@ -1592,9 +1592,9 @@ Ironhead Arrow,Arrow,Poison,NA,diff
 Ironhead Arrow,Arrow,Fire,NA,diff
 Ironhead Arrow,Arrow,Frost,NA,diff
 Ironhead Arrow,Arrow,Lightning,NA,diff
-Jotun Bane,Axe,Knockback,60,min
-Jotun Bane,Axe,Total,95,min
-Jotun Bane,Axe,Backstab_x10,30,min
+Jotun Bane,Axe,Knockback,60,max
+Jotun Bane,Axe,Total,95,max
+Jotun Bane,Axe,Backstab X10,30,max
 Jotun Bane,Axe,Pierce,NA,max
 Jotun Bane,Axe,Slash,95,max
 Jotun Bane,Axe,Pickaxe,NA,max
@@ -1634,9 +1634,9 @@ Jotun Bane,Axe,Poison,0,diff
 Jotun Bane,Axe,Chop,79,max
 Jotun Bane,Axe,Chop,70,min
 Jotun Bane,Axe,Chop,9,diff
-Krom,Two-Handed Sword,Knockback,55,min
-Krom,Two-Handed Sword,Total,168,min
-Krom,Two-Handed Sword,Backstab_x10,30,min
+Krom,Two-Handed Sword,Knockback,55,max
+Krom,Two-Handed Sword,Total,168,max
+Krom,Two-Handed Sword,Backstab X10,30,max
 Krom,Two-Handed Sword,Pierce,NA,max
 Krom,Two-Handed Sword,Slash,168,max
 Krom,Two-Handed Sword,Pickaxe,NA,max
@@ -1667,9 +1667,9 @@ Krom,Two-Handed Sword,Poison,NA,diff
 Krom,Two-Handed Sword,Fire,NA,diff
 Krom,Two-Handed Sword,Frost,NA,diff
 Krom,Two-Handed Sword,Lightning,NA,diff
-Mistwalker,Sword,Knockback,40,min
-Mistwalker,Sword,Total,75,min
-Mistwalker,Sword,Backstab_x10,30,min
+Mistwalker,Sword,Knockback,40,max
+Mistwalker,Sword,Total,75,max
+Mistwalker,Sword,Backstab X10,30,max
 Mistwalker,Sword,Pierce,NA,max
 Mistwalker,Sword,Slash,75,max
 Mistwalker,Sword,Pickaxe,NA,max
@@ -1709,9 +1709,9 @@ Mistwalker,Sword,Frost,18,diff
 Mistwalker,Sword,Spirit,15,max
 Mistwalker,Sword,Spirit,0,min
 Mistwalker,Sword,Spirit,15,diff
-Needle Arrow,Arrow,Knockback,15,min
-Needle Arrow,Arrow,Total,62,min
-Needle Arrow,Arrow,Backstab_x10,NA,min
+Needle Arrow,Arrow,Knockback,15,max
+Needle Arrow,Arrow,Total,62,max
+Needle Arrow,Arrow,Backstab X10,NA,max
 Needle Arrow,Arrow,Pierce,62,max
 Needle Arrow,Arrow,Slash,NA,max
 Needle Arrow,Arrow,Pickaxe,NA,max
@@ -1742,9 +1742,9 @@ Needle Arrow,Arrow,Poison,NA,diff
 Needle Arrow,Arrow,Fire,NA,diff
 Needle Arrow,Arrow,Frost,NA,diff
 Needle Arrow,Arrow,Lightning,NA,diff
-Obsidian Arrow,Arrow,Knockback,10,min
-Obsidian Arrow,Arrow,Total,52,min
-Obsidian Arrow,Arrow,Backstab_x10,NA,min
+Obsidian Arrow,Arrow,Knockback,10,max
+Obsidian Arrow,Arrow,Total,52,max
+Obsidian Arrow,Arrow,Backstab X10,NA,max
 Obsidian Arrow,Arrow,Pierce,52,max
 Obsidian Arrow,Arrow,Slash,NA,max
 Obsidian Arrow,Arrow,Pickaxe,NA,max
@@ -1775,9 +1775,9 @@ Obsidian Arrow,Arrow,Poison,NA,diff
 Obsidian Arrow,Arrow,Fire,NA,diff
 Obsidian Arrow,Arrow,Frost,NA,diff
 Obsidian Arrow,Arrow,Lightning,NA,diff
-Poison Arrow,Arrow,Knockback,10,min
-Poison Arrow,Arrow,Total,78,min
-Poison Arrow,Arrow,Backstab_x10,NA,min
+Poison Arrow,Arrow,Knockback,10,max
+Poison Arrow,Arrow,Total,78,max
+Poison Arrow,Arrow,Backstab X10,NA,max
 Poison Arrow,Arrow,Pierce,26,max
 Poison Arrow,Arrow,Slash,NA,max
 Poison Arrow,Arrow,Pickaxe,NA,max
@@ -1814,9 +1814,9 @@ Poison Arrow,Arrow,Pierce,NA,min
 Poison Arrow,Arrow,Poison,52,min
 Poison Arrow,Arrow,Pierce,NA,diff
 Poison Arrow,Arrow,Poison,0,diff
-Porcupine,Club,Knockback,90,min
-Porcupine,Club,Total,113,min
-Porcupine,Club,Backstab_x10,30,min
+Porcupine,Club,Knockback,90,max
+Porcupine,Club,Total,113,max
+Porcupine,Club,Backstab X10,30,max
 Porcupine,Club,Pierce,NA,max
 Porcupine,Club,Slash,NA,max
 Porcupine,Club,Pickaxe,NA,max
@@ -1853,9 +1853,9 @@ Porcupine,Club,Pierce,45,min
 Porcupine,Club,Blunt,NA,min
 Porcupine,Club,Pierce,18,diff
 Porcupine,Club,Blunt,NA,diff
-Silver Arrow,Arrow,Knockback,10,min
-Silver Arrow,Arrow,Total,72,min
-Silver Arrow,Arrow,Backstab_x10,NA,min
+Silver Arrow,Arrow,Knockback,10,max
+Silver Arrow,Arrow,Total,72,max
+Silver Arrow,Arrow,Backstab X10,NA,max
 Silver Arrow,Arrow,Pierce,52,max
 Silver Arrow,Arrow,Slash,NA,max
 Silver Arrow,Arrow,Pickaxe,NA,max
@@ -1892,9 +1892,9 @@ Silver Arrow,Arrow,Pierce,NA,min
 Silver Arrow,Arrow,Spirit,20,min
 Silver Arrow,Arrow,Pierce,NA,diff
 Silver Arrow,Arrow,Spirit,0,diff
-Silver Knife,Knife,Knockback,10,min
-Silver Knife,Knife,Total,56,min
-Silver Knife,Knife,Backstab_x10,60,min
+Silver Knife,Knife,Knockback,10,max
+Silver Knife,Knife,Total,56,max
+Silver Knife,Knife,Backstab X10,60,max
 Silver Knife,Knife,Pierce,NA,max
 Silver Knife,Knife,Slash,28,max
 Silver Knife,Knife,Pickaxe,NA,max
@@ -1934,9 +1934,9 @@ Silver Knife,Knife,Slash,NA,diff
 Silver Knife,Knife,Spirit,12,max
 Silver Knife,Knife,Spirit,12,min
 Silver Knife,Knife,Spirit,0,diff
-Silver Sword,Sword,Knockback,40,min
-Silver Sword,Sword,Total,93,min
-Silver Sword,Sword,Backstab_x10,30,min
+Silver Sword,Sword,Knockback,40,max
+Silver Sword,Sword,Total,93,max
+Silver Sword,Sword,Backstab X10,30,max
 Silver Sword,Sword,Pierce,NA,max
 Silver Sword,Sword,Slash,93,max
 Silver Sword,Sword,Pickaxe,NA,max
@@ -1973,9 +1973,9 @@ Silver Sword,Sword,Slash,NA,min
 Silver Sword,Sword,Spirit,30,min
 Silver Sword,Sword,Slash,NA,diff
 Silver Sword,Sword,Spirit,15,diff
-Skoll And Hati,Dual-Wielded Knive,Knockback,10,min
-Skoll And Hati,Dual-Wielded Knive,Total,96,min
-Skoll And Hati,Dual-Wielded Knive,Backstab_x10,60,min
+Skoll And Hati,Dual-Wielded Knive,Knockback,10,max
+Skoll And Hati,Dual-Wielded Knive,Total,96,max
+Skoll And Hati,Dual-Wielded Knive,Backstab X10,60,max
 Skoll And Hati,Dual-Wielded Knive,Pierce,NA,max
 Skoll And Hati,Dual-Wielded Knive,Slash,48,max
 Skoll And Hati,Dual-Wielded Knive,Pickaxe,NA,max
@@ -2012,9 +2012,9 @@ Skoll And Hati,Dual-Wielded Knive,Pierce,45,min
 Skoll And Hati,Dual-Wielded Knive,Slash,NA,min
 Skoll And Hati,Dual-Wielded Knive,Pierce,3,diff
 Skoll And Hati,Dual-Wielded Knive,Slash,NA,diff
-Spinesnap,Bow,Knockback,25,min
-Spinesnap,Bow,Total,NA,min
-Spinesnap,Bow,Backstab_x10,30,min
+Spinesnap,Bow,Knockback,25,max
+Spinesnap,Bow,Total,NA,max
+Spinesnap,Bow,Backstab X10,30,max
 Spinesnap,Bow,Pierce,84,max
 Spinesnap,Bow,Slash,NA,max
 Spinesnap,Bow,Pickaxe,NA,max
@@ -2051,9 +2051,9 @@ Spinesnap,Bow,Pierce,NA,min
 Spinesnap,Bow,Spirit,5,min
 Spinesnap,Bow,Pierce,NA,diff
 Spinesnap,Bow,Spirit,15,diff
-Stagbreaker,Two-Handed Club,Knockback,150,min
-Stagbreaker,Two-Handed Club,Total,43,min
-Stagbreaker,Two-Handed Club,Backstab_x10,20,min
+Stagbreaker,Two-Handed Club,Knockback,150,max
+Stagbreaker,Two-Handed Club,Total,43,max
+Stagbreaker,Two-Handed Club,Backstab X10,20,max
 Stagbreaker,Two-Handed Club,Pierce,NA,max
 Stagbreaker,Two-Handed Club,Slash,NA,max
 Stagbreaker,Two-Handed Club,Pickaxe,NA,max
@@ -2090,9 +2090,9 @@ Stagbreaker,Two-Handed Club,Pierce,5,min
 Stagbreaker,Two-Handed Club,Blunt,NA,min
 Stagbreaker,Two-Handed Club,Pierce,0,diff
 Stagbreaker,Two-Handed Club,Blunt,NA,diff
-Stone Axe,Axe,Knockback,50,min
-Stone Axe,Axe,Total,30,min
-Stone Axe,Axe,Backstab_x10,30,min
+Stone Axe,Axe,Knockback,50,max
+Stone Axe,Axe,Total,30,max
+Stone Axe,Axe,Backstab X10,30,max
 Stone Axe,Axe,Pierce,NA,max
 Stone Axe,Axe,Slash,30,max
 Stone Axe,Axe,Pickaxe,NA,max
@@ -2123,9 +2123,9 @@ Stone Axe,Axe,Poison,NA,diff
 Stone Axe,Axe,Fire,NA,diff
 Stone Axe,Axe,Frost,NA,diff
 Stone Axe,Axe,Lightning,NA,diff
-Tankard,Tool,Knockback,30,min
-Tankard,Tool,Total,0,min
-Tankard,Tool,Backstab_x10,40,min
+Tankard,Tool,Knockback,30,max
+Tankard,Tool,Total,0,max
+Tankard,Tool,Backstab X10,40,max
 Tankard,Tool,Pierce,NA,max
 Tankard,Tool,Slash,NA,max
 Tankard,Tool,Pickaxe,NA,max
@@ -2156,9 +2156,9 @@ Tankard,Tool,Poison,NA,diff
 Tankard,Tool,Fire,NA,diff
 Tankard,Tool,Frost,NA,diff
 Tankard,Tool,Lightning,NA,diff
-Torch,Club,Knockback,30,min
-Torch,Club,Total,4,min
-Torch,Club,Backstab_x10,30,min
+Torch,Club,Knockback,30,max
+Torch,Club,Total,4,max
+Torch,Club,Backstab X10,30,max
 Torch,Club,Pierce,NA,max
 Torch,Club,Slash,NA,max
 Torch,Club,Pickaxe,NA,max
@@ -2195,9 +2195,9 @@ Torch,Club,Blunt,NA,min
 Torch,Club,Fire,15,min
 Torch,Club,Blunt,NA,diff
 Torch,Club,Fire,0,diff
-Wooden Arrow,Arrow,Knockback,10,min
-Wooden Arrow,Arrow,Total,22,min
-Wooden Arrow,Arrow,Backstab_x10,NA,min
+Wooden Arrow,Arrow,Knockback,10,max
+Wooden Arrow,Arrow,Total,22,max
+Wooden Arrow,Arrow,Backstab X10,NA,max
 Wooden Arrow,Arrow,Pierce,22,max
 Wooden Arrow,Arrow,Slash,NA,max
 Wooden Arrow,Arrow,Pickaxe,NA,max
