@@ -9,7 +9,7 @@ ui <- fluidPage(
     # Tab for weapons overall --------------
     # Choose a damage type and compare all weapons.
     tabPanel(
-      "All Weapons",
+      "Weapons",
       
       ## Inputs ------------
       fluidRow(
@@ -49,6 +49,7 @@ ui <- fluidPage(
               tags$b(textOutput("crafting_station_level_output_1"))
             )
           ),
+          br(),
           fluidRow(
             radioButtons(
               "item_level_input_1",
@@ -64,64 +65,56 @@ ui <- fluidPage(
       )
     ),
     
-
-# Food tab ------------
-tabPanel(
-  
-  "Food",
-  
-  fluidRow(
-    ## Food filter options ------------
-    column(
-      width = 2,
-      radioButtons("food_filter_options_input",
-                   "Choose Filter Options",
-                   c("Main Stat", "Ingredients", "Biome"),
-                   selected = "Main Stat")
-    ),
     
-    ## Food filter input -------------
-    column(
-      width = 3,
-      selectInput("food_filter_input", "Filter",
-                  food_type_list, selected = "Health")
-    )
-  ),
-  
-  fluidRow(
-    ## Graph of food stats ----------------
-    plotlyOutput("food_stats_plot")
-  ),
-  
-  fluidRow(
-    radioButtons("food_item_input", tags$h2("Recipe"),
-                 food_recipe_list, inline = TRUE)
-  ),
-  
-  fluidRow(
-    ## Food Stats -----------------------
-    column(
-      width = 2,
-      tableOutput("food_stats_table")
-    ),
-    
-    ## Cooking Station(s) ------------
-    column(
-      width = 2,
+    # Food tab ------------
+    tabPanel(
+      
+      "Food",
+      
       fluidRow(
-        tags$b(tableOutput("food_crafting_station_outputs"))
-      )
-    ),
-    
-    ## Ingredients -------------------
-    column(
-      width = 2,
+        ## Food filter options ------------
+        column(
+          width = 2,
+          radioButtons("food_filter_options_input",
+                       "Choose Filter Options",
+                       c("Main Stat", "Ingredients", "Biome"),
+                       selected = "Main Stat")
+        ),
+        
+        ## Food filter input -------------
+        column(
+          width = 3,
+          selectInput("food_filter_input", "Filter",
+                      food_type_list, selected = "Health")
+        )
+      ),
+      
       fluidRow(
-        # Ingredients table ----------
-        tableOutput("food_crafting_table")
+        ## Graph of food stats ----------------
+        column(
+          width = 10,
+          plotlyOutput("food_stats_plot")
+        ),
+        column(
+          width = 2,
+          fluidRow(
+            selectInput("food_item_input", tags$h2("Recipe"),
+                        food_recipe_list)
+          ),
+          fluidRow(
+            ## Food Stats -----------------------
+            tableOutput("food_stats_table")
+          ),
+          ## Cooking Station(s) ------------
+          fluidRow(
+            tags$b(tableOutput("food_crafting_station_outputs"))
+          ), 
+          # Ingredients table ----------
+          fluidRow(
+            tableOutput("food_crafting_table")
+          )
+        )
       )
     )
   )
-)
-)
 )
