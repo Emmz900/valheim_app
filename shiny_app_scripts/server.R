@@ -3,15 +3,14 @@ server <- function(input, output, session) {
   # All Weapons ----------------------
   ## Filter list  ------------------
   observeEvent(input$weapon_filter_options_input, {
-    choices <- weapon_filter_options_1[[input$weapon_filter_options_input]][-1]
+    choices <- weapon_filter_options[[input$weapon_filter_options_input]][-1]
     updateSelectInput(session, "weapon_filter_input",
-                      choices = choices) #REMOVE "ALL"
+                      choices = choices) 
   })
   
   ## Filter Weapons -----------------
   weapon_filtered_list <- reactive({
-    weapons_joined %>% 
-      #browser()
+    weapons_data_clean %>% 
       {if (input$weapon_filter_options_input == "Damage Type")
         filter(.,
                str_detect(damage_type,
@@ -34,14 +33,16 @@ server <- function(input, output, session) {
   
   ## Update weapon selection ------------
   observeEvent(input$weapon_filter_input, {
-    updateRadioButtons(session, "weapon_choice_all_input",
-                       choices = weapon_filtered_list(), inline = TRUE)
+    updateSelectInput(session, "weapon_choice_all_input",
+                       choices = weapon_filtered_list())
   })
   
   ## Plot All Weapons --------------
   output$all_weapons_plot <- renderPlotly({
     p <- weapons_data_clean %>% 
-      filter(name %in% weapon_filtered_list(),
+      select(item:min_max) %>% 
+      distinct() %>% 
+      filter(item %in% weapon_filtered_list(),
              min_max == "max",
              !is.na(values)) %>% 
       ggplot(aes(name, values, fill = damage_type, text = paste0(damage_type, ": ", values))) +

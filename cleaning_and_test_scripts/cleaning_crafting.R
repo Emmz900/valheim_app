@@ -85,5 +85,5 @@ weapons_joined <- weapon_data_long %>%
             relationship = "many-to-many") %>% 
   filter(!type %in% c("Tool", "Shield", "Magic", "Weapon"))
 
-write_csv(weapons_joined, "clean_data/weapon_data")
+write_csv(weapons_joined, "clean_data/weapon_data.csv")
 

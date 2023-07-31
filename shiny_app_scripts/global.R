@@ -33,7 +33,7 @@ weapon_filter_options <- list(
   "Weapon Type" = weapon_types
 )
 
-# weapons_list <- sort(unique(weapons_data_clean$item)) %>% 
+weapons_list <- sort(unique(weapons_data_clean$item)) 
 # 
 # weapon_type_list <- weapons_joined %>% 
 #   distinct(type) %>% 
