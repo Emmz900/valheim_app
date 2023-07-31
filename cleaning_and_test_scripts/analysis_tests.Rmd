@@ -205,4 +205,3 @@ weapons_joined %>%
   pull() %>% 
   sort()
 ```
-

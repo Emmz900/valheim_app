@@ -9,7 +9,7 @@ weapon_data <- read_xlsx("raw_data/crafting.xlsx", sheet = 2)
 crafting_data_clean <- janitor::clean_names(crafting_data) %>% 
   mutate(across(where(is.character), str_to_title)) %>% 
   mutate(upgrade_level = coalesce(upgrade_level, 1))
-write_csv(crafting_data_clean, "clean_data/weapons_crafting.csv")
+#write_csv(crafting_data_clean, "clean_data/weapons_crafting.csv")
 
 # Weapon damage data -----------
 #View(weapon_data)
@@ -72,6 +72,18 @@ weapon_data_long <- weapon_data_split %>%
          damage_type = str_remove(damage_type, "_min|_max|_diff")
   ) %>% 
   mutate(min_max = coalesce(min_max, "max")) %>% 
-  filter(damage_type != "Na")
+  filter(damage_type != "Na") %>% 
+  rename(item = name)
 
-write_csv(weapon_data_long, "clean_data/weapon_data.csv")
+#write_csv(weapon_data_long, "clean_data/weapon_data.csv")
+
+# Join both data sets for weapon info
+weapons_joined <- weapon_data_long %>% 
+  select(-type) %>% 
+  full_join(crafting_data_clean,
+            by = join_by(item),
+            relationship = "many-to-many") %>% 
+  filter(!type %in% c("Tool", "Shield", "Magic", "Weapon"))
+
+write_csv(weapons_joined, "clean_data/weapon_data")
+

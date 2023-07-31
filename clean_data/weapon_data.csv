@@ -1,4 +1,4 @@
-name,type,damage_type,values,min_max
+item,type,damage_type,values,min_max
 Abyssal Harpoon,Spear,Knockback,20,max
 Abyssal Harpoon,Spear,Total,10,max
 Abyssal Harpoon,Spear,Backstab X10,10,max
