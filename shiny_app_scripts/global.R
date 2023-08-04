@@ -34,31 +34,7 @@ weapon_filter_options <- list(
 )
 
 weapons_list <- sort(unique(weapons_data_clean$item)) 
-# 
-# weapon_type_list <- weapons_joined %>% 
-#   distinct(type) %>% 
-#   pull() %>% 
-#   append("All") %>% 
-#   sort() 
-# 
-# weapon_material_list <- weapons_joined %>% 
-#   distinct(material) %>% 
-#   pull() %>% 
-#   append("All") %>% 
-#   sort()
-# 
-# damage_type_list <- weapons_joined %>% 
-#   mutate(damage_type = str_extract(damage_type, "^[A-Z][a-z]+")) %>% 
-#   distinct(damage_type) %>% 
-#   pull() %>% 
-#   append("All") %>% 
-#   sort()
-# 
-# weapon_filter_options <- list(
-#   "Damage Type" = damage_type_list,
-#   "Material" = weapon_material_list,
-#   "Weapon Type" = weapon_type_list
-# )
+
 
 # FOOD -------------
 food_ingredients <- clean_names(read_csv(here("raw_data/food_ingredients.csv")))

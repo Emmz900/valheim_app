@@ -15,9 +15,9 @@ ui <- fluidPage(
       fluidRow(
         column(
           width = 2,
-          selectInput("weapon_filter_options_input",
-                      "Choose Filter Options",
-                      c("Damage Type", "Material", "Weapon Type"))
+          radioButtons("weapon_filter_options_input",
+                       "Choose Filter Options",
+                       c("Damage Type", "Material", "Weapon Type"))
         ),
         column(
           width = 2,
@@ -25,6 +25,12 @@ ui <- fluidPage(
                       "Filter",
                       weapon_damage_types,
                       selected = "Total")
+        ),
+        
+        column(
+          width = 2,
+          offset = 6,
+          tags$h2("Weapon")
         )
       ),
       ## Plot (all_weapons_plot) ----------------
@@ -33,6 +39,7 @@ ui <- fluidPage(
           width = 10,
           plotlyOutput("all_weapons_plot")
         ),
+        ## item information -------------
         column(
           width = 2,
           fluidRow(
@@ -86,6 +93,12 @@ ui <- fluidPage(
           width = 3,
           selectInput("food_filter_input", "Filter",
                       food_type_list, selected = "Health")
+        ),
+        
+        column(
+          width = 2,
+          offset = 5,
+          tags$h2("Recipe")
         )
       ),
       
@@ -98,16 +111,17 @@ ui <- fluidPage(
         column(
           width = 2,
           fluidRow(
-            selectInput("food_item_input", tags$h2("Recipe"),
+            selectInput("food_item_input", "",
                         food_recipe_list)
           ),
-          fluidRow(
-            ## Food Stats -----------------------
-            tableOutput("food_stats_table")
-          ),
+          # fluidRow(
+          #   ## Food Stats
+          #   tableOutput("food_stats_table")
+          # ),
           ## Cooking Station(s) ------------
           fluidRow(
-            tags$b(tableOutput("food_crafting_station_outputs"))
+            tags$b(textOutput("food_crafting_station_outputs")),
+            tags$b(textOutput("food_crafting_station_level"))
           ), 
           # Ingredients table ----------
           fluidRow(

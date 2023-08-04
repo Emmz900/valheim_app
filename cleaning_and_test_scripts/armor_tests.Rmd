@@ -1,0 +1,45 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(here)
+library(readxl)
+library(janitor)
+```
+
+```{r}
+armour <- clean_names(read_excel(here("raw_data/armour.xlsx")))
+sets <- clean_names(read_excel(here("raw_data/armour.xlsx"), sheet = 2))
+all_items <- clean_names(read_excel(here("raw_data/all_crafting.xlsx")))
+```
+
+```{r}
+sets
+```
+
+
+
+```{r}
+armour %>% 
+  filter(upgrade_level == 1) %>% 
+  select(item, armor, weight)
+```
+
+```{r}
+types <- all_items %>% 
+  select(item, type) %>% 
+  filter(type != "upgrade") %>% 
+  distinct()
+
+armour_type <- armour %>% 
+  left_join(types)
+```
+```{r}
+armour_type %>% 
+  filter(type == "cape" & upgrade_level == 1) %>% 
+  select(item, armor, weight, speed, resistant, weak)
+```
+

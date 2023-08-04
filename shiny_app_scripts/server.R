@@ -64,12 +64,6 @@ server <- function(input, output, session) {
         fill = "Damage Type"
       ) 
     
-    # p <- p %>% style(
-    #   #text = ~paste(damage_type, ": ", round(values, 0)),
-    #   #hoverinfo = text,
-    #   hovertemplate = "%{fill}: %{y:.0f}<extra></extra>"
-    # )
-    
     ggplotly(p, tooltip = "text")
   })
   
@@ -105,7 +99,6 @@ server <- function(input, output, session) {
                        inline = TRUE)
   })
   
-  
   ## Table of materials and amounts -------------
   output$weapon_material_table_1 <- renderTable({
     weapons_data_clean %>%
@@ -117,171 +110,6 @@ server <- function(input, output, session) {
       rename("Material" = material, "Amount of Material" = amount_of_material)
     
   })
-  
-  # # Weapon 1 
-  # ## Filter weapons list on button press 
-  # observeEvent(input$update, {
-  #   weapons_list <- filter_weapons(input$weapon_type_input,
-  #                                  input$weapon_material_input,
-  #                                  input$damage_type_input)
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
-  # })
-  # 
-  # ### Reset filters 
-  # observeEvent(input$reset, {
-  #   updateSelectInput(session, inputId = "weapon_type_input", selected = "All")
-  #   updateSelectInput(session, inputId = "weapon_material_input", selected = "All")
-  #   updateSelectInput(session, inputId = "damage_type_input", selected = "All")
-  #   
-  #   weapons_list <- weapons_joined %>% 
-  #     distinct(item) %>% 
-  #     pull() %>% 
-  #     sort()
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input", choices = weapons_list)
-  # })
-  # 
-  # ## Filter the weapon data based on weapon input 
-  # filtered_weapons <- reactive({
-  #   weapons_crafting_clean %>% 
-  #     filter(item == input$weapon_input)
-  # })
-  # 
-  # ## Crafting Station Type - TEXT 
-  # output$crafting_station_output <- renderText({
-  #   filtered_weapons() %>% 
-  #     filter(upgrade_level == input$item_level_input) %>% 
-  #     distinct(crafting_station) %>% 
-  #     pull() %>% 
-  #     str_to_title()
-  # })
-  # 
-  # ## Crafting Station Level - TEXT 
-  # output$crafting_station_level_output <- renderText({
-  #   level <- filtered_weapons() %>% 
-  #     filter(upgrade_level == input$item_level_input) %>% 
-  #     distinct(crafting_station_level) %>% 
-  #     pull() %>% 
-  #     str_to_title()
-  #   
-  #   paste("Level: ", level)
-  # })
-  # 
-  # ## Update item level buttons depending on weapon selected
-  # observeEvent(input$weapon_input, {
-  #   choices <- filtered_weapons() %>% 
-  #     distinct(upgrade_level) %>% 
-  #     pull()
-  #   updateRadioButtons(inputId = "item_level_input", choices = choices, inline = TRUE)
-  # })
-  # 
-  # 
-  # ## Table of materials and amounts 
-  # output$weapon_material_table <- renderTable({
-  #   filtered_weapons() %>% 
-  #     filter(upgrade_level == input$item_level_input) %>% 
-  #     mutate(amount_of_material = format(amount_of_material, nsmall = 0)) %>% 
-  #     select(material, amount_of_material) %>% 
-  #     rename("Material" = material, "Amount of Material" = amount_of_material)
-  #   
-  # })
-  # 
-  # ## PLOT of damage types 
-  # output$weapon_stat_plot <- renderPlotly({
-  #   plot_weapon_stats(input$weapon_input)
-  # })
-  # 
-  # # Weapon 2 
-  # ## If weapon type input is changed, update weapon list 
-  # observeEvent(input$update_2, {
-  #   weapons_list_2 <- filter_weapons(input$weapon_type_input_2,
-  #                                    input$weapon_material_input_2,
-  #                                    input$damage_type_input_2)
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input_2",
-  #                     choices = weapons_list_2)
-  # })
-  # 
-  # ### Reset filters 
-  # observeEvent(input$reset_2, {
-  #   updateSelectInput(session, inputId = "weapon_type_input_2",
-  #                     selected = "All")
-  #   updateSelectInput(session, inputId = "weapon_material_input_2",
-  #                     selected = "All")
-  #   updateSelectInput(session, inputId = "damage_type_input_2",
-  #                     selected = "All")
-  #   
-  #   weapons_list_2 <- weapons_joined %>% 
-  #     distinct(item) %>% 
-  #     pull() %>% 
-  #     sort()
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
-  # })
-  # 
-  # ### Copy filters 
-  # observeEvent(input$copy, {
-  #   updateSelectInput(session, inputId = "weapon_type_input_2", selected = input$weapon_type_input)
-  #   updateSelectInput(session, inputId = "weapon_material_input_2", selected = input$weapon_material_input)
-  #   updateSelectInput(session, inputId = "damage_type_input_2", selected = input$damage_type_input)
-  #   
-  #   weapons_list_2 <- filter_weapons(input$weapon_type_input_2,
-  #                                    input$weapon_material_input_2,
-  #                                    input$damage_type_input_2)
-  #   
-  #   updateSelectInput(session, inputId = "weapon_input_2", choices = weapons_list_2)
-  # })
-  # 
-  # 
-  # ## Filter the weapon data based on weapon input 
-  # filtered_weapons_2 <- reactive({
-  #   weapons_crafting_clean %>% 
-  #     filter(item == input$weapon_input_2)
-  # })
-  # 
-  # ## Crafting Station Type - TEXT 
-  # output$crafting_station_output_2 <- renderText({
-  #   filtered_weapons_2() %>% 
-  #     filter(upgrade_level == input$item_level_input_2) %>% 
-  #     distinct(crafting_station) %>% 
-  #     pull() %>% 
-  #     str_to_title()
-  # })
-  # 
-  # ## Crafting Station Level - TEXT 
-  # output$crafting_station_level_output_2 <- renderText({
-  #   level <- filtered_weapons_2() %>% 
-  #     filter(upgrade_level == input$item_level_input_2) %>% 
-  #     distinct(crafting_station_level) %>% 
-  #     pull() %>% 
-  #     str_to_title()
-  #   
-  #   paste("Level: ", level)
-  # })
-  # 
-  # ## Update item level buttons depending on weapon selected
-  # observeEvent(input$weapon_input_2, {
-  #   choices <- filtered_weapons() %>% 
-  #     distinct(upgrade_level) %>% 
-  #     pull()
-  #   updateRadioButtons(inputId = "item_level_input_2", choices = choices, inline = TRUE)
-  # })
-  # 
-  # ## Table of materials and amounts 
-  # output$weapon_material_table_2 <- renderTable({
-  #   filtered_weapons_2() %>% 
-  #     filter(upgrade_level == input$item_level_input_2) %>% 
-  #     mutate(amount_of_material = format(amount_of_material, nsmall = 0)) %>% 
-  #     select(material, amount_of_material) %>% 
-  #     rename("Material" = material, "Amount of Material" = amount_of_material)
-  #   
-  # })
-  # 
-  # ## PLOT of damage types 
-  # output$weapon_stat_plot_2 <- renderPlotly({
-  #   plot_weapon_stats(input$weapon_input_2)
-  # })
   
   # Food -----------------
   
@@ -299,6 +127,7 @@ server <- function(input, output, session) {
   ## Change recipe options ----------------------
   observeEvent(input$food_filter_input, {
     choices <- food_list() %>% 
+      filter(oven == "Y" | !is.na(cauldron_level)) %>% 
       arrange(score) %>% 
       distinct(recipe) %>% 
       pull()
@@ -319,21 +148,18 @@ server <- function(input, output, session) {
   })
   
   ## Crafting Station and Cauldron level ---------------
-  output$food_crafting_station_outputs <- renderTable({
-    cooking_stations <- tibble(
-      "Cooking Stations" = c(
+  output$food_crafting_station_outputs <- renderText({
         if(unique(food_item()$oven) == "N"){
         } else {
-          "Oven"
-        },
-        
+          "Oven Needed"
+        }
+  })
+  
+  output$food_crafting_station_level <- renderText({      
         if(is.na(unique(food_item()$cauldron_level))){
         } else {
-          (paste("Cauldron Level", unique(food_item()$cauldron_level)))
+          (paste("Cauldron Level: ", unique(food_item()$cauldron_level)))
         }
-      )   
-    )
-    
   })
   
   ## Food stats table -----------------
