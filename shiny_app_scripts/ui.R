@@ -72,6 +72,61 @@ ui <- fluidPage(
       )
     ),
     
+    # Armor tab -----------
+    
+    tabPanel(
+      "Armor",
+      
+      fluidRow(
+        column(
+          width = 2,
+          selectInput("workbench_input", "Workbench Level", c(1:6))
+        ),
+        column(
+          width = 2,
+          selectInput("forge_input", "Forge Level", c(0:7))
+        ),
+        column(
+          width = 2,
+          selectInput("black_forge_input", "Black Forge Level", c(0:3))
+        ),
+        column(
+          width = 2,
+          selectInput("galdr_input", "Galdr Table Level", c(0:3))
+        )
+      ),
+      
+      fluidRow(
+        column(
+          width = 6,
+          "Chest",
+          dataTableOutput("chest_table")
+        ),
+        column(
+          width = 6,
+          "Legs",
+          dataTableOutput("legs_table")
+        )
+      ),
+      
+      fluidRow(
+        column(
+          width = 6,
+          "Helmet",
+          dataTableOutput("helmet_table")
+        ),
+        column(
+          width = 6,
+          "Cape",
+          dataTableOutput("cape_table")
+        )
+      ),
+      
+      fluidRow(
+        # Summary
+        "Summary"
+      )
+    ),
     
     # Food tab ------------
     tabPanel(

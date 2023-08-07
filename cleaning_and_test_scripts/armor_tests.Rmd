@@ -11,9 +11,9 @@ library(janitor)
 ```
 
 ```{r}
-armour <- clean_names(read_excel(here("raw_data/armour.xlsx")))
-sets <- clean_names(read_excel(here("raw_data/armour.xlsx"), sheet = 2))
-all_items <- clean_names(read_excel(here("raw_data/all_crafting.xlsx")))
+armour <- clean_names(read_xlsx(here("raw_data/armour.xlsx")))
+sets <- clean_names(read_xlsx(here("raw_data/armour.xlsx"), sheet = 2))
+all_items <- clean_names(read_xlsx(here("raw_data/all_crafting.xlsx")))
 ```
 
 ```{r}
@@ -41,5 +41,38 @@ armour_type <- armour %>%
 armour_type %>% 
   filter(type == "cape" & upgrade_level == 1) %>% 
   select(item, armor, weight, speed, resistant, weak)
+```
+
+```{r}
+armor <- read_csv(here("clean_data/armor_data.csv"))
+```
+```{r}
+armor %>% 
+  rename("upgrade_level" = "Upgrade Level") %>% 
+  filter(Type == "Chest" & upgrade_level == 1) %>% 
+  select(Item, Armor, Weight, Speed, Resistant, Weak)
+```
+```{r}
+names(armor)
+```
+
+```{r}
+armor <- armor %>% 
+  clean_names() %>% 
+  mutate(across(where(is.character), ~ str_to_lower(.x)))
+
+crafting_armor <- all_items %>% 
+  semi_join(armor, join_by(item)) %>% 
+  mutate(across(where(is.character), ~ str_to_lower(.x)))
+```
+
+```{r}
+crafting_armor %>% 
+  pivot_wider(names_from = crafting_station, values_from = crafting_station_level) %>% 
+  clean_names() %>% 
+  filter(is.na(workbench) | workbench <= 6) %>% 
+  filter(is.na(forge) | forge <= 7) %>%
+  filter(is.na(galdr_table) | galdr_table <= 0) %>%
+  filter(is.na(black_forge) | black_forge <= 0)
 ```
 

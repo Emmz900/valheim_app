@@ -111,6 +111,54 @@ server <- function(input, output, session) {
     
   })
   
+  # Armor ----------------
+  armor_list <- reactive({
+    armor_crafting %>% 
+      filter(is.na(workbench) | workbench <= input$workbench_input) %>% 
+      filter(is.na(forge) | forge <= input$forge_input) %>%
+      filter(is.na(galdr_table) | galdr_table <= input$galdr_input) %>%
+      filter(is.na(black_forge) | black_forge <= input$black_forge_input) %>% 
+      distinct(item) %>% 
+      pull()
+  })
+  
+  output$chest_table <- renderDataTable({
+    armor %>% 
+      filter(item %in% armor_list()) %>% 
+      filter(type == "chest" & upgrade_level == 1) %>% 
+      select(item, armor, weight, speed, resistant, weak) %>% 
+      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
+      clean_names(case = "title")
+  })
+  
+  output$legs_table <- renderDataTable({
+    armor %>% 
+      filter(item %in% armor_list()) %>% 
+      filter(type == "legs" & upgrade_level == 1) %>% 
+      select(item, armor, weight, speed, resistant, weak) %>% 
+      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
+      clean_names(case = "title")
+  })
+  
+  output$helmet_table <- renderDataTable({
+    armor %>% 
+      filter(item %in% armor_list()) %>% 
+      filter(type == "helmet" & upgrade_level == 1) %>% 
+      select(item, armor, weight, speed, resistant, weak) %>% 
+      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
+      clean_names(case = "title")
+  })
+  
+  output$cape_table <- renderDataTable({
+    armor %>% 
+      filter(item %in% armor_list()) %>% 
+      filter(type == "cape" & upgrade_level == 1) %>% 
+      select(item, armor, weight, speed, resistant, weak) %>% 
+      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
+      clean_names(case = "title")
+  })
+  
+  
   # Food -----------------
   
   ## Change filter options ------------
