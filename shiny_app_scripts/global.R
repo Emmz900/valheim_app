@@ -37,7 +37,8 @@ weapons_list <- sort(unique(weapons_data_clean$item))
 
 # Armor -----------------------------------------------
 armor <- read_csv(here("clean_data/armor_data.csv"))
-armor_crafting <- read_csv(here("clean_data/armor_crafting.csv"))
+#armor_crafting <- read_csv(here("clean_data/armor_crafting.csv"))
+
 
 # FOOD -------------
 food_ingredients <- clean_names(read_csv(here("raw_data/food_ingredients.csv")))

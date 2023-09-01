@@ -126,7 +126,7 @@ server <- function(input, output, session) {
     armor %>% 
       filter(item %in% armor_list()) %>% 
       filter(type == "chest" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak) %>% 
+      select(item, armor, weight, speed, resistant, weak, materials) %>% 
       mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
       clean_names(case = "title")
   })
@@ -135,7 +135,7 @@ server <- function(input, output, session) {
     armor %>% 
       filter(item %in% armor_list()) %>% 
       filter(type == "legs" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak) %>% 
+      select(item, armor, weight, speed, resistant, weak, materials) %>% 
       mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
       clean_names(case = "title")
   })
@@ -144,7 +144,7 @@ server <- function(input, output, session) {
     armor %>% 
       filter(item %in% armor_list()) %>% 
       filter(type == "helmet" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak) %>% 
+      select(item, armor, weight, speed, resistant, weak, materials) %>% 
       mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
       clean_names(case = "title")
   })
@@ -153,7 +153,7 @@ server <- function(input, output, session) {
     armor %>% 
       filter(item %in% armor_list()) %>% 
       filter(type == "cape" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak) %>% 
+      select(item, armor, weight, speed, resistant, weak, materials) %>% 
       mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
       clean_names(case = "title")
   })

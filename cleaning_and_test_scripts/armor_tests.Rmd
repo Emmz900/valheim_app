@@ -76,3 +76,17 @@ crafting_armor %>%
   filter(is.na(black_forge) | black_forge <= 0)
 ```
 
+```{r}
+crafting_armor %>% 
+  #filter(item %in% armor_list()) %>% 
+  filter(upgrade_level == 1) %>% 
+  group_by(item) %>% 
+  summarise(materials = toString(unique(material))) %>% 
+  #select(item, armor, weight, speed, resistant, weak, materials) %>% 
+  mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
+  clean_names(case = "title")
+```
+```{r}
+armor
+```
+

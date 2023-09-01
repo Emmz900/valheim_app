@@ -1,230 +1,218 @@
-item,armor,resistant,weak,set,weight,speed,other,upgrade_level,type,bonus
-cape of odin,1,NA,NA,NA,4,NA,NA,1,cape,NA
-cape of odin,2,NA,NA,NA,4,NA,NA,2,cape,NA
-cape of odin,3,NA,NA,NA,4,NA,NA,3,cape,NA
-cape of odin,4,NA,NA,NA,4,NA,NA,4,cape,NA
-deer hide cape,1,NA,NA,NA,4,NA,NA,1,cape,NA
-deer hide cape,2,NA,NA,NA,4,NA,NA,2,cape,NA
-deer hide cape,3,NA,NA,NA,4,NA,NA,3,cape,NA
-deer hide cape,4,NA,NA,NA,4,NA,NA,4,cape,NA
-troll hide cape,1,NA,NA,troll,4,NA,NA,1,cape,sneak + 15
-troll hide cape,2,NA,NA,troll,4,NA,NA,2,cape,sneak + 15
-troll hide cape,3,NA,NA,troll,4,NA,NA,3,cape,sneak + 15
-troll hide cape,4,NA,NA,troll,4,NA,NA,4,cape,sneak + 15
-wolf fur cape,1,frost,NA,NA,4,NA,NA,1,cape,NA
-wolf fur cape,2,frost,NA,NA,4,NA,NA,2,cape,NA
-wolf fur cape,3,frost,NA,NA,4,NA,NA,3,cape,NA
-wolf fur cape,4,frost,NA,NA,4,NA,NA,4,cape,NA
-lox cape,1,frost,NA,NA,4,NA,NA,1,cape,NA
-lox cape,2,frost,NA,NA,4,NA,NA,2,cape,NA
-lox cape,3,frost,NA,NA,4,NA,NA,3,cape,NA
-lox cape,4,frost,NA,NA,4,NA,NA,4,cape,NA
-linen cape,1,NA,NA,NA,4,NA,NA,1,cape,NA
-linen cape,2,NA,NA,NA,4,NA,NA,2,cape,NA
-linen cape,3,NA,NA,NA,4,NA,NA,3,cape,NA
-linen cape,4,NA,NA,NA,4,NA,NA,4,cape,NA
-feather cape,1,frost,NA,NA,4,NA,fall damage - 1000%,1,cape,NA
-feather cape,2,frost,NA,NA,4,NA,fall damage - 1000%,2,cape,NA
-midsummer crown,1,NA,NA,NA,1,NA,NA,1,helmet,NA
-hood of odin,1,NA,NA,NA,1,NA,NA,1,helmet,NA
-hood of odin,1,NA,NA,NA,1,NA,NA,1,Upgrade,NA
-hood of odin,2,NA,NA,NA,1,NA,NA,2,helmet,NA
-hood of odin,2,NA,NA,NA,1,NA,NA,2,Upgrade,NA
-hood of odin,3,NA,NA,NA,1,NA,NA,3,helmet,NA
-hood of odin,3,NA,NA,NA,1,NA,NA,3,Upgrade,NA
-hood of odin,4,NA,NA,NA,1,NA,NA,4,helmet,NA
-hood of odin,4,NA,NA,NA,1,NA,NA,4,Upgrade,NA
-leather helmet,2,NA,NA,NA,1,NA,NA,1,NA,NA
-leather helmet,4,NA,NA,NA,1,NA,NA,2,NA,NA
-leather helmet,6,NA,NA,NA,1,NA,NA,3,NA,NA
-leather helmet,8,NA,NA,NA,1,NA,NA,4,NA,NA
-troll leather helmet,6,NA,NA,troll,1,NA,NA,1,helmet,sneak + 15
-troll leather helmet,8,NA,NA,troll,1,NA,NA,2,helmet,sneak + 15
-troll leather helmet,10,NA,NA,troll,1,NA,NA,3,helmet,sneak + 15
-troll leather helmet,12,NA,NA,troll,1,NA,NA,4,helmet,sneak + 15
-bronze helmet,8,NA,NA,NA,3,NA,NA,1,NA,NA
-bronze helmet,10,NA,NA,NA,3,NA,NA,2,NA,NA
-bronze helmet,12,NA,NA,NA,3,NA,NA,3,NA,NA
-bronze helmet,14,NA,NA,NA,3,NA,NA,4,NA,NA
-root mask,8,poison,fire,root,3,NA,NA,1,helmet,bows +15
-root mask,8,poison,fire,root,3,NA,NA,1,Upgrade,bows +15
-root mask,10,poison,fire,root,3,NA,NA,2,helmet,bows +15
-root mask,10,poison,fire,root,3,NA,NA,2,Upgrade,bows +15
-root mask,12,poison,fire,root,3,NA,NA,3,helmet,bows +15
-root mask,12,poison,fire,root,3,NA,NA,3,Upgrade,bows +15
-root mask,14,poison,fire,root,3,NA,NA,4,helmet,bows +15
-root mask,14,poison,fire,root,3,NA,NA,4,Upgrade,bows +15
-iron helmet,14,NA,NA,NA,3,NA,NA,1,helmet,NA
-iron helmet,14,NA,NA,NA,3,NA,NA,1,Upgrade,NA
-iron helmet,16,NA,NA,NA,3,NA,NA,2,helmet,NA
-iron helmet,16,NA,NA,NA,3,NA,NA,2,Upgrade,NA
-iron helmet,18,NA,NA,NA,3,NA,NA,3,helmet,NA
-iron helmet,18,NA,NA,NA,3,NA,NA,3,Upgrade,NA
-iron helmet,20,NA,NA,NA,3,NA,NA,4,helmet,NA
-iron helmet,20,NA,NA,NA,3,NA,NA,4,Upgrade,NA
-fenris hood,10,NA,NA,fenris,1,0.03,NA,1,helmet,fists +15
-fenris hood,10,NA,NA,fenris,1,0.03,NA,1,Upgrade,fists +15
-fenris hood,12,NA,NA,fenris,1,NA,NA,2,helmet,fists +15
-fenris hood,12,NA,NA,fenris,1,NA,NA,2,Upgrade,fists +15
-fenris hood,14,NA,NA,fenris,1,NA,NA,3,helmet,fists +15
-fenris hood,14,NA,NA,fenris,1,NA,NA,3,Upgrade,fists +15
-fenris hood,16,NA,NA,fenris,1,NA,NA,4,helmet,fists +15
-fenris hood,16,NA,NA,fenris,1,NA,NA,4,Upgrade,fists +15
-drake helmet,20,NA,NA,NA,3,NA,NA,1,helmet,NA
-drake helmet,20,NA,NA,NA,3,NA,NA,1,Upgrade,NA
-drake helmet,22,NA,NA,NA,3,NA,NA,2,helmet,NA
-drake helmet,22,NA,NA,NA,3,NA,NA,2,Upgrade,NA
-drake helmet,24,NA,NA,NA,3,NA,NA,3,helmet,NA
-drake helmet,24,NA,NA,NA,3,NA,NA,3,Upgrade,NA
-drake helmet,26,NA,NA,NA,3,NA,NA,4,helmet,NA
-drake helmet,26,NA,NA,NA,3,NA,NA,4,Upgrade,NA
-padded helmet,26,NA,NA,NA,3,NA,NA,1,helmet,NA
-padded helmet,26,NA,NA,NA,3,NA,NA,1,Upgrade,NA
-padded helmet,28,NA,NA,NA,3,NA,NA,2,helmet,NA
-padded helmet,28,NA,NA,NA,3,NA,NA,2,Upgrade,NA
-padded helmet,30,NA,NA,NA,3,NA,NA,3,helmet,NA
-padded helmet,30,NA,NA,NA,3,NA,NA,3,Upgrade,NA
-padded helmet,32,NA,NA,NA,3,NA,NA,4,helmet,NA
-padded helmet,32,NA,NA,NA,3,NA,NA,4,Upgrade,NA
-eitr-weave hood,16,NA,NA,NA,1,NA,Eitr regen + 20%,1,helmet,NA
-eitr-weave hood,16,NA,NA,NA,1,NA,Eitr regen + 20%,1,Upgrade,NA
-eitr-weave hood,18,NA,NA,NA,1,NA,Eitr regen + 20%,2,helmet,NA
-eitr-weave hood,18,NA,NA,NA,1,NA,Eitr regen + 20%,2,Upgrade,NA
-carapace helmet,32,NA,NA,NA,3,NA,NA,1,helmet,NA
-carapace helmet,32,NA,NA,NA,3,NA,NA,1,Upgrade,NA
-carapace helmet,34,NA,NA,NA,3,NA,NA,2,helmet,NA
-carapace helmet,34,NA,NA,NA,3,NA,NA,2,Upgrade,NA
-rag tunic,1,NA,NA,NA,2,NA,NA,1,chest,NA
-rag tunic,1,NA,NA,NA,2,NA,NA,1,Upgrade,NA
-rag tunic,2,NA,NA,NA,2,NA,NA,2,chest,NA
-rag tunic,2,NA,NA,NA,2,NA,NA,2,Upgrade,NA
-leather tunic,2,NA,NA,NA,5,NA,NA,1,chest,NA
-leather tunic,2,NA,NA,NA,5,NA,NA,1,Upgrade,NA
-leather tunic,4,NA,NA,NA,5,NA,NA,2,chest,NA
-leather tunic,4,NA,NA,NA,5,NA,NA,2,Upgrade,NA
-leather tunic,6,NA,NA,NA,5,NA,NA,3,chest,NA
-leather tunic,6,NA,NA,NA,5,NA,NA,3,Upgrade,NA
-leather tunic,8,NA,NA,NA,5,NA,NA,4,chest,NA
-leather tunic,8,NA,NA,NA,5,NA,NA,4,Upgrade,NA
-troll leather tunic,6,NA,NA,troll,5,NA,NA,1,chest,sneak + 15
-troll leather tunic,6,NA,NA,troll,5,NA,NA,1,Upgrade,sneak + 15
-troll leather tunic,8,NA,NA,troll,5,NA,NA,2,chest,sneak + 15
-troll leather tunic,8,NA,NA,troll,5,NA,NA,2,Upgrade,sneak + 15
-troll leather tunic,10,NA,NA,troll,5,NA,NA,3,chest,sneak + 15
-troll leather tunic,10,NA,NA,troll,5,NA,NA,3,Upgrade,sneak + 15
-troll leather tunic,12,NA,NA,troll,5,NA,NA,4,chest,sneak + 15
-troll leather tunic,12,NA,NA,troll,5,NA,NA,4,Upgrade,sneak + 15
-bronze plate cuirass,8,NA,NA,NA,10,-0.05,NA,1,chest,NA
-bronze plate cuirass,8,NA,NA,NA,10,-0.05,NA,1,Upgrade,NA
-bronze plate cuirass,10,NA,NA,NA,10,-0.05,NA,2,chest,NA
-bronze plate cuirass,10,NA,NA,NA,10,-0.05,NA,2,Upgrade,NA
-bronze plate cuirass,12,NA,NA,NA,10,-0.05,NA,3,chest,NA
-bronze plate cuirass,12,NA,NA,NA,10,-0.05,NA,3,Upgrade,NA
-bronze plate cuirass,14,NA,NA,NA,10,-0.05,NA,4,chest,NA
-bronze plate cuirass,14,NA,NA,NA,10,-0.05,NA,4,Upgrade,NA
-root harnesk,8,pierce,fire,root,10,-0.02,NA,1,chest,bows +15
-root harnesk,8,pierce,fire,root,10,-0.02,NA,1,Upgrade,bows +15
-root harnesk,10,pierce,fire,root,10,-0.02,NA,2,chest,bows +15
-root harnesk,10,pierce,fire,root,10,-0.02,NA,2,Upgrade,bows +15
-root harnesk,12,pierce,fire,root,10,-0.02,NA,3,chest,bows +15
-root harnesk,12,pierce,fire,root,10,-0.02,NA,3,Upgrade,bows +15
-root harnesk,14,pierce,fire,root,10,-0.02,NA,4,chest,bows +15
-root harnesk,14,pierce,fire,root,10,-0.02,NA,4,Upgrade,bows +15
-iron scale mail,14,NA,NA,NA,15,-0.05,NA,1,chest,NA
-iron scale mail,16,NA,NA,NA,15,-0.05,NA,2,chest,NA
-iron scale mail,18,NA,NA,NA,15,-0.05,NA,3,chest,NA
-iron scale mail,20,NA,NA,NA,15,-0.05,NA,4,chest,NA
-fenris coat,10,fire,NA,fenris,1,0.03,NA,1,chest,fists +15
-fenris coat,10,fire,NA,fenris,1,0.03,NA,1,Upgrade,fists +15
-fenris coat,12,fire,NA,fenris,1,0.03,NA,2,chest,fists +15
-fenris coat,12,fire,NA,fenris,1,0.03,NA,2,Upgrade,fists +15
-fenris coat,14,fire,NA,fenris,1,0.03,NA,3,chest,fists +15
-fenris coat,14,fire,NA,fenris,1,0.03,NA,3,Upgrade,fists +15
-fenris coat,16,fire,NA,fenris,1,0.03,NA,4,chest,fists +15
-fenris coat,16,fire,NA,fenris,1,0.03,NA,4,Upgrade,fists +15
-wolf armour chest,20,frost,NA,NA,15,-0.05,NA,1,NA,NA
-wolf armour chest,22,frost,NA,NA,15,-0.05,NA,2,NA,NA
-wolf armour chest,24,frost,NA,NA,15,-0.05,NA,3,NA,NA
-wolf armour chest,26,frost,NA,NA,15,-0.05,NA,4,NA,NA
-padded cuirass,26,NA,NA,NA,10,-0.05,NA,1,NA,NA
-padded cuirass,28,NA,NA,NA,10,-0.05,NA,2,NA,NA
-padded cuirass,30,NA,NA,NA,10,-0.05,NA,3,NA,NA
-padded cuirass,32,NA,NA,NA,10,-0.05,NA,4,NA,NA
-eitr-weave robe,16,NA,NA,NA,5,-0.02,Eitr regen + 40%,1,NA,NA
-eitr-weave robe,18,NA,NA,NA,5,-0.02,Eitr regen + 40%,2,NA,NA
-carapace breastplate,32,NA,NA,NA,10,-0.05,NA,1,chest,NA
-carapace breastplate,32,NA,NA,NA,10,-0.05,NA,1,Upgrade,NA
-carapace breastplate,34,NA,NA,NA,10,-0.05,NA,2,chest,NA
-carapace breastplate,34,NA,NA,NA,10,-0.05,NA,2,Upgrade,NA
-rag pants,1,NA,NA,NA,2,NA,NA,1,legs,NA
-rag pants,1,NA,NA,NA,2,NA,NA,1,Upgrade,NA
-rag pants,2,NA,NA,NA,2,NA,NA,2,legs,NA
-rag pants,2,NA,NA,NA,2,NA,NA,2,Upgrade,NA
-leather pants,2,NA,NA,NA,5,NA,NA,1,legs,NA
-leather pants,2,NA,NA,NA,5,NA,NA,1,Upgrade,NA
-leather pants,4,NA,NA,NA,5,NA,NA,2,legs,NA
-leather pants,4,NA,NA,NA,5,NA,NA,2,Upgrade,NA
-leather pants,6,NA,NA,NA,5,NA,NA,3,legs,NA
-leather pants,6,NA,NA,NA,5,NA,NA,3,Upgrade,NA
-leather pants,8,NA,NA,NA,5,NA,NA,4,legs,NA
-leather pants,8,NA,NA,NA,5,NA,NA,4,Upgrade,NA
-troll leather pants,6,NA,NA,troll,5,NA,NA,1,legs,sneak + 15
-troll leather pants,6,NA,NA,troll,5,NA,NA,1,Upgrade,sneak + 15
-troll leather pants,8,NA,NA,troll,5,NA,NA,2,legs,sneak + 15
-troll leather pants,8,NA,NA,troll,5,NA,NA,2,Upgrade,sneak + 15
-troll leather pants,10,NA,NA,troll,5,NA,NA,3,legs,sneak + 15
-troll leather pants,10,NA,NA,troll,5,NA,NA,3,Upgrade,sneak + 15
-troll leather pants,12,NA,NA,troll,5,NA,NA,4,legs,sneak + 15
-troll leather pants,12,NA,NA,troll,5,NA,NA,4,Upgrade,sneak + 15
-bronze plate leggings,8,NA,NA,NA,10,-0.05,NA,1,legs,NA
-bronze plate leggings,8,NA,NA,NA,10,-0.05,NA,1,Upgrade,NA
-bronze plate leggings,10,NA,NA,NA,10,-0.05,NA,2,legs,NA
-bronze plate leggings,10,NA,NA,NA,10,-0.05,NA,2,Upgrade,NA
-bronze plate leggings,12,NA,NA,NA,10,-0.05,NA,3,legs,NA
-bronze plate leggings,12,NA,NA,NA,10,-0.05,NA,3,Upgrade,NA
-bronze plate leggings,14,NA,NA,NA,10,-0.05,NA,4,legs,NA
-bronze plate leggings,14,NA,NA,NA,10,-0.05,NA,4,Upgrade,NA
-root leggings,8,NA,fire,root,10,-0.02,NA,1,legs,bows +15
-root leggings,8,NA,fire,root,10,-0.02,NA,1,Upgrade,bows +15
-root leggings,10,NA,fire,root,10,-0.02,NA,2,legs,bows +15
-root leggings,10,NA,fire,root,10,-0.02,NA,2,Upgrade,bows +15
-root leggings,12,NA,fire,root,10,-0.02,NA,3,legs,bows +15
-root leggings,12,NA,fire,root,10,-0.02,NA,3,Upgrade,bows +15
-root leggings,14,NA,fire,root,10,-0.02,NA,4,legs,bows +15
-root leggings,14,NA,fire,root,10,-0.02,NA,4,Upgrade,bows +15
-iron greaves,14,NA,NA,NA,15,-0.05,NA,1,legs,NA
-iron greaves,14,NA,NA,NA,15,-0.05,NA,1,Upgrade,NA
-iron greaves,16,NA,NA,NA,15,-0.05,NA,2,legs,NA
-iron greaves,16,NA,NA,NA,15,-0.05,NA,2,Upgrade,NA
-iron greaves,18,NA,NA,NA,15,-0.05,NA,3,legs,NA
-iron greaves,18,NA,NA,NA,15,-0.05,NA,3,Upgrade,NA
-iron greaves,20,NA,NA,NA,15,-0.05,NA,4,legs,NA
-iron greaves,20,NA,NA,NA,15,-0.05,NA,4,Upgrade,NA
-fenris leggings,10,fire,NA,fenris,1,0.03,NA,1,legs,fists +15
-fenris leggings,10,fire,NA,fenris,1,0.03,NA,1,Upgrade,fists +15
-fenris leggings,12,fire,NA,fenris,1,0.03,NA,2,legs,fists +15
-fenris leggings,12,fire,NA,fenris,1,0.03,NA,2,Upgrade,fists +15
-fenris leggings,14,fire,NA,fenris,1,0.03,NA,3,legs,fists +15
-fenris leggings,14,fire,NA,fenris,1,0.03,NA,3,Upgrade,fists +15
-fenris leggings,16,fire,NA,fenris,1,0.03,NA,4,legs,fists +15
-fenris leggings,16,fire,NA,fenris,1,0.03,NA,4,Upgrade,fists +15
-wolf armor legs,20,NA,NA,NA,15,-0.05,NA,1,NA,NA
-wolf armor legs,22,NA,NA,NA,15,-0.05,NA,2,NA,NA
-wolf armor legs,24,NA,NA,NA,15,-0.05,NA,3,NA,NA
-wolf armor legs,26,NA,NA,NA,15,-0.05,NA,4,NA,NA
-padded greaves,26,NA,NA,NA,10,-0.05,NA,1,legs,NA
-padded greaves,26,NA,NA,NA,10,-0.05,NA,1,Upgrade,NA
-padded greaves,28,NA,NA,NA,10,-0.05,NA,2,legs,NA
-padded greaves,28,NA,NA,NA,10,-0.05,NA,2,Upgrade,NA
-padded greaves,30,NA,NA,NA,10,-0.05,NA,3,legs,NA
-padded greaves,30,NA,NA,NA,10,-0.05,NA,3,Upgrade,NA
-padded greaves,32,NA,NA,NA,10,-0.05,NA,4,legs,NA
-padded greaves,32,NA,NA,NA,10,-0.05,NA,4,Upgrade,NA
-eitr-weave trousers,16,NA,NA,NA,5,-0.02,Eitr regen + 40%,1,legs,NA
-eitr-weave trousers,16,NA,NA,NA,5,-0.02,Eitr regen + 40%,1,Upgrade,NA
-eitr-weave trousers,18,NA,NA,NA,5,-0.02,NA,2,legs,NA
-eitr-weave trousers,18,NA,NA,NA,5,-0.02,NA,2,Upgrade,NA
-carapace greaves,32,NA,NA,NA,10,-0.05,NA,1,legs,NA
-carapace greaves,32,NA,NA,NA,10,-0.05,NA,1,Upgrade,NA
-carapace greaves,34,NA,NA,NA,10,-0.05,NA,2,legs,NA
-carapace greaves,34,NA,NA,NA,10,-0.05,NA,2,Upgrade,NA
+item,armor,resistant,weak,set,weight,speed,other,upgrade_level,type,bonus,materials
+deer hide cape,1,NA,NA,NA,4,NA,NA,1,cape,NA,"deer hide, bone fragments"
+deer hide cape,2,NA,NA,NA,4,NA,NA,2,cape,NA,"deer hide, bone fragments"
+deer hide cape,3,NA,NA,NA,4,NA,NA,3,cape,NA,"deer hide, bone fragments"
+deer hide cape,4,NA,NA,NA,4,NA,NA,4,cape,NA,"deer hide, bone fragments"
+troll hide cape,1,NA,NA,troll,4,NA,NA,1,cape,sneak + 15,"troll hide, bone fragments"
+troll hide cape,2,NA,NA,troll,4,NA,NA,2,cape,sneak + 15,"troll hide, bone fragments"
+troll hide cape,3,NA,NA,troll,4,NA,NA,3,cape,sneak + 15,"troll hide, bone fragments"
+troll hide cape,4,NA,NA,troll,4,NA,NA,4,cape,sneak + 15,"troll hide, bone fragments"
+wolf fur cape,1,frost,NA,NA,4,NA,NA,1,cape,NA,"silver, wolf pelt, wolf trophy"
+wolf fur cape,2,frost,NA,NA,4,NA,NA,2,cape,NA,"silver, wolf pelt"
+wolf fur cape,3,frost,NA,NA,4,NA,NA,3,cape,NA,"silver, wolf pelt"
+wolf fur cape,4,frost,NA,NA,4,NA,NA,4,cape,NA,"silver, wolf pelt"
+lox cape,1,frost,NA,NA,4,NA,NA,1,cape,NA,"lox pelt, silver"
+lox cape,2,frost,NA,NA,4,NA,NA,2,cape,NA,lox pelt
+lox cape,3,frost,NA,NA,4,NA,NA,3,cape,NA,lox pelt
+lox cape,4,frost,NA,NA,4,NA,NA,4,cape,NA,lox pelt
+linen cape,1,NA,NA,NA,4,NA,NA,1,cape,NA,"linen thread, silver"
+linen cape,2,NA,NA,NA,4,NA,NA,2,cape,NA,linen thread
+linen cape,3,NA,NA,NA,4,NA,NA,3,cape,NA,linen thread
+linen cape,4,NA,NA,NA,4,NA,NA,4,cape,NA,linen thread
+feather cape,1,frost,NA,NA,4,NA,fall damage - 1000%,1,cape,NA,"feathers, scale hide, refined eitr"
+feather cape,2,frost,NA,NA,4,NA,fall damage - 1000%,2,cape,NA,"feathers, scale hide, refined eitr"
+midsummer crown,1,NA,NA,NA,1,NA,NA,1,helmet,NA,NA
+leather helmet,2,NA,NA,NA,1,NA,NA,1,NA,NA,NA
+leather helmet,4,NA,NA,NA,1,NA,NA,2,NA,NA,NA
+leather helmet,6,NA,NA,NA,1,NA,NA,3,NA,NA,NA
+leather helmet,8,NA,NA,NA,1,NA,NA,4,NA,NA,NA
+troll leather helmet,6,NA,NA,troll,1,NA,NA,1,helmet,sneak + 15,"troll hide, bone fragments"
+troll leather helmet,8,NA,NA,troll,1,NA,NA,2,helmet,sneak + 15,"troll hide, bone fragments"
+troll leather helmet,10,NA,NA,troll,1,NA,NA,3,helmet,sneak + 15,"troll hide, bone fragments"
+troll leather helmet,12,NA,NA,troll,1,NA,NA,4,helmet,sneak + 15,"troll hide, bone fragments"
+bronze helmet,8,NA,NA,NA,3,NA,NA,1,NA,NA,NA
+bronze helmet,10,NA,NA,NA,3,NA,NA,2,NA,NA,NA
+bronze helmet,12,NA,NA,NA,3,NA,NA,3,NA,NA,NA
+bronze helmet,14,NA,NA,NA,3,NA,NA,4,NA,NA,NA
+root mask,8,poison,fire,root,3,NA,NA,1,helmet,bows +15,"root, ancient bark, leather scraps"
+root mask,8,poison,fire,root,3,NA,NA,1,upgrade,bows +15,"root, ancient bark, leather scraps"
+root mask,10,poison,fire,root,3,NA,NA,2,helmet,bows +15,"root, ancient bark"
+root mask,10,poison,fire,root,3,NA,NA,2,upgrade,bows +15,"root, ancient bark"
+root mask,12,poison,fire,root,3,NA,NA,3,helmet,bows +15,"root, ancient bark"
+root mask,12,poison,fire,root,3,NA,NA,3,upgrade,bows +15,"root, ancient bark"
+root mask,14,poison,fire,root,3,NA,NA,4,helmet,bows +15,"root, ancient bark"
+root mask,14,poison,fire,root,3,NA,NA,4,upgrade,bows +15,"root, ancient bark"
+iron helmet,14,NA,NA,NA,3,NA,NA,1,helmet,NA,"iron, deer hide"
+iron helmet,14,NA,NA,NA,3,NA,NA,1,upgrade,NA,"iron, deer hide"
+iron helmet,16,NA,NA,NA,3,NA,NA,2,helmet,NA,iron
+iron helmet,16,NA,NA,NA,3,NA,NA,2,upgrade,NA,iron
+iron helmet,18,NA,NA,NA,3,NA,NA,3,helmet,NA,iron
+iron helmet,18,NA,NA,NA,3,NA,NA,3,upgrade,NA,iron
+iron helmet,20,NA,NA,NA,3,NA,NA,4,helmet,NA,iron
+iron helmet,20,NA,NA,NA,3,NA,NA,4,upgrade,NA,iron
+fenris hood,10,NA,NA,fenris,1,0.03,NA,1,helmet,fists +15,"fenris hair, wolf pelt, cultist trophy"
+fenris hood,10,NA,NA,fenris,1,0.03,NA,1,upgrade,fists +15,"fenris hair, wolf pelt, cultist trophy"
+fenris hood,12,NA,NA,fenris,1,NA,NA,2,helmet,fists +15,"fenris hair, wolf pelt"
+fenris hood,12,NA,NA,fenris,1,NA,NA,2,upgrade,fists +15,"fenris hair, wolf pelt"
+fenris hood,14,NA,NA,fenris,1,NA,NA,3,helmet,fists +15,"fenris hair, wolf pelt"
+fenris hood,14,NA,NA,fenris,1,NA,NA,3,upgrade,fists +15,"fenris hair, wolf pelt"
+fenris hood,16,NA,NA,fenris,1,NA,NA,4,helmet,fists +15,"fenris hair, wolf pelt"
+fenris hood,16,NA,NA,fenris,1,NA,NA,4,upgrade,fists +15,"fenris hair, wolf pelt"
+drake helmet,20,NA,NA,NA,3,NA,NA,1,helmet,NA,"silver, wolf pelt, drake trophy"
+drake helmet,20,NA,NA,NA,3,NA,NA,1,upgrade,NA,"silver, wolf pelt, drake trophy"
+drake helmet,22,NA,NA,NA,3,NA,NA,2,helmet,NA,silver
+drake helmet,22,NA,NA,NA,3,NA,NA,2,upgrade,NA,silver
+drake helmet,24,NA,NA,NA,3,NA,NA,3,helmet,NA,silver
+drake helmet,24,NA,NA,NA,3,NA,NA,3,upgrade,NA,silver
+drake helmet,26,NA,NA,NA,3,NA,NA,4,helmet,NA,silver
+drake helmet,26,NA,NA,NA,3,NA,NA,4,upgrade,NA,silver
+padded helmet,26,NA,NA,NA,3,NA,NA,1,helmet,NA,"iron, linen thread"
+padded helmet,26,NA,NA,NA,3,NA,NA,1,upgrade,NA,"iron, linen thread"
+padded helmet,28,NA,NA,NA,3,NA,NA,2,helmet,NA,"iron, linen thread"
+padded helmet,28,NA,NA,NA,3,NA,NA,2,upgrade,NA,"iron, linen thread"
+padded helmet,30,NA,NA,NA,3,NA,NA,3,helmet,NA,"iron, linen thread"
+padded helmet,30,NA,NA,NA,3,NA,NA,3,upgrade,NA,"iron, linen thread"
+padded helmet,32,NA,NA,NA,3,NA,NA,4,helmet,NA,"iron, linen thread"
+padded helmet,32,NA,NA,NA,3,NA,NA,4,upgrade,NA,"iron, linen thread"
+eitr-weave hood,16,NA,NA,NA,1,NA,eitr regen + 20%,1,helmet,NA,"iron, linen thread, refined eitr"
+eitr-weave hood,16,NA,NA,NA,1,NA,eitr regen + 20%,1,upgrade,NA,"iron, linen thread, refined eitr"
+eitr-weave hood,18,NA,NA,NA,1,NA,eitr regen + 20%,2,helmet,NA,"iron, linen thread, refined eitr"
+eitr-weave hood,18,NA,NA,NA,1,NA,eitr regen + 20%,2,upgrade,NA,"iron, linen thread, refined eitr"
+carapace helmet,32,NA,NA,NA,3,NA,NA,1,helmet,NA,"carapace, scale hide, mandible, refined eitr"
+carapace helmet,32,NA,NA,NA,3,NA,NA,1,upgrade,NA,"carapace, scale hide, mandible, refined eitr"
+carapace helmet,34,NA,NA,NA,3,NA,NA,2,helmet,NA,"carapace, scale hide, mandible, refined eitr"
+carapace helmet,34,NA,NA,NA,3,NA,NA,2,upgrade,NA,"carapace, scale hide, mandible, refined eitr"
+rag tunic,1,NA,NA,NA,2,NA,NA,1,chest,NA,leather scraps
+rag tunic,1,NA,NA,NA,2,NA,NA,1,upgrade,NA,leather scraps
+rag tunic,2,NA,NA,NA,2,NA,NA,2,chest,NA,leather scraps
+rag tunic,2,NA,NA,NA,2,NA,NA,2,upgrade,NA,leather scraps
+leather tunic,2,NA,NA,NA,5,NA,NA,1,chest,NA,deer hide
+leather tunic,2,NA,NA,NA,5,NA,NA,1,upgrade,NA,deer hide
+leather tunic,4,NA,NA,NA,5,NA,NA,2,chest,NA,"deer hide, bone fragments"
+leather tunic,4,NA,NA,NA,5,NA,NA,2,upgrade,NA,"deer hide, bone fragments"
+leather tunic,6,NA,NA,NA,5,NA,NA,3,chest,NA,"deer hide, bone fragments"
+leather tunic,6,NA,NA,NA,5,NA,NA,3,upgrade,NA,"deer hide, bone fragments"
+leather tunic,8,NA,NA,NA,5,NA,NA,4,chest,NA,"deer hide, bone fragments"
+leather tunic,8,NA,NA,NA,5,NA,NA,4,upgrade,NA,"deer hide, bone fragments"
+troll leather tunic,6,NA,NA,troll,5,NA,NA,1,chest,sneak + 15,troll hide
+troll leather tunic,6,NA,NA,troll,5,NA,NA,1,upgrade,sneak + 15,troll hide
+troll leather tunic,8,NA,NA,troll,5,NA,NA,2,chest,sneak + 15,troll hide
+troll leather tunic,8,NA,NA,troll,5,NA,NA,2,upgrade,sneak + 15,troll hide
+troll leather tunic,10,NA,NA,troll,5,NA,NA,3,chest,sneak + 15,troll hide
+troll leather tunic,10,NA,NA,troll,5,NA,NA,3,upgrade,sneak + 15,troll hide
+troll leather tunic,12,NA,NA,troll,5,NA,NA,4,chest,sneak + 15,troll hide
+troll leather tunic,12,NA,NA,troll,5,NA,NA,4,upgrade,sneak + 15,troll hide
+bronze plate cuirass,8,NA,NA,NA,10,-0.05,NA,1,chest,NA,"bronze, deer hide"
+bronze plate cuirass,8,NA,NA,NA,10,-0.05,NA,1,upgrade,NA,"bronze, deer hide"
+bronze plate cuirass,10,NA,NA,NA,10,-0.05,NA,2,chest,NA,bronze
+bronze plate cuirass,10,NA,NA,NA,10,-0.05,NA,2,upgrade,NA,bronze
+bronze plate cuirass,12,NA,NA,NA,10,-0.05,NA,3,chest,NA,bronze
+bronze plate cuirass,12,NA,NA,NA,10,-0.05,NA,3,upgrade,NA,bronze
+bronze plate cuirass,14,NA,NA,NA,10,-0.05,NA,4,chest,NA,bronze
+bronze plate cuirass,14,NA,NA,NA,10,-0.05,NA,4,upgrade,NA,bronze
+root harnesk,8,pierce,fire,root,10,-0.02,NA,1,chest,bows +15,"root, ancient bark, deer hide"
+root harnesk,8,pierce,fire,root,10,-0.02,NA,1,upgrade,bows +15,"root, ancient bark, deer hide"
+root harnesk,10,pierce,fire,root,10,-0.02,NA,2,chest,bows +15,"root, ancient bark"
+root harnesk,10,pierce,fire,root,10,-0.02,NA,2,upgrade,bows +15,"root, ancient bark"
+root harnesk,12,pierce,fire,root,10,-0.02,NA,3,chest,bows +15,"root, ancient bark"
+root harnesk,12,pierce,fire,root,10,-0.02,NA,3,upgrade,bows +15,"root, ancient bark"
+root harnesk,14,pierce,fire,root,10,-0.02,NA,4,chest,bows +15,"root, ancient bark"
+root harnesk,14,pierce,fire,root,10,-0.02,NA,4,upgrade,bows +15,"root, ancient bark"
+iron scale mail,14,NA,NA,NA,15,-0.05,NA,1,chest,NA,"iron, deer hide"
+iron scale mail,16,NA,NA,NA,15,-0.05,NA,2,chest,NA,iron
+iron scale mail,18,NA,NA,NA,15,-0.05,NA,3,chest,NA,iron
+iron scale mail,20,NA,NA,NA,15,-0.05,NA,4,chest,NA,iron
+fenris coat,10,fire,NA,fenris,1,0.03,NA,1,chest,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,10,fire,NA,fenris,1,0.03,NA,1,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,12,fire,NA,fenris,1,0.03,NA,2,chest,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,12,fire,NA,fenris,1,0.03,NA,2,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,14,fire,NA,fenris,1,0.03,NA,3,chest,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,14,fire,NA,fenris,1,0.03,NA,3,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,16,fire,NA,fenris,1,0.03,NA,4,chest,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris coat,16,fire,NA,fenris,1,0.03,NA,4,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+wolf armour chest,20,frost,NA,NA,15,-0.05,NA,1,NA,NA,NA
+wolf armour chest,22,frost,NA,NA,15,-0.05,NA,2,NA,NA,NA
+wolf armour chest,24,frost,NA,NA,15,-0.05,NA,3,NA,NA,NA
+wolf armour chest,26,frost,NA,NA,15,-0.05,NA,4,NA,NA,NA
+padded cuirass,26,NA,NA,NA,10,-0.05,NA,1,NA,NA,NA
+padded cuirass,28,NA,NA,NA,10,-0.05,NA,2,NA,NA,NA
+padded cuirass,30,NA,NA,NA,10,-0.05,NA,3,NA,NA,NA
+padded cuirass,32,NA,NA,NA,10,-0.05,NA,4,NA,NA,NA
+eitr-weave robe,16,NA,NA,NA,5,-0.02,eitr regen + 40%,1,NA,NA,NA
+eitr-weave robe,18,NA,NA,NA,5,-0.02,eitr regen + 40%,2,NA,NA,NA
+carapace breastplate,32,NA,NA,NA,10,-0.05,NA,1,chest,NA,"carapace, scale hide, iron, refined eitr"
+carapace breastplate,32,NA,NA,NA,10,-0.05,NA,1,upgrade,NA,"carapace, scale hide, iron, refined eitr"
+carapace breastplate,34,NA,NA,NA,10,-0.05,NA,2,chest,NA,"carapace, scale hide, iron, refined eitr"
+carapace breastplate,34,NA,NA,NA,10,-0.05,NA,2,upgrade,NA,"carapace, scale hide, iron, refined eitr"
+rag pants,1,NA,NA,NA,2,NA,NA,1,legs,NA,leather scraps
+rag pants,1,NA,NA,NA,2,NA,NA,1,upgrade,NA,leather scraps
+rag pants,2,NA,NA,NA,2,NA,NA,2,legs,NA,leather scraps
+rag pants,2,NA,NA,NA,2,NA,NA,2,upgrade,NA,leather scraps
+leather pants,2,NA,NA,NA,5,NA,NA,1,legs,NA,deer hide
+leather pants,2,NA,NA,NA,5,NA,NA,1,upgrade,NA,deer hide
+leather pants,4,NA,NA,NA,5,NA,NA,2,legs,NA,"deer hide, bone fragments"
+leather pants,4,NA,NA,NA,5,NA,NA,2,upgrade,NA,"deer hide, bone fragments"
+leather pants,6,NA,NA,NA,5,NA,NA,3,legs,NA,"deer hide, bone fragments"
+leather pants,6,NA,NA,NA,5,NA,NA,3,upgrade,NA,"deer hide, bone fragments"
+leather pants,8,NA,NA,NA,5,NA,NA,4,legs,NA,"deer hide, bone fragments"
+leather pants,8,NA,NA,NA,5,NA,NA,4,upgrade,NA,"deer hide, bone fragments"
+troll leather pants,6,NA,NA,troll,5,NA,NA,1,legs,sneak + 15,troll hide
+troll leather pants,6,NA,NA,troll,5,NA,NA,1,upgrade,sneak + 15,troll hide
+troll leather pants,8,NA,NA,troll,5,NA,NA,2,legs,sneak + 15,troll hide
+troll leather pants,8,NA,NA,troll,5,NA,NA,2,upgrade,sneak + 15,troll hide
+troll leather pants,10,NA,NA,troll,5,NA,NA,3,legs,sneak + 15,troll hide
+troll leather pants,10,NA,NA,troll,5,NA,NA,3,upgrade,sneak + 15,troll hide
+troll leather pants,12,NA,NA,troll,5,NA,NA,4,legs,sneak + 15,troll hide
+troll leather pants,12,NA,NA,troll,5,NA,NA,4,upgrade,sneak + 15,troll hide
+bronze plate leggings,8,NA,NA,NA,10,-0.05,NA,1,legs,NA,"bronze, deer hide"
+bronze plate leggings,8,NA,NA,NA,10,-0.05,NA,1,upgrade,NA,"bronze, deer hide"
+bronze plate leggings,10,NA,NA,NA,10,-0.05,NA,2,legs,NA,bronze
+bronze plate leggings,10,NA,NA,NA,10,-0.05,NA,2,upgrade,NA,bronze
+bronze plate leggings,12,NA,NA,NA,10,-0.05,NA,3,legs,NA,bronze
+bronze plate leggings,12,NA,NA,NA,10,-0.05,NA,3,upgrade,NA,bronze
+bronze plate leggings,14,NA,NA,NA,10,-0.05,NA,4,legs,NA,bronze
+bronze plate leggings,14,NA,NA,NA,10,-0.05,NA,4,upgrade,NA,bronze
+root leggings,8,NA,fire,root,10,-0.02,NA,1,legs,bows +15,"root, ancient bark, deer hide"
+root leggings,8,NA,fire,root,10,-0.02,NA,1,upgrade,bows +15,"root, ancient bark, deer hide"
+root leggings,10,NA,fire,root,10,-0.02,NA,2,legs,bows +15,"root, ancient bark"
+root leggings,10,NA,fire,root,10,-0.02,NA,2,upgrade,bows +15,"root, ancient bark"
+root leggings,12,NA,fire,root,10,-0.02,NA,3,legs,bows +15,"root, ancient bark"
+root leggings,12,NA,fire,root,10,-0.02,NA,3,upgrade,bows +15,"root, ancient bark"
+root leggings,14,NA,fire,root,10,-0.02,NA,4,legs,bows +15,"root, ancient bark"
+root leggings,14,NA,fire,root,10,-0.02,NA,4,upgrade,bows +15,"root, ancient bark"
+iron greaves,14,NA,NA,NA,15,-0.05,NA,1,legs,NA,"iron, deer hide"
+iron greaves,14,NA,NA,NA,15,-0.05,NA,1,upgrade,NA,"iron, deer hide"
+iron greaves,16,NA,NA,NA,15,-0.05,NA,2,legs,NA,iron
+iron greaves,16,NA,NA,NA,15,-0.05,NA,2,upgrade,NA,iron
+iron greaves,18,NA,NA,NA,15,-0.05,NA,3,legs,NA,iron
+iron greaves,18,NA,NA,NA,15,-0.05,NA,3,upgrade,NA,iron
+iron greaves,20,NA,NA,NA,15,-0.05,NA,4,legs,NA,iron
+iron greaves,20,NA,NA,NA,15,-0.05,NA,4,upgrade,NA,iron
+fenris leggings,10,fire,NA,fenris,1,0.03,NA,1,legs,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,10,fire,NA,fenris,1,0.03,NA,1,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,12,fire,NA,fenris,1,0.03,NA,2,legs,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,12,fire,NA,fenris,1,0.03,NA,2,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,14,fire,NA,fenris,1,0.03,NA,3,legs,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,14,fire,NA,fenris,1,0.03,NA,3,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,16,fire,NA,fenris,1,0.03,NA,4,legs,fists +15,"fenris hair, wolf pelt, leather scraps"
+fenris leggings,16,fire,NA,fenris,1,0.03,NA,4,upgrade,fists +15,"fenris hair, wolf pelt, leather scraps"
+wolf armor legs,20,NA,NA,NA,15,-0.05,NA,1,NA,NA,NA
+wolf armor legs,22,NA,NA,NA,15,-0.05,NA,2,NA,NA,NA
+wolf armor legs,24,NA,NA,NA,15,-0.05,NA,3,NA,NA,NA
+wolf armor legs,26,NA,NA,NA,15,-0.05,NA,4,NA,NA,NA
+padded greaves,26,NA,NA,NA,10,-0.05,NA,1,legs,NA,"iron, linen thread"
+padded greaves,26,NA,NA,NA,10,-0.05,NA,1,upgrade,NA,"iron, linen thread"
+padded greaves,28,NA,NA,NA,10,-0.05,NA,2,legs,NA,"iron, linen thread"
+padded greaves,28,NA,NA,NA,10,-0.05,NA,2,upgrade,NA,"iron, linen thread"
+padded greaves,30,NA,NA,NA,10,-0.05,NA,3,legs,NA,"iron, linen thread"
+padded greaves,30,NA,NA,NA,10,-0.05,NA,3,upgrade,NA,"iron, linen thread"
+padded greaves,32,NA,NA,NA,10,-0.05,NA,4,legs,NA,"iron, linen thread"
+padded greaves,32,NA,NA,NA,10,-0.05,NA,4,upgrade,NA,"iron, linen thread"
+eitr-weave trousers,16,NA,NA,NA,5,-0.02,eitr regen + 40%,1,legs,NA,"linen thread, refined eitr, scale hide"
+eitr-weave trousers,16,NA,NA,NA,5,-0.02,eitr regen + 40%,1,upgrade,NA,"linen thread, refined eitr, scale hide"
+eitr-weave trousers,18,NA,NA,NA,5,-0.02,NA,2,legs,NA,"linen thread, refined eitr, scale hide"
+eitr-weave trousers,18,NA,NA,NA,5,-0.02,NA,2,upgrade,NA,"linen thread, refined eitr, scale hide"
+carapace greaves,32,NA,NA,NA,10,-0.05,NA,1,legs,NA,"carapace, scale hide, iron, refined eitr"
+carapace greaves,32,NA,NA,NA,10,-0.05,NA,1,upgrade,NA,"carapace, scale hide, iron, refined eitr"
+carapace greaves,34,NA,NA,NA,10,-0.05,NA,2,legs,NA,"carapace, scale hide, iron, refined eitr"
+carapace greaves,34,NA,NA,NA,10,-0.05,NA,2,upgrade,NA,"carapace, scale hide, iron, refined eitr"
