@@ -128,6 +128,13 @@ server <- function(input, output, session) {
     plot_armor(armor_list(), "chest")
   })
   
+  # ADD REFRESH BUTTON AND INPUTS FOR SELECTED CLOTHING!
+  #observeEvent(input$)
+  chest_list <- reactive({
+    armor %>% 
+      filter(item %in% armor_list() & type == "chest")
+  })
+  
   ## Legs -----------------
   output$legs_table <- renderPlotly({
     plot_armor(armor_list(), "legs")
@@ -137,9 +144,9 @@ server <- function(input, output, session) {
     plot_armor(armor_list(), "helmet")
   })
   
-  output$cape_table <- renderPlotly({
-    plot_armor(armor_list(), "cape")
-  })
+  # output$cape_table <- renderPlotly({
+  #   plot_armor(armor_list(), "cape")
+  # })
   
   
   # Food -----------------

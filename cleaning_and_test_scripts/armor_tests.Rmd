@@ -21,7 +21,7 @@ sets
 ```
 
 ```{r}
-all_items %>% 
+cleaned_armor <- all_items %>% 
   mutate(across(where(is.character), ~ str_to_lower(.x))) %>% 
   select(-c(description, set_bonus)) %>% 
   right_join(armor, by = join_by(item, upgrade_level)) %>% 
@@ -32,6 +32,10 @@ all_items %>%
             material_amounts = toString(amount_of_material)) %>% 
   pivot_wider(names_from = crafting_station, values_from = crafting_station_level) %>% 
   clean_names()
+```
+```{r}
+cleaned_armor %>% 
+  filter(type == "cape" & upgrade_level == 1)
 ```
 
 

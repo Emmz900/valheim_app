@@ -106,6 +106,7 @@ ui <- fluidPage(
           width = 6,
           "Chest",
           plotlyOutput("chest_table")
+          selectInput("chest_input", "", ch)
         ),
         ## Legs ----------
         column(
