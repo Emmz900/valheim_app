@@ -7,6 +7,7 @@ library(here)
 # FUNCTIONS --------------------
 source(here("function_scripts/filter_weapons.R"))
 source(here("function_scripts/plot_weapon_stats.R"))
+source(here("function_scripts/plot_armor.R"))
 source(here("function_scripts/filter_food.R"))
 source(here("function_scripts/plot_food.R"))
 
