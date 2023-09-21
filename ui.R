@@ -111,7 +111,7 @@ ui <- fluidPage(
         column(
           width = 6,
           "Legs",
-          dataTableOutput("legs_table")
+          plotlyOutput("legs_table")
         )
       ),
       
@@ -120,13 +120,13 @@ ui <- fluidPage(
         column(
           width = 6,
           "Helmet",
-          dataTableOutput("helmet_table")
+          plotlyOutput("helmet_table")
         ),
         ## Cape ----------
         column(
           width = 6,
           "Cape",
-          dataTableOutput("cape_table")
+          plotlyOutput("cape_table")
         )
       ),
       

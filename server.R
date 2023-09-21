@@ -129,31 +129,16 @@ server <- function(input, output, session) {
   })
   
   ## Legs -----------------
-  output$legs_table <- renderDataTable({
-    armor %>% 
-      filter(item %in% armor_list()) %>% 
-      filter(type == "legs" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak, materials) %>% 
-      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
-      clean_names(case = "title")
+  output$legs_table <- renderPlotly({
+    plot_armor(armor_list(), "legs")
   })
   
-  output$helmet_table <- renderDataTable({
-    armor %>% 
-      filter(item %in% armor_list()) %>% 
-      filter(type == "helmet" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak, materials) %>% 
-      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
-      clean_names(case = "title")
+  output$helmet_table <- renderPlotly({
+    plot_armor(armor_list(), "helmet")
   })
   
-  output$cape_table <- renderDataTable({
-    armor %>% 
-      filter(item %in% armor_list()) %>% 
-      filter(type == "cape" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak, materials) %>% 
-      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
-      clean_names(case = "title")
+  output$cape_table <- renderPlotly({
+    plot_armor(armor_list(), "cape")
   })
   
   
