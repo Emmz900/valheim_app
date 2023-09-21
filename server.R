@@ -34,7 +34,7 @@ server <- function(input, output, session) {
   ## Update weapon selection ------------
   observeEvent(input$weapon_filter_input, {
     updateSelectInput(session, "weapon_choice_all_input",
-                       choices = weapon_filtered_list())
+                      choices = weapon_filtered_list())
   })
   
   ## Plot All Weapons --------------
@@ -112,8 +112,9 @@ server <- function(input, output, session) {
   })
   
   # Armor ----------------
+  ## Armor list -----------
   armor_list <- reactive({
-    armor_crafting %>% 
+    armor %>% 
       filter(is.na(workbench) | workbench <= input$workbench_input) %>% 
       filter(is.na(forge) | forge <= input$forge_input) %>%
       filter(is.na(galdr_table) | galdr_table <= input$galdr_input) %>%
@@ -122,15 +123,44 @@ server <- function(input, output, session) {
       pull()
   })
   
-  output$chest_table <- renderDataTable({
-    armor %>% 
-      filter(item %in% armor_list()) %>% 
-      filter(type == "chest" & upgrade_level == 1) %>% 
-      select(item, armor, weight, speed, resistant, weak, materials) %>% 
-      mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
-      clean_names(case = "title")
+  ## Chest ---------
+  output$chest_table <- renderPlotly({
+    p <- armor %>% 
+      filter(item %in% armor_list()) %>%
+      filter(type == "chest" & upgrade_level == 1) %>%
+      select(item, armor, weight, speed, resistant, weak, materials) %>%
+      mutate(across(where(is.character), ~ str_to_title(.x))) %>%
+      pivot_longer(c(armor, weight), names_to = "stat", values_to = "value") %>% 
+      ggplot(aes(item, value, fill = stat)) +
+      geom_col(position = "dodge") +
+      theme_classic() +
+      theme(text = element_text(colour = "white"),
+            axis.text = element_text(colour = "white"),
+            legend.background = element_rect(fill = "transparent"),
+            panel.background = element_rect(fill = "transparent"),
+            panel.border = element_rect(fill = "transparent",
+                                        colour = "transparent"),
+            plot.background = element_rect(fill = "transparent",
+                                           colour = NA)) +
+      labs(
+        x = "Chest Piece",
+        y = "Stat",
+        fill = ""
+      ) 
+    ggplotly(p)
   })
   
+  
+  # renderDataTable({
+  # armor %>% 
+  #   filter(item %in% armor_list()) %>% 
+  #   filter(type == "chest" & upgrade_level == 1) %>% 
+  #   select(item, armor, weight, speed, resistant, weak, materials) %>% 
+  #   mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
+  #   clean_names(case = "title")
+  #})
+  
+  ## Legs -----------------
   output$legs_table <- renderDataTable({
     armor %>% 
       filter(item %in% armor_list()) %>% 
@@ -181,7 +211,7 @@ server <- function(input, output, session) {
       pull()
     
     updateSelectInput(session, "food_item_input",
-                       choices = choices)
+                      choices = choices)
   })
   
   ## Plot of food stats ----------------
@@ -197,17 +227,17 @@ server <- function(input, output, session) {
   
   ## Crafting Station and Cauldron level ---------------
   output$food_crafting_station_outputs <- renderText({
-        if(unique(food_item()$oven) == "N"){
-        } else {
-          "Oven Needed"
-        }
+    if(unique(food_item()$oven) == "N"){
+    } else {
+      "Oven Needed"
+    }
   })
   
   output$food_crafting_station_level <- renderText({      
-        if(is.na(unique(food_item()$cauldron_level))){
-        } else {
-          (paste("Cauldron Level: ", unique(food_item()$cauldron_level)))
-        }
+    if(is.na(unique(food_item()$cauldron_level))){
+    } else {
+      (paste("Cauldron Level: ", unique(food_item()$cauldron_level)))
+    }
   })
   
   ## Food stats table -----------------

@@ -78,18 +78,22 @@ ui <- fluidPage(
       "Armor",
       
       fluidRow(
+        ## Workbench -------------
         column(
           width = 2,
           selectInput("workbench_input", "Workbench Level", c(1:6))
         ),
+        ## Forge -----------------
         column(
           width = 2,
           selectInput("forge_input", "Forge Level", c(0:7))
         ),
+        ## Black forge -----------
         column(
           width = 2,
           selectInput("black_forge_input", "Black Forge Level", c(0:3))
         ),
+        ## Galdr table ------------
         column(
           width = 2,
           selectInput("galdr_input", "Galdr Table Level", c(0:3))
@@ -97,11 +101,13 @@ ui <- fluidPage(
       ),
       
       fluidRow(
+        ## Chest --------------
         column(
           width = 6,
           "Chest",
-          dataTableOutput("chest_table")
+          plotlyOutput("chest_table")
         ),
+        ## Legs ----------
         column(
           width = 6,
           "Legs",
@@ -110,11 +116,13 @@ ui <- fluidPage(
       ),
       
       fluidRow(
+        ## Helmet --------
         column(
           width = 6,
           "Helmet",
           dataTableOutput("helmet_table")
         ),
+        ## Cape ----------
         column(
           width = 6,
           "Cape",
