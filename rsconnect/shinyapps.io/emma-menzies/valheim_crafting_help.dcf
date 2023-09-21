@@ -1,0 +1,13 @@
+name: valheim_crafting_help
+title: valheim_crafting_help
+username: emma-menzies
+account: emma-menzies
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9941915
+bundleId: 7711121
+url: https://emma-menzies.shinyapps.io/valheim_crafting_help/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|glossary.nb.html|glossary.Rmd|raw_data/all_crafting.xlsx|raw_data/armour.xlsx|raw_data/crafting.xlsx|raw_data/food_ingredients.csv|raw_data/food_stats.csv|README.html|README.md
