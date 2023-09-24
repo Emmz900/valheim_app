@@ -113,41 +113,87 @@ server <- function(input, output, session) {
   
   # Armor ----------------
   ## Armor list -----------
-  armor_list <- reactive({
+  armor_filtered <- reactive({
     armor %>% 
       filter(is.na(workbench) | workbench <= input$workbench_input) %>% 
       filter(is.na(forge) | forge <= input$forge_input) %>%
       filter(is.na(galdr_table) | galdr_table <= input$galdr_input) %>%
-      filter(is.na(black_forge) | black_forge <= input$black_forge_input) %>% 
+      filter(is.na(black_forge) | black_forge <= input$black_forge_input)
+  })
+  
+  armor_list <- reactive({
+    armor_filtered() %>% 
       distinct(item) %>% 
       pull()
   })
   
-  ## Chest ---------
-  output$chest_table <- renderPlotly({
-    plot_armor(armor_list(), "chest")
+  observeEvent(input$armor_refresh, {
+    ## Chest ----------
+    output$chest_table <- renderPlotly({
+      plot_armor(armor_filtered(), "chest", chest_list)
+    })
+    
+    chest_list <- armor_filtered() %>% 
+      filter(type == "chest") %>% 
+      distinct(item) %>% 
+      pull()
+    
+    updateSelectInput(inputId = "chest_input", choices = chest_list)
+    
+    ## Legs -----------------
+    output$legs_table <- renderPlotly({
+      plot_armor(armor_filtered(), "legs", legs_list)
+    })
+    
+    legs_list <- armor %>% 
+      filter(item %in% armor_list() & type == "legs") %>% 
+      distinct(item) %>% 
+      pull()
+    updateSelectInput(inputId = "legs_input", choices = legs_list)
+    
+    ## Helmet ------
+    output$helmet_table <- renderPlotly({
+      plot_armor(armor_filtered(), "helmet", helmet_list)
+    })
+    
+    helmet_list <- armor %>% 
+      filter(item %in% armor_list() & type == "helmet") %>% 
+      distinct(item) %>% 
+      pull()
+    updateSelectInput(inputId = "helmet_input", choices = helmet_list)
+    
+    ## Cape ---------
+    output$cape_table <- renderPlotly({
+      plot_armor(armor_filtered(), "cape", cape_list)
+    })
+    
+    cape_list <- armor %>% 
+      filter(item %in% armor_list() & type == "cape") %>% 
+      distinct(item) %>% 
+      pull()
+    updateSelectInput(inputId = "cape_input", choices = cape_list)
+    
   })
   
-  # ADD REFRESH BUTTON AND INPUTS FOR SELECTED CLOTHING!
-  #observeEvent(input$)
-  chest_list <- reactive({
-    armor %>% 
-      filter(item %in% armor_list() & type == "chest")
+  output$total_armor <- renderDataTable({
+    armor_filtered() %>% 
+      filter(item == input$chest_input | item == input$legs_input |
+               item == input$helmet_input | item == input$cape_input) %>%
+      group_by(item) %>% 
+      filter(upgrade_level == max(upgrade_level)) %>% 
+      ungroup() %>% 
+      select(item, upgrade_level, armor, weight, speed, resistant, weak, set) %>% 
+      mutate(speed = coalesce(speed, 0)) %>% 
+      mutate(speed = speed * 100) %>% 
+      bind_rows(summarise(., across(where(is.numeric), sum),
+                          across(where(is.character), ~""))
+      ) %>% 
+      mutate(across(where(is.character), str_to_title)) %>% 
+      mutate(item = case_when(item == "" ~ "Total",
+                              .default = item)) %>% 
+      rename_all(stringr::str_to_title)
   })
-  
-  ## Legs -----------------
-  output$legs_table <- renderPlotly({
-    plot_armor(armor_list(), "legs")
-  })
-  
-  output$helmet_table <- renderPlotly({
-    plot_armor(armor_list(), "helmet")
-  })
-  
-  # output$cape_table <- renderPlotly({
-  #   plot_armor(armor_list(), "cape")
-  # })
-  
+    
   
   # Food -----------------
   

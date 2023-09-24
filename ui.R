@@ -97,6 +97,11 @@ ui <- fluidPage(
         column(
           width = 2,
           selectInput("galdr_input", "Galdr Table Level", c(0:3))
+        ),
+        ## Refresh button
+        column(
+          width = 2,
+          actionButton("armor_refresh", "Apply Filters")
         )
       ),
       
@@ -105,14 +110,15 @@ ui <- fluidPage(
         column(
           width = 6,
           "Chest",
-          plotlyOutput("chest_table")
-          selectInput("chest_input", "", ch)
+          plotlyOutput("chest_table"),
+          selectInput("chest_input", "Chosen Chest", chest_list)
         ),
         ## Legs ----------
         column(
           width = 6,
           "Legs",
-          plotlyOutput("legs_table")
+          plotlyOutput("legs_table"),
+          selectInput("legs_input", "Chosen Legs", legs_list)
         )
       ),
       
@@ -121,19 +127,29 @@ ui <- fluidPage(
         column(
           width = 6,
           "Helmet",
-          plotlyOutput("helmet_table")
+          plotlyOutput("helmet_table"),
+          selectInput("helmet_input", "Chosen Helmet", helmet_list)
         ),
         ## Cape ----------
         column(
           width = 6,
           "Cape",
-          plotlyOutput("cape_table")
+          plotlyOutput("cape_table"),
+          selectInput("cape_input", "Chosen Cape", cape_list)
         )
       ),
       
+      ## Summary --------
       fluidRow(
-        # Summary
         "Summary"
+      ),
+      
+      fluidRow(
+        column(
+          width = 2,
+          "Total Armor",
+          dataTableOutput("total_armor")
+        )
       )
     ),
     

@@ -95,16 +95,69 @@ crafting_armor %>%
 ```
 
 ```{r}
-crafting_armor %>% 
-  #filter(item %in% armor_list()) %>% 
-  filter(upgrade_level == 1) %>% 
-  group_by(item) %>% 
-  summarise(materials = toString(unique(material))) %>% 
-  #select(item, armor, weight, speed, resistant, weak, materials) %>% 
-  mutate(across(where(is.character), ~ str_to_title(.x))) %>% 
-  clean_names(case = "title")
+armor_list <- cleaned_armor %>% 
+  filter(is.na(workbench) | workbench <= 4) %>% 
+  filter(is.na(forge) | forge <= 2) %>%
+  filter(is.na(galdr_table) | galdr_table <= 2) %>%
+  filter(is.na(black_forge) | black_forge <= 2)
 ```
 ```{r}
-armor
+chest_list <- cleaned_armor %>% 
+  filter(type == "chest") %>% 
+  select(item) %>% 
+  pull()
 ```
 
+```{r}
+p <- armor_list %>% 
+  filter(item %in% chest_list) %>%
+  group_by(item) %>% 
+  filter(upgrade_level == max(upgrade_level)) %>% 
+  arrange(desc(armor)) %>% 
+  head(5) %>% 
+  select(item, upgrade_level, armor, weight) %>%
+  pivot_longer(c(armor, weight), names_to = "stat", values_to = "value") %>% 
+  mutate(item = str_to_title(item),
+         stat = str_to_title(stat)) %>%
+  unite("item", item:upgrade_level, sep = " - Level ",  remove = TRUE) %>% 
+  ggplot(aes(item, value, fill = stat)) +
+  geom_col(position = "dodge") +
+  theme_classic() +
+  theme(text = element_text(colour = "black"),
+        axis.text = element_text(colour = "black"),
+        legend.background = element_rect(fill = "transparent"),
+        panel.background = element_rect(fill = "transparent"),
+        panel.border = element_rect(fill = "transparent",
+                                    colour = "transparent"),
+        plot.background = element_rect(fill = "transparent",
+                                       colour = NA),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(
+    x = "Chest",
+    y = "Stat",
+    fill = ""
+  ) 
+ggplotly(p)
+```
+
+```{r}
+armor_list %>% 
+  filter(item == "fenris coat" | item == "fenris leggings" |
+           item == "fenris hood" | item == "wolf fur cape") %>%
+  group_by(item) %>% 
+  filter(upgrade_level == max(upgrade_level)) %>% 
+  ungroup() %>% 
+  select(item, upgrade_level, armor, weight, speed, resistant, weak, set) %>% 
+  mutate(speed = coalesce(speed, 0)) %>% 
+  mutate(speed = speed * 100) %>% 
+  bind_rows(summarise(., across(where(is.numeric), sum),
+                      across(where(is.character), ~""))
+            ) %>% 
+  mutate(across(where(is.character), str_to_title)) %>% 
+  mutate(item = case_when(item == "" ~ "Total",
+                          .default = item)) %>% 
+  rename_all(stringr::str_to_title)
+  
+```
+  
+  
