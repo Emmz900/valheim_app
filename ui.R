@@ -110,15 +110,13 @@ ui <- fluidPage(
         column(
           width = 6,
           "Chest",
-          plotlyOutput("chest_table"),
-          selectInput("chest_input", "Chosen Chest", chest_list)
+          plotlyOutput("chest_table")
         ),
         ## Legs ----------
         column(
           width = 6,
           "Legs",
-          plotlyOutput("legs_table"),
-          selectInput("legs_input", "Chosen Legs", legs_list)
+          plotlyOutput("legs_table")
         )
       ),
       
@@ -127,21 +125,38 @@ ui <- fluidPage(
         column(
           width = 6,
           "Helmet",
-          plotlyOutput("helmet_table"),
-          selectInput("helmet_input", "Chosen Helmet", helmet_list)
+          plotlyOutput("helmet_table")
         ),
         ## Cape ----------
         column(
           width = 6,
           "Cape",
-          plotlyOutput("cape_table"),
-          selectInput("cape_input", "Chosen Cape", cape_list)
+          plotlyOutput("cape_table")
         )
       ),
       
       ## Summary --------
       fluidRow(
         "Summary"
+      ),
+      fluidRow(
+        column(
+          width = 3,
+          selectInput("chest_input", "Chosen Chest", chest_list)
+        ),
+        
+        column(
+          width = 3,
+          selectInput("legs_input", "Chosen Legs", legs_list)
+        ),
+        column(
+          width = 3,
+          selectInput("helmet_input", "Chosen Helmet", helmet_list)
+        ),
+        column(
+          width = 3,
+          selectInput("cape_input", "Chosen Cape", cape_list)
+        )
       ),
       
       fluidRow(
@@ -150,6 +165,7 @@ ui <- fluidPage(
           "Total Armor",
           dataTableOutput("total_armor")
         )
+        # Set Bonus info!
       )
     ),
     
