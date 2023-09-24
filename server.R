@@ -175,7 +175,7 @@ server <- function(input, output, session) {
     
   })
   
-  output$total_armor <- renderDataTable({
+  output$total_armor <- renderTable({
     armor_filtered() %>% 
       filter(item == input$chest_input | item == input$legs_input |
                item == input$helmet_input | item == input$cape_input) %>%

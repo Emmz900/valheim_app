@@ -163,7 +163,7 @@ ui <- fluidPage(
         column(
           width = 2,
           "Total Armor",
-          dataTableOutput("total_armor")
+          tableOutput("total_armor")
         )
         # Set Bonus info!
       )
